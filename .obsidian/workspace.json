@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cf5facf248ae3592",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview Notes/Interview Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,10 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73d99566efe9f6bd",
+  "active": "cf5facf248ae3592",
   "lastOpenFiles": [
-    "Main.md",
+    "Interview Notes/Theory/Theory.md",
     "Interview Notes/Interview Notes.md",
+    "Interview Notes/Theory",
+    "Main.md",
     "Interview Notes"
   ]
 }
