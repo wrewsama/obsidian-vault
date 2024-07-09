@@ -125,3 +125,32 @@ Problems
 - Process Behaviour
 	- Process operations get affected, no isolation
 	- e.g. if 1 thread does exit() or exec() or fork(), what happens to other threads and the process
+
+## Linux Boot Process
+1. BIOS/UEFI boots up
+	1. Initialises hardware
+	2. UEFI is essentially a better BIOS
+		1. faster
+		2. secure boot
+2. BIOS/UEFI runs Power On Self Test (POST)
+	1. ensures hardware is working before fully turning everything on
+	2. throw error if any
+3. find and load boot loader software
+	1. usually GRUB2
+	2. locates OS kernel on disk
+	3. load kernel into mem
+	4. run kernel code
+	5. hands over control to kernel
+4. kernel takes over computer's resources
+5. initiates background processes and services
+6. run init process (usually systemd)
+	1. initialises everything that needs to launch behind the scenes when starting up linux
+
+## How Linux runs a program
+* Client request to run application
+ * Shell informs kernel to run binary
+ * Kernel allocates memory from the pool to fit the binary image into
+ * Kernel loads binary into memory
+ * Kernel jumps to specific memory address
+ * Kernel starts processing the machine code located at this location
+ * Kernel releases memory back to pool once code has completed execution

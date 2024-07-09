@@ -55,9 +55,22 @@ Orchestration: one orchestrator object tells each service what local transaction
 
 pros and cons
 
-|                                       |                                 |
-| ------------------------------------- | ------------------------------- |
 | choreo                                | orchestration                   |
+| ------------------------------------- | ------------------------------- |
 | no single point of failure            | orchestrator object is the SPOF |
 | easier to implement                   | harder to implement             |
 | challenging to reason about and debug | clearer debugging               |
+
+## Event Sourcing
+**Purpose**
+* atomically update database and send messages downstream
+* message sent iff DB transaction commits
+* ordering is preserved
+
+**Explanation**
+- Persist state of business entity as a sequence of state-changing events
+- application reconstruct's entity's state by replaying the events
+- events are persisted in an _event store_
+	- API for adding and retrieving events
+	- API for subscribing to new events (will receive msg when event is created)
+- applications should use [[#Command Query Responsibility Segregation]]
