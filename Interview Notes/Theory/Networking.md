@@ -73,15 +73,13 @@ Maps multiple private addresses inside local network to a single public IP addre
 ## Subnet/ Subnet Mask
 
 - Subnets
-
-- smaller network within a network
-- prevents traffic from flowing through unnecessary routes
-- minimises traffic
-- increases speed
-
+	- smaller network within a network
+	- prevents traffic from flowing through unnecessary routes
+	- minimises traffic
+	- increases speed
+	
 - Subnet Mask:
-
-- binary number that identifies the subnet through a bitwise AND
+	- binary number that identifies the subnet through a bitwise AND
 
 ## ARP
 

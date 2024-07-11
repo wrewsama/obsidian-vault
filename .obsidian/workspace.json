@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Notes/Theory/Microservices and Distributed Systems.md",
+                "file": "Interview Notes/Theory/Networking.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Notes/Theory/Microservices and Distributed Systems.md",
+                "file": "Interview Notes/Theory/Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Notes/Theory/Microservices and Distributed Systems.md",
+                "file": "Interview Notes/Theory/Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Notes/Theory/Microservices and Distributed Systems.md"
+                "file": "Interview Notes/Theory/Networking.md"
               }
             }
           }
@@ -164,9 +164,12 @@
   },
   "active": "cf5facf248ae3592",
   "lastOpenFiles": [
+    "Interview Notes/Theory/Databases.md",
+    "Interview Notes/Theory/Pasted image 20240711211742.png",
+    "Interview Notes/Theory/Pasted image 20240711211801.png",
+    "Interview Notes/Theory/Microservices and Distributed Systems.md",
     "Interview Notes/Theory/Data Structures and Algorithms.md",
     "Interview Notes/Theory/Theory.md",
-    "Interview Notes/Theory/Microservices and Distributed Systems.md",
     "Interview Notes/Theory/Go.md",
     "Interview Notes/Theory/Spark.md",
     "Interview Notes/Theory/Kubernetes.md",
@@ -179,7 +182,6 @@
     "Interview Notes/Theory/Python.md",
     "Interview Notes/Theory/Java.md",
     "Interview Notes/Theory/Git.md",
-    "Interview Notes/Theory/Databases.md",
     "Interview Notes/Theory/Spring.md",
     "Interview Notes/Theory/Pasted image 20240706162417.png",
     "Interview Notes/Theory/Pasted image 20240706164703.png",
