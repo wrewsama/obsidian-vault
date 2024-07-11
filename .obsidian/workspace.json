@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Notes/Theory/Networking.md",
+                "file": "Interview Notes/Theory/Databases.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Notes/Theory/Networking.md",
+                "file": "Interview Notes/Theory/Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Notes/Theory/Networking.md",
+                "file": "Interview Notes/Theory/Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Notes/Theory/Networking.md"
+                "file": "Interview Notes/Theory/Databases.md"
               }
             }
           }
@@ -164,6 +164,7 @@
   },
   "active": "cf5facf248ae3592",
   "lastOpenFiles": [
+    "Interview Notes/Theory/Networking.md",
     "Interview Notes/Theory/Databases.md",
     "Interview Notes/Theory/Pasted image 20240711211742.png",
     "Interview Notes/Theory/Pasted image 20240711211801.png",
@@ -177,7 +178,6 @@
     "Interview Notes/Theory/Message Broker.md",
     "Interview Notes/Theory/Docker.md",
     "Interview Notes/Theory/Operating Systems.md",
-    "Interview Notes/Theory/Networking.md",
     "Interview Notes/Theory/JavaScript.md",
     "Interview Notes/Theory/Python.md",
     "Interview Notes/Theory/Java.md",

@@ -34,8 +34,9 @@ Cannot insert
 Normalisation: Process of removing redundant data from the database by splitting the table in a well defined manner to maintain data integrity
 
 Denormalisation: Process of adding redundant data in the table to speed up complex queries
-
-("pre-joins" related tuples which can reduce the amount of IO for common workload patterns)
+- "pre-joins" related tuples which can reduce the amount of IO for common workload patterns
+- harder to modify that redundant data
+	- e.g. changing the faculty of a major => every student taking that major needs its faculty field updated too to maintain data consistency
 
 1NF: All entities contain only unique or atomic values
 
