@@ -13,26 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Notes/Theory/Databases.md",
+                "file": "Interview Notes/Behavioural/Stories.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "8eee806fc8d775db",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "31a83842dda9dafe",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Notes/Theory/Databases.md",
+                "file": "Interview Notes/Behavioural/Stories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Notes/Theory/Databases.md",
+                "file": "Interview Notes/Behavioural/Stories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Notes/Theory/Databases.md"
+                "file": "Interview Notes/Behavioural/Stories.md"
               }
             }
           }
@@ -164,17 +148,26 @@
   },
   "active": "cf5facf248ae3592",
   "lastOpenFiles": [
-    "Interview Notes/Theory/Networking.md",
-    "Interview Notes/Theory/Databases.md",
-    "Interview Notes/Theory/Pasted image 20240711211742.png",
-    "Interview Notes/Theory/Pasted image 20240711211801.png",
-    "Interview Notes/Theory/Microservices and Distributed Systems.md",
-    "Interview Notes/Theory/Data Structures and Algorithms.md",
+    "Interview Notes/Behavioural/Behavioural.md",
+    "Interview Notes/Behavioural/Stories.md",
+    "Interview Notes/Behavioural/Self Intro.md",
+    "Interview Notes/Behavioural/Strengths & Weaknesses.md",
+    "Interview Notes/Interview Notes.md",
+    "Interview Notes/Behavioural",
+    "Untitled.md",
+    "Main.md",
     "Interview Notes/Theory/Theory.md",
+    "Images/Pasted image 20240706162417.png",
+    "Interview Notes/Theory/Networking.md",
+    "Images",
+    "Interview Notes/Theory/Data Structures and Algorithms.md",
+    "Interview Notes/Theory/Databases.md",
+    "Images/Pasted image 20240711211742.png",
+    "Images/Pasted image 20240711211801.png",
+    "Interview Notes/Theory/Microservices and Distributed Systems.md",
     "Interview Notes/Theory/Go.md",
     "Interview Notes/Theory/Spark.md",
     "Interview Notes/Theory/Kubernetes.md",
-    "Interview Notes/Interview Notes.md",
     "Interview Notes/Theory/Message Broker.md",
     "Interview Notes/Theory/Docker.md",
     "Interview Notes/Theory/Operating Systems.md",
@@ -183,13 +176,11 @@
     "Interview Notes/Theory/Java.md",
     "Interview Notes/Theory/Git.md",
     "Interview Notes/Theory/Spring.md",
-    "Interview Notes/Theory/Pasted image 20240706162417.png",
-    "Interview Notes/Theory/Pasted image 20240706164703.png",
-    "Interview Notes/Theory/Pasted image 20240706165411.png",
-    "Interview Notes/Theory/Pasted image 20240706165416.png",
-    "Interview Notes/Theory/Pasted image 20240706165246.png",
+    "Images/Pasted image 20240706164703.png",
+    "Images/Pasted image 20240706165411.png",
+    "Images/Pasted image 20240706165416.png",
+    "Images/Pasted image 20240706165246.png",
     "Interview Notes/Theory",
-    "Main.md",
     "Interview Notes"
   ]
 }
