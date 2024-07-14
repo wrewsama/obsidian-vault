@@ -16,3 +16,19 @@ Current process for tailoring a self intro for a company:
 
 1. Identify requirements / responsibilities in the job description that fit you
 2. Highlight how your past internships & projects & coursework & teaching experience helps you fit those requirements
+
+### Current Script
+
+I'm currently a penultimate-year Computer Science undergraduate at NUS with knowledge in different relevant areas of Software Engineering such as Computer Networks, Database Systems, and Data Structures from my coursework.
+
+Additionally, in my current internship at TikTok, I worked on developing microservices with Golang, Python, and MongoDB, as well as ad-hoc data analysis with Spark SQL, PySpark, and pandas.
+
+I also have previous experience at GovTech Singapore and Grab, where I had to opportunity to work with a variety of other technologies such as MySQL, Java Spring Boot, NodeJS, and AWS, as well as a variety of people including other engineers, product managers, and operations teams.
+
+Besides internships, I also worked as a teaching assistant at NUS, facilitating classes and explaining topics including Object-Oriented Programming in Java, JavaScript programming, and Computer Organisation.
+
+Beyond school and internships, I also use my free time to explore different technologies by building side projects. I have built web and mobile applications using tech stacks such as React, React Native, Express, Flask, and others.
+
+Upon studying the job description. I understand that this role requires people who possess strong Computer Science fundamentals, Java and SQL proficiency, and communication skills.
+
+All in all, I believe that my skills and experiences will let me add value to the team and organisation and you will be able to see a positive return on your investment in me.
