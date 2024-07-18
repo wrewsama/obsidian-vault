@@ -31,4 +31,4 @@ Beyond school and internships, I also use my free time to explore different tech
 
 Upon studying the job description. I understand that this role requires people who possess strong Computer Science fundamentals, Java and SQL proficiency, and communication skills.
 
-All in all, I believe that my skills and experiences will let me add value to the team and organisation and you will be able to see a positive return on your investment in me.
+All in all, I believe that my skills and experiences will let me fulfill this role and add value to the team and organisation and you will be able to see a positive return on your investment in me.
