@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Notes/Theory/Microservices and Distributed Systems.md",
+                "file": "Interview Notes/Theory/Databases.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Notes/Theory/Microservices and Distributed Systems.md",
+                "file": "Interview Notes/Theory/Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Notes/Theory/Microservices and Distributed Systems.md",
+                "file": "Interview Notes/Theory/Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Notes/Theory/Microservices and Distributed Systems.md"
+                "file": "Interview Notes/Theory/Databases.md"
               }
             }
           }
@@ -146,8 +147,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f55ebd12922e9bf",
+  "active": "50ed0621bb80894a",
   "lastOpenFiles": [
+    "Interview Notes/Theory/Microservices and Distributed Systems.md",
     "Images/Pasted image 20240718211032.png",
     "Interview Notes/Behavioural/Behavioural.md",
     "Interview Notes/Behavioural/Stories.md",
@@ -165,7 +167,6 @@
     "Interview Notes/Theory/Databases.md",
     "Images/Pasted image 20240711211742.png",
     "Images/Pasted image 20240711211801.png",
-    "Interview Notes/Theory/Microservices and Distributed Systems.md",
     "Interview Notes/Theory/Go.md",
     "Interview Notes/Theory/Spark.md",
     "Interview Notes/Theory/Kubernetes.md",
