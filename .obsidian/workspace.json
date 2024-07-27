@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Notes/Theory/Databases.md",
+                "file": "Interview Notes/Theory/Data Structures and Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Notes/Theory/Databases.md",
+                "file": "Interview Notes/Theory/Data Structures and Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Notes/Theory/Databases.md",
+                "file": "Interview Notes/Theory/Data Structures and Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Notes/Theory/Databases.md"
+                "file": "Interview Notes/Theory/Data Structures and Algorithms.md"
               }
             }
           }
@@ -147,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "50ed0621bb80894a",
+  "active": "4f55ebd12922e9bf",
   "lastOpenFiles": [
+    "Interview Notes/Theory/Databases.md",
     "Interview Notes/Theory/Microservices and Distributed Systems.md",
     "Images/Pasted image 20240718211032.png",
     "Interview Notes/Behavioural/Behavioural.md",
@@ -164,7 +164,6 @@
     "Interview Notes/Theory/Networking.md",
     "Images",
     "Interview Notes/Theory/Data Structures and Algorithms.md",
-    "Interview Notes/Theory/Databases.md",
     "Images/Pasted image 20240711211742.png",
     "Images/Pasted image 20240711211801.png",
     "Interview Notes/Theory/Go.md",
