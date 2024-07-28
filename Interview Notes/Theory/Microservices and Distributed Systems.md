@@ -108,3 +108,10 @@ pros and cons
 	- web
 	- mobile
 	- 3rd party integrations
+
+## HDFS
+// TODO
+Hadoop Distributed File System
+
+## ZooKeeper
+// TODO
