@@ -30,15 +30,10 @@ Pros:
 - simple to operate
 
 Cons:
-
 - Development time coupling
-
 - Devs for diff services need to coord schema changes
-
 - Runtime coupling
-
 - diff services could interfere with each other
-
 - example: svc A could lock a table, blocking svc B
 
 ## Distributed Transactions - 2 Phase Commit
@@ -149,3 +144,6 @@ Server for distributed coordination of cloud applications. Critically, it provid
 * write requests are all forwarded from the followers to the leader
 * leader uses atomic broadcasts to send message proposals to followers
 * messaging layer also replaces leaders on failures and syncs followers with leaders
+
+## Service Discovery / Service Mesh
+// TODO

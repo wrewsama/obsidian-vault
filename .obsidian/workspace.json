@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Notes/Theory/Spark.md",
+                "file": "Interview Notes/Theory/Microservices and Distributed Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Notes/Theory/Spark.md",
+                "file": "Interview Notes/Theory/Microservices and Distributed Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Notes/Theory/Spark.md",
+                "file": "Interview Notes/Theory/Microservices and Distributed Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Notes/Theory/Spark.md"
+                "file": "Interview Notes/Theory/Microservices and Distributed Systems.md"
               }
             }
           }
@@ -148,15 +148,22 @@
   },
   "active": "4f55ebd12922e9bf",
   "lastOpenFiles": [
+    "Interview Notes/Theory/Message Broker.md",
+    "Interview Notes/Theory/Kubernetes.md",
+    "Interview Notes/Theory/JavaScript.md",
+    "Interview Notes/Theory/Java.md",
+    "Interview Notes/Theory/Go.md",
+    "Interview Notes/Theory/Git.md",
+    "Interview Notes/Theory/Docker.md",
+    "Interview Notes/Theory/Databases.md",
+    "Interview Notes/Theory/Data Structures and Algorithms.md",
+    "Interview Notes/Theory/Spark.md",
     "Images/Pasted image 20240810140220.png",
     "Images/Pasted image 20240718211032.png",
     "Images/Pasted image 20240810135626.png",
-    "Interview Notes/Theory/Spark.md",
     "Images/Pasted image 20240810140102.png",
     "Images/Pasted image 20240810140126.png",
     "Interview Notes/Theory/Microservices and Distributed Systems.md",
-    "Interview Notes/Theory/Data Structures and Algorithms.md",
-    "Interview Notes/Theory/Databases.md",
     "Interview Notes/Behavioural/Behavioural.md",
     "Interview Notes/Behavioural/Stories.md",
     "Interview Notes/Behavioural/Self Intro.md",
@@ -171,15 +178,8 @@
     "Images",
     "Images/Pasted image 20240711211742.png",
     "Images/Pasted image 20240711211801.png",
-    "Interview Notes/Theory/Go.md",
-    "Interview Notes/Theory/Kubernetes.md",
-    "Interview Notes/Theory/Message Broker.md",
-    "Interview Notes/Theory/Docker.md",
     "Interview Notes/Theory/Operating Systems.md",
-    "Interview Notes/Theory/JavaScript.md",
     "Interview Notes/Theory/Python.md",
-    "Interview Notes/Theory/Java.md",
-    "Interview Notes/Theory/Git.md",
     "Interview Notes/Theory/Spring.md",
     "Images/Pasted image 20240706164703.png",
     "Images/Pasted image 20240706165411.png",

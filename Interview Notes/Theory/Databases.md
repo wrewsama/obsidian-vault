@@ -40,18 +40,23 @@ Denormalisation: Process of adding redundant data in the table to speed up compl
 
 1NF: All entities contain only unique or atomic values
 
-2NF: 1NF AND all non key attributes are fully dependent on primary key
+2NF: 1NF AND all non key attributes are fully dependent on the _entire_ primary key
 
 3NF:
-
-- 2NF AND every non key attribute is not transitively dependent on the primary key
-- || every non prime attribute depends on only the key
+- every non prime attribute depends on the entire key and only the key
 
 BCNF:
 
-- every single prime attribute depends on only the key
+- every single attribute depends on only the key
 - difference from 3NF: No multiple overlapping candidate keys
 
+4NF:
+- multivalued dependencies in a table must be multivalued dependencies on the key
+	- multival deps: X -> one of the elements in a particular subset of Y 
+	- written as X ->> Y
+
+5NF:
+- 4NF and cannot be describable as the logical result of joining some other tables together
 ## SQL Categories
 
 Data Definition Language

@@ -64,9 +64,9 @@ note that successor cannot have a left child as it contradicts the property that
 
 Open Addressing
 
-Properties: 1. h(key, i) enumerates all possible buckets
-
-                     2. Every key is equally likely to be mapped to every permutation
+Properties:
+1. h(key, i) enumerates all possible buckets
+2. Every key is equally likely to be mapped to every permutation
 
 (linear probing doesn’t do this bc clusters have higher prob)
 
