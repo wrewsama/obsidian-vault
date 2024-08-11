@@ -2,7 +2,7 @@
 
 == checks for equal VALUE
 
-is checks if 2 things are the same in memory
+is checks if 2 things are at the same memory location
 
 ## Decorators
 

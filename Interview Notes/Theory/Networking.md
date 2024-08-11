@@ -18,11 +18,17 @@
 	2. establish TCP connection with 3 way handshake
 	3. send HTTP request into TCP socket
 	4. IP datagram containing req gets routed to server
-	5. webserver responds with HTTP reply
+	5. webserver responds with HTTP response
 
-## TCP/IP Model
+## TCP/IP Model / OSI Model
 ![[Pasted image 20240706162417.png]]
+For OSI, Application, Presentation, and Session layer are all under the Application Layer protocols
+For TCP/IP, Network Access Layer is the link and physical layer and Internet layer is the network layer (IP)
 
+Application: app to app communication
+Transport: process to process communication
+Network: host to host communication
+Link: communication between neighbours
 ## DHCP
 
 - Dynamic Host Configuration Protocol
@@ -51,14 +57,11 @@ Process:
 
 - Transmission Control Protocol and User Datagram Protocol
 - TCP requires connection and guarantees flawless data delivery
-
-- better for reliable connection eg web browsing
-- handles packets that are misordered, lost, or corrupted
-
+	- better for reliable connection eg web browsing
+	- handles packets that are misordered, lost, or corrupted
 - UDP is a 'fire and forget' protocol which is faster
-
-- better for gaming and streaming
-- packets may be misordered, lost, or corrupted, not handled
+	- better for gaming and streaming
+	- packets may be misordered, lost, corrupted, or not handled
 
 ## IPv4 vs IPv6
 
@@ -84,16 +87,13 @@ Maps multiple private addresses inside local network to a single public IP addre
 ## ARP
 
 - address resolution protocol
-- Finds the MAC address associated to an IP address
-- stores these 'key-values' in an ARP table
+	- Finds the MAC address associated to an IP address
+	- stores these 'key-values' in an ARP table
 - If sending outside subnet:
-
-- send to router's MAC address
-
+	- send to router's MAC address
 - If within subnet
-
-- if dest IP in arp table, send directly
-- if not, broadcast query pkt to FF-FF-FF-FF-FF-FF, dest will reply with its mac address and that will get cached till TTL expires
+	- if dest IP in arp table, send directly
+	- if not, broadcast query pkt to FF-FF-FF-FF-FF-FF, dest will reply with its mac address and that will get cached till TTL expires
 
 ## Latency vs Bandwidth
 
@@ -151,7 +151,7 @@ Token:
 
 ## JWT
 
-Used for authorisation, not authentication (i.e. it only makes sure that the curr user is the same user that logged in)
+Generally used for authentication, not authorisation (i.e. it only makes sure that the curr user is the same user that logged in)
 
 Components:
 

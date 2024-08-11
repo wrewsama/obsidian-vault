@@ -20,20 +20,18 @@ processing:
 - results sent to driver in the final step
 - unused RDDs removed from memory
 
-## Spark vs Hadoop
+## Spark vs MapReduce
 
 Hadoop MapReduce requires disk IO at every step while Spark does processing in-memory and reuses data across multiple parallel ops
 
 ## RDDs vs DataFrames
 
 RDDs: Resilient Distributed Datasets
-
 - immutable data distributed across multiple servers
 - unstructured
 - low level API
 
 DataFrame
-
 - structured columns
 - high level API for actions and transformations
 

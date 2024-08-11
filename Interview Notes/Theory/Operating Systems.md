@@ -22,8 +22,7 @@ Microkernel:
 - Better isolation and protection between kernel and high level services
 
 Monolith:
-
-- user and kernel services share same memory sapce
+- user and kernel services share same memory space
 - Better performance (no overhead of message passing, provided by OS, between user and kernel services)
 
 ## Paging and Segmentation
@@ -102,9 +101,8 @@ Saved in the Process Control Block for each process
 
 ## Processes vs Threads
 
-|                                                                          |                                        |
-| ------------------------------------------------------------------------ | -------------------------------------- |
 | Threads                                                                  | Processes                              |
+| ------------------------------------------------------------------------ | -------------------------------------- |
 | Only have separate hardware contexts, OS and memory contexts are  shared | Entire execution context is duplicated |
 
 Pros and cons of threads over processes
@@ -142,15 +140,16 @@ Problems
 	4. run kernel code
 	5. hands over control to kernel
 4. kernel takes over computer's resources
-5. initiates background processes and services
-6. run init process (usually systemd)
+5. loads hardware drivers and modules
+6. mounts the root filesystem
+7. run init process (usually systemd)
 	1. initialises everything that needs to launch behind the scenes when starting up linux
 
 ## How Linux runs a program
 * Client request to run application
- * Shell informs kernel to run binary
- * Kernel allocates memory from the pool to fit the binary image into
- * Kernel loads binary into memory
- * Kernel jumps to specific memory address
- * Kernel starts processing the machine code located at this location
- * Kernel releases memory back to pool once code has completed execution
+* Shell informs kernel to run binary
+* Kernel allocates memory from the pool to fit the binary image into
+* Kernel loads binary into memory
+* Kernel jumps to specific memory address
+* Kernel starts processing the machine code located at this location
+* Kernel releases memory back to pool once code has completed execution
