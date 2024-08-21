@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Notes/System Design/Answering Framework.md",
+                "file": "Interview Notes/Behavioural/Behavioural.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Notes/System Design/Answering Framework.md",
+                "file": "Interview Notes/Behavioural/Behavioural.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Notes/System Design/Answering Framework.md",
+                "file": "Interview Notes/Behavioural/Behavioural.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Notes/System Design/Answering Framework.md"
+                "file": "Interview Notes/Behavioural/Behavioural.md"
               }
             }
           }
@@ -173,25 +173,28 @@
   },
   "active": "778a7447088ee9ed",
   "lastOpenFiles": [
-    "Interview Notes/System Design/System Design.md",
+    "Interview Notes/Theory/Microservices and Distributed Systems.md",
+    "Interview Notes/Theory/Go.md",
+    "Interview Notes/Theory/Git.md",
+    "Interview Notes/Theory/JavaScript.md",
+    "Interview Notes/Behavioural/Self Intro.md",
+    "Interview Notes/Theory/Message Broker.md",
+    "Interview Notes/Behavioural/Behavioural.md",
+    "Interview Notes/Theory/Networking.md",
+    "Interview Notes/Theory/Theory.md",
     "Interview Notes/System Design/Answering Framework.md",
+    "Interview Notes/System Design/System Design.md",
+    "Main.md",
     "Interview Notes/Interview Notes.md",
     "Interview Notes/System Design",
     "Interview Notes/Theory/Data Structures and Algorithms.md",
     "Interview Notes/Theory/Spring.md",
-    "Interview Notes/Theory/Theory.md",
     "Interview Notes/Theory/Spark.md",
     "Interview Notes/Theory/Python.md",
     "Interview Notes/Theory/Operating Systems.md",
-    "Interview Notes/Theory/Networking.md",
-    "Interview Notes/Theory/Microservices and Distributed Systems.md",
-    "Interview Notes/Theory/Message Broker.md",
     "Images/Pasted image 20240810223421.png",
     "Interview Notes/Theory/Kubernetes.md",
-    "Interview Notes/Theory/JavaScript.md",
     "Interview Notes/Theory/Java.md",
-    "Interview Notes/Theory/Go.md",
-    "Interview Notes/Theory/Git.md",
     "Interview Notes/Theory/Docker.md",
     "Interview Notes/Theory/Databases.md",
     "Images/Pasted image 20240810140220.png",
@@ -199,12 +202,9 @@
     "Images/Pasted image 20240810135626.png",
     "Images/Pasted image 20240810140102.png",
     "Images/Pasted image 20240810140126.png",
-    "Interview Notes/Behavioural/Behavioural.md",
     "Interview Notes/Behavioural/Stories.md",
-    "Interview Notes/Behavioural/Self Intro.md",
     "Interview Notes/Behavioural/Strengths & Weaknesses.md",
     "Interview Notes/Behavioural",
-    "Main.md",
     "Images/Pasted image 20240706162417.png",
     "Images",
     "Images/Pasted image 20240711211742.png",
