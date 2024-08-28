@@ -177,3 +177,8 @@ For intra-mesh communication:
 
 For external services, same thing but through an ingress/egress gateway
 
+**Sidecar redirection**
+* iptables rules are used to intercept and redirect traffic within the pod
+* set up by an init container
+* on ingress from outside and egress from the app, traffic is intercepted and redirected to the sidecar 
+![[Pasted image 20240828184941.png]]
