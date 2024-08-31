@@ -232,3 +232,13 @@ Remote Procedure Calls
 2. Based on the available bandwidth, use the manifest to request for the chunk with the highest sustainable bitrate
 3. The CDN's DNS server gives the client the IP address of the closest CDN server
 4. Client gets the chunk and buffers it for playback
+
+## How the browser displays websites
+1. [[#Full process of a normal web request]] (browser sends HTTP request and receives HTML page)
+2. In the main thread, the HTML is parsed and the Document Object Model (DOM) tree is built
+3. At the same time in a separate thread, the preload scanner scans the available content and requests resources (CSS, JS, fonts, images, etc) in the background 
+4. The CSS is parsed and the CSS Object Model (CSSOM) Tree is built
+5. JS is parsed into abstract syntax trees, then interpreted & JIT compiled by the browser's JavaScript engine
+6. DOM and CSSOM are combined into a render tree
+7. The layout (size and position of each object) is determined
+8. The individual nodes are painted (converting each box in the layout into pixels on the screen)
