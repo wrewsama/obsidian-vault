@@ -17,7 +17,7 @@
 ## Microkernel vs Monolith
 
 Microkernel:
-- user services are separated form kernel services in memory
+- user services are separated from kernel services in memory
 - Kernel is generally more robust and extensible (more things running in user mode instead of kernel mode)
 - Better isolation and protection between kernel and high level services
 
