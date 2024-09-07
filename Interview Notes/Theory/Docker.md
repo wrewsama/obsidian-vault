@@ -25,9 +25,11 @@ VM Hypervisor virtualises the hardware
 
 Container engine virtualises the OS
 
-Each container runs on the host's kernel. The distros found in base images don't include the kernel. (E.g. an ubuntu or debian image runs on ths host's linux kernel, since they all use the same kernel anyway). Also means that a windows container can't run on linux. Docker desktop works by using a VM on top of mac os
-
 Containers only contain a thin layer of binaries and libraries required for the app to run
+
+Each container runs on the host's kernel. The distros found in base images don't include the kernel. (E.g. an ubuntu or debian image runs on ths host's linux kernel, since they all use the same kernel anyway). Docker desktop works by using a lightweight VM (usually hyperV) on top of mac os/windows
+
+Most containers are linux containers but windows server containers do exist. They can only be run on the corresponding OS kernels. (but you can use VMs like hyperV with the right kernel to run them anyway)
 
 ## Debugging Docker Containers
 

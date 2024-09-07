@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Notes/Theory/Networking.md",
+                "file": "Interview Notes/Theory/Databases.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Notes/Theory/Networking.md",
+                "file": "Interview Notes/Theory/Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Notes/Theory/Networking.md",
+                "file": "Interview Notes/Theory/Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Notes/Theory/Networking.md"
+                "file": "Interview Notes/Theory/Databases.md"
               }
             }
           }
@@ -173,12 +173,15 @@
   },
   "active": "d0652a164f27a39a",
   "lastOpenFiles": [
+    "Interview Notes/Theory/Operating Systems.md",
+    "Interview Notes/Theory/Python.md",
+    "Interview Notes/Theory/Docker.md",
+    "Interview Notes/Theory/Networking.md",
+    "Interview Notes/Behavioural/Self Intro.md",
+    "Interview Notes/Interview Notes.md",
     "Interview Notes/Theory/Spring.md",
     "Interview Notes/Theory/Theory.md",
     "Interview Notes/Theory/Spark.md",
-    "Interview Notes/Theory/Python.md",
-    "Interview Notes/Theory/Operating Systems.md",
-    "Interview Notes/Theory/Networking.md",
     "Interview Notes/Theory/Microservices and Distributed Systems.md",
     "Interview Notes/Theory/Message Broker.md",
     "Interview Notes/Theory/Kubernetes.md",
@@ -187,12 +190,9 @@
     "Interview Notes/Theory/Java.md",
     "Interview Notes/Theory/Go.md",
     "Interview Notes/Theory/Git.md",
-    "Interview Notes/Theory/Docker.md",
     "Images/Pasted image 20240828184941.png",
-    "Interview Notes/Behavioural/Self Intro.md",
     "Interview Notes/Behavioural/Behavioural.md",
     "Interview Notes/System Design/System Design.md",
-    "Interview Notes/Interview Notes.md",
     "Interview Notes/Theory/Databases.md",
     "Interview Notes/Behavioural/Stories.md",
     "Interview Notes/Behavioural/Strengths & Weaknesses.md",

@@ -35,3 +35,20 @@ Actually pretty similar to java
 ## GIL
 
 Global Interpreter Lock: mutex that allows only 1 thread to control Python interpreter
+
+## with
+Used for managing (creating, writing, reading, and closing) resources (files, network connections)
+```python
+with open('xdd.txt', 'w') as f:
+	f.write('xdd')
+```
+
+ensures that the resource is closed when the block exits for any reason (including exceptions & interrupts)
+
+## try/except
+4 parts
+- try: code to exec
+- except: execs if the code in the try block throws the specified exception (catches all if none specified), can have multiple
+- (opt) else: execs if the code in the try block doesn't throw something caught in the except block(s)
+- (opt) finally: execs after everything, regardless of whether an exception was thrown
+
