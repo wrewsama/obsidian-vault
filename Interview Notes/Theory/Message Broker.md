@@ -21,7 +21,7 @@ Uses
 How it works:
 - event streams are persisted as topics
 - those topics are divided into several partitions
-- partitions are distributed into different brokers (brokers managed by Zookeeper)
+- partitions are distributed into different brokers (brokers used to be managed by Zookeeper, now managed by KRaft)
 - each partition holds a subset of the records in the topic
 - replicas of the partitions are also kept by kafka to ensure failure recovery
 - the records are assigned a sequential identifier called the offset (unique within the PARTITION)
