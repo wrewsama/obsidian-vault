@@ -154,6 +154,14 @@ Problems
 * Kernel starts processing the machine code located at this location
 * Kernel releases memory back to pool once code has completed execution
 
+## How Linux opens files
+- kernel receives `open` syscall
+- kernel looks up the directory entries along the provided path to find the inode corresponding to the file
+- kernel creates an entry in the system-wide open file table
+	- tracks state e.g.
+	- current offset
+	- access flags (e.g. NONBLOCK)
+- kernel creates an entry in the process's open file table (aka the file descriptor table) and returns the index of that entry, aka the _file descriptor_
 ## Async IO
 
 **O_NONBLOCK**
