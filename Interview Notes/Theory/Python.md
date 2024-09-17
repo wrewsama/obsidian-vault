@@ -10,6 +10,29 @@ pattern that allows user to add new functionality to something without modifying
 
 implemented as a function that takes in a function and returns a wrapper on that function with extended functionality
 
+```python
+def decorator_function(original_function):
+	def wrapper_function(*args, **kwargs):
+		# Do something before the original function is called
+		result = original_function(*args, **kwargs) 
+		# Do something after the original function is called
+		return result
+
+	return wrapper_function
+```
+
+## args and kwargs
+args: tuple of all arguments
+kwargs: dictionary mapping keyword to value
+
+example:
+```python
+def foo(x, y, test=None):
+	print(f'args = {args}') # ('hi', 35)
+	print(f'kwargs = {kwargs}') {'test': 'xdd'}
+foo('hi', 35, test='xdd')
+```
+
 ## Dict/List comprehension
 
 Syntactic sugar that lets us build mapped / filtered lists or dicts from a given iterable
