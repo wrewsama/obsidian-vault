@@ -8,19 +8,44 @@ is checks if 2 things are at the same memory location
 
 pattern that allows user to add new functionality to something without modifying its structure
 
-implemented as a function that takes in a function and returns a wrapper on that function with extended functionality
+- usually implemented as a function that takes in a function (or class) and returns a wrapper on that function (or class) with extended functionality
+- (also can be implemented as a class that takes in the thing to be extended in `__init__` and overrides the `__call__` method)
 
+**examples**
 ```python
-def decorator_function(original_function):
-	def wrapper_function(*args, **kwargs):
-		# Do something before the original function is called
-		result = original_function(*args, **kwargs) 
-		# Do something after the original function is called
-		return result
-
-	return wrapper_function
+def log_methods(cls):  
+	for name, value in vars(cls).items():  
+		if callable(value):  
+			setattr(cls, name, log_method(value))  
+	return cls  
+​  
+def log_method(func):  
+	def wrapper(*args, **kwargs):  
+		print(f"Calling method: {func.__name__}")  
+		return func(*args, **kwargs)  
+	return wrapper  
+​  
+@log_methods  
+class MyClass:  
+	def my_method(self):  
+		print("Hello from my_method!")
 ```
 
+**decorator with args**
+take in the args and return a decorator
+```python
+def deco_with_args(arg1):
+	def deco(func):
+		def wrapper(*args, **kwargs):
+			print(f'decorated with {arg1}')
+			return func(*args, **kwargs)
+		return wrapper
+	return deco
+
+@deco_with_args(35)
+def foo():
+	pass
+```
 ## args and kwargs
 args: tuple of all arguments
 kwargs: dictionary mapping keyword to value
@@ -136,3 +161,44 @@ Python uses a combination of 2 strategies: reference counting and generational m
 - any survivors in that generation get promoted to an older generation (unless they're already in the old gen)
 
 random note: `gc.collect()` runs GC on all gens
+
+## Class fields / methods
+Like static fields / methods in [[Java]]
+`@staticmethod` also exists, but it doesn't take in the class as the first arg, hence it can't access class fields
+
+example:
+```python
+class Counter:
+	count = 0
+	@classmethod
+	def increment(cls):
+		cls.count += 1
+		
+Counter.increment()
+print(Counter.count) # Output: 1
+```
+
+## Abstract Base Classes
+Like Abstract classes in Java
+```python
+from abc import ABC, abstractmethod
+
+class Foo(ABC):
+	@abstractmethod
+	def bar(self, baz):
+		pass
+```
+
+Will raise `TypeError` if:
+- you try to instantiate Foo
+- you try to instantiate an object that inherits from Foo, but doesn't implement the `bar` method
+
+## Metaclasses
+objects are instances of a class
+classes are instances of metaclasses
+
+- created by inheriting from the `type` class
+- can override dunder methods to change behaviour of the classes that use this as a metaclass
+	- control instantiation `__call__`
+	- modify the namespace of the class `__prepare__`
+

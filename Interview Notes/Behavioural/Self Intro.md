@@ -41,7 +41,7 @@ At the moment, I'm working as a Backend Engineer Intern in TikTok's Business Int
 
 Besides that, I also have experience working as a Software Engineer Intern in both GovTech and Grab, and as a Teaching Assistant in NUS. Besides work and school, I also enjoy building side projects and reading popular programming books.
 
-Upon studying the job description. I understand that this role requires people who possess strong Computer Science fundamentals, proficiency in common backend languages and databases, as well as great problem solving and communication skills.
+Upon studying the job description. I understand that this role requires people with experience in significant software projects, strong fundamentals, and a wide range of software engineering skills.
 
 All in all, I believe that my skills and experiences, especially in the advertising space, will help me fulfill this role and add value to the team and organisation and you will be able to see a positive return on your investment in me.
 
