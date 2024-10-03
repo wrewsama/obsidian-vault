@@ -51,3 +51,10 @@ Find the common ancestor and get diffs D1 and D2
 find all the commits not in the target branch
 apply those commits to the target branch one by one
 updates target branch to point to latest commit
+
+## Merging vs Rebasing
+| Merging                                        | Rebasing                                      |
+| ---------------------------------------------- | --------------------------------------------- |
+| Preserves complete history with merge commits  | Creates a linear history by rewriting commits |
+| Resolves all merge conflicts in 1 merge commit | Need to conflicts commit by commit            |
+Golden rule: never rebase a public branch (e.g. main / master or something other people are using) because your history will diverge from others'
