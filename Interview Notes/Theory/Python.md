@@ -202,3 +202,27 @@ classes are instances of metaclasses
 	- control instantiation `__call__`
 	- modify the namespace of the class `__prepare__`
 
+
+## asyncio
+Letting I/O tasks run in the background without blocking to wait for them to complete
+
+- use `async def` to define a coroutine
+- when running the program, use `asyncio.run` to start the event loop
+- schedule the tasks using `asyncio.gather` or `asyncio.create_task`
+	- example: `asyncio.gather(f1(), f2()`
+- the event loop
+	- pick a ready task
+	- if the task encounters an`await`, it yields control back to the event loop
+- event loop runs on a single thread	
+
+## threading / multiprocessing
+- create a thread: `t = threading.Thread(target=<FUNCTION>, args=<TUPLE OF ARGS>, kwargs=<DICT OF KWARGS>)`
+- start running a thread: `t.start()`
+- wait for a thread to complete: `t.join()`
+
+
+|                     | threading                                                                                | multiprocessing                                 |
+| ------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| create              | `t = threading.Thread(target=<FUNCTION>, args=<TUPLE OF ARGS>, kwargs=<DICT OF KWARGS>)` | `p = multiprocessing.Process`, args are similar |
+| start               | `t.start()`                                                                              | `p.start()`                                     |
+| wait for completion | `t.join()`                                                                               | `p.join()`                                      |

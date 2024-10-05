@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Notes/Theory/Git.md",
+                "file": "Interview Notes/Theory/Python.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Notes/Theory/Git.md",
+                "file": "Interview Notes/Theory/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Notes/Theory/Git.md",
+                "file": "Interview Notes/Theory/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Notes/Theory/Git.md"
+                "file": "Interview Notes/Theory/Python.md"
               }
             }
           }
@@ -160,8 +160,9 @@
   },
   "active": "4f55ebd12922e9bf",
   "lastOpenFiles": [
-    "Interview Notes/Theory/Microservices and Distributed Systems.md",
     "Interview Notes/Theory/Databases.md",
+    "Interview Notes/Theory/Git.md",
+    "Interview Notes/Theory/Microservices and Distributed Systems.md",
     "Interview Notes/Theory/Message Broker.md",
     "Interview Notes/Theory/Networking.md",
     "Interview Notes/Theory/Operating Systems.md",
@@ -179,7 +180,6 @@
     "Interview Notes/Theory/Kubernetes.md",
     "Interview Notes/Theory/JavaScript.md",
     "Interview Notes/Theory/Go.md",
-    "Interview Notes/Theory/Git.md",
     "Interview Notes/Theory/Docker.md",
     "Images/Pasted image 20240902205624.png",
     "Images/Pasted image 20240828184941.png",
