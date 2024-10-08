@@ -188,3 +188,12 @@ Problems
 - poll needs to scan through all it's monitored fds (O(N))
 - epoll maintains the list of fds in the kernel => O(1)
 - thanks to the better performance, epoll is better for large numbers of simultaneous connections (e.g. Redis server connections)
+
+## Hard vs soft links
+
+|                       | Hard                                                                                      | Soft                                                                                                                |
+| --------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Command               | `ln original link`                                                                        | `ln -s original link`                                                                                               |
+| Implementation        | Directory entry is a pointer to the original file's inode, reference count is incremented | Is a special file with its own inode that stores the path to the original. The kernel redirects to that stored path |
+| Deletion of original  | Hard link will still exist, inode reference count will be decremented                     | Soft link becomes dangling                                                                                          |
+| Different filesystems | cannot span different filesystems                                                         | can span different filesystems                                                                                      |
