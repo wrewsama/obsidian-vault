@@ -131,9 +131,9 @@ code:
 # set up the dist matrix with the edge weights
 # leave dist as inf for nodes that don't have a path yet
 for k in range(nV):
-        for i in range(nV):
-            for j in range(nV):
-                distance[i][j] = min(distance[i][j], distance[i][k] + distance[k][j])
+	for i in range(nV):
+		for j in range(nV):
+			distance[i][j] = min(distance[i][j], distance[i][k] + distance[k][j])
 ```
 
 ## Knuth Morris Pratt (KMP) Pattern matching

@@ -77,7 +77,7 @@ Actually pretty similar to java
 1. compilation to bytecode (.pyc files in __pycache__)
 	- Generating Abstract Syntax Tree (AST)
 	- generating .`pyc` bytecode (this is done on-demand, as needed by the PVM)
-2. Interpreter in the PVM executes the bytecode line-by-line
+2. Interpreter/PVM executes the bytecode line-by-line
 
 ## PVM
 Python Virtual Machine
@@ -161,6 +161,7 @@ Python uses a combination of 2 strategies: reference counting and generational m
 - any survivors in that generation get promoted to an older generation (unless they're already in the old gen)
 
 random note: `gc.collect()` runs GC on all gens
+another note: thanks to the [[#GIL]], all GC is stop-the-world
 
 ## Class fields / methods
 Like static fields / methods in [[Java]]
@@ -211,7 +212,7 @@ Letting I/O tasks run in the background without blocking to wait for them to com
 	- you can `async def` `__aenter__` and `__aexit__` to make a async context manager, which can be entered with `async with`
 - when running the program, use `asyncio.run` to start the event loop
 - schedule the tasks using `asyncio.gather` or `asyncio.create_task`
-	- example: `asyncio.gather(f1(), f2()`
+	- example: `asyncio.gather(f1(), f2())`
 - the event loop
 	- pick a ready task
 	- if the task encounters an`await`, it yields control back to the event loop
