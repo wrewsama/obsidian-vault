@@ -58,3 +58,15 @@ updates target branch to point to latest commit
 | Preserves complete history with merge commits  | Creates a linear history by rewriting commits |
 | Resolves all merge conflicts in 1 merge commit | Need to conflicts commit by commit            |
 Golden rule: never rebase a public branch (e.g. main / master or something other people are using) because your history will diverge from others'
+
+## bisect
+Used to binary search commits to find where the bug first occurred
+
+**Workflow**
+1. start session with `git bisect start`
+2. Identify bad commit with `git bisect bad`
+3. Identify 1st good commit with `git bisect good <good_commit_id>`
+4. Git will automatically checkout a commit halfway between the known good and bad commits. If the bug exists, run `git bisect bad`, if not, run `git bisect good`
+5. Repeat until you have found the offending commit
+6. End the session with `git bisect reset`
+
