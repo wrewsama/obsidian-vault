@@ -203,3 +203,21 @@ Transactions in SQL:
 - in-memory summary table to indicate the min/max range of each disk block of every level
 	- Saves random IO costs as blocks can be skipped
 - [[#Bloom Filter]] to efficiently minimise having to search every block on every level for a nonexistent key
+
+## Write Concern
+Ensures that writes are replicated to a configured number of nodes (1, n, majority) before being considered successful. If not enough replicas acknowledge, the write is rolled back.
+
+**effects**
+* durability: write is persisted even if the primary & multiple secondaries die
+* consistency: w=majority and r=linearizable forms a quorum which allows for strong consistency
+
+## Read Concern
+Controls what data is read from the cluster.
+
+local: return data from the (primary) instance immediately
+
+available: return data from the (secondary) instance immediately
+
+majority: guarantees data read has been acknowledged by a majority of the replica set members, however, there's no guarantee that it is the latest write (occurs in double-primary situations)
+
+linearizable: returns data that reflects all successful writes acknowledged by a majority before the read begins
