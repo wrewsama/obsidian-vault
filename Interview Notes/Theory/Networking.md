@@ -286,3 +286,9 @@ in B: `A^b mod p`
 (both are equal to `g^ab mod p`)
 
 since the private keys a and b are never sent over the network, hackers cannot feasibly compute the shared secret key.
+
+## TCP handshakes
+**initialize connection - 3 way handshake**
+![[Pasted image 20241201163636.png]]
+**terminate connection - 4 way handshake**
+![[Pasted image 20241201163641.png]]
