@@ -253,7 +253,19 @@ if select sum(A) from T > 0:
 2 transactions read the same data and try to update, 1st update gets overwritten by 2nd
 Special case of write skew where the transactions update the same row
 
+## Multi Version Concurrency Control
+[reference](https://www.postgresql.org/docs/current/mvcc-intro.html)
+- alternative form of concurrency control that minimises locking => better performance
+- default for PostgreSQL and MySQL InnoDB (though the locks are still available for manual use)
+
+// TODO
 ## ANSI SQL Isolation Levels
 ![[Pasted image 20241125212631.png]]
+
+**lock-based implementation**
 ![[Pasted image 20241125212639.png]]
 _weird note: theoretically, repeatable read should be able to stop write skew. However, since postgres implements it with MVCC, it can still happen_
+_also, thanks to MVCC, dirty reads are impossible on postgres, even on read uncommitted_
+
+// TODO: MVCC implementation
+
