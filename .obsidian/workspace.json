@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book Notes/NoSQL Distilled.md",
+                "file": "Interview Notes/Theory/Databases.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NoSQL Distilled"
+              "title": "Databases"
             }
           }
         ]
@@ -164,9 +164,10 @@
   },
   "active": "eff3518bc6f588d2",
   "lastOpenFiles": [
+    "Interview Notes/Theory/Theory.md",
+    "Book Notes/NoSQL Distilled.md",
     "Book Notes/Never Split the Difference.md",
     "Book Notes/Book Notes.md",
-    "Book Notes/NoSQL Distilled.md",
     "Book Notes/Refactoring.md",
     "Book Notes/Understanding Distributed Systems.md",
     "Interview Notes/Theory/Databases.md",
@@ -181,7 +182,6 @@
     "Interview Notes/Behavioural/Behavioural.md",
     "Interview Notes/Interview Notes.md",
     "Main.md",
-    "Interview Notes/Theory/Theory.md",
     "Paper Notes/Paper Notes.md",
     "Paper Notes",
     "Book Notes",
