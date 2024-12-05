@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Notes/Theory/Databases.md",
+                "file": "Book Notes/Understanding Distributed Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Databases"
+              "title": "Understanding Distributed Systems"
             }
           }
         ]
@@ -164,13 +164,13 @@
   },
   "active": "eff3518bc6f588d2",
   "lastOpenFiles": [
-    "Interview Notes/Theory/Theory.md",
-    "Book Notes/NoSQL Distilled.md",
-    "Book Notes/Never Split the Difference.md",
     "Book Notes/Book Notes.md",
     "Book Notes/Refactoring.md",
+    "Book Notes/NoSQL Distilled.md",
+    "Book Notes/Never Split the Difference.md",
     "Book Notes/Understanding Distributed Systems.md",
     "Interview Notes/Theory/Databases.md",
+    "Interview Notes/Theory/Theory.md",
     "Interview Notes/Theory/Data Structures and Algorithms.md",
     "Interview Notes/Theory/Python.md",
     "Interview Notes/Theory/Networking.md",
