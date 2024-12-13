@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book Notes/Understanding Distributed Systems.md",
+                "file": "Book Notes/NoSQL Distilled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Understanding Distributed Systems"
+              "title": "NoSQL Distilled"
             }
           }
         ],
@@ -179,13 +179,13 @@
   },
   "active": "41766daf0848c849",
   "lastOpenFiles": [
-    "Book Notes/NoSQL Distilled.md",
-    "Book Notes/Emotional Intelligence 2.0.md",
-    "Book Notes/Book Notes.md",
+    "Book Notes/Understanding Distributed Systems.md",
     "Book Notes/Refactoring.md",
+    "Book Notes/Emotional Intelligence 2.0.md",
+    "Book Notes/NoSQL Distilled.md",
+    "Book Notes/Book Notes.md",
     "Interview Notes/Theory/Spark.md",
     "Interview Notes/Theory/Microservices and Distributed Systems.md",
-    "Book Notes/Understanding Distributed Systems.md",
     "Book Notes/Never Split the Difference.md",
     "Interview Notes/Theory/Message Broker.md",
     "Interview Notes/Theory/Data Structures and Algorithms.md",
