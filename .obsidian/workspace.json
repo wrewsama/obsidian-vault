@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Notes/Theory/Data Structures and Algorithms.md",
+                "file": "Book Notes/Emotional Intelligence 2.0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Structures and Algorithms"
+              "title": "Emotional Intelligence 2.0"
             }
           }
         ],
@@ -207,20 +207,20 @@
   },
   "active": "b58464cc8756af6d",
   "lastOpenFiles": [
-    "Book Notes/CP4 Book 1.md",
+    "Book Notes/Refactoring.md",
+    "Book Notes/Understanding Distributed Systems.md",
     "Book Notes/An Introduction to Quantitative Finance.md",
+    "Book Notes/Book Notes.md",
+    "Book Notes/NoSQL Distilled.md",
+    "Book Notes/CP4 Book 1.md",
+    "Interview Notes/Theory/Data Structures and Algorithms.md",
     "Images/Pasted image 20241214191719.png",
     "Images/Pasted image 20241214191217.png",
-    "Book Notes/Understanding Distributed Systems.md",
-    "Book Notes/Book Notes.md",
     "Book Notes/Never Split the Difference.md",
-    "Book Notes/NoSQL Distilled.md",
-    "Book Notes/Refactoring.md",
     "Book Notes/Emotional Intelligence 2.0.md",
     "Interview Notes/Theory/Spark.md",
     "Interview Notes/Theory/Microservices and Distributed Systems.md",
     "Interview Notes/Theory/Message Broker.md",
-    "Interview Notes/Theory/Data Structures and Algorithms.md",
     "Interview Notes/Theory/Databases.md",
     "Interview Notes/Theory/Theory.md",
     "Interview Notes/Theory/Python.md",
