@@ -196,7 +196,7 @@ after precalculating all the hashes starting from 0,
 `hash(s[i:j]) * p**i` = `hash(s[0:j]) - hash(s[0:i]) mod m`
 
 hence , let `n = len(s)`, 
-`hash(s[i:j]) * p**n = p**(n-j) * (hash(s[0:j]) - hash(s[0:i])) mod m`
+`hash(s[i:j]) * p**n = p**(n-i) * (hash(s[0:j]) - hash(s[0:i])) mod m`
 so for each substring i:j, we actually compare the hash * p^n
 
 code:

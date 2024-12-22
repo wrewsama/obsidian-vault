@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book Notes/Emotional Intelligence 2.0.md",
+                "file": "Book Notes/An Introduction to Quantitative Finance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Emotional Intelligence 2.0"
+              "title": "An Introduction to Quantitative Finance"
             }
           }
         ],
@@ -208,16 +208,17 @@
   "active": "b58464cc8756af6d",
   "lastOpenFiles": [
     "Book Notes/Refactoring.md",
-    "Book Notes/Understanding Distributed Systems.md",
     "Book Notes/Emotional Intelligence 2.0.md",
-    "Book Notes/An Introduction to Quantitative Finance.md",
-    "Book Notes/Book Notes.md",
-    "Book Notes/NoSQL Distilled.md",
-    "Book Notes/CP4 Book 1.md",
+    "Book Notes/Never Split the Difference.md",
+    "Book Notes/Understanding Distributed Systems.md",
     "Interview Notes/Theory/Data Structures and Algorithms.md",
+    "Book Notes/NoSQL Distilled.md",
+    "Book Notes/Book Notes.md",
+    "Main.md",
+    "Book Notes/An Introduction to Quantitative Finance.md",
+    "Book Notes/CP4 Book 1.md",
     "Images/Pasted image 20241214191719.png",
     "Images/Pasted image 20241214191217.png",
-    "Book Notes/Never Split the Difference.md",
     "Interview Notes/Theory/Spark.md",
     "Interview Notes/Theory/Microservices and Distributed Systems.md",
     "Interview Notes/Theory/Message Broker.md",
@@ -231,7 +232,6 @@
     "Images/Pasted image 20241125212631.png",
     "Interview Notes/Behavioural/Behavioural.md",
     "Interview Notes/Interview Notes.md",
-    "Main.md",
     "Paper Notes/Paper Notes.md",
     "Paper Notes",
     "Book Notes",
