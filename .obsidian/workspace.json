@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book Notes/An Introduction to Quantitative Finance.md",
+                "file": "Book Notes/CP4 Book 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "An Introduction to Quantitative Finance"
+              "title": "CP4 Book 1"
             }
           }
         ],
@@ -207,16 +207,16 @@
   },
   "active": "b58464cc8756af6d",
   "lastOpenFiles": [
+    "Book Notes/Book Notes.md",
+    "Book Notes/CP4 Book 1.md",
+    "Book Notes/An Introduction to Quantitative Finance.md",
     "Book Notes/Refactoring.md",
     "Book Notes/Understanding Distributed Systems.md",
-    "Book Notes/An Introduction to Quantitative Finance.md",
     "Book Notes/NoSQL Distilled.md",
     "Book Notes/Emotional Intelligence 2.0.md",
     "Book Notes/Never Split the Difference.md",
     "Interview Notes/Theory/Data Structures and Algorithms.md",
-    "Book Notes/Book Notes.md",
     "Main.md",
-    "Book Notes/CP4 Book 1.md",
     "Images/Pasted image 20241214191719.png",
     "Images/Pasted image 20241214191217.png",
     "Interview Notes/Theory/Spark.md",
