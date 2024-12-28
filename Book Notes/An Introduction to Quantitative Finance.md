@@ -170,3 +170,20 @@ call butterfly:
 digital options
 - call: pays 1 if $S_T \geq K$ and 0 otherwise
 - put: pays 1 if $S_T \leq K$ and 0 otherwise
+
+## Chapter 8
+To find a replicating portfolio for a derivative $D(\omega_A)$ in state A and $D(\omega_B)$ in state B, solve the linear equations
+- $\lambda S_1(\omega_A) + \mu = D(\omega_A)$
+- $\lambda S_1(\omega_B) + \mu = D(\omega_B)$
+by solving it, you get a portfolio with $\lambda$ stocks and $\mu$ ZCBs (long if positive, short if negative)
+can then use replication argument to find the present, **_arbitrage-free_** value of the derivative
+
+risk-neutral probability $p^*$:
+- given state A has probability $p$ and state B has probability $(1-p)$, $p^*$ is the unique value of $p$ for which the present value of the expected value of the option payout (i.e. $Z(0,1)E(S_1-K)^+$ is equal to the present arbitrage-free value of the derivative
+- using $p^*$, the expected stock price is equal to its forward price, i.e. $E_*(S_1) = S_0(1+r)$
+
+multiple time steps:
+- use the replicating portfolio and backpropagate from the leaves
+- $E_*(S_n) = S_0(1+r)^n$
+
+general no-arbitrage condition: given a binomial tree where at each node, the stock can move from $S_{n}$ to $S_n(1+u)$ or $S_n(1+d)$ where $d < u$ arbitrage free iff $d < r < u$ 
