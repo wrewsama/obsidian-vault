@@ -1,0 +1,8 @@
+[[NoSQL Distilled]]
+[[Never Split the Difference]]
+[[NoSQL Distilled]]
+[[Refactoring]]
+[[Understanding Distributed Systems]]
+[[Emotional Intelligence 2.0]]
+[[An Introduction to Quantitative Finance]]
+[[CP4 Book 1]]
