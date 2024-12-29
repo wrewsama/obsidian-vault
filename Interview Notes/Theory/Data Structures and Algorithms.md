@@ -215,3 +215,7 @@ def getHash(start, end):
 	return h * pows[len(s)-start] % m
 ```
 
+
+## fractions
+- use `math.gcd` to get the gcd of both nums
+- store the numerator and denominator, divided by gcd as a tuple

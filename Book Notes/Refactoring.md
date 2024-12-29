@@ -70,13 +70,11 @@ Code smells
 -
 
 ## Chapter 6
-
 ##### Extract Function
 - when the implementation does not clearly show the intention
 - extract the implementation out into a function, named after that intention
 - pass required vars into the function as params
 - replace other, similar code with a call to the new function
-
 ##### Inline Function
 - inverse of [[#Extract Function]]
 - ensure the function isn't polymorphic
@@ -86,76 +84,58 @@ Code smells
 - declare immutable variables for each part of the expression
 ##### Inline Variable
 - inverse of [[#Extract Variable]]
-
 ##### Change Function Declaration
 - rename function / edit parameters
 - extract the function body into the edited one
 - find and replace
-
 ##### Encapsulate Variable
 - deal with mutable global variables
 - just set up getters and setters and change references to the variable to the getters/setters instead
 - if possible, make the variable private
-
 ##### Rename Variable
 self-explanatory
-
 ##### Introduce Parameter Object
 - for groups of data items that regularly appear together
 	- fields of a class
 	- params of a method
 - replace with another data structure
-
 ##### Combine Functions into Class
 self-explanatory, use when a group of functions operate on the same param
-
 ##### Combine Functions into Transform
 similar to [[#Combine Functions into Class]] except we group the functions into another function
-
 ##### Split Phase
 - for code that's doing multiple different things at the same time
 - split into different phases and extract them into different functions
 - use intermediate data structure to transfer data from 1 phase to another
-
 ## Chapter 7
 ##### Encapsulate Record
 Wrap a data record (e.g. data in a hashmap) in a class with appropriate getters and setters
-
 ##### Encapsulate Collection
 - Wrapping a collection in a class
 - For the class to retain control over that collection
 	- getter (for the _collection_, not for a single element) cannot return the actual collection or else clients can still modify the collection any way they want
 		- either return copy or read-only proxy
 	- setters (again for the _collection_) should take in a copy
-
 ##### Replace Primitive with Object
 - for primitive fields/variables with too much reused logic (e.g. parsing a `string` phone number)
 - replace it with an object with that logic as methods
-
 ##### Replace Temp with Query
 - substitute temporary variable with a field / getter function
 - avoid duplication
-
 ##### Extract Class
 - when a class is too big to understand easily
 - split it into different classes, each with its own responsibility
-
 ##### Inline Class
 inverse of [[#Extract Class]]
-
 ##### Hide Delegate
 - when an object (the server) returns another object (the delegate) to the client and the client calls a method on that delegate
 - should encapsulate the delegate's method in the server object. i.e. client shouldn't have to know about the delegate
-
 ##### Remove Middleman
 - when an object needs to add a wrapper method for every method added to another
 - inverse of [[#Hide Delegate]]
-
 ##### Substitute Algorithm
 - replacing the implementation of a function with a better one
-
 ## Chapter 8
-
 ##### Move Function
 - when a function needs to access / get accessed by different contexts
 - move nested function to top level
@@ -188,19 +168,15 @@ self explanatory
 ##### Split Variable
 - when a variable is reassigned to a different value serving a different purpose
 - split into 2 variables, named after their singular purpose, preferably immutable
-
 ##### Rename Field
 self explanatory
-
 ##### Replace Derived Variable with Query
 - derived variable: variable that can be derived from other existing variables. This is a duplication of data
 - replace it with a getter function that derives the value from the other variables
-
 ##### Change Reference to Value
 - within an object, store a "value" instead of a reference to another object
 - when updating, replace that entire "value" object with an updated one
 - ensures upstream dependencies don't affect each other by modifying the shared dependency
-
 ##### Change Value to Reference
 inverse of [[#Change Reference to Value]]
 
@@ -298,3 +274,16 @@ advantages of command:
 - [[#Pull Up Method / Field / Constructor Body]] for the common things
 ##### Collapse Hierarchy
 - merge subclass and superclass
+##### Replace Subclass with Delegate
+- favour composition over inheritance
+	- inheritance can only be used to vary behaviour based on 1 variable
+	- couples parents with children
+- turn the subclass methods into delegate objects
+- make a factory function for those
+- make the parent class
+	- contain a reference to the appropriate delegate
+	- call that delegate's method in the parent method
+##### Replace Superclass with Delegate
+- once again, favour composition over inheritance
+- when inheritance is used purely to let the subclass use the superclass's methods, but the subclass shouldn't have the same interface
+- remove the inheritance relationship and store a reference to the "superclass" inside the "subclass"
