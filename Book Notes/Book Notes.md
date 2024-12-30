@@ -6,3 +6,4 @@
 [[Emotional Intelligence 2.0]]
 [[An Introduction to Quantitative Finance]]
 [[CP4 Book 1]]
+[[Inside the Machine]]

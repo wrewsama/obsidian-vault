@@ -179,7 +179,7 @@ by solving it, you get a portfolio with $\lambda$ stocks and $\mu$ ZCBs (long if
 can then use replication argument to find the present, **_arbitrage-free_** value of the derivative
 
 risk-neutral probability $p^*$:
-- given state A has probability $p$ and state B has probability $(1-p)$, $p^*$ is the unique value of $p$ for which the present value of the expected value of the option payout (i.e. $Z(0,1)E(S_1-K)^+$ is equal to the present arbitrage-free value of the derivative
+- given state A has probability $p$ and state B has probability $(1-p)$, $p^*$ is the unique value of $p$ for which the present value of the expected value of the option payout (i.e. $Z(0,1)E(S_1-K)^+$) is equal to the present arbitrage-free value of the derivative
 - using $p^*$, the expected stock price is equal to its forward price, i.e. $E_*(S_1) = S_0(1+r)$
 
 multiple time steps:
@@ -187,3 +187,26 @@ multiple time steps:
 - $E_*(S_n) = S_0(1+r)^n$
 
 general no-arbitrage condition: given a binomial tree where at each node, the stock can move from $S_{n}$ to $S_n(1+u)$ or $S_n(1+d)$ where $d < u$ arbitrage free iff $d < r < u$ 
+
+## Chapter 9
+Martingale: 
+- series of random variables $X_0, X_1, ... X_n$ such that $\forall i$, $E(|X_i|) < \infty$ and $E(X_{n+1} | X_0, ... X_n) = X_n$
+- probabilistic definition of a "fair game", where expected value tomorrow = today's value
+
+Markov: when the series satisfies 
+$P(X_{n+1} | X_0, ... X_n) = P(X_{n+1} | X_n)$ (i.e. $X_n$ captures all the info about the conditional distribution of $X_{n+1}$)
+this makes the martingale condition become $E(X_{n+1} | X_n) = X_n$
+
+martingale with respect to $Y_0, ... Y_n$:
+when $E(|X_i|) < \infty$ and $E(X_{n+1} | Y_n) = Y_n$
+
+numeraire: unit by which we discount / rebase prices
+
+fundamental theorem of asset pricing: there are no arbitrage portfolios iff
+- there exists risk-neutral probability distribution $P^*$ such that the ratios of asset prices to the money market account are martingales under $P^*$
+- (general form) for given positive asset, there exists probability $Q*$, defined over the same set of possible outcomes, such that the ratios of asset prices to the numeraire $N_t$ are martingales under $Q^*$
+	- $\frac{D(t,T)}{N_t} = E_*(\frac{D(T,T)}{N_T} | S_t)$
+	- using ZCB as the numeraire (since $Z(T,T)$ is a constant 1), $D(t,T) = Z(t,T)E_*(D(T,T) | S_t)$
+
+given derivative with payout $D(T,T) = g(S_t)$ and risk-neutral density $f(S_T)$,
+$D(t,T) = Z(t,T) \int g(x)f(x) dx$
