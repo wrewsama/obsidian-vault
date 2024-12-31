@@ -210,3 +210,30 @@ fundamental theorem of asset pricing: there are no arbitrage portfolios iff
 
 given derivative with payout $D(T,T) = g(S_t)$ and risk-neutral density $f(S_T)$,
 $D(t,T) = Z(t,T) \int g(x)f(x) dx$
+
+## Chapter 10
+logarithmic return $\lambda_n = log(\frac{S_n}{S_{n-1}})$ 
+multiplicative return $I_n = \frac{S_n - S_{n-1}}{S_{n-1}}$ 
+
+**Black-Scholes formula**
+$C_K(t,T) = S_t\Phi(d_1) - KZ(t,T)\Phi(d_2)$
+where
+$d_1 = \frac{log(\frac{S_t}{K}) + (r + 0.5\sigma^2)(T-t)}{\sigma \sqrt{T-t}}$
+$d_2 = d_1 - \sigma \sqrt{T-t}$
+$\sigma$ is the volatility
+
+alternate form:
+$C_K(t,T) = Z(t,T)(F(t,T)\Phi(d_1) - K\Phi(d_2))$
+
+properties:
+- as $S_t \to \infty$, $C_K(t,T) \to S_t - Ke^{-r(T-t)}$
+- as $\sigma \to 0$, 
+	- $C_K(t,T) \to S_t - Ke^{-r(T-t)}$ if $S_t > Ke^{-r(T-t)}$
+	- $0$ otherwise
+- as $\sigma \to \infty$, $\Phi(d_1) \to 1$, and $\Phi(d_2) \to 0$: $C_K(t,T) \to S_t$
+
+delta: how much the option price changes for a change in stock price
+$\frac{\delta C_K(t,T,S_t)}{\delta S_t} = \Phi(d_1)$
+
+vega: how much the option price changes for a change in volatility $\sigma$
+$\frac{\delta C_K(t,T,S_t)}{\delta \sigma} = S_t\sqrt{T-t}\phi(d_1)$
