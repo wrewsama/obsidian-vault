@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book Notes/Book Notes.md",
+                "file": "Book Notes/CP4 Book 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Book Notes"
+              "title": "CP4 Book 1"
             }
           }
         ],
@@ -221,18 +221,18 @@
   },
   "active": "d7a6163976df73dc",
   "lastOpenFiles": [
-    "Book Notes/Inside the Machine.md",
-    "Book Notes/An Introduction to Quantitative Finance.md",
     "Interview Notes/Theory/Data Structures and Algorithms.md",
-    "Interview Notes/Interview Notes.md",
-    "Book Notes/Book Notes.md",
-    "Book Notes/Refactoring.md",
     "Book Notes/CP4 Book 1.md",
-    "Book Notes/Emotional Intelligence 2.0.md",
-    "Book Notes/NoSQL Distilled.md",
-    "Interview Notes/Theory/Databases.md",
-    "Book Notes/Understanding Distributed Systems.md",
+    "Book Notes/An Introduction to Quantitative Finance.md",
+    "Book Notes/Inside the Machine.md",
     "Book Notes/Never Split the Difference.md",
+    "Book Notes/NoSQL Distilled.md",
+    "Book Notes/Refactoring.md",
+    "Book Notes/Understanding Distributed Systems.md",
+    "Book Notes/Book Notes.md",
+    "Interview Notes/Interview Notes.md",
+    "Book Notes/Emotional Intelligence 2.0.md",
+    "Interview Notes/Theory/Databases.md",
     "Main.md",
     "Images/Pasted image 20241214191719.png",
     "Images/Pasted image 20241214191217.png",

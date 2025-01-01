@@ -237,3 +237,8 @@ $\frac{\delta C_K(t,T,S_t)}{\delta S_t} = \Phi(d_1)$
 
 vega: how much the option price changes for a change in volatility $\sigma$
 $\frac{\delta C_K(t,T,S_t)}{\delta \sigma} = S_t\sqrt{T-t}\phi(d_1)$
+
+## Chapter 11
+Price of digital call option struck at $K$:
+$\lim_{\lambda\to\infty}\lambda(C_K(t,T) - C_{K+\frac{1}{\lambda}}(t,T)) = -\frac{\delta C_K(t,T)}{\delta K}$
+$-\frac{\delta C_K(t,T)}{\delta K} = Z(t,T)\Phi(d_2)$

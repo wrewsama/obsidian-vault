@@ -51,6 +51,8 @@ booting up:
 ## Chapter 3: Pipelined Execution
 Intuition: split into stages, when stage `i` is done, pass the work on to stage `i+1` and start working on the input from stage `i-1`
 
+stages: fetch, decode, execute, write back
+
 metrics:
 - instruction execution time
 - program execution time
@@ -62,3 +64,41 @@ pitfalls:
 - clock cycle length has to be $\geq$ the slowest stage in the pipeline, faster stages spend part of each cycle idling
 - pipeline stalls: instruction getting stuck at one stage for multiple cycles. This will bubble throughout the pipeline until they exit
 - pipeline refills: making the pipeline full so it can have a steady, high completion rate
+
+## Chapter 4: Superscalar Execution
+superscalar computers: can do multiple scalar operations at once
+
+new stages: fetch, decode/_**dispatch**_, execute, write back
+- dispatch determines if instructions can be executed in parallel, can think of it as a proxy that sends the instructions to the appropriate ALUs 
+
+types of ALUs
+- integer execution unit (IU): handles int arithmetic and logical instructions
+- floating point execution unit (FPU): handles float arithmetic and logical instructions
+
+memory access units:
+- load-store unit (LSU): load, store, address generation
+- branch execution unit: decide what to do with the program counter
+
+instruction set architecture (ISA): abstract representation of the microprocessor's functionality (e.g. ALUs, registers, etc.) aka the _programming model_ and a set of instructions to work with those parts
+
+microarchitecture: the hardware implementation of the ISA
+
+Reduced Instruction Set Computing (RISC): minimise number of instructions in the instruction set and the size/complexity of each instruction, let hardware directly execute instructions
+
+challenges:
+- data hazards
+	- 2 instructions use the same register such that the result of 1 affects the other
+	- solutions
+		- forwarding: feed ALU's result of the 1st operation into the input of the ALU 
+		- register renaming: in hardware, implement more registers than required by the programming model, then map the 'architectural' registers to different physical registers
+- structural hazards
+	- when the processor cannot accommodate certain situations (e.g. writing to 2 registers at the same time)
+	- register file: contains the CPU's registers, a data bus, and several read ports and write ports
+	- a single read/write port allows access to a single register at a time
+- control hazards
+	- evaluation
+		- pipeline stalls while branch condition is getting evaluated
+		- solution: branch prediction
+	- instruction load latency
+		- next instruction could be in memory or even hard disk, takes time to fetch
+		- alleviate using instruction caching 
