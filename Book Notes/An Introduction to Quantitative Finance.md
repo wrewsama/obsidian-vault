@@ -242,3 +242,20 @@ $\frac{\delta C_K(t,T,S_t)}{\delta \sigma} = S_t\sqrt{T-t}\phi(d_1)$
 Price of digital call option struck at $K$:
 $\lim_{\lambda\to\infty}\lambda(C_K(t,T) - C_{K+\frac{1}{\lambda}}(t,T)) = -\frac{\delta C_K(t,T)}{\delta K}$
 $-\frac{\delta C_K(t,T)}{\delta K} = Z(t,T)\Phi(d_2)$
+
+## Chapter 12
+
+| Name               | Desc              | Payout @ T                     | Usual numeraire          |
+| ------------------ | ----------------- | ------------------------------ | ------------------------ |
+| FRA                |                   | $\alpha(L_T-K)Z(T,T+\alpha)$   |                          |
+| Caplet             | Call on $L_T$     | $\alpha(L_T-K)^+Z(T,T+\alpha)$ | $Z(t,T+\alpha)$          |
+| Floorlet           | Put on $L_T$      | $\alpha(K-L_T)^+Z(T,T+\alpha)$ | $Z(t,T+\alpha)$          |
+| Cap                | Series of caplets |                                | Multiple $Z(t,T+\alpha)$ |
+| Cap-floor straddle | Cap + floor       |                                | Multiple $Z(t,T+\alpha)$ |
+| Swap (pay fixed)   |                   | $(y_T-K)P_T[T,T_n]$            |                          |
+| Payer swaption     | Call on $y_T$     | $(y_T-K)^+P_T[T,T_n]$          | $P_t[T,T_n]$             |
+| Receiver swaption  | Put on $y_T$      | $(K-y_T)^+P_T[T,T_n]$          | $P_t[T,T_n]$             |
+| Swaption straddle  | Payer + Receiver  | $\|K-y_T\|P_T[T,T_n]$          | $P_t[T,T_n]$             |
+note:
+libor rate $L_T = L_T[T,T+\alpha]$
+forward swap rate $y_T = y_T[T,T_n]$

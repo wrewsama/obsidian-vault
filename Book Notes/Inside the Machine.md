@@ -83,6 +83,8 @@ instruction set architecture (ISA): abstract representation of the microprocesso
 
 microarchitecture: the hardware implementation of the ISA
 
+microcode engine: translate instruction into machine instructions that can run directly on the hardware
+
 Reduced Instruction Set Computing (RISC): minimise number of instructions in the instruction set and the size/complexity of each instruction, let hardware directly execute instructions
 
 challenges:
@@ -102,3 +104,27 @@ challenges:
 	- instruction load latency
 		- next instruction could be in memory or even hard disk, takes time to fetch
 		- alleviate using instruction caching 
+		
+## Chapter 5: Intel Pentium and Pentium Pro
+
+caches
+- up to 3 (L1, L2, L3)
+- sit between the processor's backend and main memory
+- stores instructions and data in separate halves (I-cache and D-cache)
+
+branch unit:
+- branch execution unit
+- branch prediction unit
+	- guess which branch to take
+	- static: always take the backwards-pointing branch (because of loops)
+	- dynamic: use branch history table and branch target buffer to guess based on previous branch outcomes
+
+reservation station: buffer instructions until execution requirements are met
+reorder buffer: ensure that the results of instructions executed out-of-order can be reordered later on
+
+
+## Chapter 6
+instruction queue:
+- for detecting and dealing with branches
+- scans end of the queue for branch instructions, if the branch unit has enough info to resolve the branch immediately, replace the branch instruction with the target (aka branch folding)
+
