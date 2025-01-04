@@ -1,4 +1,4 @@
-[[Interview Notes]]
+[[Random CS Notes]]
 [[Productivity]]
 [[Temporary]]
 [[Book Notes]]

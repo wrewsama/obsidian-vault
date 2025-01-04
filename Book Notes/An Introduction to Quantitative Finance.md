@@ -2,6 +2,7 @@
 market risk
 credit risk
 yield curve
+term structure
 ## Chapter 1
 money market account: amount you get at time t, with interest rate r, for $1 invested. Equal to $e^{rt}$
 
@@ -259,3 +260,14 @@ $-\frac{\delta C_K(t,T)}{\delta K} = Z(t,T)\Phi(d_2)$
 note:
 libor rate $L_T = L_T[T,T+\alpha]$
 forward swap rate $y_T = y_T[T,T_n]$
+
+## Chapter 13
+
+European cancellable swaps: swap with the option to cancel at a single time $T_j$. Intuitively, pay fixed K while receiving libor until $T_j$, where you can decide to cancel or continue
+
+Callable bonds: sell a bond but keep the option to buy back for 100% of the notional at some fixed time $T_j$ before maturity
+
+$T_0$ into $T_n - T_0$ **Bermudan payer swaption**: option at each $T_i$ to pay $K$ and receive libor from $T_i$ to $T_n$ for $i$ = 0, ... $n-1$. Can only be exercised once.
+
+Bermudan cancellable swaps and callable bonds: same as European except you can cancel at $T_i$
+
