@@ -1,8 +1,6 @@
 ## misc
-market risk
-credit risk
-yield curve
 term structure
+risk neutrality
 ## Chapter 1
 money market account: amount you get at time t, with interest rate r, for $1 invested. Equal to $e^{rt}$
 
@@ -270,4 +268,10 @@ Callable bonds: sell a bond but keep the option to buy back for 100% of the noti
 $T_0$ into $T_n - T_0$ **Bermudan payer swaption**: option at each $T_i$ to pay $K$ and receive libor from $T_i$ to $T_n$ for $i$ = 0, ... $n-1$. Can only be exercised once.
 
 Bermudan cancellable swaps and callable bonds: same as European except you can cancel at $T_i$
+
+## Chapter 14
+Libor-in-arrears / arrears FRA: essentially an FRA except paid/received at $T$ instead of $T + \alpha$
+payout = $\alpha(L_T-K)$
+
+constant maturity swap (CMS): pay $K$ and receive $y_T[T,T_n]$ at a single time $T$
 
