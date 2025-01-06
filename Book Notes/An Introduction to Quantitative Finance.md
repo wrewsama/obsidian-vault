@@ -275,3 +275,7 @@ payout = $\alpha(L_T-K)$
 
 constant maturity swap (CMS): pay $K$ and receive $y_T[T,T_n]$ at a single time $T$
 
+## Chapter 15
+Brace-Gatarek-Musiela (BGM) volatility surface: the surface $\{\sigma(t,T), 0 \leq t \leq T \leq \infty\}$ 
+
+reset cap: series of reset caplets, each with payout = $\alpha * max\{L_{T_i} - L_{T_{i-1}}, 0\}$

@@ -123,8 +123,13 @@ reservation station: buffer instructions until execution requirements are met
 reorder buffer: ensure that the results of instructions executed out-of-order can be reordered later on
 
 
-## Chapter 6
+## Chapter 6: PowerPC Processors
 instruction queue:
 - for detecting and dealing with branches
 - scans end of the queue for branch instructions, if the branch unit has enough info to resolve the branch immediately, replace the branch instruction with the target (aka branch folding)
 
+## Chapter 7: Pentium 4 vs Motorola
+Trace cache:
+- modern x86 chips convert complex x86 instructions into a simpler instruction format (micro-ops)
+- the resulting string of micro-ops from an x86 instruction is called a _trace_
+- traces are cached in the L1 cache (aka the trace cache)
