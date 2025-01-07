@@ -279,3 +279,14 @@ constant maturity swap (CMS): pay $K$ and receive $y_T[T,T_n]$ at a single time 
 Brace-Gatarek-Musiela (BGM) volatility surface: the surface $\{\sigma(t,T), 0 \leq t \leq T \leq \infty\}$ 
 
 reset cap: series of reset caplets, each with payout = $\alpha * max\{L_{T_i} - L_{T_{i-1}}, 0\}$
+
+## Chapter 16
+
+symmetric random walk $\sum_{i=1}^{N}\xi_i$
+where $\xi_i$ is +1 with probability 1/2 and -1 with probability 1/2
+
+Brownian motion: continuous-time limit $W_t$ of symmetric random walk
+properties:
+- $W_0=0$
+- For all $t \leq s$, $W_s - W_t ~ N(0, s-t)$
+- $W_s - W_t$ is independent of $W_t, t \leq s$
