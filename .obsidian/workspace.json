@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book Notes/An Introduction to Quantitative Finance.md",
+                "file": "Book Notes/Influence.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "An Introduction to Quantitative Finance"
+              "title": "Influence"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -165,9 +164,9 @@
   },
   "active": "522a1d7949bb9b49",
   "lastOpenFiles": [
+    "Book Notes/An Introduction to Quantitative Finance.md",
     "Book Notes/Influence.md",
     "Book Notes/Inside the Machine.md",
-    "Book Notes/An Introduction to Quantitative Finance.md",
     "Paper Notes/Scaling Memcache at Facebook.md",
     "Paper Notes/Paper Notes.md",
     "Book Notes/Book Notes.md",

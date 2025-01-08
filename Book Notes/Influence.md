@@ -28,3 +28,10 @@ contrast principle: if B is presented after A, and B is different from A, B will
 - utilise the public eye by making the target's initial decision public. When one takes stand publicly, there arises a drive to maintain that stand for consistency
 - how to counter:
 	- ensure that your decision for doing something does not involve justifying your previous decision
+
+## Chapter 4: Social Proof
+- people assume that an action is more correct if others are doing it
+- the inverse is also true: people assume an action is incorrect if other people are actively choosing not to
+- this effect is more powerful when the social proof is more similar to the target
+- how to counter:
+	- scrutinise the social proof to see if it is legitimate or engineered to influence you to do something
