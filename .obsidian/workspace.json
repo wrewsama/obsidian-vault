@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book Notes/Influence.md",
+                "file": "Book Notes/Inside the Machine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Influence"
+              "title": "Inside the Machine"
             }
           }
         ]
@@ -164,8 +164,8 @@
   },
   "active": "522a1d7949bb9b49",
   "lastOpenFiles": [
-    "Book Notes/An Introduction to Quantitative Finance.md",
     "Book Notes/Influence.md",
+    "Book Notes/An Introduction to Quantitative Finance.md",
     "Book Notes/Inside the Machine.md",
     "Paper Notes/Scaling Memcache at Facebook.md",
     "Paper Notes/Paper Notes.md",

@@ -35,3 +35,19 @@ contrast principle: if B is presented after A, and B is different from A, B will
 - this effect is more powerful when the social proof is more similar to the target
 - how to counter:
 	- scrutinise the social proof to see if it is legitimate or engineered to influence you to do something
+
+## Chapter 5: Liking
+- obviously, we prefer to say yes to someone we like
+- how they make us like them
+	- using your actual friends as a proxy
+	- physical attractiveness
+	- similarity (style, backgrounds, interests, age, etc.)
+	- compliments (one of the fundamentals in _How to Win Friends and Influence People_)
+	- situations where you need to make contact in a cooperative setting
+	- association (never be the bringer of bad news - _The 48 Laws of Power_)
+- how to counter:
+	- don't try to look for the ways they make you like them, many work subconsciously (e.g. attractiveness) 
+	- be vigilant for when undue liking has been produced
+	- ask yourself "have I come to like X more than I would have expected?"
+	- if so, remain cognisant of that fact and focus on separating your feelings about the requester and request
+	
