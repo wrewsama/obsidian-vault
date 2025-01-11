@@ -51,3 +51,14 @@ contrast principle: if B is presented after A, and B is different from A, B will
 	- ask yourself "have I come to like X more than I would have expected?"
 	- if so, remain cognisant of that fact and focus on separating your feelings about the requester and request
 	
+## Chapter 6: Authority
+- people are more likely to accept a request from someone they perceive to have authority over them, regardless of the request or the requestor
+- how to create the illusion of authority
+	- irrelevant authority (e.g. using a celebrity to promote a product's effectiveness)
+	- titles
+	- clothing
+	- status symbols (e.g. jewelry, cars)
+- how to counter
+	- usually, authority is a good thing
+	- the danger to be exploited is when the authority is fake or irrelevant
+	- verify if that perceived "authority" is truly an expert in the relevant field

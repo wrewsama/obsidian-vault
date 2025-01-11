@@ -138,3 +138,12 @@ Trace cache:
 vector computing
 - single instruction, multiple data stream
 - exploits data parallelism
+
+## Chapter 9: 64 Bit Computing
+64 bit computing:
+- data stream to the processor handles 64-bit data
+- not all the data has to be 64 bits
+
+benefits:
+- wider integers
+- bigger address space
