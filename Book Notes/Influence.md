@@ -62,3 +62,16 @@ contrast principle: if B is presented after A, and B is different from A, B will
 	- usually, authority is a good thing
 	- the danger to be exploited is when the authority is fake or irrelevant
 	- verify if that perceived "authority" is truly an expert in the relevant field
+
+## Chapter 7: Scarcity
+- opportunities seem more valuable when their availability is limited
+- a sudden drop in availability is more effective than constant scarcity
+- how to exploit:
+	- limited available quantity
+	- limited time
+	- psychological reactance: when others try to stop you from doing something, that thing appears more desirable
+	- introduce competition
+- how to counter
+	- notice any sudden rise in emotional arousal from scarcity influences
+	- verify if the reason why you want something is because you want to _use_ it or only to _possess_ it
+	
