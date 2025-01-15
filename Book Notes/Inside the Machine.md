@@ -147,3 +147,31 @@ vector computing
 benefits:
 - wider integers
 - bigger address space
+
+## Chapter 11: Caching
+caches:
+- L1
+- L2
+- made using static RAM (SRAM)
+	- has more transistors per cell than DRAM, hence faster but more expensive
+
+locality:
+- spatial: if CPU needs item from mem, it is likely to need that item's neighbours next
+- temporal: if an item in mem was accessed once, it's likely to be accessed again in the near future
+
+cache organisation:
+- block frames: slots in the cache
+- when requesting for a byte of data, surrounding group of bytes is also accessed, known as the _cache line_
+- cache lines are loaded / stored in the block frames (they are the same size)
+
+tag RAM:
+- essentially piece of metadata associated with each block frame
+- stored separately in _tag RAM_, made from really fast SRAM
+- RAM block to block frame mappings:
+	- Fully associative: any RAM block can be stored in any available block frame
+	- direct mapping: each RAM block can only be stored in one of the block frames, but many RAM blocks could be mapped to the same block frame
+	- N way set associative: Each set has N block frames, each RAM block can be mapped to any block frame within a given set
+
+write policies:
+- write-through: every write updates cache and main memory
+- write-back: writes only update cache, main memory is updated only when cache line is evicted
