@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book Notes/How to Get Rich.md",
+                "file": "Book Notes/Operating Systems Three Easy Pieces.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to Get Rich"
+              "title": "Operating Systems Three Easy Pieces"
             }
           }
         ],
@@ -205,18 +205,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "50ed0621bb80894a",
+  "active": "387e467b87218e1e",
   "lastOpenFiles": [
-    "Book Notes/Book Notes.md",
-    "Book Notes/How to Get Rich.md",
-    "Book Notes/Operating Systems Three Easy Pieces.md",
-    "Book Notes/Inside the Machine.md",
     "Book Notes/Understanding Distributed Systems.md",
+    "Random CS Notes/Theory/Operating Systems.md",
+    "Book Notes/Operating Systems Three Easy Pieces.md",
+    "Book Notes/Refactoring.md",
+    "Book Notes/How to Get Rich.md",
+    "Book Notes/An Introduction to Quantitative Finance.md",
+    "Main.md",
+    "Book Notes/Book Notes.md",
+    "Book Notes/Inside the Machine.md",
     "Book Notes/Emotional Intelligence 2.0.md",
     "Book Notes/Influence.md",
     "README.md",
-    "Main.md",
-    "Book Notes/An Introduction to Quantitative Finance.md",
     "Paper Notes/Scaling Memcache at Facebook.md",
     "Paper Notes/Paper Notes.md",
     "Random CS Notes/Behavioural/Self Intro.md",
@@ -229,12 +231,10 @@
     "Random CS Notes/Theory/Data Structures and Algorithms.md",
     "Book Notes/Never Split the Difference.md",
     "Book Notes/NoSQL Distilled.md",
-    "Book Notes/Refactoring.md",
     "Random CS Notes/Theory/Databases.md",
     "Images/Pasted image 20241214191719.png",
     "Images/Pasted image 20241214191217.png",
     "Random CS Notes/Theory/Spark.md",
-    "Random CS Notes/Theory/Microservices and Distributed Systems.md",
     "Images/Pasted image 20241201163641.png",
     "Images/Pasted image 20241201163636.png",
     "Images/Pasted image 20241125212639.png",
