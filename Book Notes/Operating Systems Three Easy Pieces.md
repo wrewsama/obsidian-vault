@@ -97,3 +97,35 @@ switching between processes:
 		1. restores B's user registers from B's kernel stack
 		2. jump back to PC
 
+## Chapter 8: Multi-Level Feedback Queue
+MLFQ approximates Shortest Job First scheduling without a priori knowledge of job lengths. This is to minimise turnaround time (how fast you finish), as well as response time (how fast you begin executing)
+
+rules:
+- if Priority(A) > Priority(B), A runs
+- if Priority(A) == Priority(B), A & B run in round robin using the given time slice
+- new jobs start at the highest priority
+- once job uses up its time allotment at a given level (regardless of whether it gives up the CPU), decrement its priority
+- after some time period, reset all jobs to the highest priority
+
+## Chapter 9: Proportional Share
+
+lottery scheduling:
+- tickets are distributed among processes
+- winning ticket is picked every time slice, process with that ticket runs
+
+stride scheduling:
+- define $stride_i = \frac{\sum tickets}{tickets_i}$
+- when process $i$ runs for a time slice, $pass_i += stride_i$
+- keep running the process with the lowest $pass$
+- intuitively, more tickets => less stride => can run more
+
+Linux Completely Fair Scheduler (CFS):
+- each process accumulates `vruntime`
+- when scheduling decisions occur, pick the process with the lowest `vruntime`
+	- this is done using a red black tree
+- scheduling decisions occur after a certain latency. This latency is proportional to `1 / num_processes` (as more processes start, latency decreases to some fixed floor)
+- _niceness_
+	- each process has a nice level between $-20$ and $19$ (default = $0$)
+	- each nice level is mapped to a `weight`, higher niceness => lower weight
+	- when process $i$ runs, increment $vruntime_i$ by $\frac{weight_0}{weight_i} * runtime_i$
+- when sleeping processes wake up, their `vruntime` is set to the lowest `vruntime` in the red black tree (prevent it from hogging CPU)
