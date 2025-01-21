@@ -97,6 +97,14 @@ switching between processes:
 		1. restores B's user registers from B's kernel stack
 		2. jump back to PC
 
+## Chapter 7: Scheduling
+metrics:
+- turnaround time: completion time - arrival time 
+	- i.e. how long it takes to finish each job
+- response time: time when the job is run for the first time - arrival time 
+	- i.e. how long it takes to start each job
+- fairness: e.g. Jain's Fairness Index
+
 ## Chapter 8: Multi-Level Feedback Queue
 MLFQ approximates Shortest Job First scheduling without a priori knowledge of job lengths. This is to minimise turnaround time (how fast you finish), as well as response time (how fast you begin executing)
 
@@ -129,3 +137,12 @@ Linux Completely Fair Scheduler (CFS):
 	- each nice level is mapped to a `weight`, higher niceness => lower weight
 	- when process $i$ runs, increment $vruntime_i$ by $\frac{weight_0}{weight_i} * runtime_i$
 - when sleeping processes wake up, their `vruntime` is set to the lowest `vruntime` in the red black tree (prevent it from hogging CPU)
+
+## Chapter 10: Multiprocessor Scheduling
+issues of a single queue:
+- synchronisation: different cores need concurrent access to the shared scheduler
+- cache affinity: jobs that keep switching core will have more cache misses
+
+multi-queue scheduling:
+- have a separate scheduling queue for each core, each job is assigned to one of the queues
+- work stealing: underused queue can check to see if other queues have more, then reassign those jobs to the underused queue
