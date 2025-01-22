@@ -146,3 +146,45 @@ issues of a single queue:
 multi-queue scheduling:
 - have a separate scheduling queue for each core, each job is assigned to one of the queues
 - work stealing: underused queue can check to see if other queues have more, then reassign those jobs to the underused queue
+
+## Chapter 13: Address Spaces
+address space components (from low address to high address):
+- text
+- data
+- heap
+- stack
+heap and stack grow towards each other
+
+goal of virtual memory
+- transparency: let program behave as if it has its own private physical memory
+- efficiency: implementation should be fast and use minimal extra data structures
+- protection: isolate processes from affecting one another
+
+## Chapter 14: Memory API
+types of memory:
+- stack: for short lived local variables / params in function calls, managed implicitly by the compiler
+- heap: for long-lived variables, explicitly handled by programmer 
+
+##### `malloc()` / `free()` example:
+malloc: given size `n`, allocate `n` bytes on the heap and return a pointer to the newly allocated space
+free: given a pointer that was previously returned by `malloc`, release the memory region allocated by that malloc call (_note that the memory allocation library tracks the entire region assigned to that pointer_)
+```c
+#include <stdlib.h>
+int *a = (int *) malloc(10 * sizeof(int))
+free(a)
+```
+
+> important note: `malloc` and `free` are **library calls**, NOT syscalls. The malloc library manages part of the virtual address space by using syscalls 
+##### Common Errors
+- forgetting to allocate memory => segfault
+- not allocating enough memory => buffer overflow
+- not initialising allocated memory => uninitialised read
+- not freeing memory => memory leak
+- freeing memory before you're done with it => dangling pointer
+- freeing memory repeatedly => double free
+- calling `free()` on a pointer that wasn't `malloc`'ed => invalid free 
+
+##### Other options
+- `mmap`: for large, infrequent allocations
+- `calloc`: `malloc` but zeroes the memory before returning
+- `realloc`: add more space to a `malloc`ed region

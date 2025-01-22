@@ -27,3 +27,31 @@ Treat the fear of failure like a (night)mare to be tamed and harnessed. Confront
 
 ## Chapter 7: Never Give In
 self explanatory
+
+## Chapter 8: The 5 Most Common Start-Up Errors
+1. mistaking desire for compulsion
+	1. you need a strong conviction to be successful, not just want it
+2. overoptimism concerning cashflow
+	1. comprehend and manage your business's cashflow
+3. reinforcing failure
+	1. know when to give up a lost cause
+4. thinking small and acting big
+	1. instead, aim high without losing touch with reality
+5. skimping on talent
+
+## Chapter 9: Cardinal Virtues
+- Persistence
+	- don't give up your goal, but always be willing to change tack
+- Self-belief
+- Trust your instincts
+	- trust your gut, but do not be a slave to it
+- Make more baskets
+	- diversify, keep them related to the core business at the start
+	- understand that your new baskets can negatively impact your existing ones, this is fine
+		- Barbarians at the Gate principle
+-  Listen and learn
+	- listen to everyone, regardless of rank, but keep it short
+	- understand that most of your time will be wasted, but what isn't wasted will make you richer
+	- people don't own ideas, they own the _execution_ of the idea
+		- if investing in an idea that's already being executed, need legal agreement on who owns it
+		
