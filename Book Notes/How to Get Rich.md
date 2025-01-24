@@ -54,4 +54,27 @@ self explanatory
 	- understand that most of your time will be wasted, but what isn't wasted will make you richer
 	- people don't own ideas, they own the _execution_ of the idea
 		- if investing in an idea that's already being executed, need legal agreement on who owns it
-		
+
+## Chapter 10: Luck
+- prepare yourself for luck, don't seek her out
+- don't whine or describe yourself as "unlucky"
+- stay the course, don't keep looking for the green grass over the hill
+- don't try and do everything yourself, delegate and teach other to delegate
+- don't treat the quest for wealth seriously, it's just a game
+
+## Chapter 11: Negotiation
+
+the balance of weakness:
+- greed vs need: which side _needs_ the deal the most?
+- almost always is the deciding factor
+
+tips:
+- remember that few people are good at negotiations
+- set limits on what you will pay / accept
+- the devil is in the details, get professional help but do not surrender control of the negotiations to them
+- never fall in love with the deal, there will always be other opportunities
+- avoid auctions, you will usually pay more than you should. (scarcity principle in [[Influence]])
+- the negotiator opposite you is the enemy. You have no reason to satisfy his demands.
+- listen when engaged in serious negotiation (active listening in [[Never Split the Difference]])
+- divide and conquer when there are multiple other negotiators
+- establish where the balance of weakness lies

@@ -188,3 +188,29 @@ free(a)
 - `mmap`: for large, infrequent allocations
 - `calloc`: `malloc` but zeroes the memory before returning
 - `realloc`: add more space to a `malloc`ed region
+
+## Chapter 15: Address Translation
+- translate the _virtual address_ provided by the instruction to a _physical address_
+- creates the illusion of private memory for each process
+- relocation
+	- use 2 registers to store the base address and the bounds (limit)
+	- to translate, check if $addr_{virtual} \leq limit$, if so, do $addr_{physical} = addr_{virtual} + base$, else, trap to OS and kill
+	- done in the processor's memory management unit (MMU)
+	- stored in PCB when context switching away
+
+## Chapter 16: Segmentation
+- general idea: keep base and bounds for different segments of a program's address space
+- implementations
+	- pair of registers for each segment (faster)
+	- segment table mapping segment number to base & bounds addresses (supports more _fine-grained_ segments)
+- additions:
+	- bit to check if the segment grows in the positive direction (heap) or negative (stack)
+	- protection bits: for sharing the same segments between different processes
+		- the virtual addresses point to the same physical address region
+- external fragmentation: holes of free space in physical memory between allocated blocks
+	- to minimise: use free list management algos
+		- best fit
+		- worst fit
+		- first fit
+		- buddy algorithm
+
