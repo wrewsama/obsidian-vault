@@ -207,10 +207,24 @@ free(a)
 	- bit to check if the segment grows in the positive direction (heap) or negative (stack)
 	- protection bits: for sharing the same segments between different processes
 		- the virtual addresses point to the same physical address region
-- external fragmentation: holes of free space in physical memory between allocated blocks
-	- to minimise: use free list management algos
-		- best fit
-		- worst fit
-		- first fit
-		- buddy algorithm
 
+## Chapter 17: Free Space Management
+external fragmentation: holes of free space in physical memory between allocated blocks
+internal fragmentation: unused part of a memory block allocated to a process/segment 
+
+free list implementation:
+- linked list of free spaces
+- each node contains
+	- start address
+	- length
+- when allocating memory, list is traversed to find a suitable free space, then that region is allocated and the node is updated
+- when freeing memory, new free list node is inserted. Existing nodes are coalesced if needed
+
+allocation strategies:
+- best fit: smallest hole that the request fits in
+- worst fit: biggest hole
+- first fit: first hole that request fits in
+- next fit: same logic as first fit, except search continues where the previous allocation left off instead of at the beginning
+	- ensures searches are spread out over the list instead of splintering the beginning of the list
+- segregated lists: keep separate lists to handle requests of fixed sizes
+- buddy allocation: keep blocks with size = some power of 2, then halve / merge them as you allocate and free

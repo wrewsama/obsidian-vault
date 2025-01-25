@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book Notes/How to Get Rich.md",
+                "file": "Book Notes/Operating Systems Three Easy Pieces.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to Get Rich"
+              "title": "Operating Systems Three Easy Pieces"
             }
           }
         ]
@@ -164,11 +164,11 @@
   },
   "active": "387e467b87218e1e",
   "lastOpenFiles": [
+    "Book Notes/How to Get Rich.md",
     "Book Notes/Never Split the Difference.md",
     "Book Notes/NoSQL Distilled.md",
     "Book Notes/Inside the Machine.md",
     "Book Notes/Influence.md",
-    "Book Notes/How to Get Rich.md",
     "Book Notes/Operating Systems Three Easy Pieces.md",
     "Book Notes/Understanding Distributed Systems.md",
     "Random CS Notes/Theory/Operating Systems.md",
