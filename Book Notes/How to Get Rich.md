@@ -78,3 +78,10 @@ tips:
 - listen when engaged in serious negotiation (active listening in [[Never Split the Difference]])
 - divide and conquer when there are multiple other negotiators
 - establish where the balance of weakness lies
+
+## Chapter 12: Ownership
+- Ownership isn't the important thing, it's the only thing that matters in getting rich
+	- fight tooth and nail for every last share of your company
+- In a partnership, making money comes first. Friendship and affection comes later - if you're lucky
+- private companies: balances investment and profit taking
+- going public: exists only to boost share price, which is determined by short-term growth

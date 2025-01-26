@@ -228,3 +228,15 @@ allocation strategies:
 	- ensures searches are spread out over the list instead of splintering the beginning of the list
 - segregated lists: keep separate lists to handle requests of fixed sizes
 - buddy allocation: keep blocks with size = some power of 2, then halve / merge them as you allocate and free
+
+## Chapter 18: Paging 1
+- chop up space into fixed sized pieces
+- addresses: first part = page number, second part = offset within the page
+- page table:
+	- one for each process
+	- stored in memory
+	- maps virtual page number to physical page number
+	- also contains
+		- valid bit: to mark virtual page numbers that aren't used yet (e.g. the empty space for the heap / stack to grow)
+		- protection bits: permissions
+		- reference bit: to track popular pages to ensure they don't get swapped out
