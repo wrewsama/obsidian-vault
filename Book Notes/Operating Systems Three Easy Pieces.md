@@ -240,3 +240,25 @@ allocation strategies:
 		- valid bit: to mark virtual page numbers that aren't used yet (e.g. the empty space for the heap / stack to grow)
 		- protection bits: permissions
 		- reference bit: to track popular pages to ensure they don't get swapped out
+
+## Chapter 19: TLB
+translation lookaside buffer (TLB):
+- caches virtual page number <> physical page number mappings
+- part of the MMU in hardware
+- when handling a virtual address, the hardware first checks the TLB
+	- TLB hit: extract that physical page number and append the offset bits to it
+	- on TLB miss:
+		- for CISC: handle directly using hardware, save location of page table in a special register
+		- for RISC: trap to OS and let the software handle
+		- in both cases, need to get the physical page number from the page table in memory, update the TLB, then retry the instruction
+- entries consist of:
+	- VPN
+	- PPN
+	- valid bit
+	- protection bits
+
+handling context switches:
+- translations are only valid for the currently running process
+- solutions
+	- flush TLB every context switch => many cache misses just after a switch
+	- add a address space identifier to each entry

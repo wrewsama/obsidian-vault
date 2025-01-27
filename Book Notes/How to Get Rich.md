@@ -85,3 +85,8 @@ tips:
 - In a partnership, making money comes first. Friendship and affection comes later - if you're lucky
 - private companies: balances investment and profit taking
 - going public: exists only to boost share price, which is determined by short-term growth
+
+## Chapter 13: Delegation
+- delegation and promotion promote meritocracy and make the company stronger
+- don't seek replicas of yourself to delegate to, find those that make up for your weaknesses
+- obsessive micromanagement scares away talent
