@@ -279,3 +279,27 @@ multi-level page tables:
 
 inverted page tables:
 - instead of a per-process table mapping VPN to PPN, have 1 table mapping PPN to process and VPN
+
+## Chapter 21: Swap Memory
+- required to support large address spaces with limited memory
+- stash away parts that aren't in great demand
+
+present bit: 
+- bit inside the page table entry to indicate if the page is in memory or swap
+- on TLB miss:
+	- if present, use that PPN
+	- if not, raise **page fault**
+	
+page fault handler:
+- if memory is full
+	- evict page based on some policy
+- read the PTE's page from disk into a free physical memory page
+- mark the PTE as present
+- change the PTE's PPN value to the page we just loaded to
+- retry the instruction (this will cause a TLB miss, which will work after another retry)
+
+when replacements occur:
+- predefined high and low watermarks (HW and LW)
+- when number of free pages < LW:
+	- trigger swap daemon (aka page daemon)
+	- evict pages until there are HW pages available
