@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper Notes/Attention is All You Need.md",
+                "file": "Book Notes/How to Get Rich.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attention is All You Need"
+              "title": "How to Get Rich"
             }
           }
         ],
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -179,11 +180,12 @@
   },
   "active": "0e9720132bc7cce5",
   "lastOpenFiles": [
-    "Paper Notes/Scaling Memcache at Facebook.md",
+    "Book Notes/Operating Systems Three Easy Pieces.md",
+    "Book Notes/Emotional Intelligence 2.0.md",
     "Paper Notes/Attention is All You Need.md",
+    "Paper Notes/Scaling Memcache at Facebook.md",
     "Paper Notes/Paper Notes.md",
     "Book Notes/How to Get Rich.md",
-    "Book Notes/Operating Systems Three Easy Pieces.md",
     "Book Notes/Never Split the Difference.md",
     "Book Notes/NoSQL Distilled.md",
     "Book Notes/Inside the Machine.md",
@@ -194,7 +196,6 @@
     "Book Notes/An Introduction to Quantitative Finance.md",
     "Main.md",
     "Book Notes/Book Notes.md",
-    "Book Notes/Emotional Intelligence 2.0.md",
     "README.md",
     "Random CS Notes/Behavioural/Self Intro.md",
     "Random CS Notes/Behavioural/Behavioural.md",

@@ -90,3 +90,31 @@ tips:
 - delegation and promotion promote meritocracy and make the company stronger
 - don't seek replicas of yourself to delegate to, find those that make up for your weaknesses
 - obsessive micromanagement scares away talent
+
+## Chapter 14: A Piece of the Pie
+incentives: used to bring sense of competition and purpose to management
+
+tips:
+- make annual bonuses generous
+- limit investment costs from ongoing businesses
+- keep costs down
+- never delegate the arrangement of bonuses
+- for seniors, insist on collective responsibility for bonuses
+- praise excellent work
+- fire malingerers, incompetents, etc.
+- avoid company perks
+- offer legal perks that you have _paid for yourself_
+- set an example of frugality
+- encourage senior managers to go over annual results 1-on-1
+- back up your managers
+- search out and promote talent
+- interview your rivals' talent
+- discourage secrecy
+- save some pie for suppliers
+- never bad-mouth rivals
+- sell early
+- enjoy the business of making money
+- never miss an opportunity to promote your asset
+
+
+

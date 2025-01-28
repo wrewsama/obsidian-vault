@@ -229,7 +229,7 @@ allocation strategies:
 - segregated lists: keep separate lists to handle requests of fixed sizes
 - buddy allocation: keep blocks with size = some power of 2, then halve / merge them as you allocate and free
 
-## Chapter 18: Paging 1
+## Chapter 18: Paging Intro
 - chop up space into fixed sized pieces
 - addresses: first part = page number, second part = offset within the page
 - page table:
@@ -262,3 +262,20 @@ handling context switches:
 - solutions
 	- flush TLB every context switch => many cache misses just after a switch
 	- add a address space identifier to each entry
+
+## Chapter 20: Other Page Tables
+
+paging + segmentation hybrid:
+- like segmentation, except the base and bounds registers are different
+- base: now holds the address of the page table for that _segment_
+- bounds: holds the number of page table entries that segment is using
+- saves space because we don't need page table entries for the unused region between the heap and stack
+
+multi-level page tables:
+- given $2^x$ byte page size, last $x$ bytes in the VPN are the bottom level page table's index, the $x$ bytes before that are the 2nd last level page table, and so on
+- the page table itself is split into pages
+- each page table above the bottom maps index to the address of the appropriate next level page table
+- for a higher level page table entry, if none of the physical pages under it are allocated, don't create any page table for it
+
+inverted page tables:
+- instead of a per-process table mapping VPN to PPN, have 1 table mapping PPN to process and VPN
