@@ -303,3 +303,23 @@ when replacements occur:
 - when number of free pages < LW:
 	- trigger swap daemon (aka page daemon)
 	- evict pages until there are HW pages available
+	
+## Chapter 22: Page Eviction Policy
+page replacement policies:
+- Want to minimise average memory access time (AMAT): $AMAT = T_M + (P_{miss} * T_D)$
+- misses
+	- cold/compulsory miss: when cache is empty
+	- capacity miss: cache ran out of space and evicted a page
+	- conflict miss: for set-associative (non fully-associative) caches when another page mapped to the same cache line evicts the page you want
+	- NOTE: OS caches are always fully-associative, so conflict misses don't happen
+- policies
+	- FIFO / Random
+		- disadvantage: can perform badly
+	- LFU / LRU
+		- disadvantage: overhead of updating data structures
+	- Clock algorithm
+		- approximates LRU
+		- set up the pages in a circle, give them each a `reference` bit and sweep a clock hand over them, if the page is free, check the `reference` bit. If it is set, unset it, else, select that page for eviction
+		- extension: also add a `dirty` bit, prefer evicting clean pages than dirty pages because they don't incur the overhead of writing to disk
+- thrashing: when memory demanded exceeds available physical memory and the system has to constantly swap
+	- admission control: kill some processes so at least some can run normally instead of trying to run everything poorly

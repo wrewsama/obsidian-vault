@@ -116,5 +116,19 @@ tips:
 - enjoy the business of making money
 - never miss an opportunity to promote your asset
 
-
+## Chapter 15: Focus
+- focus only on getting rich, not on any particular business or field
+- there is no substitute for good timing
+- focus on creating the right environment (i.e. hire the right people)
+	- never choose an important employee / supplier alone: get others to interview them too
+	- go further than the resume: make appointments with the person's previous company
+	- make notes, speak little
+	- attention to detail
+	- provide competitive and ruthlessly meritocratic salaries
+	- be alert for people who are unsuitable for the job they applied for but fit another role
+	- only hire winners, fire whiners swiftly
+	- ignore your prejudices, likes and dislikes
+	- bias towards promoting from within
+	- don't leave senior employees in one job for too long (1-2 years)
+- focus on doing an outstanding job
 
