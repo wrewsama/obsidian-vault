@@ -323,3 +323,28 @@ page replacement policies:
 		- extension: also add a `dirty` bit, prefer evicting clean pages than dirty pages because they don't incur the overhead of writing to disk
 - thrashing: when memory demanded exceeds available physical memory and the system has to constantly swap
 	- admission control: kill some processes so at least some can run normally instead of trying to run everything poorly
+
+## Chapter 23: Complete Virtual Memory Systems
+Linux V Mem + x86-64:
+- address space
+	- user portion
+	- kernel portion
+		- kernel logical addresses: for kernel data structures, cannot be swapped, 1 contiguous block in physical memory
+		- kernel virtual addresses: for large buffers, non-contiguous
+	- programs running in user mode can't access kernel mem, need to trap to the kernel first
+- page table
+	- x86 provides hardware-managed, multi-level page table structure
+	- 16 bit offset, 9 bits for each level (for 4 levels), 16 bits unused
+- huge pages
+	- (+) smaller page tables
+	- (+) better TLB hit rate
+	- (-) more internal fragmentation
+- page eviction: 2Q replacement
+	- 2 lists of pages: inactive and active
+	- first access: put in inactive list
+	- re-reference: move to active list
+	- replacement: take from inactive list
+	- periodically more from bottom of active list to inactive list, keeping active list to around 2/3 of total page cache size
+- address space layout randomisation (ASLR)
+	- randomise placement of different mem segments of a process (stack, heap etc.)
+	- prevent attacks that use a buffer overflow to rewrite the return address in the stack, causing the process to return to some malicious instruction

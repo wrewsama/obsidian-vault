@@ -132,3 +132,11 @@ tips:
 	- don't leave senior employees in one job for too long (1-2 years)
 - focus on doing an outstanding job
 
+## Chapter 16: Failure
+- closing costs: the hidden cost of failure
+- what to do
+	- see how much time is left
+	- see if it may have other uses not yet considered
+	- sell it
+	- downsize
+	- close
