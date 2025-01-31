@@ -140,3 +140,14 @@ tips:
 	- sell it
 	- downsize
 	- close
+
+## Chapter 17: The Upside-Down Pyramid for Getting Rich
+- Commit or don't commit. No half-assing it
+- cut loose from all negative influences
+	- lovers, friends, and especially family
+>For the purposes of this book, family, lovers, and friends are distractions, plain and simple.
+- choose the right mountain
+	- currently making a lot of other people rich
+	- new, or up-and-coming
+- fear nothing
+- start NOW

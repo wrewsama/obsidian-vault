@@ -12,6 +12,7 @@ design goals:
 - isolation between applications
 - reliability
 
+# Virtualisation
 ## Chapter 4: Processes
 process: abstraction for a running program
 process list / Process Control Block: data structure used by OS to keep track of all processes in the system
@@ -348,3 +349,14 @@ Linux V Mem + x86-64:
 - address space layout randomisation (ASLR)
 	- randomise placement of different mem segments of a process (stack, heap etc.)
 	- prevent attacks that use a buffer overflow to rewrite the return address in the stack, causing the process to return to some malicious instruction
+
+# Concurrency
+## Chapter 26: Intro to Concurrency
+- thread context switch
+	- save register state in thread control block (TCB)
+	- for different threads within the same process, share address space (and hence same page table)
+		- each thread creates its own stack within the same address space
+- issues
+	- non deterministic ordering
+	- shared data
+	- waiting interactions
