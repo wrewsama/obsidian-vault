@@ -360,3 +360,52 @@ Linux V Mem + x86-64:
 	- non deterministic ordering
 	- shared data
 	- waiting interactions
+
+## Chapter 27: Thread API
+
+Thread creation:
+```c
+#include <pthread.h>
+
+// creation
+pthread_create(&p, // pointer to thread
+	NULL, // attributes e.g. stack size, scheduling prio
+	fn, // function object
+	&args // pointer to the some collection of args
+ );
+
+// joining
+pthread_join(p,
+	&res // pointer to result variable, may need to cast
+);
+```
+
+locks:
+```c
+#include <pthread.h>
+pthread_mutex_t lock;
+int rc = pthread_mutex_init(&lock,
+	NULL // attributes
+);
+assert(rc == 0); // rc is the error code, 0 if no err
+
+pthread_mutex_lock(&lock)
+pthread_mutex_unlock(&lock)
+pthread_mutex_destroy(&lock)
+```
+
+condition variables:
+```c
+pthread_cond_t cond;
+int rc = pthread_cond_init(&cond,
+	NULL // attributes
+);
+assert(rc == 0); // rc is the error code, 0 if no err
+
+pthread_cond_wait(
+	&cond,
+	&lock,
+);
+pthread_cond_signal(&cond);
+pthread_cond_destroy(&cond);
+```

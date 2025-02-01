@@ -151,3 +151,29 @@ tips:
 	- new, or up-and-coming
 - fear nothing
 - start NOW
+
+## Chapter 18: Staying Rich
+- keep giving
+- after spending, gifting, loaning, or investing it, forget it.
+- never loan to friends
+	- you will lose your money and your friend
+- when you get rich, you will do dumb shit, get it out of your system fast
+- your oldest friends are your only friends
+- get used to being socially cut-off
+- don't lose touch with what's going on
+- develop a passion outside making money
+- get your own private advisors
+	- lawyer, tax advisor, accountant, etc.
+- watch for fraud in the early days
+- do not try to be friends with your staff
+- choose personal aides with enormous care
+- don't abuse your staff
+- be safe, invest in security if needed
+- never stop looking for and promoting talent
+- no deal is a "must-do"
+- lead, don't be led
+- stay healthy
+- if you're bored with a business, sell it
+- try to sell before you have to
+- retirement will kill you
+- being richer != being smarter
