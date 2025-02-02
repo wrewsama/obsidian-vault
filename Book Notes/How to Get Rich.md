@@ -177,3 +177,13 @@ tips:
 - try to sell before you have to
 - retirement will kill you
 - being richer != being smarter
+
+## Chapter 19: 8 Secrets to Getting Rich
+* Analyse your need. Desire is insufficient. Compulsion is mandatory.
+* Cut loose from negative influences. Never give in. Stay the course.
+* Ignore "great ideas". Concentrate on great execution.
+* Focus. Keep your eye on the ball marked "The Money is Here".
+* Hire talent smarter than you. Delegate. Share the annual pie.
+* Ownership is the real secret. Hold on to every percentage point you can.
+* Sell before you need to, or when bored. Empty your mind when negotiating.
+* Fear nothing and no one. Get rich. Remember to give it all away.

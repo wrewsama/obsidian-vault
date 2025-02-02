@@ -409,3 +409,42 @@ pthread_cond_wait(
 pthread_cond_signal(&cond);
 pthread_cond_destroy(&cond);
 ```
+
+## Chapter 28: Locks
+possible implementations:
+- controlling interrupts
+	- can be exploited by malicious programs to hog the CPU
+	- doesn't provide mutual exclusion on multiprocessors
+	- lost interrupts (e.g. notification that a read completed => OS can't wake the process up)
+- test-and-set instruction
+	- atomically updates pointer to given value and returns pointer's old value
+	- spin wait with `while(TestAndSet(lock->flag, 1) == 1);`, set `flag = 0` to unlock
+	- provides mutex, but doesn't guarantee fairness and has poor performance (spinning wastes CPU cycles)
+- compare-and-swap instruction
+	- atomic operation. Take in pointer, expected value, and new value. If pointer's value == expected, set pointer to new value and return that value, else return the old value of the pointer. 
+	- spin wait with `while(CompareAndSwap(lock->flag, 0, 1) == 1);`, set `flag = 0` to unlock
+	- same issues as TAS
+- load-linked + store-conditional
+	- `LoadLinked`: returns a pointer's value
+	- `StoreConditional`: atomically takes in a pointer loaded using `LoadLinked` and a value. If the pointer was updated between the LL and the SC, return 0, else, set the pointer to the value and return 1
+	- spin wait with `while(LoadLinked(lock->flag) || !StoreConditional(lock->flag, 1))`
+	- same issues as TAS
+- fetch-and-add
+	- atomically increment a pointer's value and return the old value
+	- give each caller a unique ticket number using FAA `int turn = FetchAndAdd(lock->ticket)`
+	- spin wait for its turn with `while(lock->turn != turn)`
+	- unlock by incrementing `lock->turn`, this doesn't have to be atomic since only 1 thread can be unlocking at 1 time
+	- ensures mutual exclusion and fairness but still has performance issues
+
+improvements:
+- let threads yield the CPU instead of spinning
+	- syscall that moves caller from `RUNNING` to `READY`
+	- let other threads do useful work
+- use queues
+	- store the waiting thread IDs in a queue and wake the first one when the lock is released
+	- prevents starvation
+
+2 phase locks:
+- phase 1: spin for a while, trying to acquire the lock
+- phase 2: yield (Linux uses a futex)
+
