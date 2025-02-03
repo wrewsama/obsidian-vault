@@ -10,3 +10,5 @@
 [[Influence]]
 [[Operating Systems Three Easy Pieces]]
 [[How to Get Rich]]
+[[The 50th Law]]
+[[Beating The Street]]

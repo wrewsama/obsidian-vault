@@ -448,3 +448,14 @@ improvements:
 - phase 1: spin for a while, trying to acquire the lock
 - phase 2: yield (Linux uses a futex)
 
+## Chapter 29: Lock-based Concurrent Data Structures
+Concurrent data structures
+- Counters
+	- Monitors: when calling routine, lock first, do work, then unlock when returning
+	- Approximate counters: each CPU core has its own counter, global counter gets updated periodically
+- linked lists
+	- hand-over-hand locking: 1 lock per _node_, when traversing, acquire next lock then release current lock
+- queues
+	- head & tail pointers with their own mutexes, along with a dummy node for the head
+- hashtable
+	- concurrent LL for each bucket
