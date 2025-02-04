@@ -459,3 +459,30 @@ Concurrent data structures
 	- head & tail pointers with their own mutexes, along with a dummy node for the head
 - hashtable
 	- concurrent LL for each bucket
+
+## Chapter 30: Condition Variables
+- _waits_ on a condition (and releases a mutex)
+- _signals_ one of the waiting threads to wake up (and reacquire that mutex)
+example:
+```c
+// signalling
+void signal_cond() {
+	lock(&mutex);
+	done = 1;
+	signal(&cond);
+	unlock(&mutex)
+}
+
+// waiting
+void wait_cond() {
+	lock(&mutex);
+	while (done == 0) { // for spurious wakeups
+		wait(&cond, &mutex);
+	}
+	unlock(&mutex)
+}
+```
+
+rules of thumb:
+- hold the lock when calling `signal` or `wait`
+- always use while loops to check the "underlying condition" (not the CV object itself, but the underlying variable the thread needs to check before starting up)

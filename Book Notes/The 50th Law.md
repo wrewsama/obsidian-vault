@@ -16,3 +16,29 @@ The 50th Law:
 	- See further ahead: set long term goals and see things based on whether or not they bring you closer to those goals
 	- Look at people's deeds, not words: Everyone is playing to win, and they will use manipulation and deception to do it. Learn to understand their purpose behind each action
 	- Reassess yourself: detach and assess what you did well and what you did poorly
+
+## Chapter 2: Make Everything Your Own - Self-Reliance
+- Your only real possessions that ever matter: your body, your time, your energy, your unique thoughts and ideas, and your autonomy
+- Working for others = trading freedom for money
+- Today's culture makes it too easy to make dependency a habit
+- When people give you things or do you favours, **it is always with strings attached**
+- What to do when working for others
+	- Reclaim dead time
+		- Treat your job like an apprenticeship, keenly observe and learn everything you can about the business
+	- Create little empires
+		- Take ownership of small parts (e.g. deprecated projects, new initiatives)
+	- Move higher up the food chain
+		- Understand that people are continually scheming to secure their own interests. Depending on them for advancement and protection will cause you to be let down or manipulated
+		- Climb higher and eliminate your dependencies
+	- Make your enterprise
+		- Create something that reflects your individuality. Don't try to repeat or emulate others.
+
+## Chapter 3: Turn Shit Into Sugar - Opportunism
+- Every negative situation contains an opportunity
+- Adopt an attitude opposite to most people
+	- when things are going well, be concerned and vigilant
+	- when things are going badly, become encouraged and fearless, then attack
+- An opportunist in life sees all hindrances as instruments for power
+- maximising opportunities:
+	- look for turning points: inexplicable sudden success / failures, shifts in tastes or values, etc.
+	- move before you are ready
