@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book Notes/The 50th Law.md",
+                "file": "Book Notes/Operating Systems Three Easy Pieces.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The 50th Law"
+              "title": "Operating Systems Three Easy Pieces"
             }
           }
         ],
@@ -194,16 +194,16 @@
   },
   "active": "8fab20c9e4b4c627",
   "lastOpenFiles": [
-    "Book Notes/Operating Systems Three Easy Pieces.md",
-    "Book Notes/Beating The Street.md",
     "Book Notes/The 50th Law.md",
-    "Book Notes/Book Notes.md",
-    "Book Notes/How to Get Rich.md",
-    "Random CS Notes/Theory/Python.md",
-    "Book Notes/Influence.md",
+    "Book Notes/Beating The Street.md",
+    "Book Notes/Operating Systems Three Easy Pieces.md",
     "Book Notes/Inside the Machine.md",
-    "Book Notes/Never Split the Difference.md",
+    "Book Notes/Influence.md",
+    "Book Notes/How to Get Rich.md",
     "Book Notes/Emotional Intelligence 2.0.md",
+    "Book Notes/Book Notes.md",
+    "Random CS Notes/Theory/Python.md",
+    "Book Notes/Never Split the Difference.md",
     "Paper Notes/Attention is All You Need.md",
     "Paper Notes/Scaling Memcache at Facebook.md",
     "Paper Notes/Paper Notes.md",

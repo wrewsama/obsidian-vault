@@ -7,3 +7,15 @@
 
 ## Chapter 2
 - Know drops in the market are coming, be ready to ride it out, and when your favourite stocks go down, jump at the chance to buy more
+
+## Chapter 3
+- put as much of your money into stock funds as you can
+- know what kind of funds you own
+	- Capital appreciation: any kind of stock
+	- Value: companies whose assets, not current earnings, are the main attraction
+	- Quality growth: well established and expanding at a respectable, steady rate
+	- Emerging growth: small companies
+	- Special situations: companies where something unique happened to change their prospects
+- divide your money among 3 or 4 types of stock funds
+- when adding money to your portfolio, put it in the fund invested in the sector that's been lagging the market for several years
+- don't constantly switch from one fund to another or try to predict future trends with past trends. Concentrate on solid performers and stick with those

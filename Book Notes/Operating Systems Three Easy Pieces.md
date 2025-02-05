@@ -486,3 +486,36 @@ void wait_cond() {
 rules of thumb:
 - hold the lock when calling `signal` or `wait`
 - always use while loops to check the "underlying condition" (not the CV object itself, but the underlying variable the thread needs to check before starting up)
+
+## Chapter 31: Semaphores
+methods:
+- `wait` / `P`: 
+	- decrement value
+	- if value is now negative, wait
+- `post` / `V`: 
+	- increment value
+	- if there are waiting threads, wake one of them up
+
+## Chapter 32: Common Concurrency Problems
+types of bugs:
+- atomicity violation
+- order violation
+- deadlocks
+
+dealing with deadlocks
+- prevention
+	- ensuring at least 1 of the 4 deadlock conditions cannot hold
+		- Mutual exclusion
+			- use lock-free data structures (e.g. by using instructions like CAS)
+		- hold and wait
+			- acquire all locks at the same time, atomically
+		- no preemption
+			- use a `try_lock` routine that returns an error if it can't acquire a lock, then release other locks and retry from the beginning
+		- circular wait
+			- partial/total ordering on all locks
+- avoidance
+	- use knowledge of which locks each thread wants to find a schedule that won't result in a deadlock
+	- e.g. Banker's Algorithm
+- Detect and recover
+	- let the deadlock happen, detect it, and restart
+	- detection can be done by building a resource graph and checking it for cycles

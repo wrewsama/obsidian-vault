@@ -42,3 +42,24 @@ The 50th Law:
 - maximising opportunities:
 	- look for turning points: inexplicable sudden success / failures, shifts in tastes or values, etc.
 	- move before you are ready
+
+## Chapter 4: Keep Moving - Calculated Momentum
+- Don't try to control the chaos - flow with it and don't stop moving
+- 4 types of flow
+	- Mental flow
+		- Don't compartmentalise your knowledge. When you learn something new, explore other related knowledge and keep your hunger for knowledge
+	- Emotional flow
+		- While you obviously shouldn't let your emotions control your actions, don't try to repress them either. Counterbalance, forget, and move past the feelings instead
+	- Social flow
+		- When working with others, provide a framework and let others help shape it instead of trying to control them
+	- Cultural flow
+		- As you get older, you tend to get locked in a style that is dead. You must periodically reinvent yourself
+
+## Chapter 5: Know When to Be Bad - Aggression
+- When you face people's indifference or hostility, you have to get aggressive and push them out of your way by any means necessary and not worry about some people disliking you
+- People **will** take from you what they can. One who tries to be good will surely come to ruin among the many who are not good.
+- The lion: aggressive, direct
+- The fox: cunning, acts like a righteous lamb but makes crafty power moves behind the scenes
+- Become a lion to deal with foxes and become a fox to counter lions
+- Don't conform to others' arbitrary, unchanging rules
+- If you cannot improve the relationship in any way, leave, create as much distance as possible, and regret nothing
