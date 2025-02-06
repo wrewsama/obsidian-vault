@@ -63,3 +63,16 @@ The 50th Law:
 - Become a lion to deal with foxes and become a fox to counter lions
 - Don't conform to others' arbitrary, unchanging rules
 - If you cannot improve the relationship in any way, leave, create as much distance as possible, and regret nothing
+
+## Chapter 6: Lead from the Front - Authority
+- leaders must lead fearlessly and by example
+- it is better to be feared than to be loved
+- the 4 roles of a leader
+	- the visionary
+		- a group of any size must have goals and long term objects to function properly, chart the way to that goal
+	- the unifier
+		- force all factions in the group to unite under your leadership
+	- the role model
+		- develop a team of lieutenants with your ideas, spirit and values
+	- the bold knight
+		- it is human nature to want to slow down and become more conservative with a larger group. Do the opposite and become bolder

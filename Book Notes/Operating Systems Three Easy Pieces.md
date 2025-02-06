@@ -519,3 +519,37 @@ dealing with deadlocks
 - Detect and recover
 	- let the deadlock happen, detect it, and restart
 	- detection can be done by building a resource graph and checking it for cycles
+
+## Chapter 33: Event-based Concurrency
+basic ideas:
+- event loop that gets recent events and processes them one by one
+- API to receive events: `select()` or `poll()`
+- problem: blocking syscalls will block the whole program
+
+async IO:
+- do a nonblocking read and poll the progress of the IO
+- alternatively, use signals to inform apps when an async IO completes
+
+## Chapter 36: I/O Devices
+modern system architecture:
+- CPU
+- Graphics connected to CPU via PCIe
+- I/O chip connected to CPU via Direct Media Interface
+- I/O chip connected to peripherals via PCIe, USB, eSATA, etc.
+
+device interface includes
+- command register
+- status register
+- data register
+
+I/O methods:
+- polling
+- interrupts
+
+Direct Memory Access (DMA):
+- instead of wasting CPU cycles copying data to/from a device, let a separate device (the DMA engine) do the copying
+- CPU can do other things while waiting on the DMA + I/O
+
+Device Driver:
+- piece of software within the OS
+- provide a general interface for the device to the major OS subsystems
