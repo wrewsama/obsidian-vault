@@ -553,3 +553,73 @@ Direct Memory Access (DMA):
 Device Driver:
 - piece of software within the OS
 - provide a general interface for the device to the major OS subsystems
+
+## Chapter 37: Hard Disk Drives
+model:
+- 512 byte sectors
+- multiple sectors on a track
+- multiple tracks forming concentric circles on both surfaces of a platter
+- multiple platters forming the disk drive itself
+- disk spins about the spindle while a disk head reads/writes each surface
+- disk arm moves the disk heads to the appropriate tracks
+
+latencies:
+- rotational delay
+- seek time
+- settling time
+
+disk scheduling:
+- unlike the job scheduler, the disk scheduler can estimate the shortest job
+- SSTF: Shortest Seek Time First
+- Elevator / SCAN: sweeps from outside-in and back and handles the disk accesses track by track
+- SPTF: Shortest Positioning Time First (like SSTF but factors in other latencies besides seek time)
+
+## Chapter 38: RAID
+RAID
+- Redundant Array of Inexpensive Disks
+- Uses multiple disks under the hood for capacity and reliability, but behaves like a large disk from the host system's perspective
+
+RAID levels
+- 0: Striping
+	- first x blocks at disk 0, next x blocks at disk 1, and so on till disk n, then start again at block 0
+	- no redundancy
+- 1: Mirroring
+	- Each block is on >1 disk
+	- reads go to any replica of the block, writes must update all
+- 4: Parity
+	- For each group of x disks, distribute blocks among x-1 of them and in the leftover disk, store the xors of the other disks (i.e. 1st block of the parity disk will be the xor over all the of the x-1 disks' 1st blocks)
+- 5: Rotating Parity
+	- Same as RAID 4, except the parity responsibility is rotated between the x blocks (e.g. block 0 has the 1st parity block while the others hold the data, block 1 has the next parity block, and so on)
+
+## Chapter 39: Files and Directories
+file:
+- linear array of bytes
+- has a low-level name called an inode number
+directory:
+- special file, also has an inode number
+- contents are a list of `(user_readable_name, inode_number)` tuples that represent the files/subdirectories inside
+
+data structures:
+- system-wide open file table: tracks inode, current offset, reference count, and permissions
+- file descriptor table: private per process, maps int to entry in the system-wide open file table, that int is the file descriptor
+
+common syscalls:
+- `open()`: open a file and return file descriptor for it, can also be used to create a new file
+- `read()`, `write()`, `close()`: self-explanatory, note that reads and writes start from the current `offset` value of the file
+- `lseek()`: manipulate `offset`
+- using `fork()` to create a child process will copy the file descriptor table, pointing to the same open file entries
+- `dup()`: create new file descriptor that refers to the same open file as another descriptor
+- `fsync()`: flush the `write` buffer
+- `rename()`: **atomically** rename a file, deleting any existing file with the same full filepath
+- `unlink()`: removes the link between the human-readable name of the file and its inode
+
+links:
+- hard links: creates new directory entry with a new human readable name linked to the same inode number
+	- because inode numbers are unique only within a file system, cannot go across file systems
+- soft links: 
+	- is a separate underlying file (and inode)
+	- contains the full filepath of the target file
+
+permission bits: 9 bits, `rwx` for owner / group / other
+
+mounting a file system: adding an extra filesystem to the directory tree
