@@ -219,3 +219,30 @@ def getHash(start, end):
 ## fractions
 - use `math.gcd` to get the gcd of both nums
 - store the numerator and denominator, divided by gcd as a tuple
+
+## Implementing priority queue with python heapq
+```python
+pq = []                         # list of entries arranged in a heap
+entry_finder = {}               # mapping of tasks to entries
+REMOVED = '<removed-task>'      # placeholder for a removed task
+counter = itertools.count()     # unique sequence count
+
+def add_task(task, priority=0):
+    if task in entry_finder:
+        remove_task(task)
+    count = next(counter)
+    entry = [priority, count, task]
+    entry_finder[task] = entry
+    heappush(pq, entry)
+
+def remove_task(task):
+    entry = entry_finder.pop(task)
+    entry[-1] = REMOVED
+
+def pop_task():
+    while pq:
+        priority, count, task = heappop(pq)
+        if task is not REMOVED:
+            del entry_finder[task]
+            return task
+```

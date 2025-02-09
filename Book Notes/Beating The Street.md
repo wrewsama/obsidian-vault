@@ -19,3 +19,7 @@
 - divide your money among 3 or 4 types of stock funds
 - when adding money to your portfolio, put it in the fund invested in the sector that's been lagging the market for several years
 - don't constantly switch from one fund to another or try to predict future trends with past trends. Concentrate on solid performers and stick with those
+
+## Chapter 5
+- Rule of 72: take annual return from any investment expressed as a percentage and divide 72 by it. This is the number of years it takes to double your money.
+- When yields on long-term govt bonds exceed the dividend yield of the S&P 500 by 6% or more, sell your stocks and buy bonds

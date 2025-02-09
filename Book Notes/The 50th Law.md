@@ -76,3 +76,33 @@ The 50th Law:
 		- develop a team of lieutenants with your ideas, spirit and values
 	- the bold knight
 		- it is human nature to want to slow down and become more conservative with a larger group. Do the opposite and become bolder
+
+## Chapter 7: Know Your Environment from the Inside Out - Connection
+- Think first of the audience, their changing needs and trends
+- Don't see yourself as a separate group from your audience (even if you aren't actually using your own product / service)
+- strategies
+	- Crush all distance
+	- Open informal channels of criticism and feedback
+	- Reconnect with your base
+		- People often become disconnected from their original audience after achieving success. Don't lose that connection
+	- Create the social mirror
+		- Use the feedback from others to adjust yourself, ignore your ego
+## Chapter 8: Respect the Process - Mastery
+- Fools want things fast and easy. But whatever they get is lost faster than they get it
+- You must endure the hours of boredom and drudgery
+- Do not separate work and pleasure. Your pleasure comes from the mental immersion of mastering the process.
+- Strategies for developing the proper relationship to the process:
+	- Progress through trial and error
+	- Master something simple: pick one small part of your goal and devote yourself to mastering it first
+	- Internalise the rules of the game: when you enter a new group, patiently observe and learn the rules that govern behaviour
+	- Attune yourself to the details: Become immersed in the fine points of a project
+	- Rediscover your natural persistence: 
+		- Focus on a single thing at a time
+		- Break things up into smaller chunks of time
+
+## Chapter 9: Push Beyond Your Limits - Self-Belief
+- Ask for more, aim high, and believe you are destined for something great
+- Your opinion of yourself becomes reality - have high ambitions and a strong ego
+- **The unpopularity of power and ambition comes from an unconscious desire to keep other people down**
+- constantly reinvent yourself
+- create a sense of destiny

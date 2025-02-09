@@ -623,3 +623,44 @@ links:
 permission bits: 9 bits, `rwx` for owner / group / other
 
 mounting a file system: adding an extra filesystem to the directory tree
+
+## Chapter 40: File System Implementation
+data structures:
+- data region (blocks of the actual file data)
+- free lists
+	- bitmaps indicating which blocks are used
+	- for data and inodes
+- superblock: tracks total numbers of inode and data blocks
+- inodes
+	- locations of data blocks
+		- some direct pointers directly to the data blocks
+		- indirect pointers pointing to another block with direct pointers to the data blocks
+	- other metadata e.g. type, size, protection info, etc.
+
+reading file:
+1. call `open`
+	1. access the inodes of all the directories along the file path (starting from root)
+		- read the inode data to find the inode of the next subdir / file
+	2. access the inode of the desired file
+2. for each `read` call
+	1. use the inode to find the data block and read it
+	2. update the offset in the inode
+
+creating and writing to file:
+1. call `open`
+	1. traverse the inodes like in the read case until you reach the last directory
+	2. read the inode bitmap to find a space to allocate a new inode for the new file, mark it as taken
+	3. create the new inode
+	4. update the last directory to include the new file and its inode number
+2. for each `write` call:
+	1. if a new data block is needed, find it in the data bitmap and then mark it as taken
+	2. write to the data block
+	3. update the inode's offset and add in a pointer to the new data block if needed
+
+## Chapter 41: Locality and the Fast File System
+- FFS: improves performance of VSFS (very simple file system, the implementation in [[#Chapter 40 File System Implementation]])
+- disk is divided into cylinder groups (aka block groups) to minimise seek times
+- each group has its own data structures
+- file data is stored in the same group as their inodes, files in the same directory are in the same group
+- large blocks are used to decrease positioning overhead
+	- small files are kept in smaller sub-blocks and copied into a full block when it grows big enough (4kb)
