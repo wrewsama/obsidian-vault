@@ -106,3 +106,11 @@ The 50th Law:
 - **The unpopularity of power and ambition comes from an unconscious desire to keep other people down**
 - constantly reinvent yourself
 - create a sense of destiny
+
+## Chapter 10: Confront Your Mortality - The Sublime
+- The most precious thing in life is its uncertainty - it could end at any time
+- Embrace the fact that:
+	- You have a limited amount of time to live
+	- This time will inevitably involve pain and separation
+- Convert your consciousness of death into something positive and active
+- If attaining goals is your greatest source of pleasure, you will have purpose. When your death comes, you will have no regrets

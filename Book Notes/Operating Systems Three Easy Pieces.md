@@ -664,3 +664,15 @@ creating and writing to file:
 - file data is stored in the same group as their inodes, files in the same directory are in the same group
 - large blocks are used to decrease positioning overhead
 	- small files are kept in smaller sub-blocks and copied into a full block when it grows big enough (4kb)
+
+## Chapter 42: Crash Consistency
+- crash consistency: ensuring that even in a system crash / power loss, the on-disk data structures (bitmaps, inodes, and data) do not contradict each other (e.g. inode pointing to block that the bitmap thinks isn't allocated)
+- solutions
+	- `fsck` (File System Checker): scans all the data structures and checks if everything is in a consistent state
+	- Journaling / Write-Ahead Logging
+		- write data
+		- write metadata (inode and bitmap) to the journal
+		- write transaction commit block to the journal to commit the journal entry
+		- checkpoint metadata (write it to disk)
+		- if disk fails while writing metadata, can recover by replaying journal entries
+		- if checkpoint successful, free the journal entry

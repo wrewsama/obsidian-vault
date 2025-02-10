@@ -23,3 +23,6 @@
 ## Chapter 5
 - Rule of 72: take annual return from any investment expressed as a percentage and divide 72 by it. This is the number of years it takes to double your money.
 - When yields on long-term govt bonds exceed the dividend yield of the S&P 500 by 6% or more, sell your stocks and buy bonds
+
+## Chapter 6
+- A clue to a bank's trouble is the behaviour of its bonds
