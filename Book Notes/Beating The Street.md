@@ -26,3 +26,8 @@
 
 ## Chapter 6
 - A clue to a bank's trouble is the behaviour of its bonds
+
+## Chapter 7
+- recessions will always end sooner or later, and in a beaten-down market there are bargains everywhere you look
+- buy when stock price is at or below earnings line
+- buying, selling and forgetting a long string of companies is not likely to succeed, it's better to stick to a manageable number of companies and learn how it behaves in recessions and what factors affect the earnings

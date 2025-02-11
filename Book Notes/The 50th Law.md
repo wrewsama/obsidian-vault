@@ -1,7 +1,7 @@
 ## Introduction
 
 The 50th Law:
->The greatest feat people have is that of being themselves. They want to be 50 Cent or someone else. They do what everyone else does even if it doesn't fit where and who they are. But you get nowhere that way; Your energy is weak and no one pays attention to you. You're running away from the one thing that you own - what makes you different. I lost that feat. And once I felt the power that I had by showing the world I didn't care about being like other people, I could never go back. - 50 Cent
+>The greatest fear people have is that of being themselves. They want to be 50 Cent or someone else. They do what everyone else does even if it doesn't fit where and who they are. But you get nowhere that way; Your energy is weak and no one pays attention to you. You're running away from the one thing that you own - what makes you different. I lost that fear. And once I felt the power that I had by showing the world I didn't care about being like other people, I could never go back. - 50 Cent
 
 > It is better to be impetuous than cautious, because fortune is a woman, and if you wish to dominate her you must beat her and batter her. - Niccolo Machiavelli
 

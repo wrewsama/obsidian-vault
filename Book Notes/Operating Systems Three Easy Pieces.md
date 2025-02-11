@@ -676,3 +676,44 @@ creating and writing to file:
 		- checkpoint metadata (write it to disk)
 		- if disk fails while writing metadata, can recover by replaying journal entries
 		- if checkpoint successful, free the journal entry
+
+## Chapter 43: Log-Structured File Systems
+- motivation: decrease random access in favour of sequential disk access
+- only 2 regions
+	- non-checkpoint: everything else (data, inodes, etc.)
+		- every new 'version' of a file / inode is appended after the previous
+		- this is buffered in an in-memory segment
+		- when a segment is sufficiently full, or after some time, it is written to disk
+		- inode map / imap: maps inode number to most address of recent version of that inode
+	- checkpoint: pointers to latest pieces of the inode map, updated periodically
+- garbage collection
+	- cleaner process periodically reads, frees garbage in, then compacts several old segments at once
+	- block liveness within each segment is tracked in the segment summary block
+- crash detection / recovery
+	- checkpoint region
+		- write timestamps before and after the CR itself, if crash, timestamps will be inconsistent
+		- choose most recent CR with consistent timestamps
+	- segment
+		- start with latest checkpoint and roll forward in the log
+
+## Chapter 44: Flash-based SSDs
+structure
+- flash: stores some bits based on the charge stored inside
+- flashes are grouped together in pages
+- pages are grouped together in blocks
+
+operations
+- read a page
+- erase a block (note that you can't erase only 1 page in the block)
+- program a page (cannot rewrite a page, must erase the block and write on an empty page)
+
+flash translation layer (FTL)
+- Used to translate between logical blocks used by the OS and physical blocks on the SSD
+- log structured to minimise erases
+- in memory mapping table remembers logical <> physical mapping
+- GC
+	- periodically scan old blocks, if there are still live pages, write them out to another block, then free the current block
+	- if there are no live pages, just free the block (this is why sequential IO is still faster even on SSDs)
+- wear levelling
+	- ensure all blocks wear out at roughly the same time, done by spreading writes across all pages
+	- for long lived data, need to periodically rewrite them elsewhere so the current block can take some write load
