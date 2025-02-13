@@ -12,3 +12,5 @@
 [[How to Get Rich]]
 [[The 50th Law]]
 [[Beating The Street]]
+[[The Effective Engineer]]
+[[Fluent Python]]

@@ -717,3 +717,60 @@ flash translation layer (FTL)
 - wear levelling
 	- ensure all blocks wear out at roughly the same time, done by spreading writes across all pages
 	- for long lived data, need to periodically rewrite them elsewhere so the current block can take some write load
+
+## Chapter 45: Data Integrity and Protection
+disk failure modes:
+- fail-stop: either whole disk is working or whole disk fails
+- fail-partial: parts of the disk can fail
+	- latent sector errors: damaged sector hardware
+	- corruption
+	- misdirected writes
+	- lost writes
+
+implementation:
+- RAID redundancy to reconstruct sectors with LSEs
+- checksums in the disk block to detect corruption
+- tracking PID in each disk block to detect misdirected writes
+- checksums in the inode to detect lost writes
+
+scrubbing: periodically reading every block and checking if the checksums are still valid
+
+## Chapter 48: Distributed Systems
+Remote Procedure Calls (RPC):
+- stub generator: takes in an interface and generates the required stubs
+	- client stub:
+		- create and pack message buffer with marshalled request then send
+		- unmarshal return code and response
+		- return to caller
+	- server stub:
+		- unmarshal request
+		- call actual server function
+		- marshal response and send
+- run-time library
+	- locate remote service
+	- send/receive messages to/from the transport layer protocol
+
+## Chapter 49: Sun's Network File System (NFS)
+idea: multiple clients connect to a server and use the server's disk for storage
+
+benefits:
+- data sharing
+- centralised administration
+- physical security
+
+## Chapter 50: Andrew File System (AFS)
+purpose: increase scale
+
+idea:
+- whole file caching on client side
+- callback from server to client when cached file has been modified
+
+## Appendix B: Virtual Machine Monitors
+- aka hypervisor
+- sits between OSes and gives each OS the illusion that it's controlling the hardware
+- basic idea: 
+	- when program tries to trap to the OS (e.g. syscalls, TLB miss), jump to VMM's trap handler instead
+	- VMM calls host OS trap handler
+	- `return-from-trap` jumps back to VMM
+	- VMM jumps back to program
+	

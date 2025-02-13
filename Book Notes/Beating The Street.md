@@ -31,3 +31,23 @@
 - recessions will always end sooner or later, and in a beaten-down market there are bargains everywhere you look
 - buy when stock price is at or below earnings line
 - buying, selling and forgetting a long string of companies is not likely to succeed, it's better to stick to a manageable number of companies and learn how it behaves in recessions and what factors affect the earnings
+
+## Chapter 8
+- if you like the store, chances are you'll love the stock
+- rule of thumb: stock should sell at or below its growth rate (e.g. a stock with a x% growth rate should have a p/e ratio <= x)
+
+## Chapter 11
+- In business, competition is never as healthy as total domination
+- Dominating a stagnant market is better than struggling in a great market. That's the advantage of 'lousy' industries
+
+## Chapter 12
+Rating a S&L (Savings and loans) stock
+- Current price
+- Initial Offering Price
+- Equity-to-Assets Ratio
+- Dividend
+- Book Value
+- P/E Ratio
+- High-Risk Real Estate Assets
+- 90-Day Nonperforming Assets
+- Real Estate Owned
