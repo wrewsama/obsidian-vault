@@ -37,3 +37,24 @@
 	- Write to teach
 	- Side projects (_actively_ pursue what you're passionate about)
 	
+## Chapter 3: Prioritise Regularly
+- Prioritise tasks with the highest impact per unit time
+- The act of prioritisation is one of those high impact tasks, schedule it regularly
+- Track to-dos in a single, easily accessible list
+- Protect your Maker Time. Block off hours on your calendar
+- Don't try to multi-task too many things at once
+- If-Then plans: _if_ (trigger) _then_ I will (do something)
+	- counters procrastination
+	- e.g. If it's after lunch then I will xxx, If I have 20 minutes before my next activity, then I will (do some short task)
+
+## Chapter 4: Invest in Iteration Speed
+- identify your bottlenecks and shorten your worst bottlenecks
+- deployment cycles: use continuous deployment with small changes each time
+- development time: invest in mastering / building tools to save time coding, compiling, and testing
+	- master your IDE
+	- get familiar with Unix CLI commands
+	- prefer keyboard over mouse
+	- automate manual workflows (>2 times, automate)
+	- test ideas on an interactive interpreter / REPL
+- debugging: shorten the testing workflow by setting up scripts / tools
+- non-engineering bottlenecks: seek approval / feedback early, communicate with collaborators to avoid getting blocked

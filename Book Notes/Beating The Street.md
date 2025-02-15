@@ -51,3 +51,11 @@ Rating a S&L (Savings and loans) stock
 - High-Risk Real Estate Assets
 - 90-Day Nonperforming Assets
 - Real Estate Owned
+
+## Chapter 15
+cyclicals: stocks that periodically rise and fall
+- metal producers
+- paper producers
+- auto manufacturers
+- chemicals
+- airlines
