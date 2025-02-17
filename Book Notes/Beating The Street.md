@@ -59,3 +59,6 @@ cyclicals: stocks that periodically rise and fall
 - auto manufacturers
 - chemicals
 - airlines
+
+## Chapter 21
+- a healthy portfolio requires a regular checkup - every 6 months or so

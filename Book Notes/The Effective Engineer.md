@@ -58,3 +58,19 @@
 	- test ideas on an interactive interpreter / REPL
 - debugging: shorten the testing workflow by setting up scripts / tools
 - non-engineering bottlenecks: seek approval / feedback early, communicate with collaborators to avoid getting blocked
+
+## Chapter 5: Measure What You Want To Improve
+- Importance of good metrics
+	- Helps focus on the right things
+	- Guard against regressions
+	- Measure your own effectiveness over time (i.e. your leverage)
+- Set up instrumentation to collect key metrics
+- Memorise useful numbers (e.g. common latencies): Helps estimate metrics of a design before even building it
+- Your best defense against data abuse is skepticism - does the conclusion from the data actually make sense? Is the data even correct?
+- strategies to improve data integrity
+	- log data liberally
+	- build tools to iterate on data accuracy more easily
+	- write end-to-end tests on the entire analytics pipeline
+	- examine collected data and suspicious numbers ASAP
+	- cross validate by calculating the same metric in multiple ways and comparing the results
+	

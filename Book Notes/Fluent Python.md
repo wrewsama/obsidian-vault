@@ -67,3 +67,79 @@ a, (b, c), d = (1, (2, 3), 4) # unpacking nested tuples
 - create a `memoryview(arr)`
 - `cast` it to different shapes
 - the views can be manipulated and the underlying view will change
+
+## Chapter 3: Dictionaries and Sets
+#### Dealing with missing keys
+- `setdefault`: If `key not in hm`, store `default` in `hm[key]`. Returns the value of `hm[key]`.
+- `defaultdict`: calls a provided factory function to return a default value
+- `__missing__` method: for custom dict-like objects, automatically invoked when `__getitem__` raises a `KeyError`
+```python
+hm.setdefault(key, default=[]).append(x)
+
+from collections import defaultdict
+dd = defaultdict(int) # calls int() for missing keys
+```
+
+#### Custom mapping class
+- Subclass `UserDict`
+- Override special methods as needed
+- Note that `UserDict` doesn't inherit from `dict`, it stores a `dict` under the `data` field
+
+#### Immutable Mapping
+```python
+from types import MappingProxyType
+d = {}
+readonly = MappingProxyType(d)
+```
+
+#### Dictionary Views
+- `d.keys()`: 'set' of all keys
+- `d.values()`: 'set' of all values
+- `d.items()`: 'set' of (key, value) tuples
+- not actual `set` objects, but have similar functionality to immutable sets (`frozenset`)
+
+#### Set Operations
+- union: `a & b`
+- intersection: `a | b`
+- difference: `a - b`
+- symmetric difference: `a ^ b`
+
+#### Hashing Implementation
+**algo**
+1. compute hashcode
+2. compute index (hashcode % table size)
+3. if bucket at index is empty, store hashcode and data there
+4. comparing with the hashcode and data in the bucket, if both hashcodes and both data are the same, we know the element is in the set already, skip
+5. compute next index and goto 3
+
+**set storage**
+single table storing (hash code, pointer to element)
+
+**compact dict storage**
+- issue: single table allocates space for hashcode and pointers even if bucket is empty
+- add layer of indirection. Store an index in the hash table and store the hashcode and pointers in a different array
+
+**split table**
+- used only to fill the `__dict__` special attribute of each instance of a class
+- intuition: since the attribute names for every instance of a particular class is going to be the same (along with their hashcodes) , store 1 hashtable mapping hashcodes/keys to buckets and let each instance have its own array of values
+
+## Chapter 4: Text vs Bytes
+- `s.encode(encoding)` / `s.decode(encoding)`: convert from string to bytes and back with the provided encoding
+- `bytes`: immutable binary sequence
+- `bytearray`: mutable binary sequence
+- `encode` has an optional parameter `errors` defining what to do upon a `UnicodeEncodeError` (i.e. an unsupported character)
+	- e.g. ignore, replace, etc.
+- Unicode sandwich: best practice for IO, decode bytes -> string as early as possible, encode string -> bytes as late as possible, do all processing on text
+	- specify encoding like: `open(filename, 'r', encoding='utf-8')`
+	- mac and Linux use utf-8 by default but Windows uses something else
+- Unicode normalisation
+	- issue: characters can be composed in multiple ways (e.g. `é` and `e\u0301` both render to the same thing, (U+301 is known as a combining character))
+	- `unicodedata.normalize(mode, string)`
+	- common modes: `NFC` composes to shortest equivalent string, `NFD` does the opposite decomposition
+	- combining characters can be found with `unicodedata.combining(c)`
+- sorting Unicode text:
+```python
+from pyuca import Collator
+col = Collator()
+arr.sort(key=col.sort_key) # properly treats modified letters like é as e
+```
