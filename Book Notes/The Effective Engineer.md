@@ -88,3 +88,25 @@
 	- Schedule projects to run in parallel with teammates' related projects => shared context, easy feedback
 	- Get buy-in for controversial features: surface your ideas and build prototypes
 - In all decisions, build feedback loops - either direct feedback or metrics
+
+## Chapter 7: Improve Your Project Estimation Skills
+ways to improve estimation accuracy:
+- Decompose project into granular tasks. Long estimates are more inaccurate
+- Estimate based on how long the task will take, not how long you want them to take
+- Estimate with a probability distribution
+	- e.g. "50% chance this gets done in x days, 90% in y days"
+- Let the person doing the task make the estimate
+- Avoid the anchoring bias (chapter 6 in [[Never Split the Difference]])
+- Estimate via multiple approaches
+	- e.g. task-by-task, section-by-section, comparing against historical data, etc.
+- timebox open-ended tasks (e.g. research)
+- allow others to challenge estimates
+- add in buffer time to prepare for the unknown
+
+ways to deliver within the estimated time
+- Set milestones and prioritise based on that
+- Validate the riskiest parts first
+
+miscellaneous tips
+- Beware of rewrite projects. They are very easy to underestimate.
+- Don't sprint in a marathon: don't rush yourself, overwork, and burn out
