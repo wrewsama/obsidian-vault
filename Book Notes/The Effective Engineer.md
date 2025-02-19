@@ -73,4 +73,18 @@
 	- write end-to-end tests on the entire analytics pipeline
 	- examine collected data and suspicious numbers ASAP
 	- cross validate by calculating the same metric in multiple ways and comparing the results
-	
+
+## Chapter 6: Validate Your Ideas Early and Often
+- The shorter each iteration/feedback cycle, the faster we can learn from our mistakes
+- quick ways to get feedback on a new feature
+	- Build an MVP instead
+	- Run A/B experiments
+	- Fake change: e.g. Asana tested a signup button's impact by making a fake one that only displayed a popup saying the feature wasn't ready yet. Only after ascertaining the impact did they implement it
+- ways to get feedback on your own implementation
+	- Commit and send code for review early and often
+	- Bounce ideas off teammates
+	- Design API first: makes all the interactions between parts clear
+	- Share a design document before starting development
+	- Schedule projects to run in parallel with teammates' related projects => shared context, easy feedback
+	- Get buy-in for controversial features: surface your ideas and build prototypes
+- In all decisions, build feedback loops - either direct feedback or metrics

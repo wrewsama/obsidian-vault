@@ -143,3 +143,57 @@ from pyuca import Collator
 col = Collator()
 arr.sort(key=col.sort_key) # properly treats modified letters like é as e
 ```
+
+## Chapter 5: Record-like Data Structures
+ways:
+- `collections.namedtuple`
+	- provide the names of each field in the constructor
+- inheriting from `typing.NamedTuple`
+	- declare the variable names along with type hints like a dataclass
+- annotating class with `@dataclasses.dataclass`
+
+dataclass example:
+```python
+from dataclasses import dataclass, field
+
+# can set options in annotation (e.g. immutability, whether to generate eq/repr/etc. methods)
+@dataclass(frozen=True) 
+class DC:
+	a: int
+	b: float = 3.5 # all params with default vals must be grouped at the bottom
+	c: list = field(default_factory=list) # default vals must be immutable
+```
+
+`__post_init__(self)`: runs after constructor is called
+`dataclasses.InitVar`: variable that's only passed into the constructor for initialisation, should not be a field
+
+`struct` module: convert fields of bytes into Python tuples and back
+- usage: call `struct.unpack(FORMAT, data)` where `FORMAT` is a string representing the types of each field
+- **should only be used for legacy support**
+- alternatives for binary exchange:
+	- `pickle`: only other Python apps
+	- protobuf or MessagePack or JSON: multiplatform 
+
+## Chapter 6: References, Mutability, Recycling
+- `==` compares values, `is` compares identities
+- deep copies (don't share references of nested objects): `copy.deepcopy` (also handles cyclic references)
+- function parameters are passed by reference by default
+
+the classic mutable parameter default mistake:
+```python
+# WRONG
+def foo(arr=[]): # every call to foo references this same list
+	pass
+
+# CORRECT
+def foo(arr=None):
+	if arr is None:
+		arr = []
+	pass
+```
+
+- `del` deletes _names_, not _objects_
+- objects are only removed when the GC sees that:
+	- no more references (reference-counting)
+	- object is unreachable (generational GC)
+- special case: _weak references_(`weakref`) don't count as a 'reference' by the GC (i.e. if the only references left on an object are weak, the object is still GC'ed)

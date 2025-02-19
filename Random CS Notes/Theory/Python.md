@@ -46,6 +46,28 @@ def deco_with_args(arg1):
 def foo():
 	pass
 ```
+
+**decorator with optional args**
+works with both `@dec` and `@dec(arg=123)`
+```python
+def deco_with_args(func=None, arg1=69):
+    def deco(func):
+        def wrapper(*args, **kwargs):
+            print(f'decorated with {arg1}')
+            return func(*args, **kwargs)
+        return wrapper
+
+    if func is not None:
+        return deco(func)
+    return deco
+
+@deco_with_args(arg1=35)
+def foo():
+	pass
+@deco_with_args
+def bar():
+	pass
+```
 ## args and kwargs
 args: tuple of all arguments
 kwargs: dictionary mapping keyword to value

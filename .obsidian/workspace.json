@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "6d3016a941fdf218",
+        "id": "16d55b5a38522ac8",
         "type": "tabs",
         "children": [
           {
-            "id": "8fab20c9e4b4c627",
+            "id": "daa19ae432dddb7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Book Notes/Book Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Book Notes"
+            }
+          },
+          {
+            "id": "f9fe5c056dc5ddab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +35,8 @@
               "title": "Fluent Python"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,21 +178,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8fab20c9e4b4c627",
+  "active": "f9fe5c056dc5ddab",
   "lastOpenFiles": [
-    "Book Notes/Beating The Street.md",
+    "Book Notes/The Effective Engineer.md",
+    "Book Notes/TCP IP Illustrated.md",
+    "Book Notes/Book Notes.md",
+    "TCP/IP Illustrated.md",
+    "TCP",
+    "Random CS Notes/Theory/Networking.md",
+    "Book Notes/Fluent Python.md",
+    "Random CS Notes/Theory/Python.md",
     "Book Notes/How to Get Rich.md",
+    "Book Notes/Influence.md",
+    "Book Notes/Refactoring.md",
+    "Book Notes/Beating The Street.md",
     "Book Notes/NoSQL Distilled.md",
     "Book Notes/Never Split the Difference.md",
     "Book Notes/Operating Systems Three Easy Pieces.md",
-    "Book Notes/Refactoring.md",
-    "Book Notes/Fluent Python.md",
-    "Book Notes/The Effective Engineer.md",
     "Book Notes/Understanding Distributed Systems.md",
     "Book Notes/The 50th Law.md",
-    "Book Notes/Book Notes.md",
     "Random CS Notes/Theory/Data Structures and Algorithms.md",
-    "Random CS Notes/Theory/Python.md",
     "Random CS Notes/Theory/Databases.md",
     "Random CS Notes/Theory/Docker.md",
     "Random CS Notes/Theory/Git.md",
@@ -187,10 +207,6 @@
     "Random CS Notes/Theory/Kubernetes.md",
     "Random CS Notes/Theory/Message Broker.md",
     "Random CS Notes/Theory/Microservices and Distributed Systems.md",
-    "Random CS Notes/Theory/Spring.md",
-    "Random CS Notes/Theory/Spark.md",
-    "Random CS Notes/Theory/Operating Systems.md",
-    "Book Notes/Inside the Machine.md",
     "Images/Pasted image 20241214191719.png",
     "Images/Pasted image 20241214191217.png",
     "Images/Pasted image 20241201163641.png",
