@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "daa19ae432dddb7d",
+            "id": "59c87efe3a91e30f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book Notes/Book Notes.md",
+                "file": "Book Notes/The Effective Engineer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Book Notes"
-            }
-          },
-          {
-            "id": "f9fe5c056dc5ddab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Book Notes/TCP IP Illustrated.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TCP IP Illustrated"
+              "title": "The Effective Engineer"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -178,16 +164,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9fe5c056dc5ddab",
+  "active": "59c87efe3a91e30f",
   "lastOpenFiles": [
+    "Book Notes/TCP IP Illustrated.md",
+    "Book Notes/High Performance MySQL.md",
+    "Book Notes/Book Notes.md",
     "Book Notes/The Effective Engineer.md",
     "Book Notes/Never Split the Difference.md",
-    "Book Notes/TCP IP Illustrated.md",
     "Book Notes/Understanding Distributed Systems.md",
     "Book Notes/Influence.md",
     "Book Notes/How to Get Rich.md",
     "Book Notes/Fluent Python.md",
-    "Book Notes/Book Notes.md",
     "TCP/IP Illustrated.md",
     "TCP",
     "Random CS Notes/Theory/Networking.md",
@@ -206,7 +193,6 @@
     "Random CS Notes/Theory/JavaScript.md",
     "Random CS Notes/Theory/Kubernetes.md",
     "Random CS Notes/Theory/Message Broker.md",
-    "Random CS Notes/Theory/Microservices and Distributed Systems.md",
     "Images/Pasted image 20241214191719.png",
     "Images/Pasted image 20241214191217.png",
     "Images/Pasted image 20241201163641.png",

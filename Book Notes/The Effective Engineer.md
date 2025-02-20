@@ -110,3 +110,15 @@ ways to deliver within the estimated time
 miscellaneous tips
 - Beware of rewrite projects. They are very easy to underestimate.
 - Don't sprint in a marathon: don't rush yourself, overwork, and burn out
+
+## Chapter 8: Balance Quality with Pragmatism
+- Establish sustainable code review processes
+- Develop good abstractions
+	- easy to learn and use, even without documentation
+	- hard to misuse
+	- satisfies requirements
+	- easy to extend
+	- appropriate to audience
+- automate testing
+	- but don't get hung up on 100% code coverage
+- promptly repay tech debt

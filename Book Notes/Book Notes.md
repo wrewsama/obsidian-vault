@@ -15,3 +15,4 @@
 [[The Effective Engineer]]
 [[Fluent Python]]
 [[TCP IP Illustrated]]
+[[High Performance MySQL]]
