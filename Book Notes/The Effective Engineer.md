@@ -122,3 +122,19 @@ miscellaneous tips
 - automate testing
 	- but don't get hung up on 100% code coverage
 - promptly repay tech debt
+
+## Chapter 9: Minimise Operational Burden
+- easier operation => easier to scale
+- Embrace Simplicity
+	- the first solutions are usually very complex, distill them into more elegant, simple solutions
+- Build Systems to Fail Fast
+	- Bad changes should make the system fail immediately, so that they can be fixed immediately and the offending change can be easily found
+- Automate mechanical tasks
+	- caveat: trying to automate decision-making is significantly more costly
+- Make batch processes idempotent
+	- easy to retry
+	- allows you to frequently schedule tasks that are only run occasionally (same as failing fast)
+- Practice responding and recovering quickly
+	- Disaster recovery testing
+	- preparing scripts for possible situations
+	

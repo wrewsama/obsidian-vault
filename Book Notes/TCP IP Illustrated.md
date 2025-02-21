@@ -38,3 +38,12 @@ RTS/CTS (request to send / clear to send):
 Loopback:
 - allow clients to communicate with servers on the same computer
 - IPv4 addresses starting with 127 are reserved for this
+
+## Chapter 4: ARP
+- map IPv4 addresses to hardware addresses
+- note: IPv6 uses Neighbour Discovery Protocol (inside ICMPv6), NOT ARP
+- process
+	- ARP request (broadcast) containing desired IPv4 address
+	- host sends ARP reply with its MAC address, also learns sender's IPv4 to MAC address
+- ARP cache: each host and router caches recent IPv4 <> MAC mappings, default expiry time = 20 minutes
+- Gratuitous ARP: host sends ARP request for its own IPv4 address; detect others using the same address
