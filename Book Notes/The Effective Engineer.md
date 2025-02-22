@@ -137,4 +137,29 @@ miscellaneous tips
 - Practice responding and recovering quickly
 	- Disaster recovery testing
 	- preparing scripts for possible situations
-	
+
+## Chapter 10: Invest in Your Team's Growth
+- Interviewing
+	- identify desired qualities with your team
+	- review effectiveness of existing hiring processes
+	- design interview questions with multiple levels of difficulty
+	- control the interview pace, don't let the candidate get stuck or ramble on for too long. Give hints or move on to another question
+	- quickly scan for red flags by rapid-firing short, fundamental questions
+	- periodically shadow other interviewers
+	- don't be afraid to use unconventional approaches
+- Onboarding
+	- codelabs
+	- onboarding talks
+	- mentorship
+	- (real-life) starter tasks
+- Share code ownership
+	- review each other's code / design
+	- rotate tasks across team
+	- keep code quality high
+	- document code and workflows
+	- teach and mentor others
+- Post-mortems
+	- after some issue
+	- how and why it happened
+	- what can be done to prevent it happening again
+- create a great engineering culture

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book Notes/TCP IP Illustrated.md",
+                "file": "Book Notes/High Performance MySQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCP IP Illustrated"
+              "title": "High Performance MySQL"
             }
           }
         ]
@@ -165,14 +165,16 @@
   },
   "active": "59c87efe3a91e30f",
   "lastOpenFiles": [
-    "Book Notes/High Performance MySQL.md",
-    "Book Notes/NoSQL Distilled.md",
     "Book Notes/The Effective Engineer.md",
-    "Book Notes/TCP IP Illustrated.md",
+    "Book Notes/High Performance MySQL.md",
+    "Book Notes/Influence.md",
+    "Book Notes/NoSQL Distilled.md",
+    "Book Notes/Operating Systems Three Easy Pieces.md",
     "Book Notes/Book Notes.md",
+    "Book Notes/CP4 Book 1.md",
+    "Book Notes/TCP IP Illustrated.md",
     "Book Notes/Never Split the Difference.md",
     "Book Notes/Understanding Distributed Systems.md",
-    "Book Notes/Influence.md",
     "Book Notes/How to Get Rich.md",
     "Book Notes/Fluent Python.md",
     "TCP/IP Illustrated.md",
@@ -181,7 +183,6 @@
     "Random CS Notes/Theory/Python.md",
     "Book Notes/Refactoring.md",
     "Book Notes/Beating The Street.md",
-    "Book Notes/Operating Systems Three Easy Pieces.md",
     "Book Notes/The 50th Law.md",
     "Random CS Notes/Theory/Data Structures and Algorithms.md",
     "Random CS Notes/Theory/Databases.md",
@@ -191,7 +192,6 @@
     "Random CS Notes/Theory/Java.md",
     "Random CS Notes/Theory/JavaScript.md",
     "Random CS Notes/Theory/Kubernetes.md",
-    "Random CS Notes/Theory/Message Broker.md",
     "Images/Pasted image 20241214191719.png",
     "Images/Pasted image 20241214191217.png",
     "Images/Pasted image 20241201163641.png",

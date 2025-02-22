@@ -90,4 +90,54 @@ tables can be moved from 1 storage engine to another via: `ALTER TABLE t ENGINE 
 		- run `SHOW PROCESSLIST` to get the port number
 		- run netstat on the port number to get the PID
 	- run tools like `strace -p` and `gdb -p` to show syscalls and backtraces
-	
+
+## Chapter 3: Schema Optimisation and Indexing
+#### Data types
+- guidelines
+	- try to store data in the smallest, simplest data type possible 
+		- example: `AUTO_INCREMENT`ed integers instead of strings for identifiers
+			- faster operations (especially comparisons), more sequential IO, better cache locality (since logically adjacent rows are stored close by)
+	- avoid NULL if possible
+- whole numbers
+	- TINYINT, SMALLINT, MEDIUMINT, INT, BIGINT: 8, 16, 24, 32, 64 bits respectively, 2s complement
+	- can be UNSIGNED as well
+- real numbers
+	- DECIMAL: exact fractional numbers
+	- FLOAT, DOUBLE: 4, 8 bytes respectively
+- strings
+	- VARCHAR(x): takes up a variable amount of space, up to x bytes, plus 1 or 2 extra bytes to store the length of the stored value (hence taking up x+1 or x+2 bytes total)
+	- CHAR(x): always allocated x bytes, but no overhead for storing length
+	- TEXT/BLOB: for storing large amounts of data, stored separately from the rest of the row, can't sort by or index the full length
+	- ENUM: field value is stored as an integer, keeps a centralised lookup table mapping that integer to the name
+- dates / times
+	- finest granularity for MySQL: 1 second
+	- DATETIME: 'concatenate' the date and time values into an integer
+	- TIMESTAMP: stores epoch
+- bits
+	- BIT: just a bit
+	- SET: bitset
+
+#### Indexing tips
+- isolate the column in queries
+	- i.e. `WHERE idxed_col = 5`, NOT `WHERE some_function(idxed_col) = 5` (can't use index)
+- use prefix indexes on long character columns
+	- selectivity: number of distinct values / number of rows
+	- set the index prefix length to be the smallest value such that the selectivity is similar to indexing the whole column
+
+#### Index types
+- clustered indexes: rows are stored inside the index's leaf pages so related data is close together, only 1 per table
+- covering indexes: indexes that contain all the columns needed for a query
+
+#### Index tricks
+- indexes let queries lock fewer rows (since fewer rows need to be accessed on the way to the desired data)
+- optimising limit offset on non-covering indexes 
+	- issue: for small limit and large offset, need to scan through all the rows just to get a few at the end
+	- solution: do the limit and offset on a subquery getting only the primary from a covering index, then join the rest of the table on the primary key and select the desired columns from there
+- find and repair table corruption
+	- no-op alter: `ALTER TABLE t ENGINE=innodb` set the engine to the same one it's already using
+- use summary tables
+	- for aggregations e.g. `COUNT`, aggregate those values periodically in a separate table and query that table instead of the main one
+- counters
+	- use multiple rows and let each updater update a random one
+	- this prevents updaters from locking each other and getting blocked
+	- to get the result, sum up the multiple counters
