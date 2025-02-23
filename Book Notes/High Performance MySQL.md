@@ -141,3 +141,39 @@ tables can be moved from 1 storage engine to another via: `ALTER TABLE t ENGINE 
 	- use multiple rows and let each updater update a random one
 	- this prevents updaters from locking each other and getting blocked
 	- to get the result, sum up the multiple counters
+
+## Chapter 4: Query Performance Optimisation
+Query execution steps
+- client sends SQL to server
+- server checks query cache
+	- if present, just return that result
+- server parses, preprocesses, and optimises SQL into an execution plan
+- query execution engine executes the plan by making calls to the storage engine API
+- server sends result to client
+
+Optimising queries
+- basic issues
+	- fetching more rows / columns than needed
+		- solution: just remove useless rows (LIMIT) and columns (from the SELECT clause)
+	- MySQL scanning too much data
+		- use covering indexes
+		- change schema (e.g. summary tables)
+		- chop up complicated query into multiple simple ones
+- `COUNT`
+	- type 1: `COUNT(col)` counts number of rows where `col` is not null
+	- type 2: `COUNT(*)` counts number of rows
+		- more efficient since it doesn't need to check the value of any column
+	- another optimisation: when counting a very large subset (much more than 50% of the rows), based on a well indexed `WHERE` clause, count the negation and subtract it from the total count. This will scan fewer rows
+- `JOIN`
+	- use indexes on columns in the `ON` clauses
+	- ensure each `GROUP BY` or `ORDER BY` are on columns within the same table (can use indexes for that table)
+- `LIMIT`/`OFFSET`
+	- when taking a small limit with a large offset, MySQL needs to scan the entire offset just to get the small number of rows
+	- do the offset on a covering index (less columns => less pages to scan same offset => faster), then join back to the original table to get the rest of the columns
+- `SQL_CALC_FOUND_ROWS`
+	- usually used in pagination to check if there is more data
+	- inefficient because it needs to get the entire result set, then throw it away
+	- better approach: `LIMIT n + 1`, only display `n` rows and use the existence of the `n+1th` to determine if there is a next page
+- `UNION`
+	- MySQL creates a temporary table and fills it with the `UNION` results
+	- need to manually push down `WHERE`, `LIMIT`, etc. clauses to each `SELECT` in the `UNION` since the query optimiser can't
