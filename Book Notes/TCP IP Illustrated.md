@@ -47,3 +47,15 @@ Loopback:
 	- host sends ARP reply with its MAC address, also learns sender's IPv4 to MAC address
 - ARP cache: each host and router caches recent IPv4 <> MAC mappings, default expiry time = 20 minutes
 - Gratuitous ARP: host sends ARP request for its own IPv4 address; detect others using the same address
+
+## Chapter 5: IP
+- best-effort, connectionless datagram delivery service
+- no guarantees that any given packet will reach the destination
+- on errors: just drop
+- internet checksum: IP's checksum, weaker than CRC
+- forwarding
+	- if source directly connected to destination, send directly
+	- else, send to router and let router deliver to destination
+	- forwarding table
+		- each entry contains: destination, mask, next hop, and interface
+		- find the longest prefix match to the given destination address and take that hop

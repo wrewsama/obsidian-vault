@@ -177,3 +177,37 @@ Optimising queries
 - `UNION`
 	- MySQL creates a temporary table and fills it with the `UNION` results
 	- need to manually push down `WHERE`, `LIMIT`, etc. clauses to each `SELECT` in the `UNION` since the query optimiser can't
+
+## Chapter 5: Advanced MySQL Features
+- Query Cache
+	- disabled by default
+	- can speed up performance of expensive, common queries
+	- adds overhead to cache miss reads (need to update cache) and writes (need to invalidate cache entries that use tables they changed)
+	- can tune using various configs e.g. `query_cache_type` (off, on, etc.), `query_cache_size`, etc.
+	- general tips
+		- smaller tables => better invalidation granularity on writes
+		- batch writes => invalidation only happens once
+		- disable for write-heavy apps
+		- decrease cache size if it's taking too long to invalidate entries
+- Stored procedures / functions
+	- keep it small and simple, best for very small queries
+	- keep complex logic in app code
+- triggers
+	- executed before / after INSERT, UPDATE, or DELETE
+	- can be helpful for updating denormalised tables and summary tables
+- events
+	- basically cronjobs
+- prepared statements
+	- essentially a skeleton of a query that gets parsed, processed, and stored
+	- client and server use a binary protocol to send only the parameters to fill in the skeleton's placeholders
+	- faster because
+		- no need to re-parse and process
+		- can send less data during the request
+- views
+	- table that doesn't actually store any data, derived from a SQL query
+	- 2 algorithms, chosen by the server 
+		- MERGE: server prioritises this, merges the view's SQL query with the query on the view
+		- TEMPTABLE: executes the view's SQL query, writes it to a temporary table, then executes the query on the view on that temporary table
+- foreign keys
+	- needs indexes on the column in BOTH the referenced and referencing tables (for inserts on the referencing table, deletes on the referenced table, or updates on either table)
+	- can take up a lot of space if 1 of the tables is huge

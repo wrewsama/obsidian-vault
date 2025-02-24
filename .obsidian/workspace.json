@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book Notes/High Performance MySQL.md",
+                "file": "Book Notes/TCP IP Illustrated.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "High Performance MySQL"
+              "title": "TCP IP Illustrated"
             }
           }
         ]
@@ -165,8 +165,8 @@
   },
   "active": "59c87efe3a91e30f",
   "lastOpenFiles": [
-    "Book Notes/The Effective Engineer.md",
     "Book Notes/High Performance MySQL.md",
+    "Book Notes/The Effective Engineer.md",
     "Book Notes/Influence.md",
     "Book Notes/NoSQL Distilled.md",
     "Book Notes/Operating Systems Three Easy Pieces.md",
