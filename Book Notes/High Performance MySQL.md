@@ -211,3 +211,24 @@ Optimising queries
 - foreign keys
 	- needs indexes on the column in BOTH the referenced and referencing tables (for inserts on the referencing table, deletes on the referenced table, or updates on either table)
 	- can take up a lot of space if 1 of the tables is huge
+
+## Chapter 6: Optimising Server Settings
+- how to configure:
+	- configuration file @ `etc/my.cnf` or `/etc/mysql/my.cnf`
+	- dynamic configuration variables: `SET var = value` / `SET GLOBAL var = value`
+- memory
+	- InnoDB Buffer Pool: caches indexes, row data, insert buffer, locks, and other internal structures
+	- thread cache: holds threads that aren't serving a connection. Avoids overhead of destroying and recreating threads
+	- InnoDB data dictionary: per-table cache for object metadata
+- IO
+	- transaction log buffer size
+	- log buffer flushing policy
+	- InnoDB tablespace: essentially InnoDB's own virtual filesystem
+- Concurrency
+	- `innodb_thread_concurrency`: how many threads can be in the kernel at once
+	- `innodb_commit_concurrency`: how many threads can commit at once
+- BLOB and TEXT workloads
+	- serve can't use in-memory temporary tables
+		- convert to VARCHAR using `SUBSTRING()`
+		- use memory based filesystem (`tmpfs`)
+		- `COMPRESS()` the BLOB
