@@ -1,5 +1,10 @@
 {
   "vimMode": true,
   "attachmentFolderPath": "Images",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "useTab": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Main Notes"
 }

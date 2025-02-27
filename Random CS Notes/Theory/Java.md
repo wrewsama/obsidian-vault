@@ -72,4 +72,4 @@ GC is done using mark and sweep
 - Part of the JRE
 - Loads required classes and interfaces from to the JVM
 
-[[Spring]]
+[[Random CS Notes/Theory/Spring]]

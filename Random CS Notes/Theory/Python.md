@@ -186,7 +186,7 @@ random note: `gc.collect()` runs GC on all gens
 another note: thanks to the [[#GIL]], all GC is stop-the-world
 
 ## Class fields / methods
-Like static fields / methods in [[Java]]
+Like static fields / methods in [[Random CS Notes/Theory/Java]]
 `@staticmethod` also exists, but it doesn't take in the class as the first arg, hence it can't access class fields
 
 example:

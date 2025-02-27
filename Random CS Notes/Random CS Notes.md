@@ -1,3 +1,3 @@
 [[Theory]]
-[[Behavioural]]
-[[System Design]]
+[[Random CS Notes/Behavioural/Behavioural]]
+[[Random CS Notes/System Design/System Design]]

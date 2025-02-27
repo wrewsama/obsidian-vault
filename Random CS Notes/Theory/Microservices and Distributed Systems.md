@@ -108,7 +108,7 @@ pros and cons
 - integrates with Hadoop ecosystem
 	- MapReduce
 	- YARN
-	- [[Spark]]
+	- [[Random CS Notes/Theory/Spark]]
 
 **Architecture**
 - files are split into blocks
@@ -192,7 +192,7 @@ For external services, same thing but through an ingress/egress gateway
 
 **Issue with naive**
 - race condition (the classic one)
-- MULTI/EXEC can't save us as we can't use intermediate results (see the multi/exec vs transactions section in [[Databases]])
+- MULTI/EXEC can't save us as we can't use intermediate results (see the multi/exec vs transactions section in [[Random CS Notes/Theory/Databases]])
 
 **solution 1: rolling window sorted set**
 - keep a sorted set for each bucket, store the epoch for each request
