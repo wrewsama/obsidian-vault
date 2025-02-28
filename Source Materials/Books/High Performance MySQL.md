@@ -232,3 +232,64 @@ Optimising queries
 		- convert to VARCHAR using `SUBSTRING()`
 		- use memory based filesystem (`tmpfs`)
 		- `COMPRESS()` the BLOB
+        
+## Chapter 7: OS / Hardware Optimisation
+- CPUs
+    - MySQL has scaling issues with multiple CPUs
+    - generally (but not always) having faster CPUs are more important than having more CPUs
+- Memory
+    - Find an effective memory-to-disk space ratio
+    - Done by trying to make the workload CPU-bound (this means the cache is doing well and the app doesn't need to wait too long on IO)
+- Tuning RAID
+    - RAID type
+    - stripe chunk size
+    - RAID cache
+- Network
+    - Skip DNS name resolution and supply only IP addresses
+- Checking OS
+    - `vmstat` and `iostat`
+
+## Chapter 8: Replication
+- replication benefits
+    - load balancing for read queries
+    - high availability
+    - cross region data distribution
+- process
+    - master records changes to data in binary log
+        - either statement-level or row-level
+        - not to be confused with the transaction log used for crash recovery, that's disk page level
+    - slave pulls master's binary log events to its own relay log
+    - slave executes changes in relay log
+- topologies
+    - single master with multiple slaves
+    - master-master in active-passive mode
+        - 2 master nodes, can only write to 1 of them at any one time
+        - both can have their own slaves
+    - master, distribution master, and slaves
+        - avoid forcing the master to keep dumping its binlog to each slave, which can be costly if there are too many
+        - use a distribution master in between the true master and the slaves (i.e. distribution master is a slave to the true master, the true slaves are slaves to the distribution master)
+        - use the Blackhole storage engine on the distribution master to avoid making it need to actually perform the queries
+    - tree
+        - slaves are slaves to each other (in an acyclic way), forming a tree structure
+- monitoring
+    - `SHOW MASTER STATUS`
+    - do periodic heartbeat updates on master with the current timestamp so that it will be replicated onto the slaves, then compare the timestamps to determine slave lag
+    - `mk-table-checksum`: calculates checksum for a table, then it gets replicated, then compare to see if slaves are consistent with the master
+- resyncing slave from master
+    - `mysqldump`
+    - `mk-table-sync`
+- replication problems
+    - data corruption/loss
+    - nondeterministic statements e.g. `LIMIT`
+    - different storage engines on master and slave
+    - data changes on slave
+    - non unique server IDs 
+    - undefined server IDs
+    - dependencies on nonreplicated data
+    - missing temporary tables
+    - not replicating all updates
+    - writing to both masters in master-master
+    - replication lag
+    - oversized packets from master
+    - limited replication bandwidth
+    - no disk space

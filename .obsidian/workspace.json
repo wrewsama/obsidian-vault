@@ -11,10 +11,24 @@
             "id": "59c87efe3a91e30f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Source Materials/Books/High Performance MySQL.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "High Performance MySQL"
             }
           }
         ]
@@ -159,7 +173,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "50ed0621bb80894a",
+  "active": "59c87efe3a91e30f",
   "lastOpenFiles": [
     "Source Materials/Websites",
     "Source Materials/Websites.md",
