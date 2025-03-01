@@ -293,3 +293,38 @@ Optimising queries
     - oversized packets from master
     - limited replication bandwidth
     - no disk space
+
+## Chapter 9: Scaling and High Availability
+- buying time before scaling
+    - optimise performance
+    - switch to better hardware
+- scaling up
+- scaling out
+    - replication, then let slaves handle reads
+    - partition workload
+        - functional partitioning
+        - sharding
+            - partitioning keys
+                - partition by the unit of sharding: some important entity ID (e.g. user id)
+                - might need to shard by multiple keys to might querying by those keys efficient (though this means some data needs to be duplicated)
+            - fixed allocation: shard is chosen based on a function of the partition key's value
+            - dynamic allocation: partition key value to shard id mapping is stored in a table
+            - explicit allocation: app chooses
+            - globally unique IDs
+                - `auto_increment` + `auto_increment_offset`
+                - `AUTO_INCREMENT` in a global node / some equivalent global cache
+                - use GUIDs (e.g. UUID)
+- scaling back: purging useless data
+- load balancing
+    - goals:
+        - scalability
+        - efficiency
+        - availability
+        - transparency (abstraction)
+        - consistency (in the sense that stateful interactions should go to the same server)
+- high availability
+    - build in redundancy and failover/failback when needed
+        - shared-storage architectures: 2 servers using the same filesystem
+        - replicated disk architecture
+        - synchronous / semi-synchronous replication (like write concern in MongoDB [[NoSQL Distilled]])
+    - eliminate single points of failure
