@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/High Performance MySQL.md",
+                "file": "Main Notes/Debugging Process.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "High Performance MySQL"
+              "title": "Debugging Process"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -176,8 +175,12 @@
   },
   "active": "59c87efe3a91e30f",
   "lastOpenFiles": [
-    "Source Materials/Books/NoSQL Distilled.md",
+    "Source Materials/Websites/Untitled.md",
+    "Source Materials/Websites/MIT Debugging.md",
+    "Main Notes/Debugging Process.md",
+    "Tags/Software Engineering.md",
     "Source Materials/Books/High Performance MySQL.md",
+    "Source Materials/Books/NoSQL Distilled.md",
     "Source Materials/Websites",
     "Source Materials/Websites.md",
     "Source Materials/Videos",
@@ -200,10 +203,6 @@
     "Tags/Message Brokers.md",
     "Tags/JavaScript.md",
     "Tags/Kubernetes.md",
-    "Tags/Java.md",
-    "Tags/Go.md",
-    "Tags/Git.md",
-    "Tags/Docker.md",
     "Templates",
     "Tags",
     "Main Notes",

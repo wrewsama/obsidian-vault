@@ -11,8 +11,8 @@
  │ │Query     │<──│ Parser │  │
  │ │Cache     │   └────────┘  │
  │ └──────────┘        │      │
- │       │             │      │
- │       v             v      │
+ │                     │      │
+ │                     v      │
  ├────────────────────────────┤
  │        Optimizer           │
  └────────────────────────────┘
@@ -328,3 +328,55 @@ Optimising queries
         - replicated disk architecture
         - synchronous / semi-synchronous replication (like write concern in MongoDB [[NoSQL Distilled]])
     - eliminate single points of failure
+
+## Chapter 10: Application-Level Optimisation
+- find and solve common problems
+    - overly high CPU, disk, network, memory usage
+    - app doing the database's work and vice versa
+    - app querying more data than it has to
+    - app making unnecessary connections to database
+- web server issues
+    - processes take up x amounts of memory, when reused for something simple, it still has that much memory
+    - processes can be kept alive with long lived, slow connections
+    - solutions:
+        - caching
+        - `gzip` compression
+        - proxy to serve clients while minimising number of running web server processes
+- optimal concurrency
+- caching
+    - types
+        - local
+        - local shared-memory
+        - distributed
+        - on-disk
+    - invalidation policies
+        - TTL
+        - explicit invalidation (on writes)
+            - invalidate only or update with new value
+        - invalidation on read
+
+## Chapter 11: Backup and Recovery
+backup types
+- logical: SQL or delimited text
+    - SQL dump: `mysqldump`
+        - restoration: just execute the `.sql` file outputted by the dump
+    - parallel dump and restore: `mysqlpdump`, `mk-parallel-dump`
+    - delimited file: `SELECT INTO OUTFILE`
+        - restoration: `LOAD DATA INFILE`
+- raw: the files themselves
+    - backup method:
+        - LVM snapshots
+    - restoration:
+        - shut down server
+        - move files into place
+        - check server config and file permissions
+        - restart
+
+things to back up:
+- table data
+- schema
+- binary logs
+- transaction logs
+- code (triggers, stored procedures)
+- configs (replication, server)
+- OS files (e.g. cronjobs, user/group configs)
