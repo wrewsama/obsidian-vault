@@ -380,3 +380,42 @@ things to back up:
 - code (triggers, stored procedures)
 - configs (replication, server)
 - OS files (e.g. cronjobs, user/group configs)
+
+## Chapter 12: Security
+- DB permissions
+    - DB stores grant tables, which map users to their privileges
+    - there are grant tables corresponding to:
+        - global privileges
+        - database level privileges
+        - table level
+        - column level
+    - MySQL will go down the hierarchy until it finds a match granting the desired privilege, else deny access
+    - add/remove/view grants with `GRANT`/`REVOKE`/`SHOW GRANTS`
+- problems that cause performance issues
+    - too many privileges => many grant table entries to scan through
+    - privileges too fine-grained => more grant tables to check
+- network security options
+    - localhost-only
+    - firewall + whitelist 
+    - VPN
+    - SSL
+    - SSH tunnelling
+- data encryption
+    - hashing passwords: `ENCRYPT(), SHA1(), MD5()`
+    - encrypted filesystem
+    - app level encryption
+    - encrypting/decrypting in MySQL: `AES_ENCRYPT`/`AES_DECRYPT`
+
+## Chapter 13: MySQL Server Status
+- SHOW STATUS: shows the server's status variables
+- SHOW INNODB STATUS: show information about InnoDB internal state
+- SHOW PROCESSLIST: currently connected _threads_(not processes lol) and their status info
+- SHOW MUTEX STATUS: status of mutexes in MySQL's internal code, used to identify concurrency issues
+- replication status
+    - SHOW MASTER STATUS
+    - SHOW BINARY LOGS (shows the file names and sizes)
+    - SHOW BINLOG EVENTS (the events in the bin logs)
+    
+- INFORMATION_SCHEMA database
+    - DB with system views that can be queried with sql
+    - most views correspond to the above SHOW commands, but there are some extra views

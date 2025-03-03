@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Debugging Process.md",
+                "file": "Source Materials/Books/High Performance MySQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Debugging Process"
+              "title": "High Performance MySQL"
             }
           }
         ]
@@ -84,11 +84,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -175,11 +177,15 @@
   },
   "active": "59c87efe3a91e30f",
   "lastOpenFiles": [
+    "Source Materials/Videos/3 High-Leverage Career Skills.md",
+    "Source Materials/Books/High Performance MySQL.md",
+    "Random CS Notes/Theory/Networking.md",
+    "Tags/Networking.md",
+    "Main Notes/Debugging Process.md",
+    "README.md",
     "Source Materials/Websites/Untitled.md",
     "Source Materials/Websites/MIT Debugging.md",
-    "Main Notes/Debugging Process.md",
     "Tags/Software Engineering.md",
-    "Source Materials/Books/High Performance MySQL.md",
     "Source Materials/Books/NoSQL Distilled.md",
     "Source Materials/Websites",
     "Source Materials/Websites.md",
@@ -190,7 +196,6 @@
     "Source Materials/Books/An Introduction to Quantitative Finance.md",
     "Templates/Atomic Note.md",
     "Main Notes/test note.md",
-    "README.md",
     "Main.md",
     "Tags/Spring.md",
     "Source Materials/Book Notes/Book Notes.md",
@@ -198,11 +203,8 @@
     "Tags/Spark.md",
     "Tags/Python.md",
     "Tags/Operating Systems.md",
-    "Tags/Networking.md",
     "Tags/Distributed Systems.md",
     "Tags/Message Brokers.md",
-    "Tags/JavaScript.md",
-    "Tags/Kubernetes.md",
     "Templates",
     "Tags",
     "Main Notes",
