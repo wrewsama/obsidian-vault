@@ -419,3 +419,16 @@ things to back up:
 - INFORMATION_SCHEMA database
     - DB with system views that can be queried with sql
     - most views correspond to the above SHOW commands, but there are some extra views
+
+## Chapter 14: Tools
+- interfaces
+    - MySQL Visual Tools
+    - SQLyog
+    - phpMyAdmin
+- monitoring
+    - Nagios
+    - MONyog
+    - innotop
+- utilities
+    - MySQL Proxy
+    - Maatkit Utilities
