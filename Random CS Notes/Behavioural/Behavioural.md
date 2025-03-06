@@ -1,2 +1,0 @@
-[[Self Intro]]
-[[Stories]]

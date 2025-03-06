@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "59c87efe3a91e30f",
+            "id": "1f20bd2723bf9131",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/High Performance MySQL.md",
+                "file": "Main Notes/HDFS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "High Performance MySQL"
+              "title": "HDFS"
             }
           }
         ]
@@ -84,13 +84,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -175,52 +173,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59c87efe3a91e30f",
+  "active": "1f20bd2723bf9131",
   "lastOpenFiles": [
-    "Source Materials/Videos/3 High-Leverage Career Skills.md",
-    "Source Materials/Books/High Performance MySQL.md",
+    "Main Notes/Rate Limiter in Redis.md",
+    "Tags/Computer Networking.md",
     "Random CS Notes/Theory/Networking.md",
-    "Tags/Networking.md",
-    "Main Notes/Debugging Process.md",
-    "README.md",
-    "Source Materials/Websites/Untitled.md",
-    "Source Materials/Websites/MIT Debugging.md",
-    "Tags/Software Engineering.md",
-    "Source Materials/Books/NoSQL Distilled.md",
+    "Random CS Notes/Theory/Microservices and Distributed Systems.md",
+    "Main Notes/Service Mesh.md",
+    "Main Notes/ZooKeeper.md",
+    "Main Notes/HDFS.md",
+    "Main Notes/API Gateways.md",
+    "Main Notes/CQRS.md",
+    "Main Notes/Event Sourcing.md",
+    "Main Notes/Distributed Transactions - Sagas.md",
+    "Main Notes/2 Phase Commit.md",
+    "Main Notes/Shared DB vs DB-per-Service.md",
+    "Main Notes/Pros and Cons of Microservices.md",
+    "Main Notes/What are Microservices.md",
+    "Main Notes/Rebalancing in Kafka.md",
+    "Random CS Notes/Theory/OLD Message Broker.md",
+    "Main Notes/Kafka Architecture.md",
+    "Main Notes/What is Kafka Fast.md",
+    "Main Notes/Kafka vs RabbitMQ.md",
+    "Main Notes/Push vs Pull based Message Brokers.md",
+    "Main Notes/What is Kafka.md",
+    "Main Notes/Benefits of Message Queues.md",
+    "Main Notes/Kubernetes Architecture.md",
+    "Random CS Notes/Theory/Kubernetes.md",
+    "Main Notes/What is Kubernetes.md",
+    "const/var",
+    "const",
+    "Projection",
+    "Normalisation",
     "Source Materials/Websites",
-    "Source Materials/Websites.md",
     "Source Materials/Videos",
-    "Source Materials/Books/Fluent Python.md",
-    "Source Materials/Books/CP4 Book 1.md",
-    "Source Materials/Books/Beating The Street.md",
-    "Source Materials/Books/An Introduction to Quantitative Finance.md",
-    "Templates/Atomic Note.md",
-    "Main Notes/test note.md",
-    "Main.md",
-    "Tags/Spring.md",
-    "Source Materials/Book Notes/Book Notes.md",
-    "Source Materials/Paper Notes/Paper Notes.md",
-    "Tags/Spark.md",
-    "Tags/Python.md",
-    "Tags/Operating Systems.md",
-    "Tags/Distributed Systems.md",
-    "Tags/Message Brokers.md",
     "Templates",
     "Tags",
     "Main Notes",
     "Source Materials",
-    "TCP",
     "Images/Pasted image 20241214191719.png",
     "Images/Pasted image 20241214191217.png",
     "Images/Pasted image 20241201163641.png",
     "Images/Pasted image 20241201163636.png",
     "Images/Pasted image 20241125212639.png",
     "Images/Pasted image 20241125212631.png",
-    "Source Materials/Papers",
-    "Source Materials/Books",
     "Images/Pasted image 20240902205624.png",
     "Images/Pasted image 20240828184941.png",
-    "Random CS Notes/System Design",
     "Images/Pasted image 20240810223421.png",
     "Images/Pasted image 20240810140220.png"
   ]

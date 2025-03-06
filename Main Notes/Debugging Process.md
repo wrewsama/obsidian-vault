@@ -1,6 +1,7 @@
 Tags:
 - [[Software Engineering]]
-# Debugging Process
+
+---
 1. Study the symptoms
     1. What is going on
     2. When did it start
@@ -16,6 +17,7 @@ Tags:
     2. rerun the problematic input and see the state changes and function input/output
 6. fix the bug
 
+---
 ## References
 - https://web.mit.edu/6.005/www/fa15/classes/11-debugging/
 - https://ntietz.com/blog/how-i-debug-2023/
