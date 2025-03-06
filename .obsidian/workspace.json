@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/HDFS.md",
+                "file": "Random CS Notes/Theory/Operating Systems.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HDFS"
+              "title": "Operating Systems"
+            }
+          },
+          {
+            "id": "2e40182aab6ab71e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main Notes/Spark + YARN.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Spark + YARN"
             }
           }
         ]
@@ -175,32 +199,32 @@
   },
   "active": "1f20bd2723bf9131",
   "lastOpenFiles": [
-    "Main Notes/Rate Limiter in Redis.md",
-    "Tags/Computer Networking.md",
-    "Random CS Notes/Theory/Networking.md",
-    "Random CS Notes/Theory/Microservices and Distributed Systems.md",
-    "Main Notes/Service Mesh.md",
-    "Main Notes/ZooKeeper.md",
-    "Main Notes/HDFS.md",
-    "Main Notes/API Gateways.md",
-    "Main Notes/CQRS.md",
-    "Main Notes/Event Sourcing.md",
-    "Main Notes/Distributed Transactions - Sagas.md",
-    "Main Notes/2 Phase Commit.md",
-    "Main Notes/Shared DB vs DB-per-Service.md",
-    "Main Notes/Pros and Cons of Microservices.md",
-    "Main Notes/What are Microservices.md",
-    "Main Notes/Rebalancing in Kafka.md",
-    "Random CS Notes/Theory/OLD Message Broker.md",
-    "Main Notes/Kafka Architecture.md",
-    "Main Notes/What is Kafka Fast.md",
-    "Main Notes/Kafka vs RabbitMQ.md",
-    "Main Notes/Push vs Pull based Message Brokers.md",
-    "Main Notes/What is Kafka.md",
-    "Main Notes/Benefits of Message Queues.md",
-    "Main Notes/Kubernetes Architecture.md",
-    "Random CS Notes/Theory/Kubernetes.md",
-    "Main Notes/What is Kubernetes.md",
+    "Random CS Notes/Theory/OLD Spark.md",
+    "Main Notes/Spark + YARN.md",
+    "Main Notes/Spark Fault Tolerance.md",
+    "Main Notes/Spark DAG.md",
+    "Main Notes/Spark Transformations and Actions.md",
+    "Main Notes/RDDs vs Dataframes.md",
+    "Main Notes/Spark vs MapReduce.md",
+    "Main Notes/Spark Architecture.md",
+    "Main Notes/What is Spark.md",
+    "Main Notes/Getters and Setters in Python.md",
+    "Random CS Notes/Theory/Operating Systems.md",
+    "Random CS Notes/Theory/OLD Python.md",
+    "Main Notes/WSGI.md",
+    "Main Notes/Method Resolution Order in Python.md",
+    "Main Notes/Hashing in Python.md",
+    "Main Notes/Threading and Multiprocessing in Python.md",
+    "Main Notes/asyncio in Python.md",
+    "Main Notes/Metaclasses in Python.md",
+    "Main Notes/Abstract Base Classes in Python.md",
+    "Main Notes/Class Fields and Methods in Python.md",
+    "Main Notes/Python Garbage Collection.md",
+    "Main Notes/Dynamic Types in Python.md",
+    "Main Notes/try-except in Python.md",
+    "Main Notes/Context Managers in Python.md",
+    "Main Notes/with keyword in Python.md",
+    "Main Notes/GIL.md",
     "const/var",
     "const",
     "Projection",
