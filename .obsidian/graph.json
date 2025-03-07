@@ -5,8 +5,44 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Tags  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701261
+      }
+    },
+    {
+      "query": "line:(Computer Networking)",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "line:(Operating Systems)",
+      "color": {
+        "a": 1,
+        "rgb": 14701159
+      }
+    },
+    {
+      "query": "line:(Databases)",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "line:(Python)",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +53,6 @@
   "repelStrength": 11.7463617463617,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.30647883944649423,
+  "scale": 0.20225858001474067,
   "close": false
 }

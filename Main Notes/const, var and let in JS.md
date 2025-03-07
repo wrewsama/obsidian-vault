@@ -1,7 +1,7 @@
 Tags:
 - [[Tags/JavaScript|JavaScript]]
 ---
-const is constant (duh) and block scoped
+`const` is constant (duh) and block scoped
 
 `let` is block scoped while `var` is globally or function scoped
 

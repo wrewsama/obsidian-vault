@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random CS Notes/Theory/Operating Systems.md",
+                "file": "Main Notes/Spring Bean.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,34 +28,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Operating Systems"
+              "title": "Spring Bean"
             }
           },
           {
             "id": "2e40182aab6ab71e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Main Notes/Spark + YARN.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Spark + YARN"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,34 +184,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f20bd2723bf9131",
+  "active": "2e40182aab6ab71e",
   "lastOpenFiles": [
-    "Random CS Notes/Theory/OLD Spark.md",
-    "Main Notes/Spark + YARN.md",
-    "Main Notes/Spark Fault Tolerance.md",
-    "Main Notes/Spark DAG.md",
-    "Main Notes/Spark Transformations and Actions.md",
-    "Main Notes/RDDs vs Dataframes.md",
-    "Main Notes/Spark vs MapReduce.md",
-    "Main Notes/Spark Architecture.md",
-    "Main Notes/What is Spark.md",
-    "Main Notes/Getters and Setters in Python.md",
-    "Random CS Notes/Theory/Operating Systems.md",
-    "Random CS Notes/Theory/OLD Python.md",
-    "Main Notes/WSGI.md",
-    "Main Notes/Method Resolution Order in Python.md",
-    "Main Notes/Hashing in Python.md",
-    "Main Notes/Threading and Multiprocessing in Python.md",
-    "Main Notes/asyncio in Python.md",
-    "Main Notes/Metaclasses in Python.md",
-    "Main Notes/Abstract Base Classes in Python.md",
-    "Main Notes/Class Fields and Methods in Python.md",
-    "Main Notes/Python Garbage Collection.md",
-    "Main Notes/Dynamic Types in Python.md",
-    "Main Notes/try-except in Python.md",
-    "Main Notes/Context Managers in Python.md",
-    "Main Notes/with keyword in Python.md",
-    "Main Notes/GIL.md",
+    "Main Notes/const, var and let in JS.md",
+    "Random CS Notes/Theory/OLD Spring.md",
+    "Main Notes/Spring Bean.md",
+    "Main Notes/Spring IoC Container.md",
+    "Main Notes/Dependency Injection.md",
+    "Main Notes/Core Features of Spring.md",
+    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
+    "Main Notes/Inversion of Control.md",
+    "Main Notes/Spring Boot.md",
+    "Main Notes/Hard and Soft Links in Linux.md",
+    "Source Materials/Papers/Attention is All You Need.md",
+    "Random CS Notes/Theory/OLD Operating Systems.md",
+    "Main Notes/Async IO in Linux.md",
+    "Main Notes/How Linux Opens Files.md",
+    "Main Notes/How Linux Executes Programs.md",
+    "Main Notes/Linux Boot Process.md",
+    "Main Notes/Processes vs Threads.md",
+    "Main Notes/OS Contexts.md",
+    "Main Notes/OS Scheduling.md",
+    "Main Notes/Deadlock Handling.md",
+    "Main Notes/Deadlock Prevention.md",
+    "Main Notes/Deadlock Conditions.md",
+    "Tags/Concurrency.md",
+    "Main Notes/Logical & Virtual Memory in the OS.md",
+    "Main Notes/Paging vs Segmentation in OS.md",
+    "Main Notes/Microkernel vs Monolithic OS.md",
     "const/var",
     "const",
     "Projection",
