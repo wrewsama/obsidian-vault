@@ -1,3 +1,6 @@
+Tags:
+- [[Career Skills]]
+---
 ## Chapter 1: Leverage
 * $Leverage = \frac{Impact Produced}{Time Invested}$
 - Increase your leverage

@@ -1,3 +1,6 @@
+Tags:
+- [[Python]]
+---
 ## Chapter 1: The Python Data Model
 Python Data Model: API used to make custom objects work with existing idiomatic language features (e.g. `len()`, `for x in arr`, etc.)
 

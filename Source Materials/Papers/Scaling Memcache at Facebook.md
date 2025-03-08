@@ -1,3 +1,6 @@
+Tags:
+- [[Databases]]
+---
 memcached:
 - in-memory hashtable
 - set, get, and delete operations

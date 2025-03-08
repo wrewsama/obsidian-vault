@@ -1,3 +1,6 @@
+Tags:
+- [[Data Structures and Algorithms]]
+---
 ## Chapter 1
 - computers can process around 10^8 operations in 1 second
 - analyse algo before starting to code

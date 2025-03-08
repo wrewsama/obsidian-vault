@@ -1,3 +1,6 @@
+Tags:
+- [[Personal Finance]]
+---
 ## Chapter 1
 - hold no more stocks than you can remain informed on
 - invest regularly

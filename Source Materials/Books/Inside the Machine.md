@@ -1,3 +1,6 @@
+Tags:
+- [[Operating Systems]]
+---
 ## Chapter 1: Basic Computing Concepts
 
 The File-Clerk Model of Computing: 

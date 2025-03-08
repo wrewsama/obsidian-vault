@@ -1,3 +1,6 @@
+Tags:
+- [[Databases]]
+---
 ## Chapter 1: MySQL Architecture
 ```
 	      Clients

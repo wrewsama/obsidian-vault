@@ -1,3 +1,6 @@
+Tags:
+- [[Operating Systems]]
+---
 ## Chapter 2: Intro
 purpose of the OS:
 - virtualisation

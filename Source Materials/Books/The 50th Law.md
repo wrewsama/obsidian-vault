@@ -1,3 +1,6 @@
+Tags:
+- [[Mindset]]
+---
 ## Introduction
 
 The 50th Law:

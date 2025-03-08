@@ -1,3 +1,6 @@
+Tags:
+- [[Business]]
+---
 ## Chapter 3: The Fear of Failure
 > "To hell with them. Let's go!"
 

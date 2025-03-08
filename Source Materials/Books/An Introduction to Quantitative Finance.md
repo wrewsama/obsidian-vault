@@ -1,6 +1,6 @@
-## misc
-term structure
-risk neutrality
+Tags:
+- [[Quant Finance]]
+---
 ## Chapter 1
 money market account: amount you get at time t, with interest rate r, for $1 invested. Equal to $e^{rt}$
 

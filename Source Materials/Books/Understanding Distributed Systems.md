@@ -1,3 +1,6 @@
+Tags:
+- [[Distributed Systems]]
+---
 ## Chapter 1
 distributed system: ensemble of physical machines that communicate over network links
 

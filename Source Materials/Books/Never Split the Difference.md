@@ -1,3 +1,6 @@
+Tags:
+- [[Persuasion]]
+---
 ## Chapter 1
 - Manipulate the emotions first, then appeal to rationality
 - negotiation = communication with results

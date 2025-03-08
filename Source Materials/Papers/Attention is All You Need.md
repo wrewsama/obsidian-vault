@@ -1,3 +1,7 @@
+Tags:
+- [[AI ML]]
+---
+
 - self attention: relates different positions in the same sequence and outputs a representation of that sequence
 - encoder-decoder structure: 
 	- encoder maps input sequence $x_1, ... x_n$ to a sequence of continuous representations $z_1, ... z_n$ 

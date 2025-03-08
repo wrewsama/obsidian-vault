@@ -1,3 +1,6 @@
+Tags:
+- [[Computer Networking]]
+---
 ## Chapter 2: Internet Address Architecture
 classes
 

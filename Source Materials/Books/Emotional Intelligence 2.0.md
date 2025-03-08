@@ -1,3 +1,6 @@
+Tags:
+- [[EQ]]
+---
 ## Chapter 1
 - emotional intelligence requires effective communication between the rational and emotional centers of the brain
 - IQ is a poor indicator of performance

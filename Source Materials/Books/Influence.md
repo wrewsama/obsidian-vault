@@ -1,3 +1,6 @@
+Tags:
+- [[Persuasion]]
+---
 ## Chapter 1: Weapons of Influence
 fixed action patterns
 - automatic sequence of behaviour in response to some trigger feature

@@ -1,3 +1,6 @@
+Tags:
+- [[Databases]]
+---
 ## Chapter 1
 
 Reasons why NoSQL is used

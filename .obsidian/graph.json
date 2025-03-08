@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 5431473
       }
+    },
+    {
+      "query": "path:\"Source Materials\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
     }
   ],
   "collapse-display": true,
@@ -54,5 +61,5 @@
   "linkStrength": 1,
   "linkDistance": 30,
   "scale": 0.20225858001474067,
-  "close": false
+  "close": true
 }
