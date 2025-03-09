@@ -11,10 +11,24 @@
             "id": "1f20bd2723bf9131",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Source Materials/Books/TCP IP Illustrated.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TCP IP Illustrated"
             }
           }
         ]
@@ -161,6 +175,7 @@
   },
   "active": "1f20bd2723bf9131",
   "lastOpenFiles": [
+    "Source Materials/Books/CP4 Book 2.md",
     "Main Notes/Rate Limiter in Redis.md",
     "Templates/Source Material.md",
     "Source Materials/Books/Understanding Distributed Systems.md",
@@ -186,7 +201,6 @@
     "Source Materials/Books/An Introduction to Quantitative Finance.md",
     "Tags/Personal Finance.md",
     "Tags/Quant Finance.md",
-    "Source Materials/Papers/Scaling Memcache at Facebook.md",
     "const/var",
     "const",
     "Projection",

@@ -62,3 +62,21 @@ Loopback:
 	- forwarding table
 		- each entry contains: destination, mask, next hop, and interface
 		- find the longest prefix match to the given destination address and take that hop
+
+## Chapter 6: System Config: DHCP and Auto config
+- hosts require
+    - IP address(es)
+    - next hop router
+    - DNS server location
+- DHCP: Dynamic Host Configuration Protocol. Leases addresses to clients for a defined period of time
+- Can work through a relay agent if the client and server are on different networks
+- DHCP works for IPv4
+- DHCPv6 is for IPv6
+- Steps:
+    - discover
+    - offer
+    - request
+    - ACK
+
+---
+Source: https://www.goodreads.com/book/show/505560.TCP_IP_Illustrated_Vol_1
