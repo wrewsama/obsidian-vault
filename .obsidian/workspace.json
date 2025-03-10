@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/TCP IP Illustrated.md",
+                "file": "Source Materials/Videos/The Most Underrated Social Skill and How I used It.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TCP IP Illustrated"
+              "title": "The Most Underrated Social Skill and How I used It"
             }
           }
         ]
@@ -176,12 +176,15 @@
   "active": "1f20bd2723bf9131",
   "lastOpenFiles": [
     "Source Materials/Books/CP4 Book 2.md",
+    "Source Materials/Videos/The Most Underrated Social Skill and How I used It.md",
+    "Main Notes/String Rolling Hash.md",
+    "Main Notes/KMP.md",
+    "Source Materials/Books/TCP IP Illustrated.md",
     "Main Notes/Rate Limiter in Redis.md",
     "Templates/Source Material.md",
     "Source Materials/Books/Understanding Distributed Systems.md",
     "Source Materials/Books/The Effective Engineer.md",
     "Source Materials/Books/The 50th Law.md",
-    "Source Materials/Books/TCP IP Illustrated.md",
     "Source Materials/Books/Refactoring.md",
     "Source Materials/Books/Predatory Thinking.md",
     "Tags/Mindset.md",
@@ -198,9 +201,6 @@
     "Tags/EQ.md",
     "Source Materials/Books/CP4 Book 1.md",
     "Source Materials/Books/Beating The Street.md",
-    "Source Materials/Books/An Introduction to Quantitative Finance.md",
-    "Tags/Personal Finance.md",
-    "Tags/Quant Finance.md",
     "const/var",
     "const",
     "Projection",
