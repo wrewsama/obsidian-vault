@@ -14,5 +14,13 @@ Tags:
 - You must choose to be a predator, not the prey
 - If you avoid that hard choice, it will be made for you
 - You can have it all, but not all at once. Decide what is essential and focus on that
+
+## Chapter 3: 90% of advertising doesn't work
+- A simple lie is often more powerful than a complicated truth
+- Don't give your targets the truth, give them what they want to believe is the truth
+- Judge based on quality, not just on quantity
+- See things from other perspectives
+- Advertising isn't meant to sell things on its own, it's only meant to provide a competitive edge
+
 ---
 Source: https://www.goodreads.com/book/show/18038936-predatory-thinking
