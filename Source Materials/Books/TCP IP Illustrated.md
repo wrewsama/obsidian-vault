@@ -78,5 +78,13 @@ Loopback:
     - request
     - ACK
 
+## Chapter 7: Firewalls and Network Address Translation
+- Firewalls
+    - purpose: restrict traffic that could harm end systems
+    - packet filtering firewalls: drop / forward packets based on configured rules
+    - proxy firewalls: act as a gateway, each app-layer service needs to have a proxy handler
+- NAT
+    - many end hosts share 1 or more globally routable IP
+
 ---
 Source: https://www.goodreads.com/book/show/505560.TCP_IP_Illustrated_Vol_1

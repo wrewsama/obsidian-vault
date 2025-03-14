@@ -711,7 +711,7 @@ operations
 - program a page (cannot rewrite a page, must erase the block and write on an empty page)
 
 flash translation layer (FTL)
-- Used to translate between logical blocks used by the OS and physical blocks on the SSD
+- Used to translate between logical blocks used by the OS and physical pages on the SSD
 - log structured to minimise erases
 - in memory mapping table remembers logical <> physical mapping
 - GC

@@ -1,5 +1,6 @@
 Tags:
 - [[Mindset]]
+- [[Persuasion]]
 ---
 ## Chapter 1: Creative is an Adjective, not a Noun
 
@@ -22,5 +23,11 @@ Tags:
 - See things from other perspectives
 - Advertising isn't meant to sell things on its own, it's only meant to provide a competitive edge
 
+## Chapter 4: You Can Run From It or You Can Learn From It
+- Don't be afraid of rejection / failure
+- Offset failures by increasing your inputs. More attempts => more successes
+- Exploit failure as an opportunity for learning
+- It's useless to care about failures out of your control, keep moving on 
+- Use others' smug remarks about your failure as fuel for revenge
 ---
 Source: https://www.goodreads.com/book/show/18038936-predatory-thinking
