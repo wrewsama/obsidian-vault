@@ -86,5 +86,18 @@ Loopback:
 - NAT
     - many end hosts share 1 or more globally routable IP
 
+## Chapter 8: Internet Control Message Protocol
+- Part of the IP layer
+- Used to provide diagnostics and control info through error and control messages
+- some ICMP message types
+    - Echo request/reply
+    - Router advertisement
+    - Router solicitation
+    - Destination Unreachable
+    - Source Quench
+    - Redirect
+    - Time Exceeded
+    - Parameter Problem
+    
 ---
 Source: https://www.goodreads.com/book/show/505560.TCP_IP_Illustrated_Vol_1

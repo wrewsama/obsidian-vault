@@ -29,5 +29,13 @@ Tags:
 - Exploit failure as an opportunity for learning
 - It's useless to care about failures out of your control, keep moving on 
 - Use others' smug remarks about your failure as fuel for revenge
+
+## Chapter 5: Less Really is More
+- Humans tend to cluster options together, to reduce the number of choices
+- The trick isn't to give more choices, it's to manage them effectively
+- There is no right and wrong, only different perspectives
+- Only use the words you absolutely need
+- People only notice what's in their immediate consciousness. You need to engage them one-to-one
+
 ---
 Source: https://www.goodreads.com/book/show/18038936-predatory-thinking

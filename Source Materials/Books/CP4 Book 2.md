@@ -44,5 +44,13 @@ note: starts from chapter 5 since this is a continuation of [[CP4 Book 1]]
 - checking if point p is inside polygon: for each pair of points p1, p2 on the polygon, get the angle between p1, p, and p2 then add it to res if it's counter-clockwise else subtract it from res. return `res == 2 pi`
 - Convex hull: Andrew's Monotone Chain
 
+## Chapter 8: More Advanced Topics
+- backtracking with bitmask to model set of booleans
+- Max Flow problem: Dinic's Algorithm
+- TSP: backtracking
+- Longest path on general graph: backtracking
+- max weighted vertex cover / max weighted independent set: backtracking with bitmask
+- Steiner tree: complete search
+- Graph-Colouring: DP over subset
 ---
 Source: https://www.goodreads.com/book/show/54698024-competitive-programming-4---book-2
