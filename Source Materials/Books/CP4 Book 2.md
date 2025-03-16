@@ -46,11 +46,25 @@ note: starts from chapter 5 since this is a continuation of [[CP4 Book 1]]
 
 ## Chapter 8: More Advanced Topics
 - backtracking with bitmask to model set of booleans
-- Max Flow problem: Dinic's Algorithm
+- Max Flow problem / Max Cardinality Bipartite Matching: Dinic's Algorithm
 - TSP: backtracking
 - Longest path on general graph: backtracking
 - max weighted vertex cover / max weighted independent set: backtracking with bitmask
 - Steiner tree: complete search
 - Graph-Colouring: DP over subset
+
+## Chapter 9: Rare Topics
+- Static Range Minimum Query: Sparse Table
+- Decompose tree into paths: Heavy-Light Decomposition
+- Lowest Common Ancestor: Reduce to Range Minimum Query and use sparse table
+- Tree isomorphism: pick the centre vertex (midpoint of the longest path) and use that as the root, then encode it
+- De Bruijin Sequence: Eulerian Path
+- Polynomial Multiplication: FFT
+- Prime factors: Pollard's rho Algorithm
+- Congruence system ($x = r_0 (mod m_o)$, $x = r_1 (mod m_0)$, etc.): Chinese Remainder Theorem
+- $\binom{n}{k} (mod p)$: Lucas' Theorem
+- Simultaneous Equations: Gaussian Elimination
+- Maximise result of a function on some variables, given constraints on those variables: Linear Programming 
+
 ---
 Source: https://www.goodreads.com/book/show/54698024-competitive-programming-4---book-2

@@ -98,6 +98,13 @@ Loopback:
     - Redirect
     - Time Exceeded
     - Parameter Problem
-    
+
+## Chapter 9: Broadcasting and Local Multicasting (IGMP and MLD)
+types of IP addresses :
+- unicast: send to someone
+- broadcast: send to everyone
+- multicast: send to group of interested receivers
+- anycast: send to anyone
+
 ---
 Source: https://www.goodreads.com/book/show/505560.TCP_IP_Illustrated_Vol_1

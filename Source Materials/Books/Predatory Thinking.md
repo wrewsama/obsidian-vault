@@ -37,5 +37,12 @@ Tags:
 - Only use the words you absolutely need
 - People only notice what's in their immediate consciousness. You need to engage them one-to-one
 
+## Chapter 6: Taste is the Enemy of Creativity
+- Creativity requires one to go beyond the fear of others' criticisms
+- Get comfortable being uncomfortable
+- If you trust an expert and they're wrong, it's still your fault for listening. Choose who you listen to wisely.
+- Keep an open mind
+- Stop trying to be liked
+
 ---
 Source: https://www.goodreads.com/book/show/18038936-predatory-thinking
