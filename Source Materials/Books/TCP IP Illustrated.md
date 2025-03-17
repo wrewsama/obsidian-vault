@@ -106,5 +106,16 @@ types of IP addresses :
 - multicast: send to group of interested receivers
 - anycast: send to anyone
 
+## Chapter 10: UDP and IP Fragmentation
+- UDP header contains:
+    - source port
+    - destination port
+    - length
+    - checksum
+        - computed over UDP packet with an additional pseudo-header containing fields e.g. source and destination IP addresses, taken from the IPv4 header
+- IP fragmentation
+    - To keep IP datagram size <= Max Transmission Unit
+    - Path MTU can be discovered using UDP (known as PMTUD - path MTU discovery mechanism)
+
 ---
 Source: https://www.goodreads.com/book/show/505560.TCP_IP_Illustrated_Vol_1

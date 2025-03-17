@@ -44,5 +44,16 @@ Tags:
 - Keep an open mind
 - Stop trying to be liked
 
+## Chapter 7: The Art of War
+- Don't make threats you can't/won't follow through on
+- Find people you can trust to do things, then trust them. If they fail, replace them.
+- Don't just be involved, be committed
+- Strategy vs tactics
+    - strategists: focus on the big picture, the 'what'
+    - tacticians: focus on execution, the 'how'
+    - if you are naturally inclined towards tactics, find strategists to work with
+- Overreliance on some new technology can easily become a weakness. Sometimes simple is best
+- The details you pay attention to are potential areas where you can find a win
+
 ---
 Source: https://www.goodreads.com/book/show/18038936-predatory-thinking
