@@ -117,5 +117,20 @@ types of IP addresses :
     - To keep IP datagram size <= Max Transmission Unit
     - Path MTU can be discovered using UDP (known as PMTUD - path MTU discovery mechanism)
 
+## Chapter 11: DNS
+- Domain Name System
+- Maps between host names and IP addresses
+- Applications access DNS through a resolver
+- DNS name space is case insensitive and partitioned hierarchically
+    - The owner of a portion of the namespace (aka a _zone_) needs to have at least 2 DNS servers to hold info for that portion
+- Name servers besides some of the root and TLD will cache information up to a given TTL
+- common DNS record types
+    - A (address): name to IPv4 address
+    - AAAA (address): name to IPv6 address
+    - NS (name server): zone to authoritative name server's name
+    - CNAME (canonical name): name to its canonical name
+    - SOA (start of authority): authoritative info for the zone
+    - PTR (pointer): IPv4 / IPv6 address to canonical name
+
 ---
 Source: https://www.goodreads.com/book/show/505560.TCP_IP_Illustrated_Vol_1

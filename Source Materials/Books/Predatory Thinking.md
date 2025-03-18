@@ -55,5 +55,16 @@ Tags:
 - Overreliance on some new technology can easily become a weakness. Sometimes simple is best
 - The details you pay attention to are potential areas where you can find a win
 
+## Chapter 8: Form Follows Function
+- Form is subjective
+- Form is useless without function
+- Figure out what the problem is, find something that solves it, only then can you worry about how 'perfect' things are
+- make sure you're doing the right thing before worrying about doing it right
+
+## Chapter 9: The Human Mind is Our Medium
+- Imagination makes a great servant and a lousy master
+- Question your own conspiracies and theories
+- We see things not as they are, but as we are
+
 ---
 Source: https://www.goodreads.com/book/show/18038936-predatory-thinking
