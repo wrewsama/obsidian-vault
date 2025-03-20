@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/TCP IP Illustrated.md",
+                "file": "Source Materials/Books/Predatory Thinking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TCP IP Illustrated"
+              "title": "Predatory Thinking"
             }
           }
         ]
@@ -176,13 +176,13 @@
   },
   "active": "1f20bd2723bf9131",
   "lastOpenFiles": [
-    "Source Materials/Books/Predatory Thinking.md",
+    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Source Materials/Books/TCP IP Illustrated.md",
+    "Source Materials/Books/Predatory Thinking.md",
     "Source Materials/Books/CP4 Book 2.md",
     "Main Notes/Digit DP.md",
     "Main Notes/OSI and TCPIP Model.md",
     "Main Notes/TCP vs UDP.md",
-    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Main Notes/Why Sequential IO is fast even on SSDs.md",
     "Source Materials/Videos/The Most Underrated Social Skill and How I used It.md",
     "Main Notes/String Rolling Hash.md",

@@ -66,5 +66,9 @@ Tags:
 - Question your own conspiracies and theories
 - We see things not as they are, but as we are
 
+## Chapter 10: The Journey is the Destination
+- Most people follow the HAVE-DO-BE process: HAVE a title, then DO the required work, then you can BE something
+- You should do the opposite: BE what you want to become, DO the work required, then you can HAVE the desired title
+
 ---
 Source: https://www.goodreads.com/book/show/18038936-predatory-thinking
