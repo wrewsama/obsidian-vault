@@ -132,5 +132,17 @@ types of IP addresses :
     - SOA (start of authority): authoritative info for the zone
     - PTR (pointer): IPv4 / IPv6 address to canonical name
 
+## Chapter 12: TCP
+- sliding window: sender can only send within the window
+- window can be used for flow control
+- retransmission timeout is based on a sample mean of RTTs
+- TCP header contains:
+    - source port
+    - dest port
+    - sequence number
+    - acknowledgement number
+    - checksum
+    - window size
+    - etc.
 ---
 Source: https://www.goodreads.com/book/show/505560.TCP_IP_Illustrated_Vol_1

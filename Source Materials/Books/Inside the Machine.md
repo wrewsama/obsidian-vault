@@ -1,5 +1,5 @@
 Tags:
-- [[Operating Systems]]
+- [[Computer Architecture]]
 ---
 ## Chapter 1: Basic Computing Concepts
 
