@@ -144,5 +144,34 @@ types of IP addresses :
     - checksum
     - window size
     - etc.
+
+## Chapter 13: TCP Connection Management
+- TCP connection: 4-tuple with 2 endpoints: (IP address, port number)
+- Setup:
+    - client sends SYN
+    - server sends SYN + ACK
+    - client sends ACK
+- Teardown:
+    - client sends FIN
+    - server sends ACK
+    - server sends FIN + ACK
+    - client sends ACK
+- Path MTU discovery:
+    - set Send Max Segment Size (SMSS) = `min(outgoing_mtu, dest_mss)`
+    - if a Packet Too Big ICMP error is received, decrease SMSS
+    - if no decreases for some time, increase SMSS
+- TCP RST (reset segment): when a segment that's invalid for the current connection is received
+- SYN flood: DoS attack where clients spam SYN segments at a server, wasting connection resources and preventing legitimate requests from being served 
+    - addressed using SYN cookies
+
+## Chapter 14: TCP Timeout and Retransmission
+- timeout-based retransmission
+    - retransmit whenever timeout is reached
+    - use binary exponential backoff for retransmission interval until ACK is received
+    - measure RTT and update RTT estimate (mean of sampled RTTs)
+- fast retransmit
+    - retransmit when >= `dupthresh` duplicate ACKs are received
+    - Selective ACK (SACK): server sends info about which packets are missing => client only needs to resend the missing ones, not all sent packets with sequence number > the duplicate ACK number => better performance
+
 ---
 Source: https://www.goodreads.com/book/show/505560.TCP_IP_Illustrated_Vol_1
