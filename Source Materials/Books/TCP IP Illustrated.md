@@ -173,5 +173,12 @@ types of IP addresses :
     - retransmit when >= `dupthresh` duplicate ACKs are received
     - Selective ACK (SACK): server sends info about which packets are missing => client only needs to resend the missing ones, not all sent packets with sequence number > the duplicate ACK number => better performance
 
+## Chapter 15: TCP Data Flow and Window Management
+- Interactive data (e.g. `ssh`) transmits small segments (< SMSS)
+- addressed by:
+    - delayed acknowledgements: wait a bit to send some data along with the ACK
+    - Nagle algorithm: sender buffers the small packets until all outstanding data has been ACKed, then send everything in 1 larger packet
+- flow control is implemented in TCP via a window advertisement on each ACK
+
 ---
 Source: https://www.goodreads.com/book/show/505560.TCP_IP_Illustrated_Vol_1
