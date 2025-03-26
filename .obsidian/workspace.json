@@ -11,24 +11,10 @@
             "id": "1f20bd2723bf9131",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Source Materials/Books/TCP IP Illustrated.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TCP IP Illustrated"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -175,8 +161,10 @@
   },
   "active": "1f20bd2723bf9131",
   "lastOpenFiles": [
-    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
+    "Main Notes/Exhaustive Pattern Matching for Enums.md",
+    "Main Notes/Python Never Type.md",
     "Source Materials/Books/TCP IP Illustrated.md",
+    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Main Notes/Priority Queue in Python.md",
     "Source Materials/Books/How to Take Smart Notes.md",
     "Source Materials/Books/Inside the Machine.md",
@@ -199,8 +187,6 @@
     "Source Materials/Videos/The Most Underrated Social Skill and How I used It.md",
     "Main Notes/String Rolling Hash.md",
     "Main Notes/KMP.md",
-    "Main Notes/Rate Limiter in Redis.md",
-    "Templates/Source Material.md",
     "const/var",
     "const",
     "Projection",
