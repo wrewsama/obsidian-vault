@@ -180,5 +180,14 @@ types of IP addresses :
     - Nagle algorithm: sender buffers the small packets until all outstanding data has been ACKed, then send everything in 1 larger packet
 - flow control is implemented in TCP via a window advertisement on each ACK
 
+## Chapter 16: TCP Congestion Control
+- Congestion: when router needs to drop packets due to overwhelming traffic
+- Congestions detection
+- slowing down sender
+    - set the usable window to be the minimum of the receiver's advertised receive window and the congestion window (estimate of the network's capacity)
+- Slow Start: on new TCP connection or when loss is detected (through retransmission timeout). Start with a small window and grow exponentially if no loss. Halve if there's loss. Switch to congestion avoidance once threshold reached.
+- Congestion Avoidance: grow window linearly if no loss
+- Delay-based congestion control: Instead of slowing down after detecting loss, slow down when RTT is too high
+
 ---
 Source: https://www.goodreads.com/book/show/505560.TCP_IP_Illustrated_Vol_1
