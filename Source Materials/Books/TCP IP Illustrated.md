@@ -189,5 +189,28 @@ types of IP addresses :
 - Congestion Avoidance: grow window linearly if no loss
 - Delay-based congestion control: Instead of slowing down after detecting loss, slow down when RTT is too high
 
+## Chapter 17: TCP Keepalive
+- Purpose: detect inactive clients so the connection can be freed
+- Implementation: probe packet is sent after a long period of idling (usually 2h), if receiver is alive, it will respond with an ACK
+
+## Chapter 18: Security
+- requirements
+    - confidentiality: info only known by intended user
+    - integrity: no unauthorised modifications
+    - availability (self-explanatory)
+- symmetric key encryption
+    - DES
+    - AES
+- asymmetric key encryption
+    - RSA
+    - Diffie Hellman
+- Nonces: to prevent server gives client a random number, client needs to respond with that
+- Salt: to prevent brute force / rainbow table attacks, add salt to value before hashing, then save hash value with the salt
+- Message Authentication Codes (MAC): ensure message integrity and auth
+- Certificate Authorities (CA): to ensure the correct public key for some identity
+- DNSSEC: secures the DNS
+- TLS: Transport layer security
+- IPSec: IP security
+
 ---
 Source: https://www.goodreads.com/book/show/505560.TCP_IP_Illustrated_Vol_1
