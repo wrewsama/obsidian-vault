@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/TCP IP Illustrated.md",
+                "file": "Source Materials/Books/How to Take Smart Notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TCP IP Illustrated"
+              "title": "How to Take Smart Notes"
             }
           }
         ]
@@ -175,8 +175,8 @@
   },
   "active": "1f20bd2723bf9131",
   "lastOpenFiles": [
-    "Source Materials/Books/How to Take Smart Notes.md",
     "Source Materials/Books/TCP IP Illustrated.md",
+    "Source Materials/Books/How to Take Smart Notes.md",
     "Main Notes/MongoDB Architecture.md",
     "Main Notes/Exhaustive Pattern Matching for Enums.md",
     "Main Notes/Python Never Type.md",

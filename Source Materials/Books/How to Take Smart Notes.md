@@ -23,5 +23,11 @@ Tags:
 - Assemble and translate your notes into a rough draft
 - Edit and proofread
 
+## Four Underlying Principles
+- Writing is the only thing that matters
+    - Learning is demonstrated through writing
+    - You need to practice it deliberately
+    - Do everything as if nothing counts other than writing
+
 ---
 Source: https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes
