@@ -28,6 +28,11 @@ Tags:
     - Learning is demonstrated through writing
     - You need to practice it deliberately
     - Do everything as if nothing counts other than writing
+- Simplicity is Paramount
+    - 3 mistakes:
+        - Too many permanent notes
+        - Only collecting notes on a particular project
+        - Treating all notes like fleeting ones
 
 ---
 Source: https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes
