@@ -33,6 +33,13 @@ Tags:
         - Too many permanent notes
         - Only collecting notes on a particular project
         - Treating all notes like fleeting ones
+- Nobody ever starts from scratch
+    - Don't just pick some topic to write and try to brainstorm ideas
+    - Start with the notes you have and use that
+- Let the work carry you forward
+    - Writing notes in your own words while reading provides instant feedback on your understanding. This builds a feedback loop into your study workflow
+    - It's easier to learn something when you know more related information 
+        - Building a network of information (notes) makes it easier to absorb even more 
 
 ---
 Source: https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes
