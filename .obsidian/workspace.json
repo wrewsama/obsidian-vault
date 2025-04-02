@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/How to Take Smart Notes.md",
+                "file": "Source Materials/Books/System Design Interview Volume 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "How to Take Smart Notes"
+              "title": "System Design Interview Volume 1"
             }
           }
         ]
@@ -175,8 +175,13 @@
   },
   "active": "1f20bd2723bf9131",
   "lastOpenFiles": [
-    "Source Materials/Books/TCP IP Illustrated.md",
+    "Main Notes/CPU Caches.md",
+    "Source Materials/Books/System Design Interview Volume 1.md",
+    "Source Materials/Papers/Scaling Memcache at Facebook.md",
+    "Main Notes/JS Runtime.md",
+    "Main Notes/JS Engine.md",
     "Source Materials/Books/How to Take Smart Notes.md",
+    "Source Materials/Books/TCP IP Illustrated.md",
     "Main Notes/MongoDB Architecture.md",
     "Main Notes/Exhaustive Pattern Matching for Enums.md",
     "Main Notes/Python Never Type.md",
@@ -191,16 +196,11 @@
     "Source Materials/Books/CP4 Book 2.md",
     "Tags/Productivity.md",
     "Source Materials/Books/How to Get Rich.md",
-    "Main Notes/CPU Caches.md",
     "Tags/Computer Architecture.md",
     "Source Materials/Websites/5 Simple Ways to Impress Your Boss.md",
     "Source Materials/Books/Predatory Thinking.md",
     "Main Notes/Digit DP.md",
     "Main Notes/OSI and TCPIP Model.md",
-    "Main Notes/TCP vs UDP.md",
-    "Main Notes/Why Sequential IO is fast even on SSDs.md",
-    "Source Materials/Videos/The Most Underrated Social Skill and How I used It.md",
-    "Main Notes/String Rolling Hash.md",
     "const/var",
     "const",
     "Projection",

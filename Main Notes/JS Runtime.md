@@ -3,7 +3,7 @@ Tags:
 ---
 JS Runtime contains:
 
-- JS Engine
+- [[JS Engine]] 
 - Event Loop
 - task queue
 - microtask queue (microtasks, usually promises) (higher prio than task queue)
