@@ -62,5 +62,51 @@ Send packet CA->Netherlands->CA    150,000,000   ns  150,000 us  150 ms
     - write down assumptions
     - label units
     - round and approximate
+
+## Answering Framework
+1. Understand problem and establish design scope (3-10 min)
+    - features to build
+    - tech stack
+    - any existing services that can be used
+    - expected scale
+2. Propose high-level design and get buy-in (10-15 min)
+    - back-of-the-envelope calculations
+    - come up with an initial blueprint with box diagrams
+    - treat interviewer like a teammate. Get feedback and work together to solve the problem
+3. Design Deep Dive (10-25 min)
+    - Work with the interviewer, dive into parts of the design
+    - e.g. system performance, bottlenecks, details of system components
+4. Wrap Up (3-5 min)
+    - Recap your design
+    - Answer any follow-up questions from the interviewer
+        - operation issues
+        - handling the next scale curve
+        - other refinements
+
+## Design a Rate Limiter
+- requirements:
+    - accurately limit requests
+    - low latency
+    - minimise memory usage
+    - fault tolerance
+    - clearly show users the exception when throttling requests
+    - can be shared across multiple servers (i.e. client A making requests to server X counts towards A's limit for all servers)
+- Algorithms
+    - token bucket
+    - leaky bucket
+    - fixed window counter
+    - sliding window log / counter
+- Implementation
+    - Rate limiting middleware between client and API servers
+    - Redis with `INCR` & `EXPIRE`
+    - Persist rate limiting rules and cache them
+- Exceeding rate limit: 
+    - Drop message with HTTP response 429
+        - `X-Ratelimit-Remaining` header
+        - `X-Ratelimit-Limit` header
+        - `X-Ratelimit-Retry-After` header
+    - OR, send to message queue
+- Avoid race conditions: Lua script or sorted set
+
 ---
 Source: https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide?ac=1&from_search=true&qid=a6rdJLb4Zd&rank=1

@@ -41,5 +41,12 @@ Tags:
     - It's easier to learn something when you know more related information 
         - Building a network of information (notes) makes it easier to absorb even more 
 
+## Steps to Successful Writing
+- Give each task your undivided attention, don't multitask
+- Give the right kind of attention to each task: pure focus vs playful exploration
+- Become an expert instead of a planner. Rely on embodied experience instead of a set of plans or rules
+- Get closure on tasks. This avoids cluttering your short-term memory. Closure doesn't have to be the actual completion of the task, instead it can just be writing it down and postponing it for later
+- Reduce decision fatigue
+
 ---
 Source: https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes

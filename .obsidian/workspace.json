@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -175,12 +176,12 @@
   },
   "active": "1f20bd2723bf9131",
   "lastOpenFiles": [
-    "Main Notes/CPU Caches.md",
+    "Source Materials/Books/How to Take Smart Notes.md",
     "Source Materials/Books/System Design Interview Volume 1.md",
+    "Main Notes/CPU Caches.md",
     "Source Materials/Papers/Scaling Memcache at Facebook.md",
     "Main Notes/JS Runtime.md",
     "Main Notes/JS Engine.md",
-    "Source Materials/Books/How to Take Smart Notes.md",
     "Source Materials/Books/TCP IP Illustrated.md",
     "Main Notes/MongoDB Architecture.md",
     "Main Notes/Exhaustive Pattern Matching for Enums.md",
