@@ -108,5 +108,14 @@ Send packet CA->Netherlands->CA    150,000,000   ns  150,000 us  150 ms
     - OR, send to message queue
 - Avoid race conditions: Lua script or sorted set
 
+## Consistent Hashing
+- want to allocate $k$ pieces of data to $n$ nodes/slots
+- issue with naïve hashing + modulo: If the number of slots changes, most of the data needs to be moved to a new slot
+- with consistent hashing: only $k/n$ keys need to be moved
+- how it works
+    - nodes are hashed with multiple functions and the outputs (known as virtual nodes) are placed on a ring
+    - keys are hashed to the same ring and stored in the first node in the clockwise direction
+    - this invariant is maintained when nodes are added and removed
+
 ---
 Source: https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide?ac=1&from_search=true&qid=a6rdJLb4Zd&rank=1
