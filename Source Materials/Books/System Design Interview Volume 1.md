@@ -117,5 +117,43 @@ Send packet CA->Netherlands->CA    150,000,000   ns  150,000 us  150 ms
     - keys are hashed to the same ring and stored in the first node in the clockwise direction
     - this invariant is maintained when nodes are added and removed
 
+## Design Key Value Store
+- partition with consistent hashing
+- strong consistency: quorum with W + R > N
+- eventual consistency: versioning with a vector clock to resolve inconsistencies
+- failure
+    - detection: gossip protocol
+        - each node maintains membership list
+        - each node sends heartbeats to a set of random nodes which then forward it to other nodes
+        - if a heartbeat has not been received for more than some limit, that node is considered failed
+    - handling temporary failures: sloppy quorum + hinted handoff
+        - let another server process requests for the down server
+        - when that server comes back up, push changes back to it
+    - handling permanent failures: Anti-entropy
+        - maintain a Merkle tree on each replica
+        - if inconsistencies are detected, update each replica to the latest version
+- write path
+    - persist request in commit log
+    - write to memory cache
+    - when memory cache is fill to a certain point, flush to SSTables on disk
+- read path
+    - check memory cache
+    - check if key doesn't exist using bloom filter
+    - otherwise, check SSTables
+
+## Unique ID Generator
+- Multi-master
+    - $k$ `auto_increment` databases, each at its own offset, incrementing by $k$ each time
+    - bad scaling
+    - doesn't go up with time across multiple servers (results in bad cache locality)
+- UUID
+    - doesn't go up with time across multiple servers (results in bad cache locality)
+- centralised ticket server
+    - SPOF
+- Snowflake ID
+    - 64 bit signed integer, but the sign bit (1st bit) is always 0
+    - next 41 bits: timestamp (milliseconds since some epoch: 41 bits lasts around 69 years)
+    - 10 bits: machine id
+    - 12 bits: sequence number
 ---
 Source: https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide?ac=1&from_search=true&qid=a6rdJLb4Zd&rank=1
