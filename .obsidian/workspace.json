@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/System Design Interview Volume 1.md",
+                "file": "Source Materials/Videos/This Is How You Become More Articulate.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design Interview Volume 1"
+              "title": "This Is How You Become More Articulate"
             }
           }
         ]
@@ -176,8 +176,13 @@
   },
   "active": "1f20bd2723bf9131",
   "lastOpenFiles": [
-    "Source Materials/Books/How to Take Smart Notes.md",
+    "Source Materials/Videos/The Anti-Routine.md",
+    "Source Materials/Videos/This Is How You Become More Articulate.md",
+    "Tags/Mindset.md",
+    "Tags/Productivity.md",
+    "Source Materials/Videos/3 High-Leverage Career Skills.md",
     "Source Materials/Books/System Design Interview Volume 1.md",
+    "Source Materials/Books/How to Take Smart Notes.md",
     "Main Notes/CPU Caches.md",
     "Source Materials/Papers/Scaling Memcache at Facebook.md",
     "Main Notes/JS Runtime.md",
@@ -195,13 +200,8 @@
     "Source Materials/Books/High Performance MySQL.md",
     "Main Notes/TCP Handshakes.md",
     "Source Materials/Books/CP4 Book 2.md",
-    "Tags/Productivity.md",
     "Source Materials/Books/How to Get Rich.md",
     "Tags/Computer Architecture.md",
-    "Source Materials/Websites/5 Simple Ways to Impress Your Boss.md",
-    "Source Materials/Books/Predatory Thinking.md",
-    "Main Notes/Digit DP.md",
-    "Main Notes/OSI and TCPIP Model.md",
     "const/var",
     "const",
     "Projection",
