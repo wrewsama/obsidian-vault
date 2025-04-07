@@ -21,7 +21,7 @@ Tags:
 - Web Tier
     - Keep web tier stateless
         - store session data in persistent storage, not in the server
-        - allows user requests to be served by any server
+        - allows us to scale out and let user requests be served by any server
         - use a load balancer to route requests between multiple servers
     - Deploy to multiple data centres (together with data tier)
         - servers within a data centre mainly access the data tier within the same data centre (lower latency)
@@ -155,5 +155,79 @@ Send packet CA->Netherlands->CA    150,000,000   ns  150,000 us  150 ms
     - next 41 bits: timestamp (milliseconds since some epoch: 41 bits lasts around 69 years)
     - 10 bits: machine id
     - 12 bits: sequence number
+
+## URL Shortener
+- shorten URLS
+    - `POST api/v1/data/shorten`
+    - persist the shortURL-longURL mappings
+    - given a long URL, apply a hash function to it to obtain a candidate short url
+    - check if that short url already exists
+        - can optimise with bloom filter
+    - if it exists, append some predefined string to the long url and hash it again. Repeat until we get an unused short url 
+- redirect from shortened URL
+    - `GET api/v1/:shortUrl`
+    - respond with status code 301/302 and the `location` of the full link in headers
+        - 301: permanently moved
+        - 302: temporarily moved
+        - for 301, browser caches the response so subsequent requests go straight to the long url. Lower server load but no analytics
+
+## Web Crawler
+workflow:
+- URL frontier: add seed URLs
+    - ensure _politeness_: from the same host, only download 1 page at a time
+    - set up a queue for each worker thread
+    - ensure all requests to a particular host goes to the same queue
+- HTML Downloader: fetch URLs from URL frontier
+    - need to check `robots.txt` to see what we're allowed to download
+    - scale out to multiple servers and locations for performance and locality
+- DNS resolver: get IP addresses of those URLs
+- HTML Downloader: downloads pages from the IP addresses
+- Content Parser: parse HTML and check if pages are malformed
+- Content Seen: check if page is already in storage, if yes, discard
+    - compare hashes
+- Link extractor: extract links from the HTML
+- URL filter: filter out certain content types, file extensions, blacklisted sites, etc.
+- URL seen: check if URL is already in storage, if yes, discard, if not, add to URL frontier
+- repeat
+
+## Notification System
+- when users sign in on a device, save the user-device mapping, as well as their notification settings in a cache + DB
+- notification server: use the cache + DB to retrieve the data, then send a request to the appropriate message queue (e.g. android queue, iOS queue, SMS, etc.)
+- each message queue is consumed by some worker servers 
+    - notification template DB
+    - notification log DB: track requests and message status, allows for retry mechanisms
+    - downstream 3rd party notification delivery (e.g. FCM for android)
+- extensions
+    - rate limiting
+    - analytics
+
+## News Feed System
+- feed publishing `POST /api/v1/me/feed`
+    - Create post in post service (write to post cache + DB) and get a post id
+    - Get friend/follower user IDs from graph DB
+    - Get user settings from user cache + DB (e.g. muted, blocked)
+    - hybrid fanout:
+        - Fanout on write: For each user ID that isn't popular (doesn't have "too many" followers/friends), add `(post id, user id)` to the news feed cache
+        - Fanout on read: for popular users, don't push the post to the news feed cache (avoid having too many writes)
+- feed retrieval `GET /api/v1/me/feed`
+    - fetch news feed post ids from cache
+    - use post ids to get newsfeed posts from post cache + DB
+    - fetch posts from followed popular users from post cache + DB
+    - return the fully hydrated news feed to the client for rendering
+
+## Chat System
+login and service discovery:
+- user logs in
+- API servers authenticate 
+- service discovery finds best chat server
+- establish websocket connection
+
+message flow:
+- send message request to chat server
+- source chat server sends message to message sync queue (if group message, send to all members)
+- message is saved in the message store
+- if receiver is online, find which server they're connected to and push the message there
+- if offline, send a push notification
+
 ---
 Source: https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide?ac=1&from_search=true&qid=a6rdJLb4Zd&rank=1

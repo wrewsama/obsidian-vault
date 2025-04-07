@@ -45,4 +45,4 @@ _3-5 minutes_
 
 ---
 ## References
-System Design Interview by Bytebytego
+[[System Design Interview Volume 1]]

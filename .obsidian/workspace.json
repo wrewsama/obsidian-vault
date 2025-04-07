@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1f20bd2723bf9131",
+            "id": "44f13a74031441c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Videos/This Is How You Become More Articulate.md",
+                "file": "Source Materials/Books/System Design Interview Volume 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "This Is How You Become More Articulate"
+              "title": "System Design Interview Volume 1"
             }
           }
         ]
@@ -174,14 +174,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f20bd2723bf9131",
+  "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Videos/The Anti-Routine.md",
+    "Main Notes/System Design Answering Framework.md",
+    "Source Materials/Books/System Design Interview Volume 1.md",
     "Source Materials/Videos/This Is How You Become More Articulate.md",
+    "Source Materials/Videos/The Anti-Routine.md",
     "Tags/Mindset.md",
     "Tags/Productivity.md",
     "Source Materials/Videos/3 High-Leverage Career Skills.md",
-    "Source Materials/Books/System Design Interview Volume 1.md",
     "Source Materials/Books/How to Take Smart Notes.md",
     "Main Notes/CPU Caches.md",
     "Source Materials/Papers/Scaling Memcache at Facebook.md",
@@ -201,7 +202,6 @@
     "Main Notes/TCP Handshakes.md",
     "Source Materials/Books/CP4 Book 2.md",
     "Source Materials/Books/How to Get Rich.md",
-    "Tags/Computer Architecture.md",
     "const/var",
     "const",
     "Projection",
