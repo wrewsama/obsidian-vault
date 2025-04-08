@@ -48,5 +48,9 @@ Tags:
 - Get closure on tasks. This avoids cluttering your short-term memory. Closure doesn't have to be the actual completion of the task, instead it can just be writing it down and postponing it for later
 - Reduce decision fatigue
 
+## How to Read
+- Read with a pen in hand: take literature notes that serve to assist in the writing of permanent notes that add value to the slip box
+- Keep an open mind: prioritise writing down ideas that go against your existing ideas and beliefs
+
 ---
 Source: https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes

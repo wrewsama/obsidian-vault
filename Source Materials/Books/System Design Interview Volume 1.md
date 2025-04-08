@@ -229,5 +229,25 @@ message flow:
 - if receiver is online, find which server they're connected to and push the message there
 - if offline, send a push notification
 
+## Search Autocomplete
+- Trie DB and cache to efficiently retrieve possible results for each prefix
+    - Shard based on historical data distribution of prefixes - even distribution of load
+- Data gathering service: 
+    - Aggregators to ingest and aggregate search analytics logs
+    - Workers to use the aggregated data to update the trie DB
+- Optimisations
+    - use AJAX requests to prevent refreshing the whole web page
+    - enable browser caching since search autocomplete results are unlikely to change much
+## YouTube
+- video uploading
+    - user uploads video to storage
+    - transcoding servers transcode the original video
+        - different formats and qualities
+    - concurrently:
+        - transcoded videos distributed to CDN
+        - completion handlers update metadata DB + cache
+- video streaming
+    - client streams from CDN
+
 ---
 Source: https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide?ac=1&from_search=true&qid=a6rdJLb4Zd&rank=1
