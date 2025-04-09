@@ -249,5 +249,16 @@ message flow:
 - video streaming
     - client streams from CDN
 
+## Google Drive
+- for this, we focus on just sharing files with multiple revisions and notifications when files are changed
+- uploading
+    - client uploads data blocks (pieces of the file) to block servers
+        - optimisations: 
+            - compression
+            - delta sync (only sync modified blocks)
+    - client updates metadata through API servers to metadata DB + cache
+    - API servers send notifications to relevant users
+- downloading / getting file revisions: get from API servers which get the results from the metadata DB + cache
+
 ---
 Source: https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide?ac=1&from_search=true&qid=a6rdJLb4Zd&rank=1
