@@ -11,7 +11,7 @@ Reassign topic partitions to consumers in a consumer group
 **Process**
 - notify all consumers in the affected consumer group
 - consumers respond with ready message
-- group coordinator assigns partitions to consumers
+- group coordinator (one of the brokers) assigns partitions to consumers
 
 can be eager (stop all consumers) or cooperative (reassign only a subset of partitions)
 
