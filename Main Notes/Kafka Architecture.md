@@ -17,7 +17,7 @@ Tags:
 - one of the brokers becomes the Group Coordinator for that consumer group
     - this can be found using the hash of the group id, so all consumers in the group can find out who their coordinator is
     - the consumer group has offsets for each topic & partition stored in the `__consumer_offsets` topic, which is stored in the Group Coordinator
-- each consumer is assigned a different partition in the topic (1-1 mapping)
+- each consumer is assigned different partition(s) in the topic (each partition has exactly one consumer from the group)
 - consume based on the consumer group's offset for that topic & partition, incrementing it and committing the new offset to the Group Coordinator
 
 ---

@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "raft",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,10 +177,13 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/Kafka Architecture.md",
+    "Source Materials/Books/Understanding Distributed Systems.md",
     "Source Materials/Books/System Design Interview Volume 2.md",
-    "Tags/Message Brokers.md",
+    "Source Materials/Papers/Kafka Paper.md",
+    "Main Notes/ZooKeeper.md",
+    "Main Notes/Kafka Architecture.md",
     "Main Notes/Rebalancing in Kafka.md",
+    "Tags/Message Brokers.md",
     "Main Notes/Digit DP.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Source Materials/Books/System Design Interview Volume 1.md",
@@ -199,9 +203,6 @@
     "Main Notes/MongoDB Architecture.md",
     "Main Notes/Exhaustive Pattern Matching for Enums.md",
     "Main Notes/Python Never Type.md",
-    "Main Notes/Priority Queue in Python.md",
-    "Source Materials/Books/Inside the Machine.md",
-    "Source Materials/Books/Influence.md",
     "const/var",
     "const",
     "Projection",

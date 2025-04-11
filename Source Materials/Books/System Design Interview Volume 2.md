@@ -48,5 +48,101 @@ Tags:
     - group's coordinator tells it which partition to consume from
     - fetch messages from the partition and commit the incremented offset
 
+## Metric Monitoring
+- Metric sources: API servers, DBs, message queues, etc
+- Metrics collector: gathers the metrics
+    - pull model: calls the metric sources (e.g. use a service discovery to get the metrics sources, then call a `GET /metrics` endpoint)
+    - push model: metric sources have a collection agent that send data to the one of the collector servers through a load balancer
+- Kafka: channels data from the collectors to the Time Series DB
+    - prevent data loss if DB dies
+- Query Service: decouples downstreams from the DB, handle the queries by querying the DB + cache
+- Time series DB
+    - e.g. InfluxDB, Prometheus
+    - Downsample data based on age
+- Alert system: query the query service and send notifications if needed
+- Visualisation system
+    - query the query service
+    - can use a ready-made solution like Grafana
+
+## Ad Click Event Aggregation
+- requirements
+    - aggregate number of clicks of certain `ad_id`s
+    - return top 100 most clicked `ad_id`s
+    - support aggregation filtering by different attributes
+- DB: workload is write-heavy, use NoSQL/time series like Cassandra/InfluxDB
+- workflow
+    - log watcher sends ad logs to message queue
+    - data aggregation service (MapReduce) aggregates the data and sends it to another message queue
+    - database writers pull the aggregated data and save it into the DB
+    - query service / dashboard queries the DB
+- lambda architecture: 2 separate processing paths (batch and streaming)
+- kappa architecture: only 1 processing path combining both batch and streaming
+- dealing with delayed events: watermarks
+- data deduplication: track offsets then increment + commit them after sending downstream
+
+## Reservation System
+- User side:
+    - CDN to serve static content
+    - public API gateway between client and the various services
+    - microservices
+        - hotel rooms
+        - ratings
+        - reservations
+        - payments
+- admin side:
+    - private gateway (usually protected by VPN)
+    - hotel management service
+- concurrency issues
+    - double booking: solve by adding an idempotency key to the reservation request. This key can be part of the reservation page
+    - race conditions:
+        - pessimistic locking: `SELECT ... FOR UPDATE`
+        - optimistic locking: `version` column
+        - database constraints (e.g. doing an atomic increment in the query and adding a nonnegative constraint on the booking count)
+- consistency
+    - 2PC
+    - Saga: each service does a local transaction and sends a message to the next step. If an error occurs, rollback the local transaction and send a message to the previous step to undo theirs
+
+## Distributed Email
+- sending
+    - client sends mail request to web servers via HTTPS
+    - web servers validate the request
+    - if there is an error, send to error queue
+    - if destination is in the same domain as sender, save email data directly to DB + cache + object store
+    - else, send to output queue
+    - SMTP servers pull messages from output queue and send them to destinations through SMTP
+    - save the email in the 'sent' folder of the sender
+- receiving
+    - SMTP server receives the mail and adds it to the incoming mail queue
+    - processing servers
+        - run checks (viruses, spam)
+        - store mail in DB + cache + object store
+    - If user online, send to real time websocket servers that push the message to the user
+    - User can also use a HTTPS request on the web servers to access the received mail
+
+## Object Storage
+- API service: handles user requests
+    - upload
+        - A&A
+        - send update to metadata service
+        - upload to data service
+    - download
+        - A&A
+        - query metadata service to get object ID
+        - query data service
+- metadata
+    - bucket: id, name, policies, etc.
+    - object: ID, name, version, bucket, etc.
+- data store
+    - routing service: 
+        - query placement service for data node to read/write from
+        - handle data transfer to/from that data node
+    - placement service
+        - chooses which nodes to store objects
+        - handle failover
+        - detect failures through heartbeats
+    - data nodes (storage)
+        - primary/secondary replication: better performance and deals with node failure
+        - can use erasure coding for more durability against disc failure
+        - checksums for error detection
 ---
 Source: https://www.goodreads.com/book/show/60631342-system-design-interview-an-insider-s-guide?ac=1&from_search=true&qid=rdZCpXSMbI&rank=2
