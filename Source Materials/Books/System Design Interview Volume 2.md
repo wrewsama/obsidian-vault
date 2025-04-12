@@ -144,5 +144,69 @@ Tags:
         - primary/secondary replication: better performance and deals with node failure
         - can use erasure coding for more durability against disc failure
         - checksums for error detection
+
+## Real Time (Gaming) Leaderboard
+- User accesses game server to play game
+- Game service updates score in leaderboard service
+- Maintain leaderboard in Redis Sorted Set
+- Store user details (e.g. usernames, points) in persistent storage (e.g. RDBMS)
+
+## Payment System
+- Payment service
+    - receives requests from client
+    - saves payment event
+    - processes payment with the help of a Payment Service Provider (see below)
+    - update balance information
+    - record in ledger using double-entry accounting
+- PSP
+    - handles sensitive info like credit card numbers 
+    - provides a webpage for users to submit their details. This can be either included as an `iframe` or redirected to
+    - process:
+        - payment service creates payment with an idempotency id (nonce)
+        - PSP returns a payment token to identify the payment
+        - payment service stores the token in the DB
+        - payment service shows the PSP's hosted payment page (with the token) to the user
+        - after user makes payment, PSP can notify payment service via a webhook
+- reconciliation
+    - detect errors by comparing settlement file from PSP/banks and our ledger
+- exactly-once guarantees: need both:
+    - at-least-once: through exponential backoff retry
+    - at-most-once: idempotency key
+## Digital Wallet
+- Challenge: distributed transaction on 2 balances that could be on different nodes
+- Possible solutions
+    - 2PC
+    - Saga
+    - Event Sourcing with CQRS
+
+## Stock Exchange
+- Trading flow
+    - user sends order to broker
+    - broker sends order to stock exchange's client gateway
+    - order is sent to the order manager
+        - conduct risk checks
+        - check that user's wallet has sufficient funds
+        - send to the sequencer
+    - sequencer stamps a sequence id on each order to ensure determinism before sending it to the matching engine
+    - matching engine 
+        - matches buy and sell orders (can be FIFO)
+        - sends the match executions (fills) for both the buy and sell orders back to the sequencer, order manager, gateway, and broker to be returned to the user
+- market data flow
+    - matching engine sends executions (fills) to the market data publisher
+    - market data publisher constructs order books and candlestick charts
+    - data is sent to the data service to be persisted
+- reporting flow
+    - collect data from order manager
+    - writes to DB for tax/compliance/settlements etc.
+- Request Protocol: Financial Information eXchange (FIX)
+- Performance optimisation: single server
+    - pin each component to a fixed CPU core => no context switching overhead
+    - `mmap` to `dev/shm` for shared memory
+    - use the event sourcing pattern by writing events to the `mmap`'ed region and letting the components pull them
+    - gateway and matching engines write events to ring buffers and the sequencer pulls them, stamps a sequence id, then writes them in the `mmap` event store
+- availability: replication
+    - have warm standbys for failover
+    - use Raft for primary node election
+
 ---
 Source: https://www.goodreads.com/book/show/60631342-system-design-interview-an-insider-s-guide?ac=1&from_search=true&qid=rdZCpXSMbI&rank=2
