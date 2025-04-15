@@ -51,6 +51,9 @@ Tags:
 ## How to Read
 - Read with a pen in hand: take literature notes that serve to assist in the writing of permanent notes that add value to the slip box
 - Keep an open mind: prioritise writing down ideas that go against your existing ideas and beliefs
+- Get the Gist: Get good at extracting the important parts of your source material
+- Learn to Read: Test yourself on the things you've read, don't just passively read
+- Learn by reading: Write, take notes, and connect your ideas
 
 ---
 Source: https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes
