@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/How to Take Smart Notes.md",
+                "file": "Main Notes/Deadlock Handling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "How to Take Smart Notes"
+              "title": "Deadlock Handling"
             }
           }
         ]
@@ -177,6 +177,10 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Main Notes/Deadlock Prevention.md",
+    "Main Notes/Deadlock Handling.md",
+    "Main Notes/Deadlock Conditions.md",
+    "Source Materials/Books/How to Take Smart Notes.md",
     "Source Materials/Books/System Design Interview Volume 2.md",
     "Source Materials/Books/Understanding Distributed Systems.md",
     "Source Materials/Books/System Design Interview Volume 1.md",
@@ -188,7 +192,6 @@
     "Main Notes/Digit DP.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Main Notes/Distributed Write-Back Cache Implementations.md",
-    "Source Materials/Books/How to Take Smart Notes.md",
     "Main Notes/System Design Answering Framework.md",
     "Source Materials/Videos/This Is How You Become More Articulate.md",
     "Source Materials/Videos/The Anti-Routine.md",
@@ -200,9 +203,6 @@
     "Main Notes/JS Runtime.md",
     "Main Notes/JS Engine.md",
     "Source Materials/Books/TCP IP Illustrated.md",
-    "Main Notes/MongoDB Architecture.md",
-    "Main Notes/Exhaustive Pattern Matching for Enums.md",
-    "Main Notes/Python Never Type.md",
     "const/var",
     "const",
     "Projection",

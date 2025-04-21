@@ -55,5 +55,10 @@ Tags:
 - Learn to Read: Test yourself on the things you've read, don't just passively read
 - Learn by reading: Write, take notes, and connect your ideas
 
+## Take Smart Notes
+- In writing, your notes act like your "working" in a math problem
+- optimise your brain for retrieval, not storage
+- learn by attaching information to its context
+
 ---
 Source: https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes
