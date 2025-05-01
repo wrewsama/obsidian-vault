@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Deadlock Handling.md",
+                "file": "Main Notes/Generalised Binary Search.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Deadlock Handling"
+              "title": "Generalised Binary Search"
             }
           }
         ]
@@ -177,8 +177,9 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/Deadlock Prevention.md",
     "Main Notes/Deadlock Handling.md",
+    "Main Notes/Generalised Binary Search.md",
+    "Main Notes/Deadlock Prevention.md",
     "Main Notes/Deadlock Conditions.md",
     "Source Materials/Books/How to Take Smart Notes.md",
     "Source Materials/Books/System Design Interview Volume 2.md",
@@ -202,7 +203,6 @@
     "Source Materials/Papers/Scaling Memcache at Facebook.md",
     "Main Notes/JS Runtime.md",
     "Main Notes/JS Engine.md",
-    "Source Materials/Books/TCP IP Illustrated.md",
     "const/var",
     "const",
     "Projection",
