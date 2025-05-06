@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Generalised Binary Search.md",
+                "file": "Source Materials/Books/So Good They Cant Ignore You.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Generalised Binary Search"
+              "title": "So Good They Cant Ignore You"
             }
           }
         ]
@@ -177,8 +177,9 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/Deadlock Handling.md",
     "Main Notes/Generalised Binary Search.md",
+    "Source Materials/Books/So Good They Cant Ignore You.md",
+    "Main Notes/Deadlock Handling.md",
     "Main Notes/Deadlock Prevention.md",
     "Main Notes/Deadlock Conditions.md",
     "Source Materials/Books/How to Take Smart Notes.md",
@@ -202,7 +203,6 @@
     "Main Notes/CPU Caches.md",
     "Source Materials/Papers/Scaling Memcache at Facebook.md",
     "Main Notes/JS Runtime.md",
-    "Main Notes/JS Engine.md",
     "const/var",
     "const",
     "Projection",
