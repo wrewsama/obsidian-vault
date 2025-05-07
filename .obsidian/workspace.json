@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/So Good They Cant Ignore You.md",
+                "file": "Source Materials/Books/Deep Work.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "So Good They Cant Ignore You"
+              "title": "Deep Work"
             }
           }
         ]
@@ -177,8 +177,9 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/Generalised Binary Search.md",
     "Source Materials/Books/So Good They Cant Ignore You.md",
+    "Source Materials/Books/Deep Work.md",
+    "Main Notes/Generalised Binary Search.md",
     "Main Notes/Deadlock Handling.md",
     "Main Notes/Deadlock Prevention.md",
     "Main Notes/Deadlock Conditions.md",
@@ -202,7 +203,6 @@
     "Source Materials/Videos/3 High-Leverage Career Skills.md",
     "Main Notes/CPU Caches.md",
     "Source Materials/Papers/Scaling Memcache at Facebook.md",
-    "Main Notes/JS Runtime.md",
     "const/var",
     "const",
     "Projection",
