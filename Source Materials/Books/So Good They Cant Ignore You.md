@@ -22,5 +22,15 @@ Tags:
     - job has no positive impact on the world
     - job forces you to work with people you hate
 
+## Deliberate Practice
+- Identify your **capital market** (describes the type of career capital in a field)
+    - winner-take-all: only 1 type of career capital
+    - auction: many different types of career capital (software engineering is probably this)
+- Identify the specific type of capital to focus on
+    - Your access to opportunities to develop a type will factor into the decision
+- Define what is "good", set goals based on that definition
+- Don't practice what you already know, constantly challenge yourself and exceed your limits
+- Get honest, prompt feedback (sounds like something from [[The Effective Engineer]])
+- Keep at it and be patient
 ---
 Source: https://www.goodreads.com/book/show/13525945-so-good-they-can-t-ignore-you
