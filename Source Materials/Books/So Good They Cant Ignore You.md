@@ -32,5 +32,18 @@ Tags:
 - Don't practice what you already know, constantly challenge yourself and exceed your limits
 - Get honest, prompt feedback (sounds like something from [[The Effective Engineer]])
 - Keep at it and be patient
+
+## Control Trap
+- After building enough career capital, you want to trade it for more control
+- Making changes to gain control (e.g. quitting your job and starting a business) without sufficient career capital is extremely (and unnecessarily) dangerous
+- Use the law of financial viability: First find evidence that people are willing to pay money for your new endeavour before committing to it
+
+## Mission
+- lets you decide on what to do with your life
+- improves motivation and career satisfaction
+- work towards your mission by taking small bets
+    - small enough so that you can learn from the (inevitable) failures instead of getting destroyed by them
+- the best missions are just beyond the frontiers of human knowledge / ability
+- hence, we need to gain a substantial amount of career capital before forming such a mission
 ---
 Source: https://www.goodreads.com/book/show/13525945-so-good-they-can-t-ignore-you
