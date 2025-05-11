@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "raft",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,13 +84,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -177,8 +175,13 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/Deep Work.md",
+    "Source Materials/Videos/The Last Lecture.md",
+    "Tags/Mindset.md",
+    "Tags/Life.md",
+    "Tags/Business.md",
+    "Source Materials/Websites/5 Simple Ways to Impress Your Boss.md",
     "Source Materials/Books/So Good They Cant Ignore You.md",
+    "Source Materials/Books/Deep Work.md",
     "Main Notes/Generalised Binary Search.md",
     "Main Notes/Deadlock Handling.md",
     "Main Notes/Deadlock Prevention.md",
@@ -198,11 +201,6 @@
     "Main Notes/System Design Answering Framework.md",
     "Source Materials/Videos/This Is How You Become More Articulate.md",
     "Source Materials/Videos/The Anti-Routine.md",
-    "Tags/Mindset.md",
-    "Tags/Productivity.md",
-    "Source Materials/Videos/3 High-Leverage Career Skills.md",
-    "Main Notes/CPU Caches.md",
-    "Source Materials/Papers/Scaling Memcache at Facebook.md",
     "const/var",
     "const",
     "Projection",
