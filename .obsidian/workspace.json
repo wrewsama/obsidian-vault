@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/So Good They Cant Ignore You.md",
+                "file": "Source Materials/Books/Option Volatility and Pricing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "So Good They Cant Ignore You"
+              "title": "Option Volatility and Pricing"
             }
           }
         ]
@@ -175,12 +175,18 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Source Materials/Books/Zero to One.md",
+    "Source Materials/Books/Option Volatility and Pricing.md",
+    "Tags/Career Skills.md",
+    "Source Materials/Websites/5 Simple Ways to Impress Your Boss.md",
+    "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
+    "Source Materials/Videos/3 High-Leverage Career Skills.md",
+    "Source Materials/Videos/90-Day Onboarding Plan.md",
+    "Source Materials/Books/So Good They Cant Ignore You.md",
     "Source Materials/Videos/The Last Lecture.md",
     "Tags/Mindset.md",
     "Tags/Life.md",
     "Tags/Business.md",
-    "Source Materials/Websites/5 Simple Ways to Impress Your Boss.md",
-    "Source Materials/Books/So Good They Cant Ignore You.md",
     "Source Materials/Books/Deep Work.md",
     "Main Notes/Generalised Binary Search.md",
     "Main Notes/Deadlock Handling.md",
@@ -195,12 +201,6 @@
     "Main Notes/Kafka Architecture.md",
     "Main Notes/Rebalancing in Kafka.md",
     "Tags/Message Brokers.md",
-    "Main Notes/Digit DP.md",
-    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
-    "Main Notes/Distributed Write-Back Cache Implementations.md",
-    "Main Notes/System Design Answering Framework.md",
-    "Source Materials/Videos/This Is How You Become More Articulate.md",
-    "Source Materials/Videos/The Anti-Routine.md",
     "const/var",
     "const",
     "Projection",
