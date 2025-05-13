@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Option Volatility and Pricing.md",
+                "file": "Main Notes/VDI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Option Volatility and Pricing"
+              "title": "VDI"
             }
           }
         ]
@@ -175,8 +175,10 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/Zero to One.md",
+    "Tags/General IT.md",
+    "Main Notes/VDI.md",
     "Source Materials/Books/Option Volatility and Pricing.md",
+    "Source Materials/Books/Zero to One.md",
     "Tags/Career Skills.md",
     "Source Materials/Websites/5 Simple Ways to Impress Your Boss.md",
     "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
@@ -199,8 +201,6 @@
     "Source Materials/Papers/Kafka Paper.md",
     "Main Notes/ZooKeeper.md",
     "Main Notes/Kafka Architecture.md",
-    "Main Notes/Rebalancing in Kafka.md",
-    "Tags/Message Brokers.md",
     "const/var",
     "const",
     "Projection",
