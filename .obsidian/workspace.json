@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/VDI.md",
+                "file": "Source Materials/Books/Zero to One.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "VDI"
+              "title": "Zero to One"
             }
           }
         ]
@@ -175,8 +175,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Tags/General IT.md",
     "Main Notes/VDI.md",
+    "Tags/General IT.md",
     "Source Materials/Books/Option Volatility and Pricing.md",
     "Source Materials/Books/Zero to One.md",
     "Tags/Career Skills.md",
