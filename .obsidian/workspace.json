@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Lowest Common Ancestor.md",
+                "file": "Main Notes/UDP multicast.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lowest Common Ancestor"
+              "title": "UDP multicast"
             }
           }
         ]
@@ -175,8 +175,15 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/CP4 Book 2.md",
+    "Main Notes/Assertions vs Exceptions.md",
+    "Main Notes/UDP multicast.md",
+    "Main Notes/Negative Space Programming.md",
+    "Source Materials/Books/Refactoring.md",
+    "Tags/Code Quality.md",
+    "Source Materials/Books/System Design Interview Volume 2.md",
+    "Source Materials/Books/System Design Interview Volume 1.md",
     "Main Notes/Lowest Common Ancestor.md",
+    "Source Materials/Books/CP4 Book 2.md",
     "Source Materials/Books/Zero to One.md",
     "Main Notes/VDI.md",
     "Tags/General IT.md",
@@ -194,13 +201,6 @@
     "Source Materials/Books/Deep Work.md",
     "Main Notes/Generalised Binary Search.md",
     "Main Notes/Deadlock Handling.md",
-    "Main Notes/Deadlock Prevention.md",
-    "Main Notes/Deadlock Conditions.md",
-    "Source Materials/Books/How to Take Smart Notes.md",
-    "Source Materials/Books/System Design Interview Volume 2.md",
-    "Source Materials/Books/Understanding Distributed Systems.md",
-    "Source Materials/Books/System Design Interview Volume 1.md",
-    "Source Materials/Papers/Kafka Paper.md",
     "const/var",
     "const",
     "Projection",
