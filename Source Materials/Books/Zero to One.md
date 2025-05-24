@@ -1,11 +1,12 @@
 Tags:
 - [[Business]]
 ---
-## Lessons from the dot-com bust
-- Take small, incremental steps
-- Remain adaptable to change
-- Don't try to create your own market, take an existing market and improve on the competition there
-- Focus on the product, not sales
-
+- best target market: small, concentrated group with few/no competitors
+- expand to adjacent markets
+- when expanding, avoid disrupting the markets and creating direct competition
+- Blindly iterating without a bold plan isn't enough to go from 0 to 1
+- Your board should never exceed 5 people, unless the company is public
+- Companies must strive for a 10x improvement in order to offset the customers' expenses and risk
+- never invest in a tech CEO that wears a suit
 ---
 Source: https://www.goodreads.com/book/show/18050143-zero-to-one
