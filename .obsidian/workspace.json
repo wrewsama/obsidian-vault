@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Terminal Setup.md",
+                "file": "Main Notes/VSCode Setup.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Terminal Setup"
+              "title": "VSCode Setup"
             }
           }
         ]
@@ -175,8 +175,9 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/System Design Interview Volume 1.md",
     "Main Notes/Terminal Setup.md",
+    "Main Notes/VSCode Setup.md",
+    "Source Materials/Books/System Design Interview Volume 1.md",
     "Source Materials/Books/System Design Interview Volume 2.md",
     "Main Notes/Python Generator send.md",
     "Main Notes/functools partial.md",
@@ -200,7 +201,6 @@
     "Source Materials/Videos/90-Day Onboarding Plan.md",
     "Source Materials/Books/So Good They Cant Ignore You.md",
     "Source Materials/Videos/The Last Lecture.md",
-    "Tags/Mindset.md",
     "const/var",
     "const",
     "Projection",
