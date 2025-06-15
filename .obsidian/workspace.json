@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Site Reliability Engineering.md",
+                "file": "Main Notes/rsync.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Site Reliability Engineering"
+              "title": "rsync"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -176,6 +175,9 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Tags/Linux.md",
+    "Main Notes/rsync.md",
+    "Source Materials/Books/Site Reliability Engineering.md",
     "Main Notes/Sockets.md",
     "Main Notes/VSCode Setup.md",
     "Main Notes/Terminal Setup.md",
@@ -183,7 +185,6 @@
     "Source Materials/Books/System Design Interview Volume 2.md",
     "Main Notes/Python Generator send.md",
     "Main Notes/functools partial.md",
-    "Source Materials/Books/Site Reliability Engineering.md",
     "Tags/SRE.md",
     "Source Materials/Books/Zero to One.md",
     "Main Notes/UDP multicast.md",
@@ -200,8 +201,6 @@
     "Source Materials/Websites/5 Simple Ways to Impress Your Boss.md",
     "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
     "Source Materials/Videos/3 High-Leverage Career Skills.md",
-    "Source Materials/Videos/90-Day Onboarding Plan.md",
-    "Source Materials/Books/So Good They Cant Ignore You.md",
     "const/var",
     "const",
     "Projection",
