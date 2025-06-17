@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/rsync.md",
+                "file": "Source Materials/Books/Site Reliability Engineering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "rsync"
+              "title": "Site Reliability Engineering"
             }
           }
         ]
@@ -175,8 +175,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Tags/Linux.md",
     "Main Notes/rsync.md",
+    "Tags/Linux.md",
     "Source Materials/Books/Site Reliability Engineering.md",
     "Main Notes/Sockets.md",
     "Main Notes/VSCode Setup.md",

@@ -28,5 +28,14 @@ Tags:
     - measure actual uptime
     - remaining error budget can be calculated from that
 
+## SLOs
+- Service Level Indicators: quantitative measure of level service provided
+    - usually aggregated, but as a distribution, not just average
+    - may want to see instantaneous peak, or 99th percentile
+- Service Level Objectives: Target values for the SLIs
+    - focus on what users care about, then try to approximate it with what you can measure - not the other way around
+    - overachieving can result in users becoming over-dependent on your system which is counterproductive. It may even be worth giving planned outages to prevent that (e.g. Google Chubby service)
+- Service Level Agreements: Contract with users detailing the effects of meeting and missing certain SLOs
+
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
