@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Site Reliability Engineering.md",
+                "file": "Main Notes/POSIX Shared Memory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Site Reliability Engineering"
+              "title": "POSIX Shared Memory"
             }
           }
         ]
@@ -175,9 +175,10 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Source Materials/Books/Site Reliability Engineering.md",
+    "Main Notes/POSIX Shared Memory.md",
     "Main Notes/rsync.md",
     "Tags/Linux.md",
-    "Source Materials/Books/Site Reliability Engineering.md",
     "Main Notes/Sockets.md",
     "Main Notes/VSCode Setup.md",
     "Main Notes/Terminal Setup.md",
@@ -200,7 +201,6 @@
     "Tags/Career Skills.md",
     "Source Materials/Websites/5 Simple Ways to Impress Your Boss.md",
     "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
-    "Source Materials/Videos/3 High-Leverage Career Skills.md",
     "const/var",
     "const",
     "Projection",
