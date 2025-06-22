@@ -37,5 +37,17 @@ Tags:
     - overachieving can result in users becoming over-dependent on your system which is counterproductive. It may even be worth giving planned outages to prevent that (e.g. Google Chubby service)
 - Service Level Agreements: Contract with users detailing the effects of meeting and missing certain SLOs
 
+## Toil
+- Toil = work that is:
+    - manual
+    - repetitive
+    - automatable
+    - reactive instead of proactive
+    - no lasting impact on the product
+    - scales linearly with service size
+- < 50% of work should be toil, the other >= 50% should be development work that will
+    - reduce toil directly
+    - improves reliability, performance, or utilisation (reduces toil indirectly)
+
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
