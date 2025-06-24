@@ -49,5 +49,18 @@ Tags:
     - reduce toil directly
     - improves reliability, performance, or utilisation (reduces toil indirectly)
 
+## Monitoring
+- Getting, transforming, and showing quantitative data about a system
+- can be:
+    - black box: measure from a user's perspective; Tells you what is happening
+    - white box: measure internal parts of the system; Tells you why certain things are happening
+- A simple mix of metric collection, alerting, and dashboards works well
+- Measure distribution of metrics (e.g. p99, p99.9), not just average
+- 4 golden signals to monitor
+    - latency
+    - traffic
+    - errors
+    - resource usage
+
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
