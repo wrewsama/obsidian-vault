@@ -61,6 +61,19 @@ Tags:
     - traffic
     - errors
     - resource usage
-
+## Automation
+- benefits
+    - consistent
+    - extensible
+    - fast
+- how automation evolves
+    - manual operation
+    - SRE has a local script
+    - add support to a generic script everyone uses
+    - the product ships with its own script
+    - the product handles the issue automatically
+- case study: Prodtest
+    - manual cluster configuration -> automatic checking with Python unit tests -> automatic fixes with the same Python code
+    
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
