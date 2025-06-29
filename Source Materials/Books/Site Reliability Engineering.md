@@ -74,6 +74,13 @@ Tags:
     - the product handles the issue automatically
 - case study: Prodtest
     - manual cluster configuration -> automatic checking with Python unit tests -> automatic fixes with the same Python code
-    
+
+## Release Engineering
+- SREs need to ensure binaries and configs can be built automatically and in a reproducible way
+- Methods of config management
+    - mainline: app applies the latest config
+    - same package: configs and binaries in the same package
+    - config packages: configs packaged into config packages and released alongside binary packages
+
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
