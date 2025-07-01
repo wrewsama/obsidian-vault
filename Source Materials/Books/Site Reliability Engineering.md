@@ -82,5 +82,14 @@ Tags:
     - same package: configs and binaries in the same package
     - config packages: configs packaged into config packages and released alongside binary packages
 
+## Simplicity
+- Simplicity is necessary to achieve reliability
+- characteristics of simple systems
+    - no surprises in production
+    - no software bloat - remove as much code as possible
+        - actually delete, not just comment out / keep behind a feature flag
+    - minimalist APIs - as few methods/endpoints as possible
+    - encapsulation - components' parts should all be closely related, no unrelated parts
+    
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
