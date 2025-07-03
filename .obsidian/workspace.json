@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Site Reliability Engineering.md",
+                "file": "Main Notes/Numa Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Site Reliability Engineering"
+              "title": "Numa Architecture"
             }
           }
         ]
@@ -175,6 +175,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Source Materials/Books/Site Reliability Engineering.md",
+    "Main Notes/Numa Architecture.md",
     "Main Notes/Terminal Setup.md",
     "Tags/Linux.md",
     "Main Notes/tmpfs.md",
@@ -188,7 +190,6 @@
     "Source Materials/Books/System Design Interview Volume 2.md",
     "Main Notes/Python Generator send.md",
     "Main Notes/functools partial.md",
-    "Source Materials/Books/Site Reliability Engineering.md",
     "Tags/SRE.md",
     "Source Materials/Books/Zero to One.md",
     "Main Notes/UDP multicast.md",
@@ -200,7 +201,6 @@
     "Source Materials/Books/CP4 Book 2.md",
     "Main Notes/VDI.md",
     "Tags/General IT.md",
-    "Source Materials/Books/Option Volatility and Pricing.md",
     "const/var",
     "const",
     "Projection",
