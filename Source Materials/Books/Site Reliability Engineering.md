@@ -90,6 +90,19 @@ Tags:
         - actually delete, not just comment out / keep behind a feature flag
     - minimalist APIs - as few methods/endpoints as possible
     - encapsulation - components' parts should all be closely related, no unrelated parts
-    
+
+## Service Reliability Hierarchy of Needs
+(from most fundamental to most advanced)
+- monitoring
+- incident response
+- postmortems / RCAs
+- testing
+- capacity planning
+    - resource estimation and allocation
+- development (by SREs)
+    - of tech for reliability
+- a reliable product
+
+
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering

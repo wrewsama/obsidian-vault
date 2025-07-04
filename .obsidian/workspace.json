@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Numa Architecture.md",
+                "file": "Source Materials/Books/Site Reliability Engineering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Numa Architecture"
+              "title": "Site Reliability Engineering"
             }
           }
         ]
@@ -175,8 +175,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/Site Reliability Engineering.md",
     "Main Notes/Numa Architecture.md",
+    "Source Materials/Books/Site Reliability Engineering.md",
     "Main Notes/Terminal Setup.md",
     "Tags/Linux.md",
     "Main Notes/tmpfs.md",
