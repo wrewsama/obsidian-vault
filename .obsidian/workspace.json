@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/asyncio in Python.md",
+                "file": "Source Materials/Books/Site Reliability Engineering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "asyncio in Python"
+              "title": "Site Reliability Engineering"
             }
           }
         ]
@@ -175,6 +175,7 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Main Notes/asyncio in Python.md",
     "Source Materials/Books/Site Reliability Engineering.md",
     "Main Notes/Numa Architecture.md",
     "Main Notes/Terminal Setup.md",
@@ -200,7 +201,6 @@
     "Main Notes/Lowest Common Ancestor.md",
     "Source Materials/Books/CP4 Book 2.md",
     "Main Notes/VDI.md",
-    "Tags/General IT.md",
     "const/var",
     "const",
     "Projection",

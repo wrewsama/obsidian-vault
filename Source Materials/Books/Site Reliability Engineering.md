@@ -111,5 +111,17 @@ Tags:
 - The time time series data can be aggregated arithmetically
 - Alerting rules are set on that data, firing alarms once met
 
+## Oncall
+- Respond to outages, triage the problems and resolve them
+- important on-call resources
+    - clear escalation paths
+    - well defined incident management procedures
+    - blameless postmortem culture
+- operational overload
+    - too many alerts
+    - distracts from the more serious alerts
+- operational underload
+    - not enough confidence in dealing with prod issues
+
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
