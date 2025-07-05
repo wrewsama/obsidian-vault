@@ -103,6 +103,13 @@ Tags:
     - of tech for reliability
 - a reliable product
 
+## Alerting
+- Monitoring system periodically
+    - makes requests to a predefined endpoint to pull metric data
+    - store in a time series
+- Counters are preferred over gauges as gauges can miss important behaviours that happen in-between sampling intervals
+- The time time series data can be aggregated arithmetically
+- Alerting rules are set on that data, firing alarms once met
 
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
