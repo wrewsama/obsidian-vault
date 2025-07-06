@@ -123,5 +123,20 @@ Tags:
 - operational underload
     - not enough confidence in dealing with prod issues
 
+## Troubleshooting
+- Triage: determine the severity and appropriate response
+    - first priority: make system work as "well" as possible
+    - immediate response may not be a fix
+- Examine: check if each component is behaving as expected
+    - logging
+    - metrics
+- Diagnose: come up with hypotheses about the root cause
+    - connections between components
+    - _what_ is happening, _why_ and _where_ is it happening
+    - what touched it last (recent code / config change etc)
+- Test: Determine if the hypothesis is true
+    - test in decreasing order of likelihood
+- Treat the issue
+
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
