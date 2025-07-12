@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Strategies To Get PRs Reviewed Faster.md",
+                "file": "Source Materials/Books/Site Reliability Engineering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Strategies To Get PRs Reviewed Faster"
+              "title": "Site Reliability Engineering"
             }
           }
         ]
@@ -175,8 +175,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/Site Reliability Engineering.md",
     "Main Notes/Strategies To Get PRs Reviewed Faster.md",
+    "Source Materials/Books/Site Reliability Engineering.md",
     "Main Notes/asyncio in Python.md",
     "Main Notes/Numa Architecture.md",
     "Main Notes/Terminal Setup.md",

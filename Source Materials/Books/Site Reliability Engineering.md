@@ -138,5 +138,10 @@ Tags:
     - test in decreasing order of likelihood
 - Treat the issue
 
+## Learning From Emergency Response
+- Document happenings and learnings from emergencies
+- Ask "what if" questions, no matter how improbable they seem
+- Test failures proactively
+
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
