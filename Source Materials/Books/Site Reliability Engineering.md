@@ -143,5 +143,34 @@ Tags:
 - Ask "what if" questions, no matter how improbable they seem
 - Test failures proactively
 
+## Postmortems
+- includes
+    - incident timeline
+    - response
+    - root causes
+    - follow-up steps taken to prevent incident from happening again
+- ensures incident is recorded
+- improves understanding of the root cause
+- ensures steps were taken to reduce both the probability and the severity of similar issues
+
+## Tracking Outages
+- Big outages will have postmortems, but smaller ones need to be tracked too
+- track alerts, acknowledgements, notifications
+
+## Testing for Reliability
+- 2 main types
+    - traditional: evaluate correctness of software during development
+    - production: evaluate correctness of software already in live production
+- Traditional tests
+    - unit
+    - integration
+    - system
+        - smoke: simple but critical behaviour
+        - performance: latency and resource usage
+        - regression: ensuring historical bugs don't return
+- production tests
+    - config: check if prod's config is the same as the current config
+    - stress: find limits of the system and components
+    - canary: user testing on subset of servers
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
