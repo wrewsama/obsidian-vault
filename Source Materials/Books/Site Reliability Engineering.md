@@ -172,5 +172,11 @@ Tags:
     - config: check if prod's config is the same as the current config
     - stress: find limits of the system and components
     - canary: user testing on subset of servers
+
+## SWE in SRE
+- goal:
+    - maintain uptime
+    - keep low latency
+    
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
