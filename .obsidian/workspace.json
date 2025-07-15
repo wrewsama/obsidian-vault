@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Site Reliability Engineering.md",
+                "file": "Source Materials/Videos/If You Want To Learn Faster Than 99% of People Just Copy Me.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Site Reliability Engineering"
+              "title": "If You Want To Learn Faster Than 99% of People Just Copy Me"
             }
           }
         ]
@@ -175,23 +175,14 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/Push vs Pull based Message Brokers.md",
-    "Main Notes/Benefits of Message Queues.md",
+    "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
+    "Source Materials/Videos/The Most Underrated Social Skill and How I used It.md",
+    "Source Materials/Videos/This Is How You Become More Articulate.md",
+    "Source Materials/Videos/3 High-Leverage Career Skills.md",
+    "Source Materials/Videos/90-Day Onboarding Plan.md",
+    "Source Materials/Videos/If You Want To Learn Faster Than 99% of People Just Copy Me.md",
     "Source Materials/Books/Site Reliability Engineering.md",
-    "Source Materials/Books/Understanding Distributed Systems.md",
-    "Source Materials/Books/The Effective Engineer.md",
-    "Source Materials/Books/TCP IP Illustrated.md",
-    "Source Materials/Books/The 50th Law.md",
-    "Source Materials/Books/Predatory Thinking.md",
-    "Source Materials/Papers/Kafka Paper.md",
-    "Tags/Message Brokers.md",
-    "Main Notes/Kafka Architecture.md",
-    "Main Notes/Kafka vs RabbitMQ.md",
-    "Source Materials/Books/System Design Interview Volume 2.md",
-    "Source Materials/Books/System Design Interview Volume 1.md",
-    "Source Materials/Books/NoSQL Distilled.md",
     "Main Notes/Strategies To Get PRs Reviewed Faster.md",
-    "Main Notes/asyncio in Python.md",
     "Main Notes/Numa Architecture.md",
     "Main Notes/Terminal Setup.md",
     "Tags/Linux.md",
@@ -201,6 +192,15 @@
     "Main Notes/SystemV Shared Memory.md",
     "Main Notes/POSIX Shared Memory.md",
     "Main Notes/Sockets.md",
+    "Main Notes/VSCode Setup.md",
+    "Source Materials/Books/System Design Interview Volume 1.md",
+    "Source Materials/Books/System Design Interview Volume 2.md",
+    "Main Notes/Python Generator send.md",
+    "Main Notes/functools partial.md",
+    "Tags/SRE.md",
+    "Source Materials/Books/Zero to One.md",
+    "Main Notes/UDP multicast.md",
+    "Main Notes/Assertions vs Exceptions.md",
     "const/var",
     "const",
     "Projection",
