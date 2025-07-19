@@ -177,6 +177,10 @@ Tags:
 - goal:
     - maintain uptime
     - keep low latency
-    
+
+## Load Balancing
+- Between datacenters
+    - DNS
+    - Let multiple servers share a Virtual IP and put a network load balancer in front
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
