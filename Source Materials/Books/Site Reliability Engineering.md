@@ -182,5 +182,32 @@ Tags:
 - Between datacenters
     - DNS
     - Let multiple servers share a Virtual IP and put a network load balancer in front
+- Within a datacenter, between backend servers
+    - Limit total number of connections by subsetting
+        - each client's requests get balanced between a subset of all the available servers
+        - prevents client from needing to set up too many long-lived connections
+    - policies
+        - round robin within the client's subset
+            - issue: unequal distribution due to different times taken to process different requests
+        - round robin within the servers in the client's subset with the least number of active requests
+            - issue: number of active requests doesn't capture the capability of a server if the requests are IO bound and the server has a CPU capable of handling more
+        - weighted round robin within the client's subset
+
+## Handling Overload
+- rate limiting
+    - Per-customer limits
+    - Client side (frontend) throttling
+        - based on:
+            - requests: # of reqs attempted
+            - accepts: # of reqs accepted by backend
+- Other signals
+    - Criticality: how important each request is, included in metadata of request
+    - Utilisation: Resources needed by the request
+- error handling
+    - bubble up to client
+    - retry
+        - per-request limit: 3 tries
+        - per-client limit: 10% of total request volume can be retries
+
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
