@@ -209,5 +209,29 @@ Tags:
         - per-request limit: 3 tries
         - per-client limit: 10% of total request volume can be retries
 
+## Cascading Failures
+- cause
+    - server overload
+    - due to resource exhaustion
+    - results in service unavailability
+    - traffic gets routed to another server
+    - that one gets overloaded and the cycle continues
+- prevention
+    - set up tooling to let server detect overload and respond accordingly:
+        - serve degraded results
+        - drop requests
+    - queue requests and let servers pull them
+    - avoid spamming retries
+        - set limits
+        - don't retry permanent errors - set error codes and handle accordingly
+- cure
+    - increase resources
+    - stop healthchecks - these can increase load unecessarily (we know the servers are dead anyway)
+    - restart
+    - traffic control
+        - drop fraction of all requests
+        - degraded results
+        - drop bad traffic
+        - drop unimportant requests
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
