@@ -233,5 +233,21 @@ Tags:
         - degraded results
         - drop bad traffic
         - drop unimportant requests
+
+## Distributed Consensus
+- Paxos: distributed algo to make all nodes in a group agree on a single value
+    - proposer sends a globally unique seq number to acceptors
+    - acceptors will send an accept message to the proposer if they haven't seen another proposal with a higher number
+    - if proposer receives acceptance from majority of acceptors, send commit message with the desired value
+- common higher level abstractions
+    - reliable replicated state machines: execute same set of ops in the same order
+    - leader election
+    - distributed coordination / locking
+    - distributed message queues
+- performance improvements
+    - multi-paxos
+    - fast paxos
+    - quorum leases: temporarily pick a subset of replicas for a subset of data. Use that for read and write quorums
+
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
