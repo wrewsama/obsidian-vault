@@ -249,5 +249,17 @@ Tags:
     - fast paxos
     - quorum leases: temporarily pick a subset of replicas for a subset of data. Use that for read and write quorums
 
+## Cron
+- traditional cron
+    - unix feature for single hosts
+    - recurring jobs scheduled using crontab syntax
+    - `crond` daemon maintains list of scheduled jobs and executes them when the time comes
+- distributed cron
+    - need replication for reliabilty
+    - leader and multiple followers, synced with Paxos
+    - leader basically does `crond`'s job
+    - followers maintain state and stands by to take over if leader fails
+    - to maintain this state, leader informs followers whenever it starts a job. The followers then update their local scheduled job lists
+    
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
