@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Site Reliability Engineering.md",
+                "file": "Main Notes/SIGINT vs SIGTERM vs SIGKILL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Site Reliability Engineering"
+              "title": "SIGINT vs SIGTERM vs SIGKILL"
             }
           }
         ]
@@ -175,13 +175,16 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Main Notes/Process Namespaces.md",
+    "Main Notes/SIGINT vs SIGTERM vs SIGKILL.md",
+    "Main Notes/Process Groups & Sessions.md",
+    "Source Materials/Books/Site Reliability Engineering.md",
     "Source Materials/Videos/If You Want To Learn Faster Than 99% of People Just Copy Me.md",
     "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
     "Source Materials/Videos/The Most Underrated Social Skill and How I used It.md",
     "Source Materials/Videos/This Is How You Become More Articulate.md",
     "Source Materials/Videos/3 High-Leverage Career Skills.md",
     "Source Materials/Videos/90-Day Onboarding Plan.md",
-    "Source Materials/Books/Site Reliability Engineering.md",
     "Main Notes/Strategies To Get PRs Reviewed Faster.md",
     "Main Notes/Numa Architecture.md",
     "Main Notes/Terminal Setup.md",
@@ -198,9 +201,6 @@
     "Main Notes/Python Generator send.md",
     "Main Notes/functools partial.md",
     "Tags/SRE.md",
-    "Source Materials/Books/Zero to One.md",
-    "Main Notes/UDP multicast.md",
-    "Main Notes/Assertions vs Exceptions.md",
     "const/var",
     "const",
     "Projection",
