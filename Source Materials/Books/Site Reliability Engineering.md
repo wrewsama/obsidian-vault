@@ -260,6 +260,18 @@ Tags:
     - leader basically does `crond`'s job
     - followers maintain state and stands by to take over if leader fails
     - to maintain this state, leader informs followers whenever it starts a job. The followers then update their local scheduled job lists
-    
+
+## Data Pipelines
+- simplest form: reads data, outputs transformed data
+- 2 types
+    - continuous
+    - periodic
+- issues with periodic:
+    - no metrics on failure
+    - thundering herd
+- Google Workflow: framework for continuous, distributed pipelines
+    - Task master distributes work units to worker nodes
+    - worker nodes send updates back to task master
+    - task master saves pipeline state in a journal (distributed DB like Spanner)
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering

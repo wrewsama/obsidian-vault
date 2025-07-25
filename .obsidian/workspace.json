@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/SIGINT vs SIGTERM vs SIGKILL.md",
+                "file": "Source Materials/Books/Site Reliability Engineering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SIGINT vs SIGTERM vs SIGKILL"
+              "title": "Site Reliability Engineering"
             }
           }
         ]
@@ -175,8 +175,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/Process Namespaces.md",
     "Main Notes/SIGINT vs SIGTERM vs SIGKILL.md",
+    "Main Notes/Process Namespaces.md",
     "Main Notes/Process Groups & Sessions.md",
     "Source Materials/Books/Site Reliability Engineering.md",
     "Source Materials/Videos/If You Want To Learn Faster Than 99% of People Just Copy Me.md",
