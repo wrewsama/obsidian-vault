@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Site Reliability Engineering.md",
+                "file": "Source Materials/Books/The Little Book of Common Sense Investing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Site Reliability Engineering"
+              "title": "The Little Book of Common Sense Investing"
             }
           }
         ]
@@ -175,10 +175,11 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Source Materials/Books/Site Reliability Engineering.md",
+    "Source Materials/Books/The Little Book of Common Sense Investing.md",
     "Main Notes/SIGINT vs SIGTERM vs SIGKILL.md",
     "Main Notes/Process Namespaces.md",
     "Main Notes/Process Groups & Sessions.md",
-    "Source Materials/Books/Site Reliability Engineering.md",
     "Source Materials/Videos/If You Want To Learn Faster Than 99% of People Just Copy Me.md",
     "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
     "Source Materials/Videos/The Most Underrated Social Skill and How I used It.md",
@@ -200,7 +201,6 @@
     "Source Materials/Books/System Design Interview Volume 2.md",
     "Main Notes/Python Generator send.md",
     "Main Notes/functools partial.md",
-    "Tags/SRE.md",
     "const/var",
     "const",
     "Projection",

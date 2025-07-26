@@ -273,5 +273,12 @@ Tags:
     - Task master distributes work units to worker nodes
     - worker nodes send updates back to task master
     - task master saves pipeline state in a journal (distributed DB like Spanner)
+
+## Data Integrity
+- accuracy and consistency of data throughout lifetime
+- lets users know the data is correct and will stay correct
+- archives: safekeeping data for auditing/compliance, cannot be quickly and reliably reloaded into production apps
+- backups: data kept to be reloaded into app in case of data loss
+
 ---
 Source: https://www.goodreads.com/book/show/27968891-site-reliability-engineering
