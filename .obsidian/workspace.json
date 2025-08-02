@@ -30,8 +30,57 @@
               "icon": "lucide-file",
               "title": "The Little Book of Common Sense Investing"
             }
+          },
+          {
+            "id": "b86a43903779f4b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Source Materials/Books/The Innovator's Dilemma.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "The Innovator's Dilemma"
+            }
+          },
+          {
+            "id": "119b32d3df645c17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Source Materials/Books/The Innovator's Dilemma.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "The Innovator's Dilemma"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,10 +222,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "44f13a74031441c5",
+  "active": "119b32d3df645c17",
   "lastOpenFiles": [
-    "Source Materials/Books/Site Reliability Engineering.md",
+    "Source Materials/Books/High Performance Python.md",
+    "Source Materials/Books/The Innovator's Dilemma.md",
     "Source Materials/Books/The Little Book of Common Sense Investing.md",
+    "Source Materials/Books/Site Reliability Engineering.md",
     "Main Notes/SIGINT vs SIGTERM vs SIGKILL.md",
     "Main Notes/Process Namespaces.md",
     "Main Notes/Process Groups & Sessions.md",
@@ -199,8 +250,6 @@
     "Main Notes/VSCode Setup.md",
     "Source Materials/Books/System Design Interview Volume 1.md",
     "Source Materials/Books/System Design Interview Volume 2.md",
-    "Main Notes/Python Generator send.md",
-    "Main Notes/functools partial.md",
     "const/var",
     "const",
     "Projection",
