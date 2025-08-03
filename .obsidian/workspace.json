@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/The Innovator's Dilemma.md",
+                "file": "Source Materials/Books/High Performance Python.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Innovator's Dilemma"
+              "title": "High Performance Python"
             }
           }
         ],
@@ -224,6 +224,10 @@
   },
   "active": "119b32d3df645c17",
   "lastOpenFiles": [
+    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
+    "Main Notes/Python Execution.md",
+    "Tags/Python.md",
+    "Main Notes/PVM.md",
     "Source Materials/Books/High Performance Python.md",
     "Source Materials/Books/The Innovator's Dilemma.md",
     "Source Materials/Books/The Little Book of Common Sense Investing.md",
@@ -246,10 +250,6 @@
     "Main Notes/mmap.md",
     "Main Notes/SystemV Shared Memory.md",
     "Main Notes/POSIX Shared Memory.md",
-    "Main Notes/Sockets.md",
-    "Main Notes/VSCode Setup.md",
-    "Source Materials/Books/System Design Interview Volume 1.md",
-    "Source Materials/Books/System Design Interview Volume 2.md",
     "const/var",
     "const",
     "Projection",
