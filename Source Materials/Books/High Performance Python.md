@@ -21,5 +21,14 @@ Tags:
 - how to BE a performant programmer
     - process: make it work (just good enough), make it right (clean up and add tests and docs), then make it fast (optimise)
 
+## Profiling tools
+- pure python: decorators + `time.time()`
+- `/usr/bin/time` shell command with `--verbose`: for whole script
+- `cProfile` python module: per-function stats
+    - `snakeviz` can visualise the output
+- `line_profiler` module's `@profile` decorator: per-line latency stats
+- `memory_profiler` module's `@profile` decorator:  per-line memory stats
+- `pyspy`: introspect running python process
+- `dis`: disassembler module that allows you to inspect bytecode
 ---
 Source: https://www.goodreads.com/book/show/49828191-high-performance-python
