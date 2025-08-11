@@ -72,5 +72,15 @@ while True:
         bar(i)
 ```
 
+## Matrix and Vector Computation
+- issue with python: doesn't support vectorisation
+    - lists only store pointers, actual data needs an additional lookup => can't easily get chunks of data at the same time
+    - bytecode itself isn't optimised for vectorisation (because of its dynamic nature)
+- `numpy`: stores data in contiguous chunks of memory, and uses C
+- `numexpr`
+    - numpy can only do 1 operation at a time: e.g. $(A*B+C)$ will first make a temp vector = $A*B$, then add $C$
+    - `numexpr.evaluate` can take the entire expression and compile it to efficient code
+- `pandas`: efficient data manipulation for tabular data
+
 ---
 Source: https://www.goodreads.com/book/show/49828191-high-performance-python
