@@ -82,5 +82,14 @@ while True:
     - `numexpr.evaluate` can take the entire expression and compile it to efficient code
 - `pandas`: efficient data manipulation for tabular data
 
+## Compiling to C
+- Compiling to C gives the best results for code that is
+    - CPU bound
+    - lots of loops repeating the same operations
+- Cython
+    - ahead-of-time (AOT) Compiler
+    - use a `setup.py` script to compile a `.pyx` file
+    - `.pyx` files are essentially python code with C-style type annotations (e.g. `cdef unsigned int x`)
+
 ---
 Source: https://www.goodreads.com/book/show/49828191-high-performance-python
