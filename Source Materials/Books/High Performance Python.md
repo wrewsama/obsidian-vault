@@ -90,6 +90,19 @@ while True:
     - ahead-of-time (AOT) Compiler
     - use a `setup.py` script to compile a `.pyx` file
     - `.pyx` files are essentially python code with C-style type annotations (e.g. `cdef unsigned int x`)
+- Numba
+    - JIT compiler specialising in numpy code
+- Pypy
+    - drop-in replacement for Cython
+- Foreign Function interfaces
+    - literally writing functions in other languages and calling them from Python
+    - ctypes, cffi: C
+    - f2py: Fortran
+
+## Asynchronous IO
+- event loop manages what runs
+- each `async def` function is called a coroutine
+- coroutines run until an `await` is reached, then it pauses until the `await` gets resolved
 
 ---
 Source: https://www.goodreads.com/book/show/49828191-high-performance-python
