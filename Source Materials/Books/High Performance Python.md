@@ -104,5 +104,32 @@ while True:
 - each `async def` function is called a coroutine
 - coroutines run until an `await` is reached, then it pauses until the `await` gets resolved
 
+## Multiprocessing
+- parallel libraries
+    - `multiprocessing`
+    - `joblib`
+- IPC options
+    - `multiprocessing.Manager`'s `Value` method
+    - [[Redis]]
+    - [[mmap]] shared memory
+- locking
+    - `multiprocessing.Lock()`
+
+## Using less RAM
+- _"data has mass"_ => more data means more time needed to move it around
+- using `array`: efficiently store primitive types without having to allocate a new object like in a regular python list
+- using `numexpr` to reduce `numpy` memory usage
+    - breaks calculations into chunks
+    - less intermediate results to cache in memory
+- storing text efficiently
+    - DAWGs: directed acylic word graphs
+    - Marisa tries
+- Sparse Matrices (`scipy.sparse`): efficiently represent matrices with mostly 0 values
+- probabilistic data structures
+    - Morris counter
+    - K-Minimum values
+    - Bloom filters
+    - Loglog counter
+
 ---
 Source: https://www.goodreads.com/book/show/49828191-high-performance-python
