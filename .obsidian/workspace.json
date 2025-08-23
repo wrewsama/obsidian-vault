@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/High Performance Python.md",
+                "file": "Source Materials/Books/Modern Software Engineering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "High Performance Python"
+              "title": "Modern Software Engineering"
             }
           }
         ],
@@ -214,6 +214,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -224,9 +225,10 @@
   },
   "active": "119b32d3df645c17",
   "lastOpenFiles": [
+    "Source Materials/Books/High Performance Python.md",
+    "Source Materials/Books/Modern Software Engineering.md",
     "Source Materials/Books/NoSQL Distilled.md",
     "Source Materials/Books/High Performance MySQL.md",
-    "Source Materials/Books/High Performance Python.md",
     "Main Notes/mmap.md",
     "Main Notes/Prometheus.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
@@ -249,7 +251,6 @@
     "Main Notes/Numa Architecture.md",
     "Main Notes/Terminal Setup.md",
     "Tags/Linux.md",
-    "Main Notes/tmpfs.md",
     "const/var",
     "const",
     "Projection",
