@@ -10,5 +10,8 @@ Tags:
     - Learning
     - Managing Complexity
 
+## Optimising for Learning
+- Iteration: repeating a sequence of operations to yield results closer to what's desired
+    - need to make small changes that can be tested out (and removed) with minimal cost
 ---
 Source: https://www.goodreads.com/book/show/57345270-modern-software-engineering
