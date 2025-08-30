@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Modern Software Engineering.md",
+                "file": "Source Materials/Websites/On Becoming Competitive When Joining A New Company.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Modern Software Engineering"
+              "title": "On Becoming Competitive When Joining A New Company"
             }
           }
         ],
@@ -225,8 +225,9 @@
   },
   "active": "119b32d3df645c17",
   "lastOpenFiles": [
-    "Source Materials/Books/High Performance Python.md",
     "Source Materials/Books/Modern Software Engineering.md",
+    "Source Materials/Websites/On Becoming Competitive When Joining A New Company.md",
+    "Source Materials/Books/High Performance Python.md",
     "Source Materials/Books/NoSQL Distilled.md",
     "Source Materials/Books/High Performance MySQL.md",
     "Main Notes/mmap.md",
@@ -250,7 +251,6 @@
     "Main Notes/Strategies To Get PRs Reviewed Faster.md",
     "Main Notes/Numa Architecture.md",
     "Main Notes/Terminal Setup.md",
-    "Tags/Linux.md",
     "const/var",
     "const",
     "Projection",
