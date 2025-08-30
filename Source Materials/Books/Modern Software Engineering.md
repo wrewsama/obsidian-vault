@@ -13,5 +13,13 @@ Tags:
 ## Optimising for Learning
 - Iteration: repeating a sequence of operations to yield results closer to what's desired
     - need to make small changes that can be tested out (and removed) with minimal cost
+- Feedback
+    - provides evidence for a decision
+    - the earlier the better
+    - feedback for:
+        - coding: tests, IDE tools
+        - integration: CI
+        - design (object-level): TDD can help with this
+        - architecture (service-level): CD, generally with microservices
 ---
 Source: https://www.goodreads.com/book/show/57345270-modern-software-engineering
