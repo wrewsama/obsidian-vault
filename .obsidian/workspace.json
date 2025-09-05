@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/On Becoming Competitive When Joining A New Company.md",
+                "file": "Main Notes/Slurm Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "On Becoming Competitive When Joining A New Company"
+              "title": "Slurm Architecture"
             }
           }
         ],
@@ -225,8 +225,9 @@
   },
   "active": "119b32d3df645c17",
   "lastOpenFiles": [
-    "Source Materials/Books/Modern Software Engineering.md",
     "Source Materials/Websites/On Becoming Competitive When Joining A New Company.md",
+    "Main Notes/Slurm Architecture.md",
+    "Source Materials/Books/Modern Software Engineering.md",
     "Source Materials/Books/High Performance Python.md",
     "Source Materials/Books/NoSQL Distilled.md",
     "Source Materials/Books/High Performance MySQL.md",
@@ -250,7 +251,6 @@
     "Source Materials/Videos/90-Day Onboarding Plan.md",
     "Main Notes/Strategies To Get PRs Reviewed Faster.md",
     "Main Notes/Numa Architecture.md",
-    "Main Notes/Terminal Setup.md",
     "const/var",
     "const",
     "Projection",
