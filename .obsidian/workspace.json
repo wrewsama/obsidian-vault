@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Slurm Architecture.md",
+                "file": "Source Materials/Books/Modern Software Engineering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Slurm Architecture"
+              "title": "Modern Software Engineering"
             }
           }
         ],
@@ -225,8 +225,8 @@
   },
   "active": "119b32d3df645c17",
   "lastOpenFiles": [
-    "Source Materials/Websites/On Becoming Competitive When Joining A New Company.md",
     "Main Notes/Slurm Architecture.md",
+    "Source Materials/Websites/On Becoming Competitive When Joining A New Company.md",
     "Source Materials/Books/Modern Software Engineering.md",
     "Source Materials/Books/High Performance Python.md",
     "Source Materials/Books/NoSQL Distilled.md",

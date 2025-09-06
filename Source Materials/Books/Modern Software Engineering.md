@@ -21,5 +21,11 @@ Tags:
         - integration: CI
         - design (object-level): TDD can help with this
         - architecture (service-level): CD, generally with microservices
+- incrementalism
+    - modularity: isolated components that can be developed independently of one another
+- empiricism
+    - use observable evidence over theoretical reasoning or intuition
+    - assume that what you think is wrong, then try to find out _how_ it's wrong
+    - can use automated tests as your experiment
 ---
 Source: https://www.goodreads.com/book/show/57345270-modern-software-engineering
