@@ -27,5 +27,11 @@ Tags:
     - use observable evidence over theoretical reasoning or intuition
     - assume that what you think is wrong, then try to find out _how_ it's wrong
     - can use automated tests as your experiment
+
+## Optimise for Managing Complexity
+- Modularity: how easily a system's components can be split and put back together
+    - modularity improves testability
+    - designing for testability also improves modularity
+
 ---
 Source: https://www.goodreads.com/book/show/57345270-modern-software-engineering
