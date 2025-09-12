@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Modern Software Engineering.md",
+                "file": "Main Notes/Chef.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Modern Software Engineering"
+              "title": "Chef"
             }
           }
         ],
@@ -225,9 +225,10 @@
   },
   "active": "119b32d3df645c17",
   "lastOpenFiles": [
+    "Source Materials/Books/Modern Software Engineering.md",
+    "Main Notes/Chef.md",
     "Main Notes/Slurm Architecture.md",
     "Source Materials/Websites/On Becoming Competitive When Joining A New Company.md",
-    "Source Materials/Books/Modern Software Engineering.md",
     "Source Materials/Books/High Performance Python.md",
     "Source Materials/Books/NoSQL Distilled.md",
     "Source Materials/Books/High Performance MySQL.md",
@@ -250,7 +251,6 @@
     "Source Materials/Videos/3 High-Leverage Career Skills.md",
     "Source Materials/Videos/90-Day Onboarding Plan.md",
     "Main Notes/Strategies To Get PRs Reviewed Faster.md",
-    "Main Notes/Numa Architecture.md",
     "const/var",
     "const",
     "Projection",
