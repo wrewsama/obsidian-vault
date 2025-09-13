@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Expand Contract Pattern.md",
+                "file": "Source Materials/Books/Modern Software Engineering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Expand Contract Pattern"
+              "title": "Modern Software Engineering"
             }
           }
         ],

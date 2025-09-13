@@ -32,6 +32,10 @@ Tags:
 - Modularity: how easily a system's components can be split and put back together
     - modularity improves testability
     - designing for testability also improves modularity
+- Cohesion: within a module, how closely related are the constituents
+    - Put simply, if you want to change 1 part,
+        - high cohesion => the things that need to be changed are all close together
+        - low cohesion => the things that need to be changed are all over the place and hard to find
 
 ---
 Source: https://www.goodreads.com/book/show/57345270-modern-software-engineering
