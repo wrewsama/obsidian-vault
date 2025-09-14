@@ -36,6 +36,22 @@ Tags:
     - Put simply, if you want to change 1 part,
         - high cohesion => the things that need to be changed are all close together
         - low cohesion => the things that need to be changed are all over the place and hard to find
+- Separation of Concerns: Each module does one thing
+    - Can be achieved with dependency injection
+    - Should also achieve a single level of abstraction per function
+- Info Hiding / Abstraction: removing some details to focus on the important ones
+- Coupling: Degree of interdependence between
+    - software modules
+    - services
+    - dev teams
+
+## Tools to Support Software Engineering
+- If it doesn't help us build better software faster, it's "fashion" rather than engineering
+- tools (more like concepts to apply to your software to make it better)
+    - testability
+    - deployability
+    - speed (of development)
+    - variable control (e.g. for reliable tests)
 
 ---
 Source: https://www.goodreads.com/book/show/57345270-modern-software-engineering
