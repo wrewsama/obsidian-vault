@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/lsof.md",
+                "file": "Main Notes/sysroot.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lsof"
+              "title": "sysroot"
             }
           }
         ],
@@ -201,8 +201,9 @@
   },
   "active": "b1662efdb8a21e20",
   "lastOpenFiles": [
-    "Source Materials/Books/Modern Software Engineering.md",
     "Main Notes/lsof.md",
+    "Main Notes/sysroot.md",
+    "Source Materials/Books/Modern Software Engineering.md",
     "Main Notes/Expand Contract Pattern.md",
     "Main Notes/Migration Patterns.md",
     "Main Notes/Chef.md",
@@ -226,7 +227,6 @@
     "Source Materials/Videos/If You Want To Learn Faster Than 99% of People Just Copy Me.md",
     "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
     "Source Materials/Videos/The Most Underrated Social Skill and How I used It.md",
-    "Source Materials/Videos/This Is How You Become More Articulate.md",
     "const/var",
     "const",
     "Projection",
