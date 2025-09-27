@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/uv python.md",
+                "file": "Source Materials/Papers/Weka.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "uv python"
+              "title": "Weka"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/Onload.md",
     "Main Notes/uv python.md",
+    "Source Materials/Papers/Weka.md",
+    "Main Notes/Onload.md",
     "Main Notes/Linux Niceness.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Main Notes/Python MRO.md",
@@ -201,7 +202,6 @@
     "Main Notes/Chef.md",
     "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
     "Source Materials/Videos/The Most Underrated Social Skill and How I used It.md",
-    "Source Materials/Videos/This Is How You Become More Articulate.md",
     "const/var",
     "const",
     "Projection",
