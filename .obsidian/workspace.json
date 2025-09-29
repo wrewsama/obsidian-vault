@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Papers/Weka.md",
+                "file": "Main Notes/Huge Pages in Linux.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Weka"
+              "title": "Huge Pages in Linux"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/uv python.md",
     "Source Materials/Papers/Weka.md",
+    "Main Notes/Huge Pages in Linux.md",
+    "Main Notes/uv python.md",
     "Main Notes/Onload.md",
     "Main Notes/Linux Niceness.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
@@ -201,7 +202,6 @@
     "Main Notes/Expand Contract Pattern.md",
     "Main Notes/Chef.md",
     "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
-    "Source Materials/Videos/The Most Underrated Social Skill and How I used It.md",
     "const/var",
     "const",
     "Projection",
