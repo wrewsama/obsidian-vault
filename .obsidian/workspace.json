@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Huge Pages in Linux.md",
+                "file": "Main Notes/Migration Patterns.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Huge Pages in Linux"
+              "title": "Migration Patterns"
+            }
+          },
+          {
+            "id": "6778f9553188d19c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main Notes/Strangler Fig Pattern.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Strangler Fig Pattern"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,16 +199,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "44f13a74031441c5",
+  "active": "6778f9553188d19c",
   "lastOpenFiles": [
-    "Source Materials/Papers/Weka.md",
+    "Main Notes/Strangler Fig Pattern.md",
+    "Main Notes/Migration Patterns.md",
+    "Main Notes/Python Mixins.md",
+    "Main Notes/asyncio in Python.md",
+    "Main Notes/Async IO in Linux.md",
     "Main Notes/Huge Pages in Linux.md",
+    "Source Materials/Papers/Weka.md",
     "Main Notes/uv python.md",
     "Main Notes/Onload.md",
     "Main Notes/Linux Niceness.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Main Notes/Python MRO.md",
-    "Main Notes/Python Mixins.md",
     "Main Notes/Python Descriptors.md",
     "Source Materials/Videos/If You Want To Learn Faster Than 99% of People Just Copy Me.md",
     "Source Materials/Websites/On Becoming Competitive When Joining A New Company.md",
@@ -198,10 +227,6 @@
     "Main Notes/Prometheus.md",
     "Main Notes/Process Namespaces.md",
     "Main Notes/Process Groups & Sessions.md",
-    "Main Notes/Migration Patterns.md",
-    "Main Notes/Expand Contract Pattern.md",
-    "Main Notes/Chef.md",
-    "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
     "const/var",
     "const",
     "Projection",
