@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/The Little Book of Common Sense Investing.md",
+                "file": "Main Notes/Airflow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Little Book of Common Sense Investing"
-            }
-          },
-          {
-            "id": "b1662efdb8a21e20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Main Notes/Python Generics.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Python Generics"
+              "title": "Airflow"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,8 +174,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1662efdb8a21e20",
+  "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Source Materials/Books/The Little Book of Common Sense Investing.md",
+    "Main Notes/Airflow.md",
+    "Main Notes/Python Generics.md",
     "Source Materials/Papers/Weka.md",
     "Main Notes/uv python.md",
     "Main Notes/Strangler Fig Pattern.md",
@@ -211,7 +189,6 @@
     "Main Notes/Linux Niceness.md",
     "Main Notes/Huge Pages in Linux.md",
     "Main Notes/sysroot.md",
-    "Main Notes/Python Generics.md",
     "Main Notes/lsof.md",
     "Source Materials/Books/Modern Software Engineering.md",
     "Main Notes/Expand Contract Pattern.md",
@@ -225,8 +202,6 @@
     "Main Notes/mmap.md",
     "Main Notes/Prometheus.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
-    "Main Notes/Python Execution.md",
-    "Tags/Python.md",
     "const/var",
     "const",
     "Projection",
