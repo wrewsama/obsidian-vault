@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Airflow.md",
+                "file": "Source Materials/Websites/The Productive Discomfort Zone.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Airflow"
+              "title": "The Productive Discomfort Zone"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/The Little Book of Common Sense Investing.md",
     "Main Notes/Airflow.md",
+    "Source Materials/Websites/The Productive Discomfort Zone.md",
+    "Source Materials/Books/The Little Book of Common Sense Investing.md",
     "Main Notes/Python Generics.md",
     "Source Materials/Papers/Weka.md",
     "Main Notes/uv python.md",
@@ -201,7 +202,6 @@
     "Source Materials/Books/High Performance MySQL.md",
     "Main Notes/mmap.md",
     "Main Notes/Prometheus.md",
-    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "const/var",
     "const",
     "Projection",
