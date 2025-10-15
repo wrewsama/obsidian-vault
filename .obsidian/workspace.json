@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/The Productive Discomfort Zone.md",
+                "file": "Main Notes/MCP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Productive Discomfort Zone"
+              "title": "MCP"
             }
           }
         ]
@@ -176,8 +176,10 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/Airflow.md",
+    "Main Notes/asyncio in Python.md",
+    "Main Notes/MCP.md",
     "Source Materials/Websites/The Productive Discomfort Zone.md",
+    "Main Notes/Airflow.md",
     "Source Materials/Books/The Little Book of Common Sense Investing.md",
     "Main Notes/Python Generics.md",
     "Source Materials/Papers/Weka.md",
@@ -200,8 +202,6 @@
     "Source Materials/Books/High Performance Python.md",
     "Source Materials/Books/NoSQL Distilled.md",
     "Source Materials/Books/High Performance MySQL.md",
-    "Main Notes/mmap.md",
-    "Main Notes/Prometheus.md",
     "const/var",
     "const",
     "Projection",
