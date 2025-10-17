@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/MCP.md",
+                "file": "Source Materials/Websites/Nobody Cares How Hard You Work.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MCP"
+              "title": "Nobody Cares How Hard You Work"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/asyncio in Python.md",
     "Main Notes/MCP.md",
+    "Source Materials/Websites/Nobody Cares How Hard You Work.md",
+    "Main Notes/asyncio in Python.md",
     "Source Materials/Websites/The Productive Discomfort Zone.md",
     "Main Notes/Airflow.md",
     "Source Materials/Books/The Little Book of Common Sense Investing.md",
@@ -201,7 +202,6 @@
     "Source Materials/Websites/On Becoming Competitive When Joining A New Company.md",
     "Source Materials/Books/High Performance Python.md",
     "Source Materials/Books/NoSQL Distilled.md",
-    "Source Materials/Books/High Performance MySQL.md",
     "const/var",
     "const",
     "Projection",
