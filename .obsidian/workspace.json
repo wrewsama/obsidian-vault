@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/Nobody Cares How Hard You Work.md",
+                "file": "Main Notes/uv python.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Nobody Cares How Hard You Work"
+              "title": "uv python"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/MCP.md",
     "Source Materials/Websites/Nobody Cares How Hard You Work.md",
+    "Main Notes/MCP.md",
     "Main Notes/asyncio in Python.md",
     "Source Materials/Websites/The Productive Discomfort Zone.md",
     "Main Notes/Airflow.md",
