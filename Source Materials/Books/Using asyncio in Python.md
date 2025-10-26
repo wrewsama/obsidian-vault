@@ -35,5 +35,26 @@ Tags:
 - `Task`
     - inherits from `Future`
     - encapsulates state of a coroutine
+
+## Other Async stuff
+- async context managers
+    - `@asynccontextmanager` decorator
+    - and `aexit` & `aenter` dunder methods
+- async iterators and generators
+    - `async for`
+    - also works with comprehensions
+
+## Graceful shutdown
+when `asyncio.run()` exits:
+- collect still pending task objects
+- cancel tasks
+    - raises `CancelledError` inside the task
+- gather tasks into a group
+- use `run_until_complete` on that group
+    - waits till each task finishes cleanup (i.e. handling of the `CancelledError`)
+
+## More notable libraries
+- `aiohttp`
+- `ZeroMQ`
 ---
 Source: https://www.goodreads.com/book/show/50083143-using-asyncio-in-python

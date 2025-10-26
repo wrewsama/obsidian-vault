@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Using asyncio in Python.md",
+                "file": "Source Materials/Books/Modern Software Engineering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Using asyncio in Python"
+              "title": "Modern Software Engineering"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Websites/Nobody Cares How Hard You Work.md",
     "Source Materials/Books/Using asyncio in Python.md",
+    "Source Materials/Websites/Nobody Cares How Hard You Work.md",
     "Main Notes/MCP.md",
     "Main Notes/asyncio in Python.md",
     "Source Materials/Websites/The Productive Discomfort Zone.md",
