@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Modern Software Engineering.md",
+                "file": "Source Materials/Books/Market Data Explained.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Modern Software Engineering"
+              "title": "Market Data Explained"
             }
           }
         ]
@@ -176,6 +176,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Source Materials/Books/Modern Software Engineering.md",
+    "Source Materials/Books/Market Data Explained.md",
     "Source Materials/Books/Using asyncio in Python.md",
     "Source Materials/Websites/Nobody Cares How Hard You Work.md",
     "Main Notes/MCP.md",
@@ -195,13 +197,11 @@
     "Main Notes/Huge Pages in Linux.md",
     "Main Notes/sysroot.md",
     "Main Notes/lsof.md",
-    "Source Materials/Books/Modern Software Engineering.md",
     "Main Notes/Expand Contract Pattern.md",
     "Main Notes/Migration Patterns.md",
     "Main Notes/Chef.md",
     "Main Notes/Slurm Architecture.md",
     "Source Materials/Websites/On Becoming Competitive When Joining A New Company.md",
-    "Source Materials/Books/High Performance Python.md",
     "const/var",
     "const",
     "Projection",
