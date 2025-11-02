@@ -34,6 +34,40 @@ Identifiers
     - RIC, SEDOL, ticker symbols, etc.
 - Issuers
     - DUNS, Bloomberg Company identifier, etc.
+## Business Data
+
+#### Global Business Data
+- Security descriptive
+    - security details
+    - asset class
+    - security features
+    - security classification schemes
+    - third parties
+    - conversion terms
+- trading
+    - pricing
+    - time and sales
+    - aggregared
+    - market rules
+- ratings
+    - instrument ratings
+    - issuer ratings
+- issuer & corporate info
+    - issuer details
+    - performance data (of the issuer)
+    - industry classifications
+    - ownership hierarchies
+- relations & constituents
+    - issuer level: corporate ownership and holdings
+    - instrument level: constituents and weightings (for things like funds and indices)
+
+#### Asset-specific Business Data
+- corporate actions
+- terms & conditions
+- payment info
+- collective investment details
+- clearing info
+- tax info
 
 ---
 Source: https://www.goodreads.com/book/show/471105.Market_Data_Explained
