@@ -63,11 +63,49 @@ Identifiers
 
 #### Asset-specific Business Data
 - corporate actions
+    - dividends
+    - capital changes
+    - earnings
+    - shares outstanding
+    - reorg notices
 - terms & conditions
+    - concepts
+        - terms: legal conditions defining the security
+        - details: further describes terms and conditions
+        - events: time-based record where term of the bond has been invoked
+    - subtypes
+        - summary info
+        - redemption info
+        - floating rate notes
+        - sinking funds
+        - municipal bonds
+        - structured products
 - payment info
+    - schedules
+    - rules
+    - historical records
 - collective investment details
+    - management
+    - holdings
+    - performance
+    - risk measures
 - clearing info
 - tax info
+    - geography
+    - tax type
+    - notes
+
+## Static Data
+- Global static data
+    - currency codes
+    - country codes
+    - market & exchange codes
+        - e.g. MIC
+    - industry classifications
+        - e.g. SIC, MSCI
+    - security classifications
+        - e.g. CFI
+- Data type-specific
 
 ---
 Source: https://www.goodreads.com/book/show/471105.Market_Data_Explained
