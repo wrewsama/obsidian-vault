@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Market Data Explained.md",
+                "file": "Source Materials/Books/Software Engineering at Google.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Market Data Explained"
+              "title": "Software Engineering at Google"
             }
           }
         ]
@@ -176,8 +176,10 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/Modern Software Engineering.md",
+    "Source Materials/Books/Site Reliability Engineering.md",
+    "Source Materials/Books/Software Engineering at Google.md",
     "Source Materials/Books/Market Data Explained.md",
+    "Source Materials/Books/Modern Software Engineering.md",
     "Source Materials/Books/Using asyncio in Python.md",
     "Source Materials/Websites/Nobody Cares How Hard You Work.md",
     "Main Notes/MCP.md",
@@ -200,8 +202,6 @@
     "Main Notes/Expand Contract Pattern.md",
     "Main Notes/Migration Patterns.md",
     "Main Notes/Chef.md",
-    "Main Notes/Slurm Architecture.md",
-    "Source Materials/Websites/On Becoming Competitive When Joining A New Company.md",
     "const/var",
     "const",
     "Projection",
