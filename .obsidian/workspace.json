@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Software Engineering at Google.md",
+                "file": "Main Notes/Linux File Permissions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Software Engineering at Google"
+              "title": "Linux File Permissions"
+            }
+          },
+          {
+            "id": "dd754908c30f1cbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main Notes/Special Linux File Permissions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Special Linux File Permissions"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,12 +199,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "44f13a74031441c5",
+  "active": "dd754908c30f1cbf",
   "lastOpenFiles": [
-    "Source Materials/Books/Site Reliability Engineering.md",
+    "Main Notes/Special Linux File Permissions.md",
+    "Main Notes/Linux File Permissions.md",
+    "Source Materials/Books/Modern Software Engineering.md",
     "Source Materials/Books/Software Engineering at Google.md",
     "Source Materials/Books/Market Data Explained.md",
-    "Source Materials/Books/Modern Software Engineering.md",
     "Source Materials/Books/Using asyncio in Python.md",
     "Source Materials/Websites/Nobody Cares How Hard You Work.md",
     "Main Notes/MCP.md",
@@ -201,7 +227,6 @@
     "Main Notes/lsof.md",
     "Main Notes/Expand Contract Pattern.md",
     "Main Notes/Migration Patterns.md",
-    "Main Notes/Chef.md",
     "const/var",
     "const",
     "Projection",
