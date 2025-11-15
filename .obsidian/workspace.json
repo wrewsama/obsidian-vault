@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Special Linux File Permissions.md",
+                "file": "Source Materials/Websites/What Actually Matters for Code Quality.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Special Linux File Permissions"
+              "title": "What Actually Matters for Code Quality"
+            }
+          },
+          {
+            "id": "3403ed84d5a850dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Source Materials/Websites/What Actually Matters for Code Quality.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "What Actually Matters for Code Quality"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,8 +223,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd754908c30f1cbf",
+  "active": "3403ed84d5a850dd",
   "lastOpenFiles": [
+    "Tags/Code Quality.md",
+    "Main Notes/Assertions vs Exceptions.md",
+    "Source Materials/Websites/What Actually Matters for Code Quality.md",
+    "Source Materials/Websites/Strong Technically, But.md",
+    "Main Notes/Python ExitStack.md",
     "Main Notes/Special Linux File Permissions.md",
     "Main Notes/Linux File Permissions.md",
     "Source Materials/Books/Modern Software Engineering.md",
@@ -222,11 +251,6 @@
     "Main Notes/Python Descriptors.md",
     "Main Notes/Onload.md",
     "Main Notes/Linux Niceness.md",
-    "Main Notes/Huge Pages in Linux.md",
-    "Main Notes/sysroot.md",
-    "Main Notes/lsof.md",
-    "Main Notes/Expand Contract Pattern.md",
-    "Main Notes/Migration Patterns.md",
     "const/var",
     "const",
     "Projection",
