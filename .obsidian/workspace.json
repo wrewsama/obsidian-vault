@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/What Actually Matters for Code Quality.md",
+                "file": "Source Materials/Books/System Design Interview Volume 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "What Actually Matters for Code Quality"
+              "title": "System Design Interview Volume 1"
             }
           }
         ],
@@ -225,15 +225,15 @@
   },
   "active": "3403ed84d5a850dd",
   "lastOpenFiles": [
+    "Source Materials/Books/Software Engineering at Google.md",
+    "Source Materials/Websites/What Actually Matters for Code Quality.md",
     "Tags/Code Quality.md",
     "Main Notes/Assertions vs Exceptions.md",
-    "Source Materials/Websites/What Actually Matters for Code Quality.md",
     "Source Materials/Websites/Strong Technically, But.md",
     "Main Notes/Python ExitStack.md",
     "Main Notes/Special Linux File Permissions.md",
     "Main Notes/Linux File Permissions.md",
     "Source Materials/Books/Modern Software Engineering.md",
-    "Source Materials/Books/Software Engineering at Google.md",
     "Source Materials/Books/Market Data Explained.md",
     "Source Materials/Books/Using asyncio in Python.md",
     "Source Materials/Websites/Nobody Cares How Hard You Work.md",
