@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/System Design Interview Volume 1.md",
+                "file": "Main Notes/umask.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design Interview Volume 1"
+              "title": "umask"
             }
           }
         ],
@@ -225,6 +225,8 @@
   },
   "active": "3403ed84d5a850dd",
   "lastOpenFiles": [
+    "Source Materials/Books/System Design Interview Volume 1.md",
+    "Main Notes/umask.md",
     "Source Materials/Books/Software Engineering at Google.md",
     "Source Materials/Websites/What Actually Matters for Code Quality.md",
     "Tags/Code Quality.md",
@@ -249,8 +251,6 @@
     "Main Notes/Python Mixins.md",
     "Main Notes/Python MRO.md",
     "Main Notes/Python Descriptors.md",
-    "Main Notes/Onload.md",
-    "Main Notes/Linux Niceness.md",
     "const/var",
     "const",
     "Projection",
