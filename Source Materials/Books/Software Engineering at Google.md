@@ -49,5 +49,27 @@ Tags:
 -  track happiness
     - make sure team members get their deserved recognition and are happy with their work
 
+## Leading at Scale
+- **Always Be Deciding**
+    - identify blinders: use a fresh pair of eyes to look at the problem, ask questions, and consider new strategies
+    - identify trade-offs
+        - Good, Fast, Cheap: pick 2
+    - make a decision and iterate on it
+- **Always Be Leaving**
+    - don't be a single point of failure
+    - build a self-driving team
+    - divide the problem, delegate subproblems, iterate as needed
+    - NOTE: a team should be in charge of a _problem_, not a _product_
+- **Always Be Scaling**
+    - spiral of success
+        - struggle > traction > compress > bigger struggle > repeat
+    - drop / delegate non-important tasks
+    - block out time for important tasks only
+
+## Goals/Signals/Metrics Framework
+- goal: desired end result
+- signal: how you can know the end result has been achieved
+- metric: something that you can actually measure that implies the signal
+
 ---
 Source: https://www.goodreads.com/book/show/48816586-software-engineering-at-google

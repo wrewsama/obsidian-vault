@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/umask.md",
+                "file": "Source Materials/Books/Software Engineering at Google.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "umask"
+              "title": "Software Engineering at Google"
             }
           }
         ],
@@ -225,8 +225,8 @@
   },
   "active": "3403ed84d5a850dd",
   "lastOpenFiles": [
-    "Source Materials/Books/System Design Interview Volume 1.md",
     "Main Notes/umask.md",
+    "Source Materials/Books/System Design Interview Volume 1.md",
     "Source Materials/Books/Software Engineering at Google.md",
     "Source Materials/Websites/What Actually Matters for Code Quality.md",
     "Tags/Code Quality.md",
