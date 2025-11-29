@@ -71,5 +71,9 @@ Tags:
 - signal: how you can know the end result has been achieved
 - metric: something that you can actually measure that implies the signal
 
+## Code Review
+- correctness
+- comprehensibility
+- consistency (with the rest of the codebase)
 ---
 Source: https://www.goodreads.com/book/show/48816586-software-engineering-at-google
