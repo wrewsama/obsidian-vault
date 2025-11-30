@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Software Engineering at Google.md",
+                "file": "Main Notes/Crontab.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Software Engineering at Google"
+              "title": "Crontab"
             }
           }
         ],
@@ -225,6 +225,8 @@
   },
   "active": "3403ed84d5a850dd",
   "lastOpenFiles": [
+    "Source Materials/Books/Software Engineering at Google.md",
+    "Main Notes/Crontab.md",
     "Source Materials/Videos/How to Master Software Engineering (From Junior to Architect).md",
     "Source Materials/Videos/If You Want To Learn Faster Than 99% of People Just Copy Me.md",
     "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
@@ -235,7 +237,6 @@
     "Source Materials/Videos/This Is How You Become More Articulate.md",
     "Source Materials/Videos/The Most Underrated Social Skill and How I used It.md",
     "Source Materials/Videos/The Last Lecture.md",
-    "Source Materials/Books/Software Engineering at Google.md",
     "Main Notes/umask.md",
     "Source Materials/Books/System Design Interview Volume 1.md",
     "Source Materials/Websites/What Actually Matters for Code Quality.md",
@@ -250,7 +251,6 @@
     "Source Materials/Books/Using asyncio in Python.md",
     "Source Materials/Websites/Nobody Cares How Hard You Work.md",
     "Main Notes/MCP.md",
-    "Main Notes/asyncio in Python.md",
     "const/var",
     "const",
     "Projection",
