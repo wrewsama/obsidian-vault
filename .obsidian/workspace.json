@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Python typing Concatenate.md",
+                "file": "Main Notes/Git cherry-pick.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python typing Concatenate"
+              "title": "Git cherry-pick"
             }
           }
         ]
@@ -176,13 +176,15 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/Python ParamSpec.md",
+    "Main Notes/Git Commiting.md",
+    "Main Notes/Git cherry-pick.md",
+    "Source Materials/Books/Software Engineering at Google.md",
     "Main Notes/Python typing Concatenate.md",
+    "Main Notes/Python ParamSpec.md",
     "Main Notes/Python Generics.md",
     "Main Notes/Linux File Permissions.md",
     "Source Materials/Websites/What Actually Matters for Code Quality.md",
     "Main Notes/Crontab.md",
-    "Source Materials/Books/Software Engineering at Google.md",
     "Source Materials/Videos/How to Master Software Engineering (From Junior to Architect).md",
     "Source Materials/Videos/If You Want To Learn Faster Than 99% of People Just Copy Me.md",
     "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
@@ -200,8 +202,6 @@
     "Source Materials/Websites/Strong Technically, But.md",
     "Main Notes/Python ExitStack.md",
     "Main Notes/Special Linux File Permissions.md",
-    "Source Materials/Books/Modern Software Engineering.md",
-    "Source Materials/Books/Market Data Explained.md",
     "const/var",
     "const",
     "Projection",
