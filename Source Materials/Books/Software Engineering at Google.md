@@ -75,5 +75,18 @@ Tags:
 - correctness
 - comprehensibility
 - consistency (with the rest of the codebase)
+
+## Testing
+- test size
+    - small: run in a single process
+    - medium: multiple processes, single machine
+    - large: run in multiple machines
+- write the smallest sized test required for a given piece of functionality
+- test scopes and % of test case count
+    - 5% end to end
+    - 15% integration
+    - 80% unit
+> **Beyonce Rule**: "If you liked it, you shoulda put a test on it"
+
 ---
 Source: https://www.goodreads.com/book/show/48816586-software-engineering-at-google

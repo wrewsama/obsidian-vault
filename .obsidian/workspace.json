@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Git cherry-pick.md",
+                "file": "Source Materials/Books/Software Engineering at Google.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Git cherry-pick"
+              "title": "Software Engineering at Google"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/Git Commiting.md",
     "Main Notes/Git cherry-pick.md",
+    "Main Notes/Git Commiting.md",
     "Source Materials/Books/Software Engineering at Google.md",
     "Main Notes/Python typing Concatenate.md",
     "Main Notes/Python ParamSpec.md",
