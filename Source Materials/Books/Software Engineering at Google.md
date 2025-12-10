@@ -88,5 +88,19 @@ Tags:
     - 80% unit
 > **Beyonce Rule**: "If you liked it, you shoulda put a test on it"
 
+## Unit Testing Guidelines
+- Write tests that won't need to be changed
+    - even after code refactoring, bugfixes, or adding new features
+- test public APIs, not implementation details
+- test for the desired state, not for interactions with other components
+- test behaviours, not whole methods
+    - each test case should follow the format: given {precondition}, when {method}, then {assert some behaviour}
+- don't put logic in tests
+    - no control flow, loops, etc.
+- write clear failure messages
+- tests should be DAMP, not DRY
+    - "descriptive and meaningful phrases"
+    - essentially, okay to duplicate if it makes the test clearer to read and understand by avoiding extra indirection
+
 ---
 Source: https://www.goodreads.com/book/show/48816586-software-engineering-at-google
