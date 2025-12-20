@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Linear Programming.md",
+                "file": "Main Notes/httpx vs aiohttp.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Linear Programming"
-            }
-          },
-          {
-            "id": "fc157f2d1d91b3b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Main Notes/Linear Programming.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Linear Programming"
+              "title": "httpx vs aiohttp"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,10 +174,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc157f2d1d91b3b3",
+  "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/CP4 Book 2.md",
+    "Main Notes/HTTP1.0 vs HTTP1.1 vs HTTP2 vs HTTP3.md",
+    "Main Notes/httpx vs aiohttp.md",
+    "Main Notes/Python Task Groups.md",
     "Main Notes/Linear Programming.md",
+    "Source Materials/Papers/Weka.md",
+    "Main Notes/Airflow.md",
+    "Main Notes/Python Mixins.md",
+    "Tags/Python.md",
+    "Main Notes/Exhaustive Pattern Matching for Enums.md",
+    "Main Notes/TCP vs UDP.md",
+    "Main Notes/inotify.md",
+    "Source Materials/Books/CP4 Book 2.md",
     "Source Materials/Books/Software Engineering at Google.md",
     "Source Materials/Videos/The Anatomy of Virtual Environments.md",
     "Main Notes/Python Never Type.md",
@@ -217,16 +202,6 @@
     "Source Materials/Videos/How to Master Software Engineering (From Junior to Architect).md",
     "Source Materials/Videos/If You Want To Learn Faster Than 99% of People Just Copy Me.md",
     "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
-    "Source Materials/Videos/The Anti-Routine.md",
-    "Source Materials/Videos/3 High-Leverage Career Skills.md",
-    "Source Materials/Videos/90-Day Onboarding Plan.md",
-    "Source Materials/Videos/Give me 8 minutes, and I'll improve your communication skills by 88%.md",
-    "Source Materials/Videos/This Is How You Become More Articulate.md",
-    "Source Materials/Videos/The Most Underrated Social Skill and How I used It.md",
-    "Source Materials/Videos/The Last Lecture.md",
-    "Main Notes/umask.md",
-    "Source Materials/Books/System Design Interview Volume 1.md",
-    "Tags/Code Quality.md",
     "const/var",
     "const",
     "Projection",
