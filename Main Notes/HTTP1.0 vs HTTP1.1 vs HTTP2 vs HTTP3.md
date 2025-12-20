@@ -6,7 +6,7 @@ HTTP1 : need new tcp conn for each req/res
 HTTP1.1:
 
 - has keep-alive mechanism, allowing same TCP conn to be reused for diff reqs
-- head of line(HOL) blocking: when 1st req gets delayed, subsequent reqs also have to wait
+- head of line(HOL) blocking: when 1st req gets delayed, subsequent reqs also have to wait (even with [[HTTP Pipelining]])
 
 HTTP2:
 

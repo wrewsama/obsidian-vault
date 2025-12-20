@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/httpx vs aiohttp.md",
+                "file": "Main Notes/HTTP1.0 vs HTTP1.1 vs HTTP2 vs HTTP3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "httpx vs aiohttp"
+              "title": "HTTP1.0 vs HTTP1.1 vs HTTP2 vs HTTP3"
             }
           }
         ]
@@ -176,6 +176,7 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Main Notes/HTTP Pipelining.md",
     "Main Notes/HTTP1.0 vs HTTP1.1 vs HTTP2 vs HTTP3.md",
     "Main Notes/httpx vs aiohttp.md",
     "Main Notes/Python Task Groups.md",
@@ -201,7 +202,6 @@
     "Main Notes/Crontab.md",
     "Source Materials/Videos/How to Master Software Engineering (From Junior to Architect).md",
     "Source Materials/Videos/If You Want To Learn Faster Than 99% of People Just Copy Me.md",
-    "Source Materials/Videos/The Dead Simple Reason You're Not Getting Promoted.md",
     "const/var",
     "const",
     "Projection",
