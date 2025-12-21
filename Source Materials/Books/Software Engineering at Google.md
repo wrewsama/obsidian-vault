@@ -102,5 +102,43 @@ Tags:
     - "descriptive and meaningful phrases"
     - essentially, okay to duplicate if it makes the test clearer to read and understand by avoiding extra indirection
 
+## Test Doubles
+- stand-in for a real external dependency
+- advantages
+    - fast
+    - won't flake due to external issues e.g. network, other tests
+- use _dependency injection_ to allow a double to be used instead of a production dependency for test
+- types
+    - fake: lightweight implementation that behaves similarly
+        - e.g. faking a DB class with something that just stores in memory
+    - stub: stand-in with set output values
+        - aka mocks
+        - issue: no way to ensure function(s) being stubbed behaves like the real implementation
+- where possible, prefer testing state (of the data in the system under test) over interactions (between the system and its dependencies)
+## Larger Testing
+- defined in [[#Testing]] 
+> **Fidelity**: how well a test reflects the way the SUT behaves
+- larger tests are required for the fidelity of large systems
+- types
+    - functional testing of multiple binaries
+    - browser/device testing
+    - load testing
+    - deployment config testing
+        - smoke test an application's deployment with its deployment config; Ensure it doesn't crash
+    - exploratory testing
+        - manually trying out new user workflows
+    - A/B diff regression testing
+    - UAT
+    - Probers / Canary analysis
+        - probers: smoke tests on the production system
+        - probers + canary: deploy new version on subset of servers, then run your probers on it
+    - Chaos Engineering
+    - User evaluation
+## Deprecation
+- removal of systems that are obsolete and have a replacement available
+- deprecation warnings need to be
+    - actionable: say what needs to be done to replace the deprecated system, not just simply warn
+    - relevant: warning should be surfaced to the user at an appropriate time
+
 ---
 Source: https://www.goodreads.com/book/show/48816586-software-engineering-at-google
