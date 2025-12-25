@@ -140,5 +140,11 @@ Tags:
     - actionable: say what needs to be done to replace the deprecated system, not just simply warn
     - relevant: warning should be surfaced to the user at an appropriate time
 
+## Tools
+_the last few chapters covered some internal Google tooling which isn't really relevant, but there were a few bits of applicable info_
+- Version Control: Google follows a One Version principle (as far as possible)
+- Code Search: substring searches are made more efficient with trigram indexes
+- 
+
 ---
 Source: https://www.goodreads.com/book/show/48816586-software-engineering-at-google
