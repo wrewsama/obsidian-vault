@@ -144,7 +144,9 @@ Tags:
 _the last few chapters covered some internal Google tooling which isn't really relevant, but there were a few bits of applicable info_
 - Version Control: Google follows a One Version principle (as far as possible)
 - Code Search: substring searches are made more efficient with trigram indexes
-- 
-
+- Dependency Management: SemVer satisfiability solvers are essentially SAT-Solvers
+- CI: Google runs one set of presubmit tests, and another set of postsubmit tests
+    - presubmit tests need to be fast and reliable
+    - postsubmit tests can afford to be slower and more expensive, needed to cover gaps that couldn't be covered by faster presubmit tests
 ---
 Source: https://www.goodreads.com/book/show/48816586-software-engineering-at-google
