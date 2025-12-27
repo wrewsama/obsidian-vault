@@ -1,0 +1,27 @@
+Tags:
+- [[Software Engineering]]
+- [[Python]]
+---
+- use proper types
+    - e.g. `decimal.Decimal` instead of `float` for precise decimal numbers
+- input validation
+    - specify validation checks together with the field definition by using `fastapi.Query`
+- extract business logic into service(s)
+    - create service class(es) for business logic
+    - inject them into the handler functions with `fastapi.Depends`
+- add persistence
+- add health check endpoint
+- use defensive programming
+    - instead of letting certain inputs (valid but can't be handled, e.g. 404s) raise unhandled exceptions in the code and return internal server errors to the user
+    - check for such inputs and raise meaningful `HTTPExceptions`
+- set up config management
+    - use `pydantic_settings.BaseSettings`
+- rate limiting
+    - `slowapi.Limiter`
+    - instantiate a limiter with some key function (to identify requester): can use `slowapi.util.get_remote_address`
+    - slap on `limiter.limit(<NUMBER>/<TIME>)`
+- write tests
+- logging
+    - `logging.info` etc.
+---
+Source: https://youtu.be/GMBiCMsEsq8?si=OWpIDEOL9cjIEWKq

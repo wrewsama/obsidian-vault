@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Software Engineering at Google.md",
+                "file": "Source Materials/Videos/Why Your FastAPI App Isn’t Ready for Production.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Software Engineering at Google"
+              "title": "Why Your FastAPI App Isn’t Ready for Production"
             }
           }
         ]
@@ -176,6 +176,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Source Materials/Books/Software Engineering at Google.md",
+    "Source Materials/Videos/Why Your FastAPI App Isn’t Ready for Production.md",
     "Main Notes/HTTP1.0 vs HTTP1.1 vs HTTP2 vs HTTP3.md",
     "Main Notes/HTTP Pipelining.md",
     "Main Notes/httpx vs aiohttp.md",
@@ -189,7 +191,6 @@
     "Main Notes/TCP vs UDP.md",
     "Main Notes/inotify.md",
     "Source Materials/Books/CP4 Book 2.md",
-    "Source Materials/Books/Software Engineering at Google.md",
     "Source Materials/Videos/The Anatomy of Virtual Environments.md",
     "Main Notes/Python Never Type.md",
     "Main Notes/Git cherry-pick.md",
@@ -201,7 +202,6 @@
     "Source Materials/Websites/What Actually Matters for Code Quality.md",
     "Main Notes/Crontab.md",
     "Source Materials/Videos/How to Master Software Engineering (From Junior to Architect).md",
-    "Source Materials/Videos/If You Want To Learn Faster Than 99% of People Just Copy Me.md",
     "const/var",
     "const",
     "Projection",
