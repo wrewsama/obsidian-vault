@@ -1,0 +1,21 @@
+Tags:
+- [[Software Engineering]]
+- [[Career Skills]]
+- [[Productivity]]
+---
+- theoretical vs physical blockers
+    - don't declare yourself to be blocked until you've hit an actual error
+    - if asking for permission to do something, say you're going to proceed unless someone has an issue, then proceed anyway
+- don't slow down just because of uncertainty
+    - proceed based on what is available
+    - as things become clearer, make the appropriate adjustments
+- don't be afraid to escalate if people aren't moving
+    - **if you have a true blocker, you have authority**
+    - keep escalating until
+        - the problem is solved
+        - some leadership says missing your deadline is okay
+- start with the most unfamiliar thing
+    - do research and prototypes
+- work at a sustainable pace
+---
+Source: https://youtu.be/gZv6QSUZNQg?si=rIgbwvYAP1ieGrkA

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Videos/Why Your FastAPI App Isn’t Ready for Production.md",
+                "file": "Source Materials/Videos/Shipping Faster Without Working Harder.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Why Your FastAPI App Isn’t Ready for Production"
+              "title": "Shipping Faster Without Working Harder"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/Software Engineering at Google.md",
     "Source Materials/Videos/Why Your FastAPI App Isn’t Ready for Production.md",
+    "Source Materials/Videos/Shipping Faster Without Working Harder.md",
+    "Source Materials/Books/Software Engineering at Google.md",
     "Main Notes/HTTP1.0 vs HTTP1.1 vs HTTP2 vs HTTP3.md",
     "Main Notes/HTTP Pipelining.md",
     "Main Notes/httpx vs aiohttp.md",
@@ -201,7 +202,6 @@
     "Main Notes/Linux File Permissions.md",
     "Source Materials/Websites/What Actually Matters for Code Quality.md",
     "Main Notes/Crontab.md",
-    "Source Materials/Videos/How to Master Software Engineering (From Junior to Architect).md",
     "const/var",
     "const",
     "Projection",
