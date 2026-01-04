@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Code Complete.md",
+                "file": "Main Notes/Debugging Process.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Code Complete"
+              "title": "Debugging Process"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Videos/Shipping Faster Without Working Harder.md",
     "Source Materials/Books/Code Complete.md",
+    "Source Materials/Videos/Shipping Faster Without Working Harder.md",
     "Source Materials/Videos/Why Your FastAPI App Isn’t Ready for Production.md",
     "Source Materials/Books/Software Engineering at Google.md",
     "Main Notes/HTTP1.0 vs HTTP1.1 vs HTTP2 vs HTTP3.md",

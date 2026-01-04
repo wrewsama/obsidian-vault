@@ -56,5 +56,48 @@ Tags:
     - change strategy (most likely changes should be easy to implement)
 > **Conceptual Integrity**: You should be please by how natural and easy the solution seems. It shouldn't look as if the problem and the architecture have been forced together with duct tape.
 
+## Design in Construction
+- Software design is a "wicked problem": It can only be clearly defined by solving it
+> Even if we could invent a programming language that used the same terminology as the real-world problem we're trying to solve, programming would still be difficult because of the challenge in determining precisely how the real world works
+- **Primary goal of design: Managing Complexity**
+    - Essential Complexity
+        - unavoidable complexity arising from interfacing with the complex, real world
+        - need to minimise the amount that needs to be considered together at any point in time
+    - Accidental complexity
+        - complexity that arises from the production process (e.g. from dependency management, microservices, etc.)
+        - prevent them from proliferating needlessly, abstract it away and use that abstraction
+- Design Heuristics 
+    - Model with the objects in the real world
+    - Stratify abstractions
+    - Encapsulate and hide information
+        - each class, module, or package is defined by the information it _hides_
+        - ask "what should this class _hide_" instead of what should it _have_
+    - Use inheritance <=> it simplifies the design
+        - e.g. polymorphism to allow dependent classes to depend on a general class, without caring about the specific dependency
+    - Anticipate areas likely to change
+        - separate each area into its own class
+        - isolate it by defining an interface that can remain the same after the change
+    - Keep coupling loose
+        - relationships between classes should be small, direct, visible, and flexible
+        - ensure classes don't rely on implementation details of other classes (also information hiding)
+    - Use common Design Patterns
+    - Other heuristics
+        - strong cohesion: everything in a class/module/package has a singular central purpose
+        - formalise class contracts: preconditions and postconditions
+        - assign responsibilities
+        - design for testing
+        - avoid failure: think about possible failure cases for the system and design to avoid them
+        - choose binding time consciously: bind value to variable early => simplicity; later => flexibility
+        - central points of control
+        - consider brute force
+        - draw a diagram
+    - Design practices
+        - Iterate
+        - Divide and Conquer
+        - Top-Down or Bottom-Up
+            - top-down: start from rough general idea, decompose into specifics
+            - bottom-up: start from specific requirements, generalise into a simple solution
+        - Experimental Prototyping
+        - Collaborative Design
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete
