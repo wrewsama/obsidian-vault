@@ -99,5 +99,13 @@ Tags:
             - bottom-up: start from specific requirements, generalise into a simple solution
         - Experimental Prototyping
         - Collaborative Design
+
+## High Quality Routines
+- Reasons to create routines
+    - hide complexity
+    - avoid duplication
+    - force sequences
+        - e.g. if action A needs to be done only after action B, put them one after the other in 1 routine and make sure A is only accessible through that routine
+- ideal routine: **functional cohesion**: performs one and only one operation
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Debugging Process.md",
+                "file": "Source Materials/Books/Code Complete.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Debugging Process"
+              "title": "Code Complete"
             }
           }
         ]
@@ -176,6 +176,7 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Main Notes/Debugging Process.md",
     "Source Materials/Books/Code Complete.md",
     "Source Materials/Videos/Shipping Faster Without Working Harder.md",
     "Source Materials/Videos/Why Your FastAPI App Isn’t Ready for Production.md",
@@ -201,7 +202,6 @@
     "Main Notes/Python ParamSpec.md",
     "Main Notes/Python Generics.md",
     "Main Notes/Linux File Permissions.md",
-    "Source Materials/Websites/What Actually Matters for Code Quality.md",
     "const/var",
     "const",
     "Projection",
