@@ -107,5 +107,9 @@ Tags:
     - force sequences
         - e.g. if action A needs to be done only after action B, put them one after the other in 1 routine and make sure A is only accessible through that routine
 - ideal routine: **functional cohesion**: performs one and only one operation
+- naming guidelines
+    - describe everything the routine does
+    - avoid vague terms (e.g. `handleX`, `processY`)
+    - be consistent with opposites (e.g. `add_item/remove_item` instead of `add/remove_item_from_list`)
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete
