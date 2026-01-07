@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Python Scoping.md",
+                "file": "Main Notes/A Philosophy of Software Design.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python Scoping"
+              "title": "A Philosophy of Software Design"
             }
           }
         ]
@@ -176,6 +176,10 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Tags/Software Engineering.md",
+    "Main Notes/A Philosophy of Software Design.md",
+    "Tags/Software Design.md",
+    "Source Materials/Websites/What Actually Matters for Code Quality.md",
     "Source Materials/Books/Code Complete.md",
     "Main Notes/Python Scoping.md",
     "Main Notes/Debugging Process.md",
@@ -198,10 +202,6 @@
     "Source Materials/Videos/The Anatomy of Virtual Environments.md",
     "Main Notes/Python Never Type.md",
     "Main Notes/Git cherry-pick.md",
-    "Main Notes/Git Commiting.md",
-    "Main Notes/Python typing Concatenate.md",
-    "Main Notes/Python ParamSpec.md",
-    "Main Notes/Python Generics.md",
     "const/var",
     "const",
     "Projection",

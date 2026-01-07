@@ -1,6 +1,6 @@
 Tags:
 - [[Software Engineering]]
-- [[Code Quality]]
+- [[Software Design]]
 ---
 ## What it is
 - Explicitly defining what should **never** happen

@@ -1,6 +1,6 @@
 Tags:
 - [[Software Engineering]]
-- [[Code Quality]]
+- [[Software Design]]
 ---
 ## Chapter 1
 mainly just examples

@@ -1,5 +1,5 @@
 Tags:
-- [[Code Quality]]
+- [[Software Design]]
 - [[Software Engineering]]
 ---
 ## Software Development Metaphors
