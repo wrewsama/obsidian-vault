@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/A Philosophy of Software Design.md",
+                "file": "Source Materials/Books/Code Complete.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "A Philosophy of Software Design"
+              "title": "Code Complete"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Tags/Software Engineering.md",
     "Main Notes/A Philosophy of Software Design.md",
+    "Tags/Software Engineering.md",
     "Tags/Software Design.md",
     "Source Materials/Websites/What Actually Matters for Code Quality.md",
     "Source Materials/Books/Code Complete.md",

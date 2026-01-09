@@ -100,6 +100,16 @@ Tags:
         - Experimental Prototyping
         - Collaborative Design
 
+## Working Classes
+- **Abstract Data Type (ADT)**: Collection of
+    - data
+    - operations on that data
+- A class should represent exactly 1 ADT, not just arbitrary collections of data and methods
+- ensure encapsulation
+    - hide as much as possible
+    - beware of semantic violations: when the methods require knowledge of the implementation details to be used (e.g. if `Foo::a` needs `Foo::b` to be run first)
+- 
+
 ## High Quality Routines
 - Reasons to create routines
     - hide complexity
