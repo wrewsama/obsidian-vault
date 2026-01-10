@@ -13,5 +13,15 @@ Tags:
     - dependencies
     - obscurity
 - key insight: Complexity is caused by the accumulation of many tiny issues over time, not a single catastrophic design error
+
+## Modules Should be Deep
+- Goal of modular design: minimise dependencies between modules
+- Abstraction: simplified representation of an entity, omitting unimportant details
+- Deep modules: small interface, large amount of functionality
+    - imagine interface being the surface area and functionality being the volume of a pool of water - we want it to be _deep_
+    - in other words, it _hides_ a lot of complexity
+- shallow modules can do more harm than good, don't split your modules so much they become shallow 
+- interfaces should be optimised to simplify the common use as much as possible
+
 ---
 Source: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design

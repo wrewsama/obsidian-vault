@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Code Complete.md",
+                "file": "Main Notes/A Philosophy of Software Design.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Code Complete"
+              "title": "A Philosophy of Software Design"
             }
           }
         ]
@@ -176,11 +176,11 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Source Materials/Books/Code Complete.md",
     "Main Notes/A Philosophy of Software Design.md",
     "Tags/Software Engineering.md",
     "Tags/Software Design.md",
     "Source Materials/Websites/What Actually Matters for Code Quality.md",
-    "Source Materials/Books/Code Complete.md",
     "Main Notes/Python Scoping.md",
     "Main Notes/Debugging Process.md",
     "Source Materials/Videos/Shipping Faster Without Working Harder.md",
