@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/A Philosophy of Software Design.md",
+                "file": "Source Materials/Videos/How to Master Software Engineering (From Junior to Architect).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "A Philosophy of Software Design"
+              "title": "How to Master Software Engineering (From Junior to Architect)"
             }
           }
         ]
@@ -177,7 +177,12 @@
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
     "Source Materials/Books/Code Complete.md",
+    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
+    "Main Notes/Paging vs Segmentation in OS.md",
+    "Tags/Operating Systems.md",
+    "Main Notes/Stack Heap Metaspace.md",
     "Main Notes/A Philosophy of Software Design.md",
+    "Tags/Business.md",
     "Tags/Software Engineering.md",
     "Tags/Software Design.md",
     "Source Materials/Websites/What Actually Matters for Code Quality.md",
@@ -197,11 +202,6 @@
     "Tags/Python.md",
     "Main Notes/Exhaustive Pattern Matching for Enums.md",
     "Main Notes/TCP vs UDP.md",
-    "Main Notes/inotify.md",
-    "Source Materials/Books/CP4 Book 2.md",
-    "Source Materials/Videos/The Anatomy of Virtual Environments.md",
-    "Main Notes/Python Never Type.md",
-    "Main Notes/Git cherry-pick.md",
     "const/var",
     "const",
     "Projection",

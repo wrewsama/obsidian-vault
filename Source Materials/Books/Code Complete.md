@@ -108,7 +108,22 @@ Tags:
 - ensure encapsulation
     - hide as much as possible
     - beware of semantic violations: when the methods require knowledge of the implementation details to be used (e.g. if `Foo::a` needs `Foo::b` to be run first)
-- 
+- "Has a" relationships
+    - prefer containment over inheritance
+    - try not to exceed 7 members in a class
+- "Is a" relationships
+    - adhere to Liskov Substitution Principle - superclasses must be able to be _substituted_ for any of their subclasses without the user needing to know the difference
+    - avoid deep inheritance trees - aim for around 2-3 levels
+    - move common behaviour as high up the inheritance tree as possible
+    - prefer polymorphism to switching + type checking
+- methods
+    - keep as few as possible
+    - minimise extent to which the class interacts with other classes
+        - instantiation of other objects
+        - method calls on other objects
+- constructors
+    - init all member data in constructor
+    - prefer deep copies unless absolutely required
 
 ## High Quality Routines
 - Reasons to create routines
@@ -121,5 +136,36 @@ Tags:
     - describe everything the routine does
     - avoid vague terms (e.g. `handleX`, `processY`)
     - be consistent with opposites (e.g. `add_item/remove_item` instead of `add/remove_item_from_list`)
+
+## Defensive Programming
+- assertions
+    - Handle expected errors, `assert` for errors that should never occur
+    - `assert` preconditions that should always be true
+    - don't put application logic into assertions, they may get removed during prod builds
+- exceptions
+    - throw only for exceptional cases
+    - throw at the correct level of abstraction (e.g. `Cohort::getStudents` shouldn't throw `ArrayOutOfBoundsException`, this reveals the implementation details of the class)
+    - when throwing, include all info that led to it
+- other error handling
+    - log warning/error message
+    - sub in another value (e.g. default, previous, next, closest, etc.)
+    - return error code
+    - abort
+- dev builds can have extra debug aids than prod builds, they don't have the same resource/performance constraints
+- what defensive programming to leave in prod code
+    - important error checks
+    - error logs
+    - graceful shutdowns
+
+## Pseudocode Programming Process (PPP)
+for designing and implementing a routine
+- name it and define what it's trying to do
+- check if it's already implemented elsewhere (if yes just use that instead) 
+- write pseudocode in comments
+- review and improve the pseudocode
+- implement below the comments
+- test the code
+- review and repeat the process, iterating as needed
+
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete
