@@ -23,5 +23,15 @@ Tags:
 - shallow modules can do more harm than good, don't split your modules so much they become shallow 
 - interfaces should be optimised to simplify the common use as much as possible
 
+## Information Leakage
+- info leakage occurs when: 2 classes need a certain piece of information (e.g. a file format)
+- that information should be hidden in a single class, no other class needs to have that
+- often caused by temporal decomposition
+    - naively splitting a sequence of operations into classes for each step
+    - e.g. `FileReader, FileModifier, FileWriter`
+    - here the reader and writer need information like file path, file format, etc.
+    - hence, read and write steps should be 1 class
+    - When designing modules, **focus on info needed for the task, not the order of the tasks**
+
 ---
 Source: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design

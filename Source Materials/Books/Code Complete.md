@@ -167,5 +167,16 @@ for designing and implementing a routine
 - test the code
 - review and repeat the process, iterating as needed
 
+## General Issues in Using Variables
+- guidelines
+    - initialise variables when they are declared as much as possible (i.e. `int x = 5` instead of `int x`)
+    - initialise & declare close to where it's used
+    - initialise member data in constructor 
+    - minimise "lifetime" of variable
+        - lines between 1st and last usage
+        - average number of lines between adjacent usages
+        - (not referring to the memory lifetime)
+        - can be done through grouping lines that use the same variable(s) together in their own functions
+    - use each variable for exactly 1 purpose
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete

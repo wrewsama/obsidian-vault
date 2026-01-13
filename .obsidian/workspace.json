@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Videos/How to Master Software Engineering (From Junior to Architect).md",
+                "file": "Source Materials/Books/Code Complete.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "How to Master Software Engineering (From Junior to Architect)"
+              "title": "Code Complete"
             }
           }
         ]
@@ -176,12 +176,13 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Main Notes/A Philosophy of Software Design.md",
+    "Source Materials/Videos/How to Master Software Engineering (From Junior to Architect).md",
     "Source Materials/Books/Code Complete.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Main Notes/Paging vs Segmentation in OS.md",
     "Tags/Operating Systems.md",
     "Main Notes/Stack Heap Metaspace.md",
-    "Main Notes/A Philosophy of Software Design.md",
     "Tags/Business.md",
     "Tags/Software Engineering.md",
     "Tags/Software Design.md",
@@ -201,7 +202,6 @@
     "Main Notes/Python Mixins.md",
     "Tags/Python.md",
     "Main Notes/Exhaustive Pattern Matching for Enums.md",
-    "Main Notes/TCP vs UDP.md",
     "const/var",
     "const",
     "Projection",
