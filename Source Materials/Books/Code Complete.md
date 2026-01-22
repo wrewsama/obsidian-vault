@@ -178,5 +178,11 @@ for designing and implementing a routine
         - (not referring to the memory lifetime)
         - can be done through grouping lines that use the same variable(s) together in their own functions
     - use each variable for exactly 1 purpose
+
+## Variable names
+- most important: should fully describe what it represents
+- avoid:
+    - different variables that have names that look/sound similar or mean similar things
+    - shadowing standard types, variables, and routines (e.g. `date`, `int`)
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete
