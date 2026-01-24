@@ -184,5 +184,16 @@ for designing and implementing a routine
 - avoid:
     - different variables that have names that look/sound similar or mean similar things
     - shadowing standard types, variables, and routines (e.g. `date`, `int`)
+
+## Organising Straight-Line Code
+- make order-dependencies obvious (e.g. by naming, by making previous steps return values passed into later steps, or simply by commenting)
+- group related statements
+
+## Using Conditionals
+- ordering
+    - put normal/most frequent cases before exceptional cases
+    - if cases are equally important, order lexicographically
+- keep actions in each case simple, extract into a routine if needed
+- explicitly check each case, reserve the `default`/`else` case for legit defaults or exceptions, don't leave your last case to be handled in the `default`/`else` block
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete
