@@ -192,8 +192,24 @@ for designing and implementing a routine
 ## Using Conditionals
 - ordering
     - put normal/most frequent cases before exceptional cases
+        - unless you can use guard clauses
+        - in any case, keep the ordering consistent
     - if cases are equally important, order lexicographically
 - keep actions in each case simple, extract into a routine if needed
 - explicitly check each case, reserve the `default`/`else` case for legit defaults or exceptions, don't leave your last case to be handled in the `default`/`else` block
+
+## Table Driven Methods
+- can replace complicated `if/else` chains and inheritance structures with lookup tables
+
+## Control Issues
+- boolean conditions
+    - try to avoid checking for negatives (e.g. `if not flag:`)
+    - keep inequalities in number-line order (e.g. `if (min <= x) and (x <= max)`)
+- deep nesting
+    - flatten to a single `if/else` chain or `select/case`
+    - extract the nested code into its own routine
+    - use polymorphic objects + factory method
+    - use guard clauses
+
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete
