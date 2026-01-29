@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Code Complete.md",
+                "file": "Source Materials/Books/Getting Things Done.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Code Complete"
+              "title": "Getting Things Done"
             }
           }
         ]
@@ -177,6 +177,7 @@
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
     "Source Materials/Books/Code Complete.md",
+    "Source Materials/Books/Getting Things Done.md",
     "Main Notes/A Philosophy of Software Design.md",
     "Source Materials/Videos/How to Master Software Engineering (From Junior to Architect).md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
@@ -201,7 +202,6 @@
     "Main Notes/Airflow.md",
     "Main Notes/Python Mixins.md",
     "Tags/Python.md",
-    "Main Notes/Exhaustive Pattern Matching for Enums.md",
     "const/var",
     "const",
     "Projection",
