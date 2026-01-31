@@ -1,21 +1,21 @@
 Tags:
 - [[Productivity]]
+- [[Career Skills]]
 ---
-## The 5 Step Method
+## The 5 Step Workflow Method
 - CAPTURE unfinished work _outside_ your mind (so it's not _on your mind_)
 - CLARIFY what the commitment is and what needs to be done for it
 - ORGANISE them
 - REFLECT on your current options
 - ENGAGE with the chosen actions
-
-## Capture
+#### Capture
 - use as few capture tools (e.g. notebooks) as possible and try not to change
 - ensure you clear them regularly
-## Clarify
+#### Clarify
 - what the task is
 - is it actionable
 - what's the next action(s)
-## Organise
+#### Organise
 - if not actionable
     - trash it
     - record it 
@@ -30,20 +30,42 @@ Tags:
     - defer it
         - put it in a calendar
         - put it in a "next actions" list to be done ASAP
-
-## Reflect
+#### Reflect
 - review your
     - projects list
     - calendar
     - next actions list
     - waiting for list
 - at least once a week
-## Engage
+#### Engage
 - decide what to do based on the 4 criteria (in order)
     - context
     - time available
     - energy available
     - priority
 
+## 5 Phases of Project Planning
+#### Defining Purpose and Principles
+- _why_ you need to do something
+- high-level guidelines on _how_ it should be done
+#### Outcome Visioning
+- clear idea of what success looks like
+#### Brainstorming
+- generate ideas
+- capture them
+    - e.g. on a mindmap
+- at this stage, go for quantity, not quality
+#### Organising
+- structure your ideas, either:
+    - into separate components
+    - into a sequence
+    - order by priority
+- provide additional details where needed
+- tools:
+    - informal bullet points
+    - actual project-planning software e.g. JIRA
+#### Identifying next actions
+- decide on next actions for each of the current moving parts of the project
+- decide on the next action in the planning process, if more planning is required
 ---
 Source: https://www.goodreads.com/book/show/1633.Getting_Things_Done
