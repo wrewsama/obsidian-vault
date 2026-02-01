@@ -211,5 +211,24 @@ for designing and implementing a routine
     - use polymorphic objects + factory method
     - use guard clauses
 
+## Software Quality
+- external metrics (user POV)
+    - correctness
+    - usability
+    - efficiency
+    - reliability
+    - integrity
+    - adaptability (without modification)
+    - accuracy
+    - robustness
+- internal metrics (dev POV)
+    - maintainability
+    - flexibility
+    - portability
+    - re-usability
+    - readability
+    - test-ability
+    - understand-ability
+// TODO: 20.3
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete
