@@ -229,6 +229,10 @@ for designing and implementing a routine
     - readability
     - test-ability
     - understand-ability
-// TODO: 20.3
+> **General Principle of Software Quality**: Improving quality decreases development costs
+
+##  Collaborative Construction
+- pair programming
+- formal inspections
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete

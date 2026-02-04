@@ -33,5 +33,10 @@ Tags:
     - hence, read and write steps should be 1 class
     - When designing modules, **focus on info needed for the task, not the order of the tasks**
 
+## General Purpose Modules are Deeper
+- _functionality_ should serve current requirements (in line with YAGNI)
+- however, the _interface_ should be as general enough to support multiple uses
+- special case handling is a red flag - should minimise code like `if condition do otherThing` 
+
 ---
 Source: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design
