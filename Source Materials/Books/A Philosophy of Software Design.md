@@ -38,5 +38,10 @@ Tags:
 - however, the _interface_ should be as general enough to support multiple uses
 - special case handling is a red flag - should minimise code like `if condition do otherThing` 
 
+## Different Layer, Different Abstraction
+- every piece of code (interface, class, function, etc.) adds complexity
+- hence it must hide more complexity than it adds
+- the interface should be at a higher level of abstraction than its implementation
+- this lets it hide complexity from upper layers, which can utilise it like a black box
 ---
 Source: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design
