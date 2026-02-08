@@ -234,5 +234,27 @@ for designing and implementing a routine
 ##  Collaborative Construction
 - pair programming
 - formal inspections
+
+## Developer Testing
+- what to test
+    - relevant requirements
+    - relevant design concerns
+    - common errors you've made
+- how to improve testing
+    - invest time in it
+    - automate it
+    - record observations of errors and adapt based on that
+
+## Debugging
+1. reproduce the error
+    1. find the simplest input that still results in the error
+2. locate the error source
+    1. analyse data about the defect
+    2. form hypothesis about what/where the defect is
+    3. test hypothesis, either by testing program or reading code
+    4. repeat until hypothesis is proven
+3. fix the error
+4. test the fix
+5. look for similar errors
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete

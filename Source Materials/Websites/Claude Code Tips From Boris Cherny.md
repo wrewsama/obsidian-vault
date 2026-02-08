@@ -4,7 +4,7 @@ Tags:
 - spin up [[Git Worktrees]] with their own Claude Code sessions in parallel
 - start complex tasks in plan mode
 - keep `CLAUDE.md` updated. Claude is good at updating it by itself
-- create skills (slash commands)
+- create [skills](https://code.claude.com/docs/en/skills)
 - point Claude at error logs (possibly through MCP) and ask it to fix
 - prompt Claude by
     - providing detailed, unambiguous specs
