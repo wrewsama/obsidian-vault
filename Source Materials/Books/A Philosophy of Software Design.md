@@ -43,5 +43,10 @@ Tags:
 - hence it must hide more complexity than it adds
 - the interface should be at a higher level of abstraction than its implementation
 - this lets it hide complexity from upper layers, which can utilise it like a black box
+
+## Pull Complexity Downwards
+- If you can only pick one, **Simple Interface > Simple Implementation**
+    - handle complexity in the implementation instead of leaving it in the interface for users to handle
+- Caveat: only pull downwards if it reduces overall complexity (non-example: pulling unrelated complexity into your implementation can make everything more complex)
 ---
 Source: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design

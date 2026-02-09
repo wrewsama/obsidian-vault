@@ -256,5 +256,18 @@ for designing and implementing a routine
 3. fix the error
 4. test the fix
 5. look for similar errors
+
+## Refactoring
+- honestly not much here that isn't in [[Refactoring]]
+
+## Code-Tuning Strategies
+- develop the working software first, ensuring it's designed to minimise complexity (don't prematurely optimise)
+- only if performance doesn't meet requirements:
+    - profile the system and find slow areas
+    - review choices of design, data types, and algorithms. Redesign as needed.
+    - if no more design improvements can be made, tune the code of the identified bottlenecks
+        - make the change
+        - measure the improvement
+        - if the change doesn't improve, revert it
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete
