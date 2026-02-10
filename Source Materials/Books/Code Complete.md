@@ -269,5 +269,11 @@ for designing and implementing a routine
         - make the change
         - measure the improvement
         - if the change doesn't improve, revert it
+## Code-Tuning Techniques
+- conditional logic
+    - order cases by frequency - minimises cases to evaluate
+    - check performance of different logic structures: e.g. if/else vs case
+    - use table lookups for complex boolean logic
+    - use lazy evaluation
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete

@@ -48,5 +48,14 @@ Tags:
 - If you can only pick one, **Simple Interface > Simple Implementation**
     - handle complexity in the implementation instead of leaving it in the interface for users to handle
 - Caveat: only pull downwards if it reduces overall complexity (non-example: pulling unrelated complexity into your implementation can make everything more complex)
+
+## Together or Apart
+- bring separate modules together if:
+    - they rely on shared information
+    - the combined interface is simpler to use than the 2 separate interfaces
+    - they duplicate similar logic
+- split a module into different modules if:
+    - it contains both general purpose code and the specialised uses of that code
+    - the module has more than 1 responsibility
 ---
 Source: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design

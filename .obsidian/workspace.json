@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/Death of the Coding Machine - The Archetypes Replacing It You Need to Know.md",
+                "file": "Source Materials/Books/Code Complete.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Death of the Coding Machine - The Archetypes Replacing It You Need to Know"
+              "title": "Code Complete"
             }
           }
         ]
@@ -176,9 +176,9 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/Code Complete.md",
-    "Source Materials/Websites/Death of the Coding Machine - The Archetypes Replacing It You Need to Know.md",
     "Source Materials/Books/A Philosophy of Software Design.md",
+    "Source Materials/Websites/Death of the Coding Machine - The Archetypes Replacing It You Need to Know.md",
+    "Source Materials/Books/Code Complete.md",
     "Source Materials/Websites/Claude Code Tips From Boris Cherny.md",
     "Main Notes/Git Worktrees.md",
     "Tags/AI Coding.md",
