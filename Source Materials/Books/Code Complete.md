@@ -275,5 +275,20 @@ for designing and implementing a routine
     - check performance of different logic structures: e.g. if/else vs case
     - use table lookups for complex boolean logic
     - use lazy evaluation
+- loops
+    - fuse loops together
+    - unrolling: decrease number of iterations by handling more elements in each iteration
+    - minimise work inside loops (extract as much as possible outside the loop)
+    - with nested loops, put the busiest loop on the inside
+- data transformations
+    - `int` instead of `float`
+    - minimise array dimensions (e.g. 1d array better than 2d array, even with same total number of elements)
+    - minimise repeated array references to the same thing, store in variable instead
+    - cache
+- expressions
+    - use algebra to simplify
+    - use cheaper operations (e.g. `a+a` instead of `a*2`, `b*b` instead of `b**2`)
+    - use one type per variable, avoid implicit type conversion
+    - precompute results instead of duplicating expensive operations
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete
