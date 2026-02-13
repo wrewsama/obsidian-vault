@@ -290,5 +290,7 @@ for designing and implementing a routine
     - use cheaper operations (e.g. `a+a` instead of `a*2`, `b*b` instead of `b**2`)
     - use one type per variable, avoid implicit type conversion
     - precompute results instead of duplicating expensive operations
+- inline routines
+- re-code in lower level language
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete

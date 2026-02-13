@@ -57,5 +57,16 @@ Tags:
 - split a module into different modules if:
     - it contains both general purpose code and the specialised uses of that code
     - the module has more than 1 responsibility
+
+## Define Errors Out of Existence
+- exceptions thrown by a class are part of its interface
+- decreasing the number of places exceptions need to be handled decreases complexity
+- techniques
+    - define errors out of existence: change the definition of the module such that exceptional cases don't exist (e.g. instead of "deleting a file", make it "ensure file doesn't exist" => if the file already doesn't exist, no exception)
+    - exception masking: handle the exceptional cases in the implementation instead of throwing them to the caller (e.g. TCP retrying automatically)
+    - exception aggregation: handle many exceptions together (e.g. grouping many calls with the same exception in the same try/catch)
+    - just crash
+- reversal: if the caller really needs exception information, then exceptions must still be raised
+
 ---
 Source: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design
