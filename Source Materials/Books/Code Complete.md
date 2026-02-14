@@ -292,5 +292,19 @@ for designing and implementing a routine
     - precompute results instead of duplicating expensive operations
 - inline routines
 - re-code in lower level language
+
+## Managing Construction
+- set coding standards
+- set objectives and measure them regularly
+
+## Integration
+- the combination of separate components into a single system
+- top-down integration: start from the top (i.e. `main()`), then write + integrate your way down each level of abstraction
+- bottom-up integration: start from the bottom (base level classes), then write + integrate your way up
+- sandwich integration: alternate between top-down and bottom-up
+- risk-oriented integration: write + integrate the riskiest parts first
+- feature-oriented integration: write + integrate feature-by-feature, starting with a feature that can act as a skeleton for other features
+- T-shaped integration: top-down for a single slice of the system, ensure the design works end-to-end, then work on the breadth
+
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete
