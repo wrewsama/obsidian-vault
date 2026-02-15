@@ -1,5 +1,5 @@
 Tags:
-- [[AI Coding]]
+- [[Agentic Engineering]]
 ---
 - spin up [[Git Worktrees]] with their own Claude Code sessions in parallel
 - start complex tasks in plan mode

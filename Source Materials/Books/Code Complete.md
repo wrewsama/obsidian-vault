@@ -306,5 +306,41 @@ for designing and implementing a routine
 - feature-oriented integration: write + integrate feature-by-feature, starting with a feature that can act as a skeleton for other features
 - T-shaped integration: top-down for a single slice of the system, ensure the design works end-to-end, then work on the breadth
 
+## Self-Documenting Code
+- the main contributor to code-level documentation is code written with good style
+- comment guidelines
+    - don't use fancy styles that are difficult to modify
+    - comment on the _why_, not the _how_
+    - document surprising or tricky parts
+
+## Personal Character
+- the more humble you are, the faster you'll improve
+- curiosity
+    - about successful projects
+    - about the development process
+    - about problem solving
+    - conduct experiments
+    - read
+- intellectual humility
+    - admit you don't understand, then find out, don't try to compile a program to "see what happens"
+    - give accurate status reports / estimations
+- Cooperate. Programming is communicating with another programmer first and communicating with the computer second
+- be disciplined with standards and conventions
+- be "lazy"
+    - automate toil
+    - know when to give up and come back to the problem later
+- build the right habits by doing things right
+
+## Themes in Software Craftsmanship
+- **Conquer Complexity**
+- Pick your Process: the software development process matters more than the team's individual skills
+- Write Programs for People First, Computers Second: optimise for readability first
+- Program _into_ Your Language, Not _in_ it: don't let the language's features dictate your coding standards
+- Focus Your Attention with the Help of Conventions
+- Program in Terms of the Problem Domain: top-level layers of abstraction should be in the problem domain, not language primitives, operations, and data types
+- Watch for Falling Rocks: Don't ignore warnings
+- Iterate, Repeatedly, Again and Again
+- Thou Shalt Rend Software and Religion Asunder: Don't dogmatically stick to some methodology or standard for no good reason
+
 ---
 Source: https://www.goodreads.com/book/show/4845.Code_Complete

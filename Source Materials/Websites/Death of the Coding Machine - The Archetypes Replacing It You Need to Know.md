@@ -1,6 +1,6 @@
 Tags:
 - [[Career Skills]]
-- [[AI Coding]]
+- [[Agentic Engineering]]
 - [[Productivity]]
 ---
 ## Why the Coding Machine is dead

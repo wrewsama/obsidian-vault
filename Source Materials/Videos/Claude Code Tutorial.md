@@ -1,5 +1,5 @@
 Tags:
-- [[AI Coding]]
+- [[Agentic Engineering]]
 ---
 ## init
 - `/terminal-setup`: basic setup e.g. shift-enter for newline
