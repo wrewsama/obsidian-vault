@@ -68,5 +68,10 @@ Tags:
     - just crash
 - reversal: if the caller really needs exception information, then exceptions must still be raised
 
+## Design It Twice
+- design each module twice, with approaches that are as different as possible
+- then weigh the pros and cons
+- the most important factor: how easily higher-level modules can use this module's interface
+
 ---
 Source: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design
