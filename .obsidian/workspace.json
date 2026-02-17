@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/A Philosophy of Software Design.md",
+                "file": "Source Materials/Books/Fundamentals of Software Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "A Philosophy of Software Design"
+              "title": "Fundamentals of Software Architecture"
             }
           }
         ]
@@ -176,6 +176,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Source Materials/Books/A Philosophy of Software Design.md",
+    "Source Materials/Books/Fundamentals of Software Architecture.md",
     "Source Materials/Websites/Apps in ChatGPT.md",
     "Source Materials/Websites/Death of the Coding Machine - The Archetypes Replacing It You Need to Know.md",
     "Tags/AI Coding.md",
@@ -183,7 +185,6 @@
     "Source Materials/Websites/Claude Code Tips From Boris Cherny.md",
     "Tags/Agentic Engineering.md",
     "Source Materials/Books/Code Complete.md",
-    "Source Materials/Books/A Philosophy of Software Design.md",
     "Main Notes/Git Worktrees.md",
     "Main Notes/Python fstrings.md",
     "Source Materials/Books/Getting Things Done.md",
@@ -201,7 +202,6 @@
     "Source Materials/Videos/Shipping Faster Without Working Harder.md",
     "Source Materials/Videos/Why Your FastAPI App Isn’t Ready for Production.md",
     "Source Materials/Books/Software Engineering at Google.md",
-    "Main Notes/HTTP1.0 vs HTTP1.1 vs HTTP2 vs HTTP3.md",
     "const/var",
     "const",
     "Projection",
