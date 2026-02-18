@@ -73,5 +73,16 @@ Tags:
 - then weigh the pros and cons
 - the most important factor: how easily higher-level modules can use this module's interface
 
+## Comments
+- **If users must read the code of a method in order to use it, then there is no abstraction**. Comments help add info on top of the method signature
+- comments should capture info that can't be expressed in code
+    - lower-level comments: enhances precision
+        - e.g. add additional details to variable definitions that can't be made obvious from the name
+    - higher-level comments: enhance intuition
+        - e.g. giving the big-picture view of what a block of code is trying to do
+- interface comments: provide info a user needs to use a class/method
+- implementation comments: help user understand what the code is doing at a high-level, and why it's being done
+- cross-module design comments: describe dependencies between modules that aren't obvious from the code
+
 ---
 Source: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design
