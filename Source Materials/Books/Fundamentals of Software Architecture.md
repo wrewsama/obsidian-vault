@@ -13,5 +13,17 @@ Tags:
         - instability: `efferent (outgoing) coupling / (efferent + afferent (incoming) coupling)`
         - distance from the main sequence: $|abstractness - instability -1|$
             - smaller is better (closer to the "sweet spot")
+        - connascence: a change in 1 component requires change in another to maintain correctness of the system
+
+## Architecture Characteristics
+- another term for non-functional requirements
+- characteristics
+    - specifies non-domain design consideration
+        - domain: _what_ the app should do
+        - non-domain: _how_ the app should do it
+    - influences the design of the code structure
+    - important to app success
+> Never shoot for the _best_ architecture, but rather the _least worst_ architecture
+
 ---
 Source: https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture

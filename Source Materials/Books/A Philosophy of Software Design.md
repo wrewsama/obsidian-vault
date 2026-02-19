@@ -84,5 +84,11 @@ Tags:
 - implementation comments: help user understand what the code is doing at a high-level, and why it's being done
 - cross-module design comments: describe dependencies between modules that aren't obvious from the code
 
+## Naming
+- requirements
+    - precision: should create a clear image of the underlying object
+    - consistency: 
+        - use the same common name for a given purpose (e.g. don't use `line_count` and `num_lines` for the same thing)
+        - ensure all variables with the same name behave the same way (e.g. don't use `date` for both start and end date variables)
 ---
 Source: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design
