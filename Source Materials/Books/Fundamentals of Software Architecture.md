@@ -24,6 +24,11 @@ Tags:
     - influences the design of the code structure
     - important to app success
 > Never shoot for the _best_ architecture, but rather the _least worst_ architecture
-
+- explicit characteristics
+    - taken from the requirements specification
+    - e.g. derived from predicted metrics, functional requirements
+- implicit characteristics
+    - not mentioned / derived from the requirements docs, but still needed
+    - probably based on the architect's judgement
 ---
 Source: https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture

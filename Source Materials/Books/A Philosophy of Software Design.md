@@ -83,6 +83,7 @@ Tags:
 - interface comments: provide info a user needs to use a class/method
 - implementation comments: help user understand what the code is doing at a high-level, and why it's being done
 - cross-module design comments: describe dependencies between modules that aren't obvious from the code
+- write the comments before writing code
 
 ## Naming
 - requirements

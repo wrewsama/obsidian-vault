@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/A Philosophy of Software Design.md",
+                "file": "Source Materials/Books/Fundamentals of Software Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "A Philosophy of Software Design"
+              "title": "Fundamentals of Software Architecture"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/Python fstrings.md",
     "Source Materials/Books/A Philosophy of Software Design.md",
+    "Main Notes/Python fstrings.md",
     "Source Materials/Books/Fundamentals of Software Architecture.md",
     "Source Materials/Websites/Apps in ChatGPT.md",
     "Source Materials/Websites/Death of the Coding Machine - The Archetypes Replacing It You Need to Know.md",
