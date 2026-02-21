@@ -30,5 +30,39 @@ Tags:
 - implicit characteristics
     - not mentioned / derived from the requirements docs, but still needed
     - probably based on the architect's judgement
+
+## Governance of Architecture Characteristics
+- define fitness functions for desired architecture characteristics
+- enforce with
+    - CI tests (e.g. unit test to check dependencies - enforce _modularity_)
+    - External systems (e.g. Netflix's Simian Army)
+
+## Architecture Quanta
+- the minimum "unit" in an architecture. Should be:
+    - independently deployable: can function even when deployed alone
+    - have high functional cohesion: singular obvious purpose
+    - have synchronous connascence: everything in the system communicates synchronously
+        - can't have extreme differences between each other
+        - e.g. if a caller scales up, callee may need to scale up to avoid being overwhelmed
+- each quanta will have its own architecture characteristics
+
+## Component-Based Thinking
+- Component: a physical packaging of a module
+- examples
+    - jar files
+    - libraries
+    - services
+- ways to partition into components
+    - technical partitioning: by technical capabilities (e.g. presentation, business rules, persistence, etc.), similar to layered architecture
+    - domain partitioning: by decoupled workflows (domain driven design)
+- component identification cycle
+    - identify initial components
+    - assign requirements to them
+    - analyse responsibilities and architecture characteristics
+    - restructure components and repeat as needed
+- ways to identify components
+    - actors and actions
+    - event storming (determine events and design handlers around them)
+    - workflows
 ---
 Source: https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture

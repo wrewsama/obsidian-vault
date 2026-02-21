@@ -91,5 +91,14 @@ Tags:
     - consistency: 
         - use the same common name for a given purpose (e.g. don't use `line_count` and `num_lines` for the same thing)
         - ensure all variables with the same name behave the same way (e.g. don't use `date` for both start and end date variables)
+
+## Modifying Existing Code
+- maintaining design
+    - if you're not making the design better, you are probably making it worse. Invest some time in improving the design
+    - avoid "bolting on" new changes. The system should be as if you designed it from the start with the changes in mind
+- maintaining comments
+    - position them in a single location, close to the code they describe
+    - optionally, if there are multiple instances that require the same info, write comments pointing to that single location
+     
 ---
 Source: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design

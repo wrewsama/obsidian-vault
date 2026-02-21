@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Fundamentals of Software Architecture.md",
+                "file": "Source Materials/Videos/How to Read Hard Books (and actually understand them).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fundamentals of Software Architecture"
+              "title": "How to Read Hard Books (and actually understand them)"
             }
           }
         ]
@@ -177,8 +177,12 @@
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
     "Source Materials/Books/A Philosophy of Software Design.md",
-    "Main Notes/Python fstrings.md",
+    "Source Materials/Videos/How to Read Hard Books (and actually understand them).md",
     "Source Materials/Books/Fundamentals of Software Architecture.md",
+    "Main Notes/Python Locals Function.md",
+    "Main Notes/Python Globals Function.md",
+    "Main Notes/Python Scoping.md",
+    "Main Notes/Python fstrings.md",
     "Source Materials/Websites/Apps in ChatGPT.md",
     "Source Materials/Websites/Death of the Coding Machine - The Archetypes Replacing It You Need to Know.md",
     "Tags/AI Coding.md",
@@ -197,11 +201,7 @@
     "Tags/Software Engineering.md",
     "Tags/Software Design.md",
     "Source Materials/Websites/What Actually Matters for Code Quality.md",
-    "Main Notes/Python Scoping.md",
     "Main Notes/Debugging Process.md",
-    "Source Materials/Videos/Shipping Faster Without Working Harder.md",
-    "Source Materials/Videos/Why Your FastAPI App Isn’t Ready for Production.md",
-    "Source Materials/Books/Software Engineering at Google.md",
     "const/var",
     "const",
     "Projection",
