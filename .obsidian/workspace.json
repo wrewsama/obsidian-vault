@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Videos/How to Read Hard Books (and actually understand them).md",
+                "file": "Source Materials/Books/A Philosophy of Software Design.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "How to Read Hard Books (and actually understand them)"
+              "title": "A Philosophy of Software Design"
             }
           }
         ]
@@ -176,6 +176,7 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Source Materials/Books/The Effective Engineer.md",
     "Source Materials/Books/A Philosophy of Software Design.md",
     "Source Materials/Videos/How to Read Hard Books (and actually understand them).md",
     "Source Materials/Books/Fundamentals of Software Architecture.md",
@@ -201,7 +202,6 @@
     "Tags/Software Engineering.md",
     "Tags/Software Design.md",
     "Source Materials/Websites/What Actually Matters for Code Quality.md",
-    "Main Notes/Debugging Process.md",
     "const/var",
     "const",
     "Projection",

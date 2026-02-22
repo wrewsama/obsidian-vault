@@ -99,6 +99,32 @@ Tags:
 - maintaining comments
     - position them in a single location, close to the code they describe
     - optionally, if there are multiple instances that require the same info, write comments pointing to that single location
-     
+
+## Consistency
+- similar things should be done in similar ways
+- also, dissimilar things should be done in different ways
+- the value of consistency over inconsistency usually outweighs the differences between approaches
+    - don't break existing conventions unless it makes a significant improvement
+    - even then, invest time in updating all the old code to match the new approach
+
+## Code Should Be Obvious
+- ensure readers have all the info needed to understand the code
+- strategies
+    - reduce info needed to understand (e.g. abstraction, eliminating special cases)
+    - use info that readers already acquired (e.g. conventions, consistency)
+    - show the info explicitly (e.g. comments, variable names, choice of data types)
+
+## Designing for Performance
+- measure what you're optimising for before and after you make your modifications
+- optimise the critical path
+    - keep the minimum amount of code in it (e.g. checks for special cases, indirection, etc.)
+    - as much as possible, check for special cases at the start and handle them outside the critical path
+
+## Decide What Matters
+- how
+    - find leverage (e.g. a solution that can be generalised to other problems)
+    - enumerate multiple options and choose from them
+- minimise the things that matter
+- these apply to life as well
 ---
 Source: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design
