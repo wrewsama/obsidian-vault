@@ -64,5 +64,26 @@ Tags:
     - actors and actions
     - event storming (determine events and design handlers around them)
     - workflows
+
+## Foundations of Architecture Styles
+- aka architecture patterns
+- a named relationship of components
+- fundamental patterns
+    - Big Ball of Mud: Anti-pattern, no real structure
+    - Unitary: everything running on a single host
+    - Client/Server
+- Issues with Distributed Architectures
+    - unreliable network
+    - insecure network
+    - nonzero latency
+    - finite bandwidth
+    - changing network topology
+    - multiple network admins
+    - nonzero network costs (extra hardware)
+    - non-homogeneous networks (mix of multiple hardware vendors)
+- other difficulties with distributed architectures
+    - distributed logging
+    - distributed transactions
+    - contract (between client and server) maintenance and versioning
 ---
 Source: https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture

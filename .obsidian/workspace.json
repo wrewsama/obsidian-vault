@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/A Philosophy of Software Design.md",
+                "file": "Source Materials/Books/Fundamentals of Software Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "A Philosophy of Software Design"
+              "title": "Fundamentals of Software Architecture"
             }
           }
         ]
@@ -176,10 +176,15 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/The Effective Engineer.md",
-    "Source Materials/Books/A Philosophy of Software Design.md",
-    "Source Materials/Videos/How to Read Hard Books (and actually understand them).md",
+    "Main Notes/ACID.md",
+    "Main Notes/SQL Categories.md",
+    "Tags/Databases.md",
+    "Source Materials/Books/NoSQL Distilled.md",
+    "Source Materials/Books/Understanding Distributed Systems.md",
     "Source Materials/Books/Fundamentals of Software Architecture.md",
+    "Source Materials/Books/A Philosophy of Software Design.md",
+    "Source Materials/Books/The Effective Engineer.md",
+    "Source Materials/Videos/How to Read Hard Books (and actually understand them).md",
     "Main Notes/Python Locals Function.md",
     "Main Notes/Python Globals Function.md",
     "Main Notes/Python Scoping.md",
@@ -197,11 +202,6 @@
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Main Notes/Paging vs Segmentation in OS.md",
     "Tags/Operating Systems.md",
-    "Main Notes/Stack Heap Metaspace.md",
-    "Tags/Business.md",
-    "Tags/Software Engineering.md",
-    "Tags/Software Design.md",
-    "Source Materials/Websites/What Actually Matters for Code Quality.md",
     "const/var",
     "const",
     "Projection",
