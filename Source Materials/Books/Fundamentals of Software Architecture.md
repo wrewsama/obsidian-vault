@@ -85,5 +85,29 @@ Tags:
     - distributed logging
     - distributed transactions
     - contract (between client and server) maintenance and versioning
+
+## Layered Architecture
+- monolith
+- organised into horizontal layers, e.g.
+    - presentation
+    - business
+    - persistence
+    - database
+- each layer can be
+    - open: requests from upper layers can "skip" this layer and directly request lower layers
+    - closed: requests from upper layers cannot call lower layers without going through this one
+- simple and cheap
+- suffers in agility and scalability
+
+## Pipeline Architecture
+- monolith
+- data flows from _filter_ to _filter_ through _pipes_
+- filters can be
+    - producers
+    - transformers/map
+    - testers/reduce
+    - consumers (termination point)
+- characteristics similar to layered architecture, but with better modularity
+
 ---
 Source: https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture
