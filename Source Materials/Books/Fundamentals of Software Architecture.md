@@ -109,5 +109,16 @@ Tags:
     - consumers (termination point)
 - characteristics similar to layered architecture, but with better modularity
 
+## Plugin Architecture
+- monolith
+- a central core system with independent plug-in components kept in a registry
+- all users interact with the core system
+- the core system then invokes the plug-ins as required
+
+## Service Based Architecture
+- distributed
+- partitioned into ~4-12 coarse-grained services within the app
+- separation is based on business domains, not technical considerations (e.g. persistence, presentation, etc.)
+- naturally, fits well with domain-driven design
 ---
 Source: https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture
