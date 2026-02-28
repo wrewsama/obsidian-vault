@@ -120,5 +120,28 @@ Tags:
 - partitioned into ~4-12 coarse-grained services within the app
 - separation is based on business domains, not technical considerations (e.g. persistence, presentation, etc.)
 - naturally, fits well with domain-driven design
+
+## Event Driven Architecture
+- distributed
+- broker topology
+    - data flows through message brokers from event processor to event processor
+    - as multiple processors can consumer the same queue, it's more like a graph than a linked list
+- mediator topology
+    - initial event goes through a queue and is consumed by a mediator
+    - the mediator:
+        - sends events to different queues for different event processors to pick up
+        - waits on callbacks from the event processors, and resume sending the "later" events
+        - handles errors
+    - there exist open source mediators e.g. Apache Camel, jBPM, etc.
+
+## Space-Based Architecture
+- distributed
+- rationale: app layer is easier to scale than the DB layer
+- app servers interact with data in-memory
+    - if data is not in memory, then check database
+- that data is 
+    - replicated between the servers
+    - sent to a message queue to a data writer to be persisted in a database asynchronously
+- useful for systems with high traffic spikes that would overwhelm a database
 ---
 Source: https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture
