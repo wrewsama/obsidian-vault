@@ -143,5 +143,48 @@ Tags:
     - replicated between the servers
     - sent to a message queue to a data writer to be persisted in a database asynchronously
 - useful for systems with high traffic spikes that would overwhelm a database
+
+## Microservices Architecture
+- distributed (obviously)
+- partitioned into business domains, but each domain service contains all necessary parts to operate alone
+    - e.g. databases
+- sidecar pattern can be used to still have operational reuse
+    - e.g. monitoring, logging, service mesh
+- microfrontends: split into UI components that interact with only the downstream services it requires
+- **Avoid transactions across microservices**. If you need to, it's probably better to combine those services into one
+
+## Choosing Architecture Style
+- factors
+    - nature of the business domain
+    - architecture characteristics
+    - existing data architecture (if any)
+    - high-level organisational factors
+    - operational concerns
+- main decisions
+    - monolith vs distributed
+    - choice of database(s)
+    - sync or async communication between services
+
+## Communicating Architecture Decisions
+- antipatterns
+    - covering your assets
+        - avoiding decisions for fear of making the wrong choice
+        - solution: continuously collaborate with dev teams to rectify "wrong choices"
+    - groundhog day
+        - when no-one knows why a decision was made so it gets discussed over and over
+        - solution: document the business justification for each major decision
+    - email-driven architecture
+        - decisions are only mentioned in emails, which are easily lost
+        - solution: document in a central repository. When sending emails, send a link to that document
+- Architecture Decision Records
+    - can be used to document architecture decisions
+    - contains: title, status, context, decision, consequences
+## Analysing Architecture Risk
+- Risk matrix
+    - rate likelihood of risk from 1-3
+    - rate impact of risk from 1-3
+    - risk rating = likelihood * impact
+- for each domain area x architecture criteria, assign a risk rating
+- risk storming: collaborative risk assessment
 ---
 Source: https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture
