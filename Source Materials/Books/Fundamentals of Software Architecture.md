@@ -186,5 +186,11 @@ Tags:
     - risk rating = likelihood * impact
 - for each domain area x architecture criteria, assign a risk rating
 - risk storming: collaborative risk assessment
+
+## Diagramming and Presenting Architecture
+- Representational Consistency: always show the relationship between parts of the architecture before changing views
+- If your slides are going to hold all the info, consider sending them as an infodeck instead of giving a presentation
+- use a black blank slide to refocus attention on the presenter
+
 ---
 Source: https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture
