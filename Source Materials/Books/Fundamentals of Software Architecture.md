@@ -192,5 +192,19 @@ Tags:
 - If your slides are going to hold all the info, consider sending them as an infodeck instead of giving a presentation
 - use a black blank slide to refocus attention on the presenter
 
+## Making Teams Effective
+- balance your level of control over the team
+- the balance is determined by the:
+    - familiarity, size, and experience level of the team
+    - complexity and duration of the project
+- make use of checklists to ensure certain requirements are met
+- provide guidance using business justifications
+
+## Negotiation and Leadership Skills
+> The most important single ingredient in the formula of success is knowing how to get along with people
+- avoid coming across as argumentative
+- justify your choices in terms of cost and time
+- demonstration defeats discussion
+
 ---
 Source: https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture
