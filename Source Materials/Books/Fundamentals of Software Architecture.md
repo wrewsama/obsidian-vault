@@ -206,5 +206,10 @@ Tags:
 - justify your choices in terms of cost and time
 - demonstration defeats discussion
 
+## Developing a Career Path
+- 20 minute rule: devote at least 20 minutes a day to 
+    - deep dive into something specific
+    - learn something new
+- practice makes perfect, do some [katas](https://fundamentalsofsoftwarearchitecture.com/katas/)
 ---
 Source: https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture
