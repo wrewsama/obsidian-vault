@@ -29,5 +29,10 @@ Tags:
 - many just happened to have worked extremely hard on a skill that became in-demand at just the right time
 - hard work is a prison sentence only if it does not have meaning
     - those outliers found intrinsic value in the things they were doing
+
+## power distance
+- high power distance: how much a particular culture respects authority
+- cultures with high power distance are closely correlated with airline crashes
+- due to the inability to clearly communicate what is needed from people in "positions of power" e.g. air traffic controllers, superiors, etc.
 ---
 Source: https://www.goodreads.com/book/show/3228917-outliers
