@@ -1,5 +1,6 @@
 Tags:
 - [[Software Design]]
+- [[System Design]]
 ---
 > **First Law of Software Architecture**: Everything in software architecture is a trade-off
 > **Second Law of Software Architecture**: _Why_ is more important than _How_

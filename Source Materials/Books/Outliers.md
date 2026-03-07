@@ -34,5 +34,16 @@ Tags:
 - high power distance: how much a particular culture respects authority
 - cultures with high power distance are closely correlated with airline crashes
 - due to the inability to clearly communicate what is needed from people in "positions of power" e.g. air traffic controllers, superiors, etc.
+
+## grindset
+- cultures with the highest emphasis on effort and hard work are strongly correlated to better math olympiad performance
+- this is also correlated to how long one is willing to spend on an difficult / time consuming task
+> No one who can rise before dawn 360 days a year fails to make his family rich.
+
+## epilogue
+- outliers are created by a web of advantages and inheritances
+- some are earned
+- some are by chance
+- all culminate in who they become
 ---
 Source: https://www.goodreads.com/book/show/3228917-outliers

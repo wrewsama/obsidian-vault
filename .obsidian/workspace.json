@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Outliers.md",
+                "file": "Source Materials/Books/Domain Driven Design.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Outliers"
+              "title": "Domain Driven Design"
             }
           }
         ]
@@ -176,9 +176,11 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/Code Complete.md",
     "Source Materials/Books/Fundamentals of Software Architecture.md",
+    "Source Materials/Books/Domain Driven Design.md",
     "Source Materials/Books/Outliers.md",
+    "Main Notes/Event Sourcing.md",
+    "Source Materials/Books/Code Complete.md",
     "Source Materials/Books/Site Reliability Engineering.md",
     "Tags/SRE.md",
     "Main Notes/ACID.md",
@@ -200,8 +202,6 @@
     "Source Materials/Websites/Claude Code Tips From Boris Cherny.md",
     "Tags/Agentic Engineering.md",
     "Main Notes/Git Worktrees.md",
-    "Source Materials/Books/Getting Things Done.md",
-    "Source Materials/Videos/How to Master Software Engineering (From Junior to Architect).md",
     "const/var",
     "const",
     "Projection",

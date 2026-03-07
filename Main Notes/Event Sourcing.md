@@ -17,3 +17,4 @@ Tags:
 ---
 ## References
 - [[Understanding Distributed Systems]]
+- https://microservices.io/patterns/data/event-sourcing.html
