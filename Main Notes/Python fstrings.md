@@ -11,6 +11,7 @@ Tags:
     - `>`: right align
     - `^` center
     - if the padding character isn't specified, will use space
+    - can use a variable width e.g. `f"{text:0>{my_width}}"`
 - numbers
     - precision
         - `f"{num:.2f}"`: round `num` to 2dp

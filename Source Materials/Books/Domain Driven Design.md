@@ -17,5 +17,36 @@ Tags:
 - diagrams should be minimal, don't overwhelm readers with too much info
 - details should be captured in clear code
 - **the model is not the diagram**, the diagram only helps visualise it
+
+## Binding Model and Implementation
+- Model-driven design: using a single model for
+    - analysis: reflecting the concepts in the business domain
+    - design: reflecting the way the implementation is structured
+- design a portion of the software to literally replicate the domain model
+- iterate on the model to make it more natural to implement in code
+- any technical person contributing to the model must spend time touching the code
+
+## Isolating the Domain
+- keep domain related code isolated in its own layer
+    - easier to find
+    - easier to reason about
+- layered architecture
+    - presentation
+    - application
+    - domain
+    - infrastructure
+- high cohesion within each layer
+- low coupling between layers
+
+## Model Expressed in Software
+**Associations**
+- for every traversable association in the model, there is a mechanism in the software with the same properties
+- how to simplify associations (to make implementation simpler)
+    - impose a traversal direction (e.g. `Country --president--> Person` is more useful than `Person --president of--> Country`)
+    - add qualifier to reduce multiplicity
+        - a country can have many presidents
+        - but a country has exactly one president in a given time period
+    - eliminate nonessential associations
+
 ---
 Source: https://www.goodreads.com/book/show/179133.Domain_Driven_Design
