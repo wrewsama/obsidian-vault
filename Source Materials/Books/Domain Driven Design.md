@@ -48,5 +48,25 @@ Tags:
         - but a country has exactly one president in a given time period
     - eliminate nonessential associations
 
+## Entities
+- An object defined by its identity (_which instance_ it is) across time and representations
+- e.g. a `Customer` is defined by who the underlying customer is
+- needs a way to establish its identity (i.e. some id function)
+
+## Value Objects
+- An object defined by _what_ it is
+- e.g. you care if an `Integer` is $4$, but you don't care "which" $4$ it is
+
+## Services
+- An operation provided as an interface
+- Defined by what it can do for a client
+- characteristics
+    - can't be fit into an entity or value object
+    - interface defined in terms of domain model
+    - stateless
+
+## Modules
+- a way to group classes
+- serves to communicate to other devs that these classes should be thought of together
 ---
 Source: https://www.goodreads.com/book/show/179133.Domain_Driven_Design
