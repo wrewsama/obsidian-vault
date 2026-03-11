@@ -48,16 +48,16 @@ Tags:
         - but a country has exactly one president in a given time period
     - eliminate nonessential associations
 
-## Entities
+**Entities**
 - An object defined by its identity (_which instance_ it is) across time and representations
 - e.g. a `Customer` is defined by who the underlying customer is
 - needs a way to establish its identity (i.e. some id function)
 
-## Value Objects
+**Value Objects**
 - An object defined by _what_ it is
 - e.g. you care if an `Integer` is $4$, but you don't care "which" $4$ it is
 
-## Services
+**Services**
 - An operation provided as an interface
 - Defined by what it can do for a client
 - characteristics
@@ -65,8 +65,39 @@ Tags:
     - interface defined in terms of domain model
     - stateless
 
-## Modules
+**Modules**
 - a way to group classes
 - serves to communicate to other devs that these classes should be thought of together
+
+## Domain Object Lifecycle
+- challenges
+    - maintain constraints throughout
+    - minimise complexity from lifecycle management
+    
+**Aggregates**
+- group of related objects treated as a single unit
+- one entity is the root
+- objects outside the aggregate can only access the root, not the other objects in the aggregate
+- since the root controls access to all interactions, it can be responsible for maintaining consistency within the group
+
+**Factories**
+- abstracts away the creation of complex objects (especially aggregates)
+- requirements
+    - atomic creation of objects / aggregates
+    - enforce all invariants 
+    - use an abstraction other than the concrete class(es) created
+- invariant checking can be done either in the factory or delegated to the object being constructed
+    - if object is mutable, best to put it in the object so it maintains its invariants even after modification
+    - if object is immutable, it becomes unnecessary, so putting it in the factory abstracts away the checks and keeps the objects simpler
+
+**Repositories**
+- abstracts away the data retrieval logic
+- for persistent objects that need to be
+    - globally accessible
+    - searchable via object attributes
+- guidelines
+    - since the repository is decoupled, can improve the implementation easily (caching, query optimisation, etc.)
+    - leave transaction control to the client
+
 ---
 Source: https://www.goodreads.com/book/show/179133.Domain_Driven_Design
