@@ -99,5 +99,12 @@ Tags:
     - since the repository is decoupled, can improve the implementation easily (caching, query optimisation, etc.)
     - leave transaction control to the client
 
+## Refactoring Toward Deeper Insight
+- make modest improvements to deepen the model
+- deep models: elucidate the most important issues faced by the domain experts, filtering out the rest
+- focus on:
+    - knowledge crunching
+    - enhancing the `ubiquitous language`
+
 ---
 Source: https://www.goodreads.com/book/show/179133.Domain_Driven_Design
