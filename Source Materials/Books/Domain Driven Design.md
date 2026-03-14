@@ -106,5 +106,39 @@ Tags:
     - knowledge crunching
     - enhancing the `ubiquitous language`
 
+## Making Implicit Concepts Explicit
+- find missing concepts
+    - terms used by domain experts to concisely refer to complicated logic 
+    - awkward separation of concerns between the existing objects
+- make constraints explicit
+    - give it its own method in the entity it concerns
+    - create a `Specification` for it (if it can't be fit into a single entity)
+
+## Supple Design
+- Intention-Revealing Interfaces
+    - names should reflect the responsibility of the class / method
+    - but not reveal the implementation
+- Side-Effect-Free Functions
+    - function: operation that returns value without changing any external state
+    - command: operations that change system state
+    - put as much logic into functions, keep commands simple
+- Assertions
+    - communicate preconditions and postconditions regarding the system state
+    - either through `assert`s in the code or though unit tests
+- Conceptual Contours
+    - the way classes are broken down and organised in the code should reflect how they are in the domain
+- Standalone Classes
+    - make sure each class can be comprehensible without having to look at other classes
+    - i.e. reduce coupling
+- Closure of Operations
+    - use an operation that returns the same type as its argument(s)
+    - provides functionality without introducing extra dependencies
+
+## Design Patterns as Domain Patterns
+- design patterns that can enhance the domain model, rather than just the technical details, can work as domain patterns
+- e.g.
+    - composite
+    - strategy
+
 ---
 Source: https://www.goodreads.com/book/show/179133.Domain_Driven_Design
