@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Domain Driven Design.md",
+                "file": "Source Materials/Books/Dopamine Nation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Domain Driven Design"
+              "title": "Dopamine Nation"
             }
           }
         ]
@@ -176,10 +176,10 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Source Materials/Books/Domain Driven Design.md",
     "Main Notes/Modulo Rules.md",
     "Main Notes/Fermats Little Theorem.md",
     "Tags/Math.md",
-    "Source Materials/Books/Domain Driven Design.md",
     "Source Materials/Books/Dopamine Nation.md",
     "Main Notes/Python Generics.md",
     "Main Notes/The Burnout Society.md",
