@@ -140,5 +140,37 @@ Tags:
     - composite
     - strategy
 
+## Maintaining Model Integrity
+- bounded context
+    - each model only applies within a limited context, clearly define it
+    - enforce usage (e.g. in code, database schemas, etc.) to only be within the boundary
+    - keeps model internally consistent, without caring about external context
+- Continuous integration
+    - constantly merge changes with automatic tests to reveal fragmentation of the model within a bounded context
+- Context Map
+    - when something in bounded context A needs to use functionality in bounded context B
+    - context map serves as the translation layer between 2 bounded contexts, translating from B's model to A's model
+- Shared Kernel
+    - alternative way of sharing functionality between bounded contexts
+    - agreed-upon shared subset of both models
+- Customer/Supplier
+    - when 2 teams own 2 different components, where one is the upstream of the other
+    - establish clear responsibilities and requirements
+    - jointly develop automated acceptance tests for the upstream component
+- Conformist
+    - when there's a customer/supplier relationship, but the upstream team has no incentive to cooperate
+    - downstream team needs to _conform_ to the upstream's model
+- Anti-Corruption layer
+    - translation layer between a bounded context and a legacy system
+    - ensures our bounded context does not get polluted by models (or lack thereof) from the legacy system
+    - uses facades and adapters
+- Separate Ways
+    - **Integration is always expensive. Sometimes the benefit is small**
+    - where possible, avoid having any dependency outside the bounded context
+- Open Host Service / Published Language
+    - Protocol that opens up access to a subsystem
+    - clients can access it as a set of `Service`s
+    
+> The Trade-Off: More ease of changing relevant code <=> More communication overhead with other teams required
 ---
 Source: https://www.goodreads.com/book/show/179133.Domain_Driven_Design
