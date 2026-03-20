@@ -172,5 +172,21 @@ Tags:
     - clients can access it as a set of `Service`s
     
 > The Trade-Off: More ease of changing relevant code <=> More communication overhead with other teams required
+
+## Distillation
+- identify a **Core Domain**: the true business asset the product delivers
+- separate the rest out 
+    - into their own subdomains
+    - use intention revealing interfaces to interact with them
+- use abstraction layers within the core to further simplify
+
+## Large Scale Structure
+- design should not restrict development too much, rather, it should evolve with the implementation
+- organise objects into layers with their own broad responsibilities
+- knowledge level pattern: split into 2 levels
+    - one for the concrete implementation objects
+    - one defining the rules of how those objects should behave (the knowledge layer)
+- use abstract core + pluggable components (with specified rules)
+
 ---
 Source: https://www.goodreads.com/book/show/179133.Domain_Driven_Design
