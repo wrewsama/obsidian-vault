@@ -188,5 +188,19 @@ Tags:
     - one defining the rules of how those objects should behave (the knowledge layer)
 - use abstract core + pluggable components (with specified rules)
 
+## Bringing the Strategy Together
+- assess the situation
+    - can you draw a good context map or are there still unknowns
+    - is there a ubiquitous language
+    - is the core domain identified
+    - does the technology support model driven design
+    - do the devs have the required technical and domain knowledge
+- decision making
+    - decisions must be communicated to the whole team
+    - the plan must take feedback and evolve
+    - stay minimalist
+    - objects should have a single responsibility, but devs should not be treated the same way
+    - don't write frameworks for dummies
+
 ---
 Source: https://www.goodreads.com/book/show/179133.Domain_Driven_Design
