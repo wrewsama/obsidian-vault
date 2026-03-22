@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Domain Driven Design.md",
+                "file": "Main Notes/Clean Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Domain Driven Design"
+              "title": "Clean Architecture"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/Dopamine Nation.md",
     "Source Materials/Books/Domain Driven Design.md",
+    "Main Notes/Clean Architecture.md",
+    "Source Materials/Books/Dopamine Nation.md",
     "Main Notes/Modulo Rules.md",
     "Main Notes/Fermats Little Theorem.md",
     "Tags/Math.md",
@@ -201,7 +202,6 @@
     "Source Materials/Books/NoSQL Distilled.md",
     "Source Materials/Books/Understanding Distributed Systems.md",
     "Source Materials/Books/A Philosophy of Software Design.md",
-    "Source Materials/Books/The Effective Engineer.md",
     "const/var",
     "const",
     "Projection",
