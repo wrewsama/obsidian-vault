@@ -19,5 +19,15 @@ Tags:
     - enables dependency inversion
 - functional programming
     - restrict assignment (immutability)
+    - in practice: segregate into immutable and mutable components, keep as much logic in the immutable parts as possible
+
+## Design Principles
+Goals:
+- ease of change
+- understandability
+- usable by many other systems
+
+- Single Responsibility Principle
+    - a module should be responsible to exactly one actor (user)
 ---
 Source: https://www.goodreads.com/book/show/18043011-clean-architecture
