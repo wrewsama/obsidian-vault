@@ -29,5 +29,14 @@ Goals:
 
 - Single Responsibility Principle
     - a module should be responsible to exactly one actor (user)
+- Open-Closed Principle
+    - module should be open for extension but closed for modification
+    - => to extend functionality, only need to write extra code, no need to change existing
+- Liskov Substitution Principle
+    - an object of a subtype can be substituted for an object of a supertype with no change in behaviour
+- Interface Segregation Principle
+    - Avoid importing unnecessary functionality from a dependency by splitting that dependency into separate interfaces
+- Dependency Inversion Principle
+    - Depend on an interface / abstract class, never a concrete class
 ---
 Source: https://www.goodreads.com/book/show/18043011-clean-architecture
