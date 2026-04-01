@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Clean Architecture.md",
+                "file": "Main Notes/The Comfort Crisis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Clean Architecture"
+              "title": "The Comfort Crisis"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Source Materials/Books/Domain Driven Design.md",
     "Main Notes/Clean Architecture.md",
+    "Main Notes/The Comfort Crisis.md",
+    "Source Materials/Books/Domain Driven Design.md",
     "Source Materials/Books/Dopamine Nation.md",
     "Main Notes/Modulo Rules.md",
     "Main Notes/Fermats Little Theorem.md",
@@ -201,7 +202,6 @@
     "Tags/Databases.md",
     "Source Materials/Books/NoSQL Distilled.md",
     "Source Materials/Books/Understanding Distributed Systems.md",
-    "Source Materials/Books/A Philosophy of Software Design.md",
     "const/var",
     "const",
     "Projection",
