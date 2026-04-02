@@ -16,5 +16,8 @@ Tags:
 - shinrin-yoku: forest bathing, 15 minutes sitting in / walking through nature to improve mental and physical health
 - while any time in nature is good, >= 5 hours / month is optimal
 
+## hunger
+- in the developed world, we no longer have extended periods where we have to go without food
+
 ---
 Source: https://www.goodreads.com/book/show/55120630-the-comfort-crisis
