@@ -18,6 +18,11 @@ Tags:
 
 ## hunger
 - in the developed world, we no longer have extended periods where we have to go without food
+- we take 12-16 hours to metabolise a meal, after which we enter _autophagy_, where old and weak cells are consumed
+
+## death
+- think deeply about your death and acknowledge it
+- let go of the anxiety of death and the pettiness of life
 
 ---
 Source: https://www.goodreads.com/book/show/55120630-the-comfort-crisis
