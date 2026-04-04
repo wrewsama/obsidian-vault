@@ -24,5 +24,13 @@ Tags:
 - think deeply about your death and acknowledge it
 - let go of the anxiety of death and the pettiness of life
 
+## carry the load
+- Strength and cardio levels are significantly negatively correlated with risk of death
+- rucking gives both
+
+> We've become a victim of the success of our species... Everything has become so easy that any difficulty is a bridge too far
+
+> Without conscious discomfort and purposeful exercise - a forceful push against comfort creep - we'll only continue to become weaker and sicker
+
 ---
 Source: https://www.goodreads.com/book/show/55120630-the-comfort-crisis
