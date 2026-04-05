@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/The Comfort Crisis.md",
+                "file": "Main Notes/Clean Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Comfort Crisis"
+              "title": "Clean Architecture"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
-    "Main Notes/Clean Architecture.md",
     "Main Notes/The Comfort Crisis.md",
+    "Main Notes/Clean Architecture.md",
     "Source Materials/Books/Domain Driven Design.md",
     "Source Materials/Books/Dopamine Nation.md",
     "Main Notes/Modulo Rules.md",

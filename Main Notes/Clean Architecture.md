@@ -38,5 +38,14 @@ Goals:
     - Avoid importing unnecessary functionality from a dependency by splitting that dependency into separate interfaces
 - Dependency Inversion Principle
     - Depend on an interface / abstract class, never a concrete class
+
+## Cohesion
+- Reuse/Release Equivalence Principle
+    - the granule of reuse is the granule of release
+    - => modules grouped in a component should have an overarching theme that allows them to be released and reused together
+- Common Closure Principle
+    - group classes that change for the same reason, at the same time. The inverse applies too
+- Common Reuse Principle
+    - Don't force users of a component to depend on things they don't need
 ---
 Source: https://www.goodreads.com/book/show/18043011-clean-architecture
