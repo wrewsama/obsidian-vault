@@ -47,5 +47,13 @@ Goals:
     - group classes that change for the same reason, at the same time. The inverse applies too
 - Common Reuse Principle
     - Don't force users of a component to depend on things they don't need
+
+## Coupling
+- no dependency cycles
+- depend in the direction of stability
+    - unstable (likely to change) components should depend on stable ones, not the other way around
+- a component should be as abstract as it is stable
+    - measured by the ratio of abstract classes/interfaces to total classes
+
 ---
 Source: https://www.goodreads.com/book/show/18043011-clean-architecture
