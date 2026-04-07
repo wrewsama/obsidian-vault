@@ -55,5 +55,14 @@ Goals:
 - a component should be as abstract as it is stable
     - measured by the ratio of abstract classes/interfaces to total classes
 
+## Architecture
+- architecture of a system: shape given to the system
+    - the division of the system into components
+    - the arrangement of those components
+    - the way those components interact
+- **goal: leave as many options open as possible**
+- solution: separate details (implementation) from policy (business logic)
+    - i.e. make the business rules agnostic to the specific technologies (e.g. storage system)
+
 ---
 Source: https://www.goodreads.com/book/show/18043011-clean-architecture
