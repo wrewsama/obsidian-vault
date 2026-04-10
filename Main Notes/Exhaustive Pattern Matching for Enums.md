@@ -30,6 +30,8 @@ def foo(bar: MyEnum):
             # essentially, we don't want anything reaching here
             assert_unreachable(bar) 
 ```
+
+> note: can also use `typing.assert_never` instead of the custom `assert_unreachable`
 ---
 ## References
 - https://www.linkedin.com/feed/update/urn:li:activity:7310300428095680512/

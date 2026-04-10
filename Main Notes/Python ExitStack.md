@@ -8,6 +8,7 @@ Tags:
 
 ## example with context managers
 ```python
+from contextlib import ExitStack
 with ExitStack() as stack:
     files = [stack.enter_context(open(fname)) for fname in filenames]
     # all files will be closed once this with block exits

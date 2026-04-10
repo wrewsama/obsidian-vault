@@ -3,6 +3,10 @@ Tags:
 ---
 Goal: encapsulation, control the access of a field in the object
 
+how to implement:
+- builtin `@property` decorator for the getter
+- `@<VARIABLE_NAME>.setter`
+
 possible use cases:
 - make field read-only
 - perform data validation (setter)

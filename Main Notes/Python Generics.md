@@ -33,6 +33,15 @@ T = TypeVar('T', int, float) # must be either int or float
 # subtype
 U = TypeVar('U', bound=Foo) # U must be subtype of Foo
 ```
+
+## As of python 3.12
+```python
+def foo[T: (int, float)](bar: T) -> List[T]:
+    ...
+    
+class Foo[U: Foo]:
+    ...
+```
 ---
 ## References
 - https://www.tutorialspoint.com/python/python_generics.htm

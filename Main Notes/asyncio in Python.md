@@ -1,5 +1,6 @@
 Tags:
 - [[Python]]
+- [[Concurrency]]
 ---
 Letting I/O tasks run in the background without blocking to wait for them to complete
 
@@ -11,7 +12,7 @@ Letting I/O tasks run in the background without blocking to wait for them to com
 - when running the program, use `asyncio.run` to start the event loop
 - the event loop
 	- pick a ready task
-	- if the task encounters an`await`, it yields control back to the event loop
+	- the task runs until it yields control back to the event loop (e.g. when it reads a file, waiting for a HTTP response, etc. - though that IO must be non blocking)
 - event loop runs on a single thread	
 
 ```python

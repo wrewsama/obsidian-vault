@@ -5,7 +5,9 @@ Tags:
 - feature of [[Python Generators]]
 - allows for 2-way communication between the generator and its caller
 - value passed to `send` is the return value of `yield` in the generator
-- `x = yield y` => `next(generator)` returns `y` and `generator.send(val)` sets `x = val`
+- `x = yield y` => 
+    - `next(generator)` returns `y` 
+    - `generator.send(val)` sets `x = val` and returns `next(generator)`
 
 ## Example - accumulator
 ```python
