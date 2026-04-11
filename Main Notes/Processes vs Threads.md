@@ -24,7 +24,7 @@ Problems
 - possibility of parallel syscalls and re-entrancy problems on global variables
 - Process Behaviour
 	- Process operations get affected, no isolation
-	- e.g. if 1 thread does exit() or exec() or fork(), what happens to other threads and the process
+	- e.g. if 1 thread does exit() or exec() or fork(), it also happens to other threads and the process
 
 ---
 ## References

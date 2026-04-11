@@ -7,6 +7,7 @@ Tags:
     - sessions have multiple process groups, identified by a SID
 - PGID = PID of process group leader
 - can send signals (e.g. `SIGINT`, `SIGTERM`) to entire process group easily
+    - e.g. `kill -PGID` (as opposed to `kill PID`)
 - subprocesses inherit the parents' PGID when spawned unless explicitly changed
 - processes run in a pipeline also use the same process group
 

@@ -5,7 +5,7 @@ Tags:
 Handling deadlocks:
 - [[Deadlock Prevention]]: ensuring none of the 4 [[Deadlock Conditions]] are satisfied
 - Avoidance: when process requests resource, algo examines the resource allocation state, if that allocation causes the state to be unsafe, reject the request (example: Banker's Algorithm)
-- Detection/Recovery: abort (either all processes at once, one by one till deadlock is  resolved, or taking resources from lower priority to higher priority processes one by one till deadlock resolved)
+- Detection/Recovery: abort (either all processes at once, one by one till deadlock is resolved, or taking resources from lower priority to higher priority processes one by one till deadlock resolved)
 - ignorance: just reboot
 
 

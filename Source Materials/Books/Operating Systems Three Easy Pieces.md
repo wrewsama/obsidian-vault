@@ -140,7 +140,7 @@ Linux Completely Fair Scheduler (CFS):
 	- each process has a nice level between $-20$ and $19$ (default = $0$)
 	- each nice level is mapped to a `weight`, higher niceness => lower weight
 	- when process $i$ runs, increment $vruntime_i$ by $\frac{weight_0}{weight_i} * runtime_i$
-- when sleeping processes wake up, their `vruntime` is set to the lowest `vruntime` in the red black tree (prevent it from hogging CPU)
+- when new processes start or when sleeping processes wake up, their `vruntime` is set to the lowest `vruntime` in the red black tree, not 0 (prevent it from hogging CPU)
 
 ## Chapter 10: Multiprocessor Scheduling
 issues of a single queue:

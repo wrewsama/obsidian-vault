@@ -1,7 +1,7 @@
 Tags:
 - [[Linux]]
 ---
-- defines which permissions to NOT inherit from parent dir
+- defines which permissions to NOT inherit from parent directory
 - expressed as 3 octal digits (same as [[Linux File Permissions]])
 - $perms_{new} = perms_{parent} \land \neg umask$
     - e.g. if the parent directory has permissions `777` with umask `021`, a new file created under the parent will have permissions `756`

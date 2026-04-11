@@ -1,5 +1,6 @@
 Tags:
 - [[Operating Systems]]
+- [[Linux]]
 ---
 - kernel receives `open` syscall
 - kernel looks up the directory entries along the provided path to find the inode corresponding to the file
