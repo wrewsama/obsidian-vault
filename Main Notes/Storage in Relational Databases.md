@@ -1,7 +1,7 @@
 Tags:
 - [[Tags/Databases|Databases]]
 ---
-Tuples split up into pages in heap files (unordered collection)
+Each table's tuples are split up into pages in a heap file (unordered collection)
 
 location of the pages in the files is tracked by special pages (page directory)
 

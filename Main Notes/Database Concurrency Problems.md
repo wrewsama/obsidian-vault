@@ -27,8 +27,9 @@ if select sum(A) from T > 0:
 ```
 
 **Lost Update**
-2 transactions read the same data and try to update, 1st update gets overwritten by 2nd
-Special case of write skew where the transactions update the same row
+- 2 transactions read the same data and try to update, 1st update gets overwritten by 2nd
+- Special case of write skew where the transactions update the same row
+
 ---
 ## References
 - 

@@ -9,7 +9,7 @@ Data Definition Language
 Data Manipulation Language
 
 - manipulate data
-- e.g. INSERT, UPDATE
+- e.g. SELECT INSERT, UPDATE
 
 Data Control Language
 

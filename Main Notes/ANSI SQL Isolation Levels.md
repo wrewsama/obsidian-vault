@@ -11,7 +11,7 @@ Read Committed:
 - each query sees version of data committed before the QUERY began
 - on an update (or `DELETE` or `SELECT FOR UPDATE`), if the target row is locked by a concurrent transaction, wait
 	- other transaction rolls back: we can commit
-	- other transaction commits: apply update only the updated version of the row 
+	- other transaction commits: apply update only on the updated version of the row 
 
 Repeatable Read:
 - each query sees version of data committed before the TRANSACTION began

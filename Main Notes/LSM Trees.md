@@ -7,10 +7,10 @@ Tags:
 - K-V writes are batched in a memtable (in memory)
 	- usually a balanced binary tree sorted by object key
 - once memtable is full, data is flushed to disk as an immutable sorted string table (SSTable)
-- periodically, SStables are merged and compacted
-	- similar to the merge sort idea since each SStable is sorted
+- periodically, SSTables are merged and compacted
+	- similar to the merge sort idea since each SSTable is sorted
 	- deduplicates the keys and keeps the most recent write / tombstone
-	- maintains multiple levels of SStables
+	- maintains multiple levels of SSTables
 **Read Process**
 - search in memtable
 - for each level
