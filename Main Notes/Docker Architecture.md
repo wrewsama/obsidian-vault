@@ -9,9 +9,10 @@ Client: contains CLI for issuing commands to the docker daemon
 
 Host: contains Docker daemon, images, containers, networks, storage, etc
 
-daemon receives commands via the CLI or the REST API
+daemon receives commands via the CLI or the REST API and manages the other objects in the Docker host (images, containers, networks, volumes, etc.), pulling images from the registry as required
 
 Docker engine consists of the Docker daemon, API, and CLI
+
 ---
 ## References
 - 

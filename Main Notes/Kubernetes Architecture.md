@@ -1,9 +1,9 @@
 Tags:
 - [[Tags/Kubernetes|Kubernetes]]
 ---
-Cluster: system deployed in kubernetes
+**Cluster**: system deployed in Kubernetes
 
-Control Plane: 'brain' of the system
+**Control Plane**: 'brain' of the system
 
 - API server
 	- to handle internal and external reqs
@@ -16,13 +16,13 @@ Control Plane: 'brain' of the system
 - controller manager
 	- runs controllers that manage state of the cluster
 
-Nodes: worker machines, contain:
+**Nodes**: worker machines, contain:
 - kubelet: daemon that handles communication with the main control plane
 - kube-proxy: network proxy that runs on each worker to route traffic to the correct pods and provides load balancing
 - container runtime: to run the containers on the pods
 - multiple pods
 
-Pods: smallest deployable unit
+**Pods**: smallest deployable unit
 -  one or more containers
 - storage and networking
 
