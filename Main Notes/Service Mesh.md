@@ -25,17 +25,17 @@ Enables services in a distributed system to locate and communicate with each oth
 
 **Communication Flow**
 For intra-mesh communication:
-1. service instance sends req to its local sidecar
-2. sidecar does various actions to the req (e..g load balancing, security checks)
+1. service instance sends request to its local sidecar
+2. sidecar does various actions to the request (e.g. load balancing, security checks)
 3. sidecar queries service registry for available destination services and routes to one of their proxies
-4. sidecar forwards req to destination proxy 
-5. dest sidecar performs more actions and forwards to dest service instance
+4. sidecar forwards request to destination proxy 
+5. destination sidecar performs more actions and forwards to destination service instance
 6. response does the same but backwards
 
 For external services, same thing but through an ingress/egress gateway
 
 **Sidecar redirection**
-* iptables rules are used to intercept and redirect traffic within the pod
+* `iptables` rules are used to intercept and redirect traffic within the pod
 * set up by an init container
 * on ingress from outside and egress from the app, traffic is intercepted and redirected to the sidecar 
 ![[Pasted image 20240828184941.png]]

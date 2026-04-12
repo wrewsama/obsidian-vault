@@ -7,14 +7,32 @@ Tags:
 - parallel, horizontally scalable, and fast
 
 ## Architecture
-- File Services: frontend interfaces
-    - NFS
-    - S3
-    - etc.
-- Compute and clustering: backend manager for data distribution and metadata
-- SSD Drive agent: turns SSD into an efficient network device
-- Management process: manage events, CLI, stats
-- Object connector: handles reads and writes to object store
 
+```
+    User                Kernel      
+   ┌───────────┐       ┌─────┐      
+   │application┼───────►VFS  │      
+   └───────────┘       └─┬───┘      
+  ┌────────────┐       ┌─▼─────────┐
+  │WEKA client ◄───────┼WEKA driver│
+  └──────┬─────┘       └───────────┘
+         │                          
+         │                          
+         │ DPDK                     
+         │                          
+  ┌──────▼──────┐                   
+  │Compute Node │                   
+  └──────┬──────┘                   
+         │load balanced query       
+ ┌───────▼────┐                     
+ │ Drive Node │                     
+ └────┬───────┘                     
+      │                             
+ ┌────▼─┐                           
+ │ SSD  │                           
+ └──────┘                           
+```
+- DPDK: Data Plane Development Kit (kernel bypass for NICs)
+- VFS: Virtual File System (linux filesystem abstraction that weka implements)
 ---
 Source: https://www.weka.io/wp-content/uploads/resources/2023/03/weka-architecture-white-paper.pdf

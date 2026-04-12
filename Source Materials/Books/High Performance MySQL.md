@@ -172,6 +172,7 @@ Optimising queries
 	- ensure each `GROUP BY` or `ORDER BY` are on columns within the same table (can use indexes for that table)
 - `LIMIT`/`OFFSET`
 	- when taking a small limit with a large offset, MySQL needs to scan the entire offset just to get the small number of rows
+    - this is because `OFFSET n` tells the DB: "Throw away the first n rows you get"
 	- do the offset on a covering index (less columns => less pages to scan same offset => faster), then join back to the original table to get the rest of the columns
 - `SQL_CALC_FOUND_ROWS`
 	- usually used in pagination to check if there is more data
