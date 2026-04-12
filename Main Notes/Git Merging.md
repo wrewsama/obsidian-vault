@@ -8,7 +8,17 @@ Find the common ancestor and get diffs D1 and D2
 - if no file lines are changed by both, just merge
 - else, merge conflict
 
-3 way merge: use a dedicated commit to tie tgt 2 histories
+3 way merge: use a dedicated commit to tie together 2 histories
+- called "3-way" because git looks at 3 commits: the HEADs of the 2 branches and the common ancestor
+
+fast forward merge: special case where a 3 way merge commit isn't required
+```
+      (main)
+         ↓
+A <---- B <---- C <---- D
+                        ↑
+                     (feature)
+```
 
 ---
 ## References

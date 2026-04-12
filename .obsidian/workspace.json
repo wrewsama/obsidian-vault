@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Merging vs Rebasing in Git.md",
+                "file": "Main Notes/Kafka Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Merging vs Rebasing in Git"
+              "title": "Kafka Architecture"
             }
           }
         ]
@@ -176,7 +176,19 @@
   },
   "active": "44f13a74031441c5",
   "lastOpenFiles": [
+    "Tags/Message Brokers.md",
+    "Main Notes/Benefits of Message Queues.md",
     "Tags/Git.md",
+    "Main Notes/Git Bisect.md",
+    "Main Notes/Git Branches.md",
+    "Main Notes/Git cherry-pick.md",
+    "Main Notes/Git Commiting.md",
+    "Main Notes/Git Merging.md",
+    "Main Notes/Git Rebasing.md",
+    "Main Notes/Git States.md",
+    "Main Notes/Git Worktrees.md",
+    "Main Notes/How Git Stores Data.md",
+    "Main Notes/Merging vs Rebasing in Git.md",
     "Main Notes/Kubernetes Architecture.md",
     "Tags/Kubernetes.md",
     "Main Notes/Pros and Cons of Kubernetes.md",
@@ -190,18 +202,6 @@
     "Main Notes/Bare Metal vs Virtual Machines vs Containers.md",
     "Main Notes/tmpfs.md",
     "Tags/Data Structures and Algorithms.md",
-    "Tags/Message Brokers.md",
-    "Tags/Agentic Engineering.md",
-    "Source Materials/Websites/Death of the Coding Machine - The Archetypes Replacing It You Need to Know.md",
-    "Source Materials/Videos/Claude Code Tutorial.md",
-    "Source Materials/Websites/Claude Code Tips From Boris Cherny.md",
-    "Tags/AI ML.md",
-    "Tags/SRE.md",
-    "Main Notes/Prometheus.md",
-    "Tags/Quant Finance.md",
-    "Source Materials/Books/Option Volatility and Pricing.md",
-    "Tags/Databases.md",
-    "Main Notes/Storage in Clickhouse.md",
     "const/var",
     "const",
     "Projection",

@@ -10,7 +10,7 @@ Object types:
 
 Blobs: file contents w/o metadata
 
-Tree: essentially the project's directory structure but in tree form (subdirs and files are child nodes), files are leaf nodes with pointers to blobs
+Tree: essentially the project's directory structure but in tree form (subdirectories and files are child nodes), files are leaf nodes with pointers to blobs
 
 Trees are also stored in the object db
 
