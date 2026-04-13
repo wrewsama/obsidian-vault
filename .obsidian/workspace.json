@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/ZooKeeper.md",
+                "file": "Source Materials/Websites/System Design in a Hurry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ZooKeeper"
-            }
-          },
-          {
-            "id": "596a8bac838aa157",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Source Materials/Books/System Design Interview Volume 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "System Design Interview Volume 2"
+              "title": "System Design in a Hurry"
             }
           }
         ]
@@ -200,6 +176,8 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
+    "Main Notes/ZooKeeper.md",
+    "Source Materials/Websites/System Design in a Hurry.md",
     "Tags/Distributed Systems.md",
     "Main Notes/What are Microservices.md",
     "Source Materials/Papers/Weka.md",
@@ -224,8 +202,6 @@
     "Main Notes/Imports in Python.md",
     "Main Notes/Python Protocols.md",
     "Tags/Python.md",
-    "Main Notes/Python Packages.md",
-    "Main Notes/Python Module.md",
     "const/var",
     "const",
     "Projection",
