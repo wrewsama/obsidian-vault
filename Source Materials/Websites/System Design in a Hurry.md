@@ -20,8 +20,31 @@ Tags:
     - address edge cases
     - in general, improving on the high-level design
 
-## Key Technologies
-// TODO
+## Core Concepts Overview
+- Network protocols: HTTP / SSE / websockets / gRPC
+- Load balancers: layer 7 vs layer 4
+- API design
+- Data modelling: Relational vs Non-relational, normalised vs denormalised
+- Database indexing
+- Caching: pattern (e.g. cache-aside), invalidation strategy, failure handling
+- Sharding: choice of shard key, ensuring transactions aren't cross-shard
+- Consistent hashing
+- PACELC theorem
+- key latency and concurrency numbers for common components
+
+## Key Technologies Overview
+- Databases
+    - relational
+    - non-relational
+- blob storage
+- search optimised database (inverted index)
+- API gateway
+- Load balancer
+- Queue
+- Streams
+- Distributed Lock
+- Distributed Cache
+- CDN
 
 ---
 Source: https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction
