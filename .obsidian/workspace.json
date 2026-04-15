@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/System Design in a Hurry.md",
+                "file": "Source Materials/Websites/Behavioural Interview Guidelines.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design in a Hurry"
+              "title": "Behavioural Interview Guidelines"
             }
           }
         ]
@@ -176,9 +176,12 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
+    "Main Notes/Behavioural Interview Stories.md",
+    "Source Materials/Websites/Behavioural Interview Guidelines.md",
+    "Main Notes/Python Iterable vs Iterator vs Collection.md",
+    "Source Materials/Websites/System Design in a Hurry.md",
     "Main Notes/Python ChainMap.md",
     "Main Notes/Python Rounding.md",
-    "Source Materials/Websites/System Design in a Hurry.md",
     "Main Notes/ZooKeeper.md",
     "Tags/Distributed Systems.md",
     "Main Notes/What are Microservices.md",
@@ -199,9 +202,6 @@
     "Main Notes/2 Phase Commit.md",
     "Source Materials/Books/System Design Interview Volume 2.md",
     "Source Materials/Books/System Design Interview Volume 1.md",
-    "Source Materials/Books/High Performance MySQL.md",
-    "Tags/System Design.md",
-    "Main Notes/Imports in Python.md",
     "const/var",
     "const",
     "Projection",
