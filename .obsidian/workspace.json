@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/Behavioural Interview Guidelines.md",
+                "file": "Main Notes/Python Ints.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Behavioural Interview Guidelines"
+              "title": "Python Ints"
             }
           }
         ]
@@ -176,8 +176,12 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Main Notes/Behavioural Interview Stories.md",
+    "Main Notes/Python Chained Comparisons.md",
+    "Main Notes/Python Ints.md",
+    "Main Notes/Python Type Narrowing.md",
+    "Main Notes/Python Garbage Collection.md",
     "Source Materials/Websites/Behavioural Interview Guidelines.md",
+    "Main Notes/Behavioural Interview Stories.md",
     "Main Notes/Python Iterable vs Iterator vs Collection.md",
     "Source Materials/Websites/System Design in a Hurry.md",
     "Main Notes/Python ChainMap.md",
@@ -198,10 +202,6 @@
     "Main Notes/Distributed Transactions - Sagas.md",
     "Main Notes/CQRS.md",
     "Main Notes/API Gateways.md",
-    "Main Notes/Airflow.md",
-    "Main Notes/2 Phase Commit.md",
-    "Source Materials/Books/System Design Interview Volume 2.md",
-    "Source Materials/Books/System Design Interview Volume 1.md",
     "const/var",
     "const",
     "Projection",

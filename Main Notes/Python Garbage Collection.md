@@ -16,8 +16,10 @@ Python uses a combination of 2 strategies: reference counting and generational m
 - traces all objects starting from the root references (whatever's in stack or data memory) and marks them as reachable, free anything not marked as reachable
 - any survivors in that generation get promoted to an older generation
 
-random note: `gc.collect()` runs GC on all gens
-another note: thanks to the [[GIL]], all GC is stop-the-world
+**extra notes**
+- `gc.collect()` runs GC on all gens
+- thanks to the [[GIL]], all GC is stop-the-world
+- `gc.disable()` disables generational mark-and-sweep, but not reference counting
 
 ---
 ## References
