@@ -20,6 +20,7 @@ Python uses a combination of 2 strategies: reference counting and generational m
 - `gc.collect()` runs GC on all gens
 - thanks to the [[GIL]], all GC is stop-the-world
 - `gc.disable()` disables generational mark-and-sweep, but not reference counting
+- you can execute logic on destruction by implementing `__del__`
 
 ---
 ## References

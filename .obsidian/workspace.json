@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Python Ints.md",
+                "file": "Main Notes/Python Overloading.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python Ints"
+              "title": "Python Overloading"
+            }
+          },
+          {
+            "id": "cda5bd58810ff1e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Source Materials/Books/System Design Interview Volume 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "System Design Interview Volume 1"
+            }
+          },
+          {
+            "id": "a15d5dd7bcdf091d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main Notes/CPU pinning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CPU pinning"
             }
           }
         ]
@@ -176,11 +224,23 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Main Notes/Python Chained Comparisons.md",
-    "Main Notes/Python Ints.md",
-    "Main Notes/Python Type Narrowing.md",
+    "Source Materials/Books/System Design Interview Volume 1.md",
+    "Main Notes/Python Overloading.md",
+    "Main Notes/Python Locals Function.md",
+    "Main Notes/Python weakref.md",
+    "Main Notes/CPU pinning.md",
+    "Main Notes/Python pathlib pattern language.md",
+    "Main Notes/Python Packages.md",
+    "Main Notes/Imports in Python.md",
     "Main Notes/Python Garbage Collection.md",
+    "Main Notes/Comprehensions in Python.md",
+    "Main Notes/Python Slots.md",
+    "Main Notes/Python singledispatch.md",
+    "Tags/Python.md",
     "Source Materials/Websites/Behavioural Interview Guidelines.md",
+    "Main Notes/Python Ints.md",
+    "Main Notes/Python Chained Comparisons.md",
+    "Main Notes/Python Type Narrowing.md",
     "Main Notes/Behavioural Interview Stories.md",
     "Main Notes/Python Iterable vs Iterator vs Collection.md",
     "Source Materials/Websites/System Design in a Hurry.md",
@@ -190,18 +250,6 @@
     "Tags/Distributed Systems.md",
     "Main Notes/What are Microservices.md",
     "Source Materials/Papers/Weka.md",
-    "Main Notes/Spark + YARN.md",
-    "Main Notes/Slurm Architecture.md",
-    "Main Notes/Shared DB vs DB-per-Service.md",
-    "Main Notes/Service Mesh.md",
-    "Main Notes/Rate Limiter in Redis.md",
-    "Main Notes/Pros and Cons of Microservices.md",
-    "Main Notes/HDFS.md",
-    "Main Notes/Event Sourcing.md",
-    "Main Notes/Distributed Write-Back Cache Implementations.md",
-    "Main Notes/Distributed Transactions - Sagas.md",
-    "Main Notes/CQRS.md",
-    "Main Notes/API Gateways.md",
     "const/var",
     "const",
     "Projection",

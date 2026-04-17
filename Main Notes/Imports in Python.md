@@ -14,7 +14,7 @@ Tags:
     - prevent concurrent imports from also executing the module
 - execute the code ([[Python Execution]]) in the module and populate the empty module object with the names and values
 
-> **Note**: The entry point (the module you execute `python -m` on) is NOT added to `sys.modules` unless you execute `import <that entrypoint module>`. And in that case, that entry point will be executed again
+> **Note**: The entry point (the module you execute `python -m` on) is added to `sys.modules` as `__main__`. If you execute `import <that entrypoint module>`, that entry point will be executed again
 ---
 ## References
 - https://medium.com/@AlexanderObregon/how-pythons-import-system-works-ff2e410edf6b
