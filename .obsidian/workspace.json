@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Hashing in Python.md",
+                "file": "Tags/Computer Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hashing in Python"
+              "title": "Computer Architecture"
             }
           },
           {
@@ -224,6 +224,13 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
+    "Main Notes/Numa Architecture.md",
+    "Tags/Computer Architecture.md",
+    "Main Notes/CPU Caches.md",
+    "Main Notes/TCP Handshakes.md",
+    "Main Notes/Endian.md",
+    "Main Notes/CPU pinning.md",
+    "Main Notes/Hashing in Python.md",
     "Tags/Python.md",
     "Main Notes/Weird Else Blocks in Python.md",
     "Source Materials/Websites/System Design in a Hurry.md",
@@ -234,7 +241,6 @@
     "Source Materials/Books/System Design Interview Volume 1.md",
     "Main Notes/Python Locals Function.md",
     "Main Notes/Python weakref.md",
-    "Main Notes/CPU pinning.md",
     "Main Notes/Python pathlib pattern language.md",
     "Main Notes/Python Packages.md",
     "Main Notes/Imports in Python.md",
@@ -244,12 +250,6 @@
     "Main Notes/Python singledispatch.md",
     "Source Materials/Websites/Behavioural Interview Guidelines.md",
     "Main Notes/Python Ints.md",
-    "Main Notes/Python Chained Comparisons.md",
-    "Main Notes/Python Type Narrowing.md",
-    "Main Notes/Behavioural Interview Stories.md",
-    "Main Notes/Python Iterable vs Iterator vs Collection.md",
-    "Main Notes/Python ChainMap.md",
-    "Main Notes/Python Rounding.md",
     "const/var",
     "const",
     "Projection",
