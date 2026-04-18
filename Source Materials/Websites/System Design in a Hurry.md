@@ -46,5 +46,70 @@ Tags:
 - Distributed Cache
 - CDN
 
+## Common Patterns
+- realtime updates
+    - default: HTTP polling
+    - performant: SSE
+    - bidirectional: websocket
+- long running tasks
+    - submit to queue, save task to DB, return ok
+    - workers pull from queue, do task, save to DB
+- contention
+    - DB level locks
+        - optimistic
+        - pessimistic
+    - distributed locks, 2PC, or queues
+- scaling reads
+    - DB optimisation: indexing + denormalisation
+    - read replicas
+    - caching
+- scaling writes
+    - handle write bursts with queues
+    - sharding with a good shard key
+- handling large blobs
+    - server return presigned URLs to CDN
+    - client uploads / downloads from the CDN servers
+- multi-step processes
+    - single server orchestrator
+    - workflow / durable execution systems
+- proximity services
+    - geospatial indexes to efficiently search by location
+
+## Networking
+- transport layer
+    - TCP: more reliable (in order, no drops or errors)
+    - UDP: faster
+- app layer
+    - REST
+        - conventions for HTTP endpoints
+        - **the default option**
+    - GraphQL
+        - lets the client query for a part of the backend's data
+        - **used when frontend needs to iterate quickly relative to the backend**
+    - gRPC
+        - binary protocol based on a user-defined schema (IDL)
+        - **internal, server-to-server, performance-sensitive, APIs**
+    - SSE
+        - server streams multiple messages in a single HTTP response
+        - **when clients need to receive events as they happen**
+    - websockets
+        - persistent connection with bidirectional communication
+        - **e.g. games, real-time apps**
+- load balancing
+    - client-side (e.g. Redis, DNS)
+        - small number of clients _that we control_ (need to update when servers change)
+    - layer 4
+        - routes based on transport layer info - means persistent TCP connections will naturally stay pinned to the same server
+        - faster
+        - **good for websockets**
+    - layer 7
+        - routes based on the actual request content
+        - **good for HTTP traffic except websockets**
+- regionalisation latency
+    - CDNs
+    - partitioning into regions
+- failures
+    - retries with exponential backoff, jitter, and idempotency
+    - circuit breakers (stop requests on failed servers - prevent overloading an already overloaded server resulting in cascading failures)
 ---
 Source: https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction

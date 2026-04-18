@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Python Overloading.md",
+                "file": "Main Notes/Hashing in Python.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python Overloading"
+              "title": "Hashing in Python"
             }
           },
           {
@@ -224,8 +224,14 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Source Materials/Books/System Design Interview Volume 1.md",
+    "Tags/Python.md",
+    "Main Notes/Weird Else Blocks in Python.md",
+    "Source Materials/Websites/System Design in a Hurry.md",
+    "Main Notes/Gale Shapley Algorithm.md",
+    "Source Materials/Books/CP4 Book 2.md",
+    "Source Materials/Books/CP4 Book 1.md",
     "Main Notes/Python Overloading.md",
+    "Source Materials/Books/System Design Interview Volume 1.md",
     "Main Notes/Python Locals Function.md",
     "Main Notes/Python weakref.md",
     "Main Notes/CPU pinning.md",
@@ -236,20 +242,14 @@
     "Main Notes/Comprehensions in Python.md",
     "Main Notes/Python Slots.md",
     "Main Notes/Python singledispatch.md",
-    "Tags/Python.md",
     "Source Materials/Websites/Behavioural Interview Guidelines.md",
     "Main Notes/Python Ints.md",
     "Main Notes/Python Chained Comparisons.md",
     "Main Notes/Python Type Narrowing.md",
     "Main Notes/Behavioural Interview Stories.md",
     "Main Notes/Python Iterable vs Iterator vs Collection.md",
-    "Source Materials/Websites/System Design in a Hurry.md",
     "Main Notes/Python ChainMap.md",
     "Main Notes/Python Rounding.md",
-    "Main Notes/ZooKeeper.md",
-    "Tags/Distributed Systems.md",
-    "Main Notes/What are Microservices.md",
-    "Source Materials/Papers/Weka.md",
     "const/var",
     "const",
     "Projection",
