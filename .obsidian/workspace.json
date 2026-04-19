@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Async IO in Linux.md",
+                "file": "Source Materials/Websites/System Design in a Hurry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Async IO in Linux"
+              "title": "System Design in a Hurry"
             }
           },
           {
@@ -224,6 +224,9 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
+    "Main Notes/SQL Execution Order.md",
+    "Source Materials/Websites/System Design in a Hurry.md",
+    "Main Notes/Async IO in Linux.md",
     "Source Materials/Websites/Death of the Coding Machine - The Archetypes Replacing It You Need to Know.md",
     "Tags/Agentic Engineering.md",
     "Main Notes/Python fstrings.md",
@@ -238,7 +241,6 @@
     "Main Notes/Hashing in Python.md",
     "Tags/Python.md",
     "Main Notes/Weird Else Blocks in Python.md",
-    "Source Materials/Websites/System Design in a Hurry.md",
     "Main Notes/Gale Shapley Algorithm.md",
     "Source Materials/Books/CP4 Book 2.md",
     "Source Materials/Books/CP4 Book 1.md",
@@ -248,8 +250,6 @@
     "Main Notes/Python weakref.md",
     "Main Notes/Python pathlib pattern language.md",
     "Main Notes/Python Packages.md",
-    "Main Notes/Imports in Python.md",
-    "Main Notes/Python Garbage Collection.md",
     "const/var",
     "const",
     "Projection",

@@ -111,5 +111,20 @@ Tags:
 - failures
     - retries with exponential backoff, jitter, and idempotency
     - circuit breakers (stop requests on failed servers - prevent overloading an already overloaded server resulting in cascading failures)
+
+## API Design
+- pagination
+    - offset + limit in request (simplest)
+    - cursor: response includes pointer to next record (for high write volume)
+- versioning
+    - URL (e.g `/api/v2/endpoint`) (this is the default choice)
+    - HTTP header  (`Accept-Version: v2`)
+- security
+    - Authentication (who are you) & Authorisation (what are you allowed to do)
+    - API keys: create, store in DB, verify with lookup (internal server-to-server)
+    - JWT: give client token on successful login, verify token signature and read client info from it (user sessions in web/mobile apps)
+- Rate limiting
+    - by user, by IP, by endpoint
+    - return `429 Too Many Requests`
 ---
 Source: https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction
