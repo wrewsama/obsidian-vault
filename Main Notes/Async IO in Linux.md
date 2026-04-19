@@ -22,8 +22,8 @@ Tags:
 
 **epoll vs poll**
 - epoll is only on linux
-- poll needs to scan through all it's monitored fds (O(N))
-- epoll maintains the list of fds in the kernel => O(1)
+- poll needs to scan through all the fds it's given (O(N))
+- epoll maintains the list of fds in the kernel and updates their state when IO events occur, lookups => O(1), you use other syscalls to register and remove fds
 - thanks to the better performance, epoll is better for large numbers of simultaneous connections (e.g. Redis server connections)
 
 ---

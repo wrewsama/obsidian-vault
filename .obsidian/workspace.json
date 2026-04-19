@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tags/Computer Architecture.md",
+                "file": "Main Notes/Async IO in Linux.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Computer Architecture"
+              "title": "Async IO in Linux"
             }
           },
           {
@@ -224,8 +224,13 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Main Notes/Numa Architecture.md",
+    "Source Materials/Websites/Death of the Coding Machine - The Archetypes Replacing It You Need to Know.md",
+    "Tags/Agentic Engineering.md",
+    "Main Notes/Python fstrings.md",
+    "Main Notes/Djikstra.md",
+    "Tags/Data Structures and Algorithms.md",
     "Tags/Computer Architecture.md",
+    "Main Notes/Numa Architecture.md",
     "Main Notes/CPU Caches.md",
     "Main Notes/TCP Handshakes.md",
     "Main Notes/Endian.md",
@@ -245,11 +250,6 @@
     "Main Notes/Python Packages.md",
     "Main Notes/Imports in Python.md",
     "Main Notes/Python Garbage Collection.md",
-    "Main Notes/Comprehensions in Python.md",
-    "Main Notes/Python Slots.md",
-    "Main Notes/Python singledispatch.md",
-    "Source Materials/Websites/Behavioural Interview Guidelines.md",
-    "Main Notes/Python Ints.md",
     "const/var",
     "const",
     "Projection",
