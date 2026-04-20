@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/System Design in a Hurry.md",
+                "file": "Main Notes/Deadlock Handling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design in a Hurry"
+              "title": "Deadlock Handling"
             }
           },
           {
-            "id": "cda5bd58810ff1e6",
+            "id": "1d57a8fab474670d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/System Design Interview Volume 1.md",
+                "file": "Main Notes/Banker's Algorithm.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,34 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design Interview Volume 1"
-            }
-          },
-          {
-            "id": "a15d5dd7bcdf091d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Main Notes/CPU pinning.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CPU pinning"
+              "title": "Banker's Algorithm"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,10 +199,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68dbab54a226f580",
+  "active": "1d57a8fab474670d",
   "lastOpenFiles": [
-    "Main Notes/SQL Execution Order.md",
+    "Main Notes/Deadlock Handling.md",
+    "Main Notes/Deadlock Prevention.md",
+    "Main Notes/Banker's Algorithm.md",
+    "Main Notes/Deadlock Conditions.md",
+    "Main Notes/Stack Heap.md",
+    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Source Materials/Websites/System Design in a Hurry.md",
+    "Main Notes/SQL Execution Order.md",
     "Main Notes/Async IO in Linux.md",
     "Source Materials/Websites/Death of the Coding Machine - The Archetypes Replacing It You Need to Know.md",
     "Tags/Agentic Engineering.md",
@@ -244,12 +227,6 @@
     "Main Notes/Gale Shapley Algorithm.md",
     "Source Materials/Books/CP4 Book 2.md",
     "Source Materials/Books/CP4 Book 1.md",
-    "Main Notes/Python Overloading.md",
-    "Source Materials/Books/System Design Interview Volume 1.md",
-    "Main Notes/Python Locals Function.md",
-    "Main Notes/Python weakref.md",
-    "Main Notes/Python pathlib pattern language.md",
-    "Main Notes/Python Packages.md",
     "const/var",
     "const",
     "Projection",
