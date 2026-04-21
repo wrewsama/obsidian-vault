@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Banker's Algorithm.md",
+                "file": "Main Notes/try-except in Python.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Banker's Algorithm"
+              "title": "try-except in Python"
             }
           }
         ],
@@ -201,9 +201,12 @@
   },
   "active": "1d57a8fab474670d",
   "lastOpenFiles": [
+    "Main Notes/Union Find.md",
     "Main Notes/Deadlock Handling.md",
-    "Main Notes/Deadlock Prevention.md",
+    "Main Notes/Floyd-Warshall.md",
+    "Source Materials/Books/Fluent Python.md",
     "Main Notes/Banker's Algorithm.md",
+    "Main Notes/Deadlock Prevention.md",
     "Main Notes/Deadlock Conditions.md",
     "Main Notes/Stack Heap.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
@@ -224,9 +227,6 @@
     "Main Notes/Hashing in Python.md",
     "Tags/Python.md",
     "Main Notes/Weird Else Blocks in Python.md",
-    "Main Notes/Gale Shapley Algorithm.md",
-    "Source Materials/Books/CP4 Book 2.md",
-    "Source Materials/Books/CP4 Book 1.md",
     "const/var",
     "const",
     "Projection",
