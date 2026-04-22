@@ -6,6 +6,7 @@ Tags:
 - similar to how logical memory vs physical memory works
 - has its own `init` process with PID 1
     - can be created with `clone()` with `CLONE_NEWPID`
+    - or use the Linux builtin `unshare --pid --fork foo` (the executable `foo` will become PID 1 of the new namespace)
     - if this terminates, all processes in that namespace get SIGKILLed
 - can use `nsenter` to run a process inside another process's namespace
 - subprocesses will be in the same namespace as their parent process

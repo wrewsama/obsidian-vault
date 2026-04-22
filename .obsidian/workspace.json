@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/try-except in Python.md",
+                "file": "Main Notes/Process Groups & Sessions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "try-except in Python"
+              "title": "Process Groups & Sessions"
             }
           }
         ],
@@ -201,6 +201,9 @@
   },
   "active": "1d57a8fab474670d",
   "lastOpenFiles": [
+    "Main Notes/Process Namespaces.md",
+    "Main Notes/SIGINT vs SIGTERM vs SIGKILL.md",
+    "Main Notes/try-except in Python.md",
     "Main Notes/Union Find.md",
     "Main Notes/Deadlock Handling.md",
     "Main Notes/Floyd-Warshall.md",
@@ -224,9 +227,6 @@
     "Main Notes/TCP Handshakes.md",
     "Main Notes/Endian.md",
     "Main Notes/CPU pinning.md",
-    "Main Notes/Hashing in Python.md",
-    "Tags/Python.md",
-    "Main Notes/Weird Else Blocks in Python.md",
     "const/var",
     "const",
     "Projection",

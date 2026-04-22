@@ -10,6 +10,8 @@ Tags:
     - e.g. `kill -PGID` (as opposed to `kill PID`)
 - subprocesses inherit the parents' PGID when spawned unless explicitly changed
 - processes run in a pipeline also use the same process group
+- when you run something in a terminal, that process's process group becomes the **foreground process group**
+    - Ctrl+C will send `SIGINT` to that entire group
 
 ---
 ## References
