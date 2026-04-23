@@ -126,5 +126,45 @@ Tags:
 - Rate limiting
     - by user, by IP, by endpoint
     - return `429 Too Many Requests`
+
+## Data Modelling
+- DB choice
+    - relational
+        - ACID guarantees, complex queries
+        - default option
+        - e.g. Postgres, MySQL
+    - document
+        - flexible, denormalised schema
+        - e.g. MongoDB, Firestore
+    - KV stores
+        - simple, fast lookups
+        - e.g. Redis, Memcached
+    - Wide-column
+        - rows have different _families_ of columns
+        - rows with the same partition key are stored together
+        - good for massive append-only write volumes (e.g. timeseries)
+        - e.g. Cassandra, HBase
+- requirements
+    - volume
+    - access patterns
+    - consistency
+- identify core entities, their columns, then connect them with relationships - adding PKs and FKs along with any relevant constraints
+- choose indexes based on access patterns
+- choose normalised vs denormalised
+    - default: normalised
+    - denormalise only if you need to sacrifice consistency for performance/scale
+- shard if the DB has insufficient space
+## Caching
+TODO
+
+## Sharding
+TODO
+
+## Consistent Hashing
+TODO
+
+## CAP Theorem
+TODO
+
 ---
 Source: https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction
