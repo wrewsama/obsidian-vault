@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/System Design in a Hurry.md",
+                "file": "Main Notes/Assertions vs Exceptions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design in a Hurry"
+              "title": "Assertions vs Exceptions"
             }
           }
         ]
@@ -176,6 +176,10 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
+    "Main Notes/Python Order of Operations.md",
+    "Tags/Python.md",
+    "Source Materials/Websites/Behavioural Interview Guidelines.md",
+    "Source Materials/Websites/System Design in a Hurry.md",
     "Main Notes/Python Special Function Parameters.md",
     "Templates/Atomic Note.md",
     "Main Notes/Process Groups & Sessions.md",
@@ -191,7 +195,6 @@
     "Main Notes/Deadlock Conditions.md",
     "Main Notes/Stack Heap.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
-    "Source Materials/Websites/System Design in a Hurry.md",
     "Main Notes/SQL Execution Order.md",
     "Main Notes/Async IO in Linux.md",
     "Source Materials/Websites/Death of the Coding Machine - The Archetypes Replacing It You Need to Know.md",
@@ -199,9 +202,6 @@
     "Main Notes/Python fstrings.md",
     "Main Notes/Djikstra.md",
     "Tags/Data Structures and Algorithms.md",
-    "Tags/Computer Architecture.md",
-    "Main Notes/Numa Architecture.md",
-    "Main Notes/CPU Caches.md",
     "const/var",
     "const",
     "Projection",
