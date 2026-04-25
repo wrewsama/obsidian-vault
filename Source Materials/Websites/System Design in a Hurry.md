@@ -140,7 +140,7 @@ Tags:
         - simple, fast lookups
         - e.g. Redis, Memcached
     - Wide-column
-        - rows have different _families_ of columns
+        - tables have a schema, but each row may only have a subset of columns, only those values will be stored (no nulls for columns not in that row)
         - rows with the same partition key are stored together
         - good for massive append-only write volumes (e.g. timeseries)
         - e.g. Cassandra, HBase
@@ -155,16 +155,139 @@ Tags:
     - denormalise only if you need to sacrifice consistency for performance/scale
 - shard if the DB has insufficient space
 ## Caching
-TODO
+- architectures
+    - cache aside (read cache and fallback to DB, write to DB and invalidate cache; simple default)
+    - write-through (write to cache & cache writes to DB; ensure cache data always fresh)
+    - write-behind / write-back (write to cache & cache writes to DB in the background; fastest, eventual consistency)
+    - read-through (read cache & cache reads from DB if needed; CDNs do this)
+- cache eviction
+    - LRU, LFU, FIFO, TTL
+- cache problems
+    - thundering herd
+        - popular cache entry invalidated, many requests cache miss => hit DB
+        - solutions: request coalescing, preemptive refresh on popular keys
+    - consistency
+        - cache and DB have different values
+        - solutions: cache invalidation on write(strong consistency), TTLs (bounded eventual consistency)
+    - hot keys
+        - solutions: replication, local cache for hot values, rate limiting
+- reasons to cache
+    - database load
+    - latency requirements (DBs ~ 10-30ms, Redis ~ 1ms)
 
 ## Sharding
-TODO
-
-## Consistent Hashing
-TODO
+- good shard keys
+    - high cardinality, even distribution, query-aligned
+- strategies
+    - hash-based (default)
+    - range-based (simplest, but uneven distribution in many cases)
+    - directory-based: save a lookup table (flexible, but worse performance)
+- problems
+    - hotspots
+        - solutions: isolate on dedicated shards, spread out with compound shard keys, dynamic shard splitting
+    - cross-shard queries
+        - solutions: cache, denormalise
+    - maintaining consistency
+        - design to avoid cross-shard transactions, use sagas or 2PC, just accept eventual consistency
+- reasons to shard
+    - storage (> 64TB)
+    - write throughput (> 50K)
+    - read throughput (>50K) (can also use replication and caching though)
 
 ## CAP Theorem
-TODO
+- when to choose Consistency
+    - ticket booking systems, inventory management, financial systems
+- when to choose availability
+    - social media, content, review sites
+
+## Redis
+- configurations: single node, High-Availability replica, cluster
+    - for clusters: nodes gossip, client asks a node for key -> node mappings, client caches it so it can query only the node with the desired data
+- requests only for single nodes
+- performance
+    - 100k writes / second
+    - < 1ms latency
+- example uses: cache, distributed lock (atomic increment and delete), rate-limiting (sorted set)
+## Elasticsearch
+- High-performance distributed search engine
+    - numeric range queries (BKD trees)
+    - geospatial
+    - full-text search (inverted index)
+- architecture
+    - master node: add / remove nodes and "tables" (called indexes in Elasticsearch)
+    - data node: stores data
+    - ingest node: transforms data and prepares it for indexing
+    - coordinating node: optimises and routes queries to correct cluster
+- data nodes
+    - store the Elasticsearch index shards as Lucene indexes (tables)
+    - each is split into **immutable** Lucene segments
+        - writes get batched and written into a new segment
+        - segments are merged in the background
+- when to use
+    - read-heavy on large data set (>100k documents), acceptable eventual consistency
+    - attach to a true DB via Change Data Capture
+## Kafka
+- basic terminology
+    - brokers: Kafka servers
+    - partition: logical sequence of messages stored on a broker, can have multiple partitions on 1 broker
+    - topic: logical grouping of partitions
+- producing
+    - client queries metadata from brokers
+    - uses partitioning algorithm to find the partition to write to
+    - send message to the correct broker
+    - message is appended to the partition and assigned an offset
+- consuming
+    - pull from their assigned partition and current offset
+    - commit the offset back to kafka
+- durability
+    - leader-follower replication for each partition (only for backups, don't serve traffic)
+    - Kafka controller (one of the brokers) monitors health and reassigns leadership if a leader goes down
+- handling hot partitions
+    - no key (distributes across partitions by default), compound key, backpressure
+- fault tolerance when consumer goes down
+    - offsets are committed
+    - partitions are rebalanced among consumers in the group
+- retries
+    - producer: automatic in Kafka
+    - consumer: need to set up Dead Letter Queue on the app side
+- optimisations
+    - batching, compression
+- retention policies: by max time or max size, default = 7 days
+- when to use kafka
+    - as a queue: async / in-order / decoupled
+    - as a stream: continuous processing of real-time data
+## API Gateway
+- Single entrypoint for clients, abstracting away a microservice architecture
+- process
+    - request validation
+    - middleware (auth, rate limiting, CORS etc.)
+    - routing rules (e.g. based on URL pattern, request headers, etc.)
+    - transformation (e.g. from HTTP to gRPC and back to HTTP)
+    - optional caching
+- can be horizontally scaled with a client-to-gateway load balancer (e.g NGINX) in front
+- can itself load balance for the backend server instances
+
+## Cassandra
+- wide column database
+- primary key contains:
+    - partition key: rows are grouped and stored together based on this
+    - clustering key: optional, determines sorted order of the rows
+- partitions with Consistent Hashing
+- information shared via gossip protocol
+- queries can go to any node, which becomes the coordinator, querying the correct nodes
+- tunable consistency settings for reads and writes
+    - ONE, ALL, QUORUM (`n//2 + 1`)
+- storage
+    - commit log (WAL)
+    - memtable
+    - SSTable
+- when to use
+    - need high availability
+    - high write throughput
+    - clear access patterns without complex queries e.g. joins and aggregations
+
+## DynamoDB
+- TODO
 
 ---
 Source: https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction

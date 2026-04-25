@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Assertions vs Exceptions.md",
+                "file": "Source Materials/Websites/System Design in a Hurry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Assertions vs Exceptions"
+              "title": "System Design in a Hurry"
             }
           }
         ]
@@ -176,10 +176,17 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Main Notes/Python Order of Operations.md",
+    "Main Notes/Imports in Python.md",
     "Tags/Python.md",
-    "Source Materials/Websites/Behavioural Interview Guidelines.md",
+    "Main Notes/Python Module.md",
+    "Main Notes/Hashing in Python.md",
+    "Main Notes/Weird Else Blocks in Python.md",
+    "Main Notes/Python Task Groups.md",
+    "Main Notes/Python Order of Operations.md",
     "Source Materials/Websites/System Design in a Hurry.md",
+    "Source Materials/Books/Site Reliability Engineering.md",
+    "Main Notes/Assertions vs Exceptions.md",
+    "Source Materials/Websites/Behavioural Interview Guidelines.md",
     "Main Notes/Python Special Function Parameters.md",
     "Templates/Atomic Note.md",
     "Main Notes/Process Groups & Sessions.md",
@@ -195,13 +202,6 @@
     "Main Notes/Deadlock Conditions.md",
     "Main Notes/Stack Heap.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
-    "Main Notes/SQL Execution Order.md",
-    "Main Notes/Async IO in Linux.md",
-    "Source Materials/Websites/Death of the Coding Machine - The Archetypes Replacing It You Need to Know.md",
-    "Tags/Agentic Engineering.md",
-    "Main Notes/Python fstrings.md",
-    "Main Notes/Djikstra.md",
-    "Tags/Data Structures and Algorithms.md",
     "const/var",
     "const",
     "Projection",
