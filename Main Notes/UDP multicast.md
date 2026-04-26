@@ -2,9 +2,12 @@ Tags:
 - [[Computer Networking]]
 ---
 - Sender sends to multicast group (identified by IP address and port)
-    - IPv4 range 224.0.0.0 - 239.255.255.255
+    - IPv4 range `224.0.0.0 - 239.255.255.255`
+    - IPv6 range `ff00::/8`
 - Receivers
-    - bind to the multicast group
+    - bind to the multicast group (on the same port as the multicast group)
+        - IPv4: IGMP (internet group management protocol)
+        - IPv6: MLD (multicast listener discovery)
     - Join multicast group by setting `sock opt`, specifying which network interface to receive messages from (otherwise will receive on all interfaces, which could lead to duplicates if the host has multiple NICs)
 ---
 Source:

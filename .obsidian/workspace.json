@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/System Design in a Hurry.md",
+                "file": "Main Notes/Python singledispatch.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design in a Hurry"
+              "title": "Python singledispatch"
             }
           }
         ]
@@ -176,8 +176,10 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Main Notes/Hashing in Python.md",
+    "Main Notes/IPv4 vs IPv6.md",
+    "Main Notes/UDP multicast.md",
     "Source Materials/Websites/System Design in a Hurry.md",
+    "Main Notes/Hashing in Python.md",
     "Main Notes/TCP Windows.md",
     "Source Materials/Books/TCP IP Illustrated.md",
     "Main Notes/Nagles Algorithm.md",
@@ -200,8 +202,6 @@
     "Main Notes/SIGINT vs SIGTERM vs SIGKILL.md",
     "Main Notes/try-except in Python.md",
     "Main Notes/Union Find.md",
-    "Main Notes/Deadlock Handling.md",
-    "Main Notes/Floyd-Warshall.md",
     "const/var",
     "const",
     "Projection",
