@@ -287,7 +287,32 @@ Tags:
     - clear access patterns without complex queries e.g. joins and aggregations
 
 ## DynamoDB
-- TODO
-
+- managed (by AWS), scalable, KV/document store
+- can think of it as documents (called items) with a _primary key_ that comprises
+    - partition key (same partition key => stored together)
+    - sort key (items with same partition key are sorted by sort key)
+- find node by hashing partition key (consistent hashing), find item by B tree index on sort key
+- secondary indexes
+    - global (GSI): different partition key + some sort key, stored on a different partition, replicated with eventual consistency
+    - local (LSI): same partition key + different sort key, sorted on the same partition (together with the primary sort key's B tree)
+        - note: can only be defined at table creation time
+- consistency is configurable for each read operation, default = eventual
+- when NOT to use it
+    - very high volume workloads (=> high AWS costs)
+    - complex queries (joins and aggregations)
+## Time Series Databases
+- e.g. Prometheus, InfluxDB
+- data model
+    - metric: the "table" (some value that changes over time)
+    - tags: metadata for filtering (e.g. `host=xyz`, `region=us-east-1`)
+    - fields: the values of the metric at each point in time
+    - timestamps
+- e.g. unique combination of metric + tags creates a new series, which is stored together
+    - append-only to memtable + LSM tree
+- maintain in-memory tag index, mapping tag => series that tag is part of (similar concept to inverted index)
+- since metric values are similar across timestamps, can use
+    - delta / delta-of-delta encoding
+    - XOR compression (for floats)
+- partition by time (e.g. 1 partition per day)
 ---
 Source: https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction

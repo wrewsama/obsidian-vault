@@ -3,7 +3,7 @@ Tags:
 ---
 - to have a custom hash function, need to override `__eq__` and `__hash__`, this will be hashable according to the implementation of `__hash__`
 - if only `__eq__` is implemented, will be unhashable
-- by default, both `__eq__` and `__hash__` use the address of the object, this is also hashable
+- by default, both `__eq__` and `__hash__` use the `id()`(virtual memory address) of the object, this is also hashable
 
 This ensures that 'equal' elements hash to the same slot and get deduped.
 
@@ -11,11 +11,12 @@ Similarly, mutable objects like `list` are unhashable as `[1,2] == [1,2]` (i.e. 
 -  while python allows you to make a custom class that hashes based on a mutable field, (e.g. calling `hash(str(field)))` ), this same issue could occur
 - however, it's okay to use the default implementations of eq and hash as the address for an object is immutable
 
-- if you have 2 "different" objects that are the same according to `==` (like 1 and 1.0), they will be treated as the same key, but the old key remains
+- if you have "different" objects that are the same according to `==` (like True and 1 and 1.0), they will be treated as the same key, but the old key remains
 ```python
-d = {1: 5}
+d = {True: 5}
+d[1] = 6
 d[1.0] = 3
-print(d) # {1: 3}
+print(d) # {True: 3}
 ```
 ---
 ## References
