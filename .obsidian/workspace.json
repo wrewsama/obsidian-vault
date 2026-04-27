@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Python singledispatch.md",
+                "file": "Main Notes/args and kwargs in Python.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python singledispatch"
+              "title": "args and kwargs in Python"
             }
           }
         ]
@@ -176,9 +176,11 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
+    "Source Materials/Websites/System Design in a Hurry.md",
+    "Source Materials/Books/System Design Interview Volume 1.md",
+    "Main Notes/Python singledispatch.md",
     "Main Notes/IPv4 vs IPv6.md",
     "Main Notes/UDP multicast.md",
-    "Source Materials/Websites/System Design in a Hurry.md",
     "Main Notes/Hashing in Python.md",
     "Main Notes/TCP Windows.md",
     "Source Materials/Books/TCP IP Illustrated.md",
@@ -200,8 +202,6 @@
     "Main Notes/Process Groups & Sessions.md",
     "Main Notes/Process Namespaces.md",
     "Main Notes/SIGINT vs SIGTERM vs SIGKILL.md",
-    "Main Notes/try-except in Python.md",
-    "Main Notes/Union Find.md",
     "const/var",
     "const",
     "Projection",
