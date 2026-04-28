@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/args and kwargs in Python.md",
+                "file": "Main Notes/PTY (pseudoterminals).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "args and kwargs in Python"
+              "title": "PTY (pseudoterminals)"
             }
           }
         ]
@@ -176,6 +176,9 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
+    "Main Notes/heredocs in Linux.md",
+    "Main Notes/PTY (pseudoterminals).md",
+    "Main Notes/args and kwargs in Python.md",
     "Source Materials/Websites/System Design in a Hurry.md",
     "Source Materials/Books/System Design Interview Volume 1.md",
     "Main Notes/Python singledispatch.md",
@@ -199,9 +202,6 @@
     "Source Materials/Websites/Behavioural Interview Guidelines.md",
     "Main Notes/Python Special Function Parameters.md",
     "Templates/Atomic Note.md",
-    "Main Notes/Process Groups & Sessions.md",
-    "Main Notes/Process Namespaces.md",
-    "Main Notes/SIGINT vs SIGTERM vs SIGKILL.md",
     "const/var",
     "const",
     "Projection",
