@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/PTY (pseudoterminals).md",
+                "file": "Main Notes/UDP multicast.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PTY (pseudoterminals)"
+              "title": "UDP multicast"
             }
           }
         ]
@@ -176,8 +176,12 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Main Notes/heredocs in Linux.md",
+    "Main Notes/malloc and free.md",
+    "Source Materials/Websites/Behavioural Interview Guidelines.md",
+    "Main Notes/Git cherry-pick.md",
+    "Main Notes/Priority Queue in Python.md",
     "Main Notes/PTY (pseudoterminals).md",
+    "Main Notes/heredocs in Linux.md",
     "Main Notes/args and kwargs in Python.md",
     "Source Materials/Websites/System Design in a Hurry.md",
     "Source Materials/Books/System Design Interview Volume 1.md",
@@ -198,10 +202,6 @@
     "Main Notes/Python Task Groups.md",
     "Main Notes/Python Order of Operations.md",
     "Source Materials/Books/Site Reliability Engineering.md",
-    "Main Notes/Assertions vs Exceptions.md",
-    "Source Materials/Websites/Behavioural Interview Guidelines.md",
-    "Main Notes/Python Special Function Parameters.md",
-    "Templates/Atomic Note.md",
     "const/var",
     "const",
     "Projection",
