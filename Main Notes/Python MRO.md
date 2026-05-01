@@ -4,7 +4,7 @@ Tags:
 - Method Resolution Order
 - for a class that may have multiple inheritance and an inheritance tree determines
     - which method is invoked (in the case of polymorphism)
-    - which class `super()` refers to (the next one in the MRO)
+    - which class `super()` ([[Python super]]) refers to (the next one in the MRO)
 - can be directly checked with `ClassName.mro()`
 - rules (C3 Linearisation)
     - Linearisation of class X `L(X)` = `merge` all `L(P)` for all of X's parents `P` in left-to-right order
