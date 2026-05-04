@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Python MRO.md",
+                "file": "Main Notes/Python Iterable vs Iterator vs Collection.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python MRO"
-            }
-          },
-          {
-            "id": "e6a368b1b6680038",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Main Notes/Gratuitous ARP.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Gratuitous ARP"
+              "title": "Python Iterable vs Iterator vs Collection"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,34 +174,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6a368b1b6680038",
+  "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Main Notes/ARP.md",
+    "Main Notes/Python Generator send.md",
+    "Main Notes/Python Generators.md",
+    "Tags/Python.md",
+    "Main Notes/Python ChainMap.md",
+    "Main Notes/Python Chained Comparisons.md",
+    "Main Notes/Python Locals Function.md",
+    "Main Notes/Python Globals Function.md",
+    "Main Notes/Python Scoping.md",
+    "Main Notes/Class Fields and Methods in Python.md",
+    "Main Notes/asyncio in Python.md",
+    "Main Notes/Abstract Base Classes in Python.md",
+    "Main Notes/Python MRO.md",
+    "Main Notes/Hashing in Python.md",
+    "Main Notes/new in Python.md",
     "Main Notes/Gratuitous ARP.md",
+    "Main Notes/ARP.md",
     "Source Materials/Books/TCP IP Illustrated.md",
     "Main Notes/TCP Keepalive.md",
     "Main Notes/Python Memory Allocation.md",
     "Main Notes/Numa Architecture.md",
     "Main Notes/IPv4 vs IPv6.md",
-    "Main Notes/Python Scoping.md",
     "Main Notes/Python Interning.md",
-    "Tags/Python.md",
     "Main Notes/== vs is in Python.md",
     "Main Notes/Process Groups & Sessions.md",
     "Main Notes/SIGINT vs SIGTERM vs SIGKILL.md",
     "Main Notes/Python fstrings.md",
-    "Source Materials/Websites/System Design in a Hurry.md",
-    "Main Notes/Digit DP.md",
-    "Main Notes/Cache Set Associativity.md",
-    "Main Notes/NDP.md",
-    "Main Notes/UDP multicast.md",
-    "Main Notes/Metaclasses in Python.md",
-    "Main Notes/Python super.md",
-    "Main Notes/Python MRO.md",
-    "Main Notes/new in Python.md",
-    "Main Notes/Low Level Design In a Hurry.md",
-    "Tags/Low Level Design.md",
-    "Source Materials/Books/System Design Interview Volume 1.md",
     "const/var",
     "const",
     "Projection",

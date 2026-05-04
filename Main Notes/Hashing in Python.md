@@ -18,6 +18,8 @@ d[1] = 6
 d[1.0] = 3
 print(d) # {True: 3}
 ```
+
+> **Tuple gotcha**: While tuples are immutable, they are only hashable if all of their elements are also hashable
 ---
 ## References
 - 
