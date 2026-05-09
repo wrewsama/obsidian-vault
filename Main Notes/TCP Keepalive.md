@@ -2,6 +2,7 @@ Tags:
 - [[Computer Networking]]
 ---
 - Automatic probe request sent out to keep a TCP connection alive
+- Sender sends a 0 byte ACK packet
 - Destination should ACK the request
 - useful for
     - checking for dead peers
