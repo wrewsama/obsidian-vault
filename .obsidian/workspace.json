@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Durable Execution.md",
+                "file": "Source Materials/Books/The Elements of Style.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Durable Execution"
+              "title": "The Elements of Style"
             }
           }
         ]
@@ -176,8 +176,10 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Main Notes/Interval Scheduling Maximisation.md",
+    "Tags/Writing.md",
+    "Source Materials/Books/The Elements of Style.md",
     "Main Notes/Durable Execution.md",
+    "Main Notes/Interval Scheduling Maximisation.md",
     "Main Notes/TCP SACK.md",
     "Main Notes/IPv4 Mapped IPv6 Addresses.md",
     "Main Notes/TCP Keepalive.md",
@@ -200,8 +202,6 @@
     "Main Notes/ARP.md",
     "Source Materials/Books/TCP IP Illustrated.md",
     "Main Notes/Python Memory Allocation.md",
-    "Main Notes/Numa Architecture.md",
-    "Main Notes/IPv4 vs IPv6.md",
     "const/var",
     "const",
     "Projection",
