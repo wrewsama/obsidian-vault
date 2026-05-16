@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/The Elements of Style.md",
+                "file": "Source Materials/Books/Games People Play - The Psychology of Human Relationships.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Elements of Style"
+              "title": "Games People Play - The Psychology of Human Relationships"
             }
           }
         ]
@@ -176,8 +176,11 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Tags/Writing.md",
+    "Tags/EQ.md",
+    "Source Materials/Books/Games People Play - The Psychology of Human Relationships.md",
+    "Tags/Untitled.md",
     "Source Materials/Books/The Elements of Style.md",
+    "Tags/Writing.md",
     "Main Notes/Durable Execution.md",
     "Main Notes/Interval Scheduling Maximisation.md",
     "Main Notes/TCP SACK.md",
@@ -199,9 +202,6 @@
     "Main Notes/Hashing in Python.md",
     "Main Notes/new in Python.md",
     "Main Notes/Gratuitous ARP.md",
-    "Main Notes/ARP.md",
-    "Source Materials/Books/TCP IP Illustrated.md",
-    "Main Notes/Python Memory Allocation.md",
     "const/var",
     "const",
     "Projection",
