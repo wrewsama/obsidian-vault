@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Games People Play - The Psychology of Human Relationships.md",
+                "file": "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Games People Play - The Psychology of Human Relationships"
+              "title": "If you're ambitious and in your 20s or 30s, please watch this"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Source Materials/Books/Option Volatility and Pricing.md",
     "Source Materials/Books/Games People Play - The Psychology of Human Relationships.md",
+    "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
+    "Source Materials/Books/Option Volatility and Pricing.md",
     "Tags/EQ.md",
     "Tags/Untitled.md",
     "Source Materials/Books/The Elements of Style.md",
@@ -201,7 +202,6 @@
     "Main Notes/Abstract Base Classes in Python.md",
     "Main Notes/Python MRO.md",
     "Main Notes/Hashing in Python.md",
-    "Main Notes/new in Python.md",
     "const/var",
     "const",
     "Projection",
