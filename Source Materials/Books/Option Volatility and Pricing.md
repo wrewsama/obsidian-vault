@@ -15,5 +15,7 @@ Tags:
     - P/L due to changes in notional value are transferred between parties by the exchange
 - _Clearinghouse_: entity that ensures _market integrity_: each counterparty fulfils their responsibility in the trade
 
+> Note: dropped for now, may resume in the future
+
 ---
 Source: https://www.goodreads.com/book/show/119373.Option_Volatility_Pricing
