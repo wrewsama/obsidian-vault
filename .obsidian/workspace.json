@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
+                "file": "Main Notes/HBR Guide to Office Politics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "If you're ambitious and in your 20s or 30s, please watch this"
+              "title": "HBR Guide to Office Politics"
             }
           }
         ]
@@ -176,8 +176,10 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Source Materials/Books/Games People Play - The Psychology of Human Relationships.md",
+    "Main Notes/Slurm Architecture.md",
+    "Main Notes/HBR Guide to Office Politics.md",
     "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
+    "Source Materials/Books/Games People Play - The Psychology of Human Relationships.md",
     "Source Materials/Books/Option Volatility and Pricing.md",
     "Tags/EQ.md",
     "Tags/Untitled.md",
@@ -200,8 +202,6 @@
     "Main Notes/Class Fields and Methods in Python.md",
     "Main Notes/asyncio in Python.md",
     "Main Notes/Abstract Base Classes in Python.md",
-    "Main Notes/Python MRO.md",
-    "Main Notes/Hashing in Python.md",
     "const/var",
     "const",
     "Projection",
