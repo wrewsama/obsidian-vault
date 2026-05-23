@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/HBR Guide to Office Politics.md",
+                "file": "Main Notes/Claude Prompting Best Practices.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HBR Guide to Office Politics"
+              "title": "Claude Prompting Best Practices"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Main Notes/Slurm Architecture.md",
     "Main Notes/HBR Guide to Office Politics.md",
+    "Main Notes/Claude Prompting Best Practices.md",
+    "Main Notes/Slurm Architecture.md",
     "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
     "Source Materials/Books/Games People Play - The Psychology of Human Relationships.md",
     "Source Materials/Books/Option Volatility and Pricing.md",
@@ -201,7 +202,6 @@
     "Main Notes/Python Scoping.md",
     "Main Notes/Class Fields and Methods in Python.md",
     "Main Notes/asyncio in Python.md",
-    "Main Notes/Abstract Base Classes in Python.md",
     "const/var",
     "const",
     "Projection",
