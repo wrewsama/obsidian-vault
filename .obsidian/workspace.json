@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Claude Prompting Best Practices.md",
+                "file": "Main Notes/HBR Guide to Office Politics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Claude Prompting Best Practices"
+              "title": "HBR Guide to Office Politics"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Main Notes/HBR Guide to Office Politics.md",
     "Main Notes/Claude Prompting Best Practices.md",
+    "Main Notes/HBR Guide to Office Politics.md",
     "Main Notes/Slurm Architecture.md",
     "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
     "Source Materials/Books/Games People Play - The Psychology of Human Relationships.md",
