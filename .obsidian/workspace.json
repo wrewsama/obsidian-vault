@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/HBR Guide to Office Politics.md",
+                "file": "Source Materials/Websites/LLM Wiki.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HBR Guide to Office Politics"
+              "title": "LLM Wiki"
             }
           }
         ]
@@ -176,8 +176,13 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
+    "Source Materials/Books/HBR Guide to Office Politics.md",
+    "Source Materials/Websites/LLM Wiki.md",
+    "Source Materials/Books/Dopamine Nation.md",
+    "Source Materials/Books/The Burnout Society.md",
+    "Main Notes/asyncio in Python.md",
+    "Source Materials/Books/The Comfort Crisis.md",
     "Main Notes/Claude Prompting Best Practices.md",
-    "Main Notes/HBR Guide to Office Politics.md",
     "Main Notes/Slurm Architecture.md",
     "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
     "Source Materials/Books/Games People Play - The Psychology of Human Relationships.md",
@@ -197,11 +202,6 @@
     "Tags/Python.md",
     "Main Notes/Python ChainMap.md",
     "Main Notes/Python Chained Comparisons.md",
-    "Main Notes/Python Locals Function.md",
-    "Main Notes/Python Globals Function.md",
-    "Main Notes/Python Scoping.md",
-    "Main Notes/Class Fields and Methods in Python.md",
-    "Main Notes/asyncio in Python.md",
     "const/var",
     "const",
     "Projection",
