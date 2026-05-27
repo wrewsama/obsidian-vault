@@ -26,6 +26,14 @@ Tags:
     - find out the other party's goals and reasoning, asking directly is an option
     - acknowledge the differences and work together to find a better plan
     - last resort: escalate to a superior
+- difficult conversations
+    - consider your objectives
+    - frame your statements
+    - empathise
+    - focus on the issue at hand
+    - take accountability
+    - propose solutions
+    - don't try to "win"
 
 ---
 Source: https://www.goodreads.com/book/show/21413981-hbr-guide-to-office-politics

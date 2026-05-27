@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/Professional Optimism is a Superpower.md",
+                "file": "Source Materials/Books/HBR Guide to Office Politics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Professional Optimism is a Superpower"
+              "title": "HBR Guide to Office Politics"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Source Materials/Websites/LLM Wiki.md",
     "Source Materials/Websites/Professional Optimism is a Superpower.md",
+    "Source Materials/Websites/LLM Wiki.md",
     "Source Materials/Books/HBR Guide to Office Politics.md",
     "Source Materials/Books/Dopamine Nation.md",
     "Source Materials/Books/The Burnout Society.md",
