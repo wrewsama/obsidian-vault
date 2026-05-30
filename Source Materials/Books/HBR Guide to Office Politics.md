@@ -33,7 +33,7 @@ Tags:
     - focus on the issue at hand
     - take accountability
     - propose solutions
-    - don't try to "win"
+    - don't try to "win" the conversation
 
 ---
 Source: https://www.goodreads.com/book/show/21413981-hbr-guide-to-office-politics
