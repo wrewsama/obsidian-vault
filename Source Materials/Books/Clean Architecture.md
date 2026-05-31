@@ -64,5 +64,13 @@ Goals:
 - solution: separate details (implementation) from policy (business logic)
     - i.e. make the business rules agnostic to the specific technologies (e.g. storage system)
 
+## independence
+- decoupling
+    - horizontal layers: e.g. UI, business rules, database, etc.
+    - vertically: i.e. different _use cases_
+- modes of decoupling
+    - by modules in source code
+    - by deployable units (e.g. packages, jar files, etc.)
+    - by services
 ---
 Source: https://www.goodreads.com/book/show/18043011-clean-architecture

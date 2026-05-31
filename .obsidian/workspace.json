@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Videos/The 7 Skills You Need to Build AI Agents.md",
+                "file": "Source Materials/Books/Clean Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The 7 Skills You Need to Build AI Agents"
+              "title": "Clean Architecture"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Source Materials/Videos/From Vibe Coding to Agentic Engineering.md",
     "Source Materials/Videos/The 7 Skills You Need to Build AI Agents.md",
+    "Source Materials/Videos/From Vibe Coding to Agentic Engineering.md",
     "Source Materials/Videos/How to Win With AI in 2026.md",
     "Source Materials/Books/HBR Guide to Office Politics.md",
     "Source Materials/Websites/Professional Optimism is a Superpower.md",
