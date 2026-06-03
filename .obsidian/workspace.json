@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Clean Architecture.md",
+                "file": "Source Materials/Books/The 7 Habits of Highly Effective People.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Clean Architecture"
+              "title": "The 7 Habits of Highly Effective People"
             }
           }
         ]
@@ -176,6 +176,8 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
+    "Source Materials/Books/Clean Architecture.md",
+    "Source Materials/Books/The 7 Habits of Highly Effective People.md",
     "Source Materials/Videos/The 7 Skills You Need to Build AI Agents.md",
     "Source Materials/Videos/From Vibe Coding to Agentic Engineering.md",
     "Source Materials/Videos/How to Win With AI in 2026.md",
@@ -200,8 +202,6 @@
     "Main Notes/TCP SACK.md",
     "Main Notes/IPv4 Mapped IPv6 Addresses.md",
     "Main Notes/TCP Keepalive.md",
-    "Main Notes/Python Iterable vs Iterator vs Collection.md",
-    "Main Notes/Python Generator send.md",
     "const/var",
     "const",
     "Projection",
