@@ -10,5 +10,10 @@ Tags:
 - take responsibility in making things happen
 - Circle of influence: the subset of things we have control over
     - focus your efforts within that circle
+
+## 2| Begin With The End in Mind
+- write a personal mission statement
+- visualise the goal
+
 ---
 Source: https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People
