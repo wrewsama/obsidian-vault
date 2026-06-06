@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/The 7 Habits of Highly Effective People.md",
+                "file": "Main Notes/Python setuptools.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The 7 Habits of Highly Effective People"
+              "title": "Python setuptools"
             }
           }
         ]
@@ -176,8 +176,15 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Source Materials/Books/Clean Architecture.md",
+    "Main Notes/How Type Checking Works in Python.md",
+    "Main Notes/Python setuptools.md",
+    "Main Notes/Python Wheels.md",
+    "Tags/Python.md",
+    "Main Notes/uv python.md",
+    "Main Notes/ASGI.md",
+    "Main Notes/WSGI.md",
     "Source Materials/Books/The 7 Habits of Highly Effective People.md",
+    "Source Materials/Books/Clean Architecture.md",
     "Source Materials/Videos/The 7 Skills You Need to Build AI Agents.md",
     "Source Materials/Videos/From Vibe Coding to Agentic Engineering.md",
     "Source Materials/Videos/How to Win With AI in 2026.md",
@@ -195,13 +202,6 @@
     "Source Materials/Books/Option Volatility and Pricing.md",
     "Tags/EQ.md",
     "Tags/Untitled.md",
-    "Source Materials/Books/The Elements of Style.md",
-    "Tags/Writing.md",
-    "Main Notes/Durable Execution.md",
-    "Main Notes/Interval Scheduling Maximisation.md",
-    "Main Notes/TCP SACK.md",
-    "Main Notes/IPv4 Mapped IPv6 Addresses.md",
-    "Main Notes/TCP Keepalive.md",
     "const/var",
     "const",
     "Projection",

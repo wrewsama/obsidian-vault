@@ -15,5 +15,6 @@ Tags:
 - write a personal mission statement
 - visualise the goal
 
+## 3| 
 ---
 Source: https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People
