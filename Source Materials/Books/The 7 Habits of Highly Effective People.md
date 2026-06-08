@@ -37,5 +37,9 @@ Tags:
 - empathic listening: not just mimicking the other person, understand what the other person is feeling and reflect that
 - very similar to labelling in [[Never Split the Difference]]
 
+## 6| Synergise
+- working together such that the whole is greater than the sum of its parts
+- value the differences between (you and) other people
+
 ---
 Source: https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People

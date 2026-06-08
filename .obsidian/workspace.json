@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/The 7 Habits of Highly Effective People.md",
+                "file": "Main Notes/Sharpe Ratio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The 7 Habits of Highly Effective People"
+              "title": "Sharpe Ratio"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "68dbab54a226f580",
   "lastOpenFiles": [
-    "Source Materials/Books/Never Split the Difference.md",
     "Source Materials/Books/The 7 Habits of Highly Effective People.md",
+    "Main Notes/Sharpe Ratio.md",
+    "Source Materials/Books/Never Split the Difference.md",
     "Main Notes/Python setuptools.md",
     "Main Notes/How Type Checking Works in Python.md",
     "Main Notes/Python Wheels.md",
@@ -201,7 +202,6 @@
     "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
     "Source Materials/Books/Games People Play - The Psychology of Human Relationships.md",
     "Source Materials/Books/Option Volatility and Pricing.md",
-    "Tags/EQ.md",
     "const/var",
     "const",
     "Projection",
