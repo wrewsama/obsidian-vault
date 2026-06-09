@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "68dbab54a226f580",
+            "id": "029f3c9d6b333451",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Sharpe Ratio.md",
+                "file": "Main Notes/Linux watch Command.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sharpe Ratio"
+              "title": "Linux watch Command"
             }
           }
         ]
@@ -174,34 +174,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68dbab54a226f580",
+  "active": "029f3c9d6b333451",
   "lastOpenFiles": [
-    "Source Materials/Books/The 7 Habits of Highly Effective People.md",
-    "Main Notes/Sharpe Ratio.md",
-    "Source Materials/Books/Never Split the Difference.md",
-    "Main Notes/Python setuptools.md",
-    "Main Notes/How Type Checking Works in Python.md",
-    "Main Notes/Python Wheels.md",
-    "Tags/Python.md",
-    "Main Notes/uv python.md",
-    "Main Notes/ASGI.md",
-    "Main Notes/WSGI.md",
-    "Source Materials/Books/Clean Architecture.md",
-    "Source Materials/Videos/The 7 Skills You Need to Build AI Agents.md",
-    "Source Materials/Videos/From Vibe Coding to Agentic Engineering.md",
-    "Source Materials/Videos/How to Win With AI in 2026.md",
-    "Source Materials/Books/HBR Guide to Office Politics.md",
+    "Main Notes/Linux watch Command.md",
+    "Main Notes/Python Protocols.md",
     "Source Materials/Websites/Professional Optimism is a Superpower.md",
     "Source Materials/Websites/LLM Wiki.md",
-    "Source Materials/Books/Dopamine Nation.md",
-    "Source Materials/Books/The Burnout Society.md",
-    "Main Notes/asyncio in Python.md",
+    "Source Materials/Videos/The 7 Skills You Need to Build AI Agents.md",
+    "Source Materials/Videos/How to Win With AI in 2026.md",
+    "Source Materials/Videos/From Vibe Coding to Agentic Engineering.md",
     "Source Materials/Books/The Comfort Crisis.md",
+    "Source Materials/Books/The Burnout Society.md",
+    "Source Materials/Books/The 7 Habits of Highly Effective People.md",
+    "Source Materials/Books/HBR Guide to Office Politics.md",
+    "Main Notes/Sharpe Ratio.md",
+    "Main Notes/Python setuptools.md",
+    "Main Notes/Python Wheels.md",
     "Main Notes/Claude Prompting Best Practices.md",
+    "Main Notes/ASGI.md",
     "Main Notes/Slurm Architecture.md",
+    "Main Notes/HBR Guide to Office Politics.md",
     "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
     "Source Materials/Books/Games People Play - The Psychology of Human Relationships.md",
     "Source Materials/Books/Option Volatility and Pricing.md",
+    "Tags/EQ.md",
+    "Tags/Untitled.md",
+    "Source Materials/Books/The Elements of Style.md",
+    "Tags/Writing.md",
+    "Main Notes/Durable Execution.md",
     "const/var",
     "const",
     "Projection",
