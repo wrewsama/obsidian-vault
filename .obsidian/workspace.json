@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Linux watch Command.md",
+                "file": "Main Notes/Graph Cycle Detection.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Linux watch Command"
+              "title": "Graph Cycle Detection"
             }
           }
         ]
@@ -176,6 +176,11 @@
   },
   "active": "029f3c9d6b333451",
   "lastOpenFiles": [
+    "Main Notes/B Trees.md",
+    "Main Notes/Graph Cycle Detection.md",
+    "Tags/Data Structures and Algorithms.md",
+    "Tags/Operating Systems.md",
+    "Main Notes/Airflow.md",
     "Main Notes/Linux watch Command.md",
     "Main Notes/Python Protocols.md",
     "Source Materials/Websites/Professional Optimism is a Superpower.md",
@@ -197,11 +202,6 @@
     "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
     "Source Materials/Books/Games People Play - The Psychology of Human Relationships.md",
     "Source Materials/Books/Option Volatility and Pricing.md",
-    "Tags/EQ.md",
-    "Tags/Untitled.md",
-    "Source Materials/Books/The Elements of Style.md",
-    "Tags/Writing.md",
-    "Main Notes/Durable Execution.md",
     "const/var",
     "const",
     "Projection",
