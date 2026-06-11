@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Graph Cycle Detection.md",
+                "file": "Main Notes/Sparse Table.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Graph Cycle Detection"
+              "title": "Sparse Table"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "029f3c9d6b333451",
   "lastOpenFiles": [
-    "Main Notes/B Trees.md",
     "Main Notes/Graph Cycle Detection.md",
+    "Main Notes/Sparse Table.md",
+    "Main Notes/B Trees.md",
     "Tags/Data Structures and Algorithms.md",
     "Tags/Operating Systems.md",
     "Main Notes/Airflow.md",
@@ -201,7 +202,6 @@
     "Main Notes/HBR Guide to Office Politics.md",
     "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
     "Source Materials/Books/Games People Play - The Psychology of Human Relationships.md",
-    "Source Materials/Books/Option Volatility and Pricing.md",
     "const/var",
     "const",
     "Projection",
