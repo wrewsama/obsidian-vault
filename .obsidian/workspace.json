@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Sparse Table.md",
+                "file": "Source Materials/Books/The 7 Habits of Highly Effective People.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sparse Table"
+              "title": "The 7 Habits of Highly Effective People"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "029f3c9d6b333451",
   "lastOpenFiles": [
-    "Main Notes/Graph Cycle Detection.md",
     "Main Notes/Sparse Table.md",
+    "Main Notes/Graph Cycle Detection.md",
     "Main Notes/B Trees.md",
     "Tags/Data Structures and Algorithms.md",
     "Tags/Operating Systems.md",

@@ -41,5 +41,13 @@ Tags:
 - working together such that the whole is greater than the sum of its parts
 - value the differences between (you and) other people
 
+## 7| Sharpen the Saw
+- investing time in exercising
+    - physically
+    - mentally
+    - socially
+    - spiritually
+> There is a space between stimulus and response, and the key to happiness lies in how we use that space
+
 ---
 Source: https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People
