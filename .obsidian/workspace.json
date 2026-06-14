@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/The 7 Habits of Highly Effective People.md",
+                "file": "Main Notes/Thinking In Bets.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The 7 Habits of Highly Effective People"
+              "title": "Thinking In Bets"
             }
           }
         ]
@@ -176,6 +176,15 @@
   },
   "active": "029f3c9d6b333451",
   "lastOpenFiles": [
+    "Source Materials/Books/TCP IP Illustrated.md",
+    "Main Notes/TCP Handshakes.md",
+    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
+    "Main Notes/Async IO in Linux.md",
+    "Main Notes/Metaclasses in Python.md",
+    "Main Notes/POSIX Shared Memory.md",
+    "Main Notes/SystemV Shared Memory.md",
+    "Main Notes/Thinking In Bets.md",
+    "Source Materials/Books/The 7 Habits of Highly Effective People.md",
     "Main Notes/Sparse Table.md",
     "Main Notes/Graph Cycle Detection.md",
     "Main Notes/B Trees.md",
@@ -191,17 +200,8 @@
     "Source Materials/Videos/From Vibe Coding to Agentic Engineering.md",
     "Source Materials/Books/The Comfort Crisis.md",
     "Source Materials/Books/The Burnout Society.md",
-    "Source Materials/Books/The 7 Habits of Highly Effective People.md",
     "Source Materials/Books/HBR Guide to Office Politics.md",
     "Main Notes/Sharpe Ratio.md",
-    "Main Notes/Python setuptools.md",
-    "Main Notes/Python Wheels.md",
-    "Main Notes/Claude Prompting Best Practices.md",
-    "Main Notes/ASGI.md",
-    "Main Notes/Slurm Architecture.md",
-    "Main Notes/HBR Guide to Office Politics.md",
-    "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
-    "Source Materials/Books/Games People Play - The Psychology of Human Relationships.md",
     "const/var",
     "const",
     "Projection",

@@ -204,7 +204,7 @@ types of IP addresses :
 - asymmetric key encryption
     - RSA
     - Diffie Hellman
-- Nonces: to prevent server gives client a random number, client needs to respond with that
+- Nonces: to prevent replay attacks, server gives client a new, unused random number for each interaction, client needs to respond with that
 - Salt: to prevent brute force / rainbow table attacks, add salt to value before hashing, then save hash value with the salt
 - Message Authentication Codes (MAC): ensure message integrity and auth
 - Certificate Authorities (CA): to ensure the correct public key for some identity

@@ -687,7 +687,7 @@ creating and writing to file:
 		- every new 'version' of a file / inode is appended after the previous
 		- this is buffered in an in-memory segment
 		- when a segment is sufficiently full, or after some time, it is written to disk
-		- inode map / imap: maps inode number to most address of recent version of that inode
+		- inode map / imap: maps inode number to address of most recent version of that inode
 	- checkpoint: pointers to latest pieces of the inode map, updated periodically
 - garbage collection
 	- cleaner process periodically reads, frees garbage in, then compacts several old segments at once
