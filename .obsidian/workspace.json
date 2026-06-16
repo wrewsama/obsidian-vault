@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Thinking In Bets.md",
+                "file": "Main Notes/Newton Raphson.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Thinking In Bets"
+              "title": "Newton Raphson"
             }
           }
         ]
@@ -176,6 +176,8 @@
   },
   "active": "029f3c9d6b333451",
   "lastOpenFiles": [
+    "Main Notes/Thinking In Bets.md",
+    "Main Notes/Newton Raphson.md",
     "Source Materials/Books/TCP IP Illustrated.md",
     "Main Notes/TCP Handshakes.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
@@ -183,7 +185,6 @@
     "Main Notes/Metaclasses in Python.md",
     "Main Notes/POSIX Shared Memory.md",
     "Main Notes/SystemV Shared Memory.md",
-    "Main Notes/Thinking In Bets.md",
     "Source Materials/Books/The 7 Habits of Highly Effective People.md",
     "Main Notes/Sparse Table.md",
     "Main Notes/Graph Cycle Detection.md",
@@ -201,7 +202,6 @@
     "Source Materials/Books/The Comfort Crisis.md",
     "Source Materials/Books/The Burnout Society.md",
     "Source Materials/Books/HBR Guide to Office Politics.md",
-    "Main Notes/Sharpe Ratio.md",
     "const/var",
     "const",
     "Projection",
