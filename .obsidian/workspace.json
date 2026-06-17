@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Newton Raphson.md",
+                "file": "Tags/Computer Networking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Newton Raphson"
+              "title": "Computer Networking"
             }
           }
         ]
@@ -176,8 +176,22 @@
   },
   "active": "029f3c9d6b333451",
   "lastOpenFiles": [
-    "Main Notes/Thinking In Bets.md",
+    "Main Notes/HTTP Pipelining.md",
+    "Tags/Computer Networking.md",
+    "Main Notes/How Video Streaming Works.md",
+    "Main Notes/How a Browser Displays Websites.md",
+    "Main Notes/Gratuitous ARP.md",
+    "Main Notes/Forward and Reverse Proxies.md",
+    "Main Notes/Endian.md",
+    "Main Notes/Diffie-Hellman Key Exchange.md",
+    "Main Notes/DHCP.md",
+    "Main Notes/CORS.md",
+    "Source Materials/Websites/System Design in a Hurry.md",
+    "Main Notes/CDN.md",
+    "Main Notes/ARP.md",
     "Main Notes/Newton Raphson.md",
+    "Main Notes/computer .md",
+    "Main Notes/Thinking In Bets.md",
     "Source Materials/Books/TCP IP Illustrated.md",
     "Main Notes/TCP Handshakes.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
@@ -188,20 +202,6 @@
     "Source Materials/Books/The 7 Habits of Highly Effective People.md",
     "Main Notes/Sparse Table.md",
     "Main Notes/Graph Cycle Detection.md",
-    "Main Notes/B Trees.md",
-    "Tags/Data Structures and Algorithms.md",
-    "Tags/Operating Systems.md",
-    "Main Notes/Airflow.md",
-    "Main Notes/Linux watch Command.md",
-    "Main Notes/Python Protocols.md",
-    "Source Materials/Websites/Professional Optimism is a Superpower.md",
-    "Source Materials/Websites/LLM Wiki.md",
-    "Source Materials/Videos/The 7 Skills You Need to Build AI Agents.md",
-    "Source Materials/Videos/How to Win With AI in 2026.md",
-    "Source Materials/Videos/From Vibe Coding to Agentic Engineering.md",
-    "Source Materials/Books/The Comfort Crisis.md",
-    "Source Materials/Books/The Burnout Society.md",
-    "Source Materials/Books/HBR Guide to Office Politics.md",
     "const/var",
     "const",
     "Projection",
