@@ -3,7 +3,8 @@ Tags:
 - [[Python]]
 ---
 - Syntactic sugar that lets us build mapped / filtered lists or dicts or sets from a given iterable
-
+- more performant than looping and modifying the collection
+    - more efficient bytecode (e.g. `LIST_APPEND` instead of `LOAD_METHOD` on python's list's `append`)
 ## nested case
 **left-right => outside-in**
 ```python

@@ -9,6 +9,8 @@ Tags:
     - if there are multiple except blocks that match, the first will execute, even if it's less specific
 - can re-raise the caught exception with a bare `raise`
 - or _chain_ the exception with `raise OtherException from exc`
+- a bare `except` catches all subclasses of `BaseException` (NOT `Exception`)
+    - this means things like `KeyboardInterrupt` and `SystemExit` are caught too
 ## else
 - executes when the try block finishes **completely**
 - if the try exits with `return`, `break`, or `continue`, `else` isn't executed

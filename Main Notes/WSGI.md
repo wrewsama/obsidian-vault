@@ -1,6 +1,5 @@
 Tags:
 - [[Python]] 
-- [[Computer Networking]]
 ---
 Web Server Gateway Interface: defines standard interface between web servers (e.g. Nginx) and Python web apps
 
