@@ -5,5 +5,7 @@ Tags:
     - great decisions can have bad results just by bad luck and the opposite is also true
 - life is more like poker than chess: you don't have all the information; each decision is a bet you make based on what you have
 - these bets are influenced by our beliefs, which are often wrong
+- beware the **self-serving bias**: was your failure _really_ bad luck or was it a bad decision? Was your success _really_ a good decision or just good luck
+    - the same applies to judging others' results
 ---
 Source: https://www.goodreads.com/book/show/35957157-thinking-in-bets

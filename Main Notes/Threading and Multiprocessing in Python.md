@@ -5,7 +5,7 @@ Tags:
 - start running a thread: `t.start()`
 - wait for a thread to complete: `t.join()`
 
-> Note: Python `threading` using **kernel threads** [[Kernel VS User Threads]]
+> Note: Python `threading` uses **kernel threads** [[Kernel VS User Threads]]
 
 |                     | threading                                                                                | multiprocessing                                 |
 | ------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------- |

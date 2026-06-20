@@ -31,7 +31,7 @@ Prio setting/changing rules
 - when scheduling decisions occur, pick the process with the lowest `vruntime`
 	- this is done using a red black tree
 - scheduling decisions occur after a certain latency. This latency is proportional to `1 / num_processes` (as more processes start, latency decreases to some fixed floor)
-- _niceness_
+- [[Linux Niceness]]
 	- each process has a nice level between $-20$ and $19$ (default = $0$)
 	- each nice level is mapped to a `weight`, higher niceness => lower weight
 	- when process $i$ runs, increment $vruntime_i$ by $\frac{weight_0}{weight_i} * runtime_i$
