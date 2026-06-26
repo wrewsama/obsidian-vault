@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Thinking In Bets.md",
+                "file": "Source Materials/Websites/System Design in a Hurry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Thinking In Bets"
+              "title": "System Design in a Hurry"
             }
           }
         ]
@@ -176,12 +176,14 @@
   },
   "active": "029f3c9d6b333451",
   "lastOpenFiles": [
+    "Source Materials/Websites/Low Level Design In a Hurry.md",
+    "Source Materials/Websites/System Design in a Hurry.md",
+    "Main Notes/Thinking In Bets.md",
     "Main Notes/SystemV Shared Memory.md",
     "Main Notes/What is Kubernetes.md",
     "Tags/Kubernetes.md",
     "Main Notes/Pros and Cons of Kubernetes.md",
     "Main Notes/Kubernetes Architecture.md",
-    "Main Notes/Thinking In Bets.md",
     "Tags/Operating Systems.md",
     "Main Notes/Why Sequential IO is fast even on SSDs.md",
     "Main Notes/sysroot.md",
@@ -200,8 +202,6 @@
     "Main Notes/OS Contexts.md",
     "Main Notes/Onload.md",
     "Main Notes/mmap.md",
-    "Main Notes/Microkernel vs Monolithic OS.md",
-    "Main Notes/malloc and free.md",
     "const/var",
     "const",
     "Projection",

@@ -154,6 +154,23 @@ Tags:
     - default: normalised
     - denormalise only if you need to sacrifice consistency for performance/scale
 - shard if the DB has insufficient space
+
+## Database Indexing
+- B Tree indexes (default option)
+- LSM Trees: for high write loads
+    - write to memtable (RB tree) and WAL, then return
+    - if memtable reaches size limit: flush to SSTable (sorted string table)
+    - asynchronously compact the SSTables
+- Hash indexes: for very fast exact-matches, in practice not that much faster than B trees
+- Geospatial: "nearby" queries
+    - indexing latitude and longitude separately is inefficient
+    - geohash: grid location -> hash value; similar hashes => close by
+    - R-Tree: recursively subdivide each region into overlapping rectangles
+- inverted indexes: full text search
+- other optimisations
+    - composite indexes
+    - covering indexes (`CREATE INDEX ... ON ... INCLUDE...`)
+
 ## Caching
 - architectures
     - cache aside (read cache and fallback to DB, write to DB and invalidate cache; simple default)
@@ -200,6 +217,23 @@ Tags:
 - when to choose availability
     - social media, content, review sites
 
+## Numbers To Know
+
+| Component     | Key Metrics (single instance)                                | When to scale out                                             |
+| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------- |
+| Cache         | latency: 1ms<br>ops/s: 100K<br>mem limit: 1TB                | hit rate < 80%<br>latency > 1ms<br>mem usage > 800GB          |
+| Database      | TPS: 10k<br>read latency: 5ms<br>storage: 64TB               | TPS > 10k<br>latency > 5ms<br>need geographic distribution    |
+| App server    | connections: 100k<br>cores: 8-64<br>RAM: 64-512GB, up to 2TB | CPU > 70%<br>latency > SLA<br>connections > 100k<br>mem > 80% |
+| Message Queue | msgs/s: 1 million<br>latency: 5ms<br>storage: 50TB<br>       | throughput > 800k<br>partition count: 200k<br>consumer lag    |
+in general, scale out when
+- > 80% resource usage
+- high latency
+- high QPS
+
+in general, servers have
+- 10k-100k qps
+- few hundred GB of memory
+- tens of TB of storage
 ## Redis
 - configurations: single node, High-Availability replica, cluster
     - for clusters: nodes gossip, client asks a node for key -> node mappings, client caches it so it can query only the node with the desired data
@@ -300,6 +334,24 @@ Tags:
 - when NOT to use it
     - very high volume workloads (=> high AWS costs)
     - complex queries (joins and aggregations)
+
+## PostgreSQL
+- GIN indexes: Generalised Inverted Indexes, for simple full-text search
+    - performant, but lacks elasticsearch features like relevancy scoring, fuzzy matching, distributed search, etc.
+- PostGIS GiST indexes: Geospatial search index using R Trees
+- write process
+    - write to memory pages in buffer cache and write to WAL (sequential on disk)
+    - delayed flush from memory pages to disk
+        - when memory pressure gets too high or
+        - checkpoint occurs
+    - the above is done for the actual data as well as any indexes on the target table
+
+## Flink
+TODO
+
+## ZooKeeper
+TODO
+
 ## Time Series Databases
 - e.g. Prometheus, InfluxDB
 - data model
