@@ -1,6 +1,8 @@
 Tags:
 - [[System Design]]
 ---
+# In a Hurry
+---
 ## Delivery Framework
 - Requirements
     - Functional: "Users should be able to X"
@@ -75,6 +77,8 @@ Tags:
 - proximity services
     - geospatial indexes to efficiently search by location
 
+# Core Concepts
+---
 ## Networking
 - transport layer
     - TCP: more reliable (in order, no drops or errors)
@@ -234,6 +238,169 @@ in general, servers have
 - 10k-100k qps
 - few hundred GB of memory
 - tens of TB of storage
+
+# Patterns
+---
+## Real Time Updates
+core issue: need event (e.g. user sends chat message, LLM sends output) -> server -> client (chat recipient, LLM chatbot web interface)
+
+- server -> user
+    - simple polling: simplest
+    - long polling: simple, with less latency / bandwidth usage than simple polling
+        - client sends poll request to server
+        - server waits until it gets and event (or timeout) then returns
+        - client immediately sends next poll request
+    - server-sent events: unidirectional streaming from the server to the client
+        - client establishes SSE connection (e.g. with `EventSource`) (actually just a normal HTTP connection)
+        - server responds with special `Transfer-Encoding: chunked` header and sends those chunks (each event) to the client
+    - websockets: full-duplex client <> server
+        - client and server establish HTTP connection
+        - client "upgrades" the connection by initiating WebSocket handshake
+        - **edge-case**: L7 load balancers don't guarantee each incoming request uses the same TCP connection, which means client requests may go to a server that doesn't have the websocket connection state, thus failing
+    - webRTC: peer-to-peer
+        - peers request the signalling server for peer discovery
+        - connect and stream data to each other directly
+        - fallback to connecting to an intermediate server (STUN or TURN) if the peers can't connect to each other (e.g. because of NAT)
+- event -> server
+    - pulling by polling: simplest 
+        - source event (e.g. LLM, other client) updates DB
+        - server exposes polling endpoint that checks DB for the latest events
+    - pushing with consistent hashing: better latency, but very complex
+        - event source pushes event to any server instance
+        - server uses consistent hashing to determine the client to push to
+    - pushing by message queue: **default option**. Good balance of performance and simplicity
+        - when server establishes a connection to a client, register a topic on the message queue for that connection and subscribes to it
+        - event source pushes event to message queue on the relevant topic
+        - server consumes the message from the topic and sends the relevant data to the corresponding client
+
+- deep dives
+    - connection failures: use heartbeats to detect
+    - celebrity problem: batching and hierarchical aggregation
+    - message ordering: single node, or vector clocks
+
+## Dealing with Contention
+core issue: race conditions between different client requests
+
+- conditional writes: simplest, best option if possible
+    - single atomic `UPDATE table SET ... WHERE <condition>`
+    - need to model the resource under contention as its own row
+    - condition must also be simple enough to put in an SQL WHERE clause
+- pessimistic locking: simple and flexible
+    - `SELECT ... FOR UPDATE` to lock the rows throughout the transaction
+    - you can then use application code to determine next steps
+- optimistic locking: good if conflicts are rare
+    - keep a monotonically increasing value column, usually a `version` number
+    - `UPDATE` only if the row's `version` equals what was read at the start of the transaction
+- isolation levels: for trickier problems like write skew, where there's no single row collision
+    - use `SERIALIZABLE`
+- distributed locks: when the resource must be held for longer than the transaction (several minutes)
+    - column on DB
+    - Redis value (with possible TTL)
+    - ZooKeeper / etcd
+
+- deep dives
+    - deadlock prevention: ordered locking
+    - ABA problem: use monotonically increasing column
+    - celebrity problem: queue-based serialisation (queue + single async worker)
+
+## Multi-Step Processes
+core issue: long-running, multi-step operations; Need to handle failures and retries
+
+- event-driven choreography: simple, fault-tolerant, and scalable. But difficult to debug as no single service knows the full saga
+    - for each request, server sends event to an event store
+    - each step has its own workers, that listen and write relevant events to the event store (e.g. Payment workers look for `PaymentCreated` and emit `PaymentCharged` once done)
+- durable execution (e.g. Temporal): supports _reliable_ long-running processes
+    - activity: an idempotent unit of work
+    - workflow: deterministic orchestration of activities
+    - requests go to a Temporal server, that tracks the states/results of workflows and activities in a DB
+    - Workflow workers run the workflow, telling the Temporal Server to queue Activities as needed
+    - Activity workers run the activities and report the results back to the Temporal Server
+    - on a workflow crash, Temporal will replay the history, using the saved Activity results instead of rerunning them
+
+- deep dives
+    - the process running the saga crashes: durable progress: track what's been done and on failure, rerun the saga while skipping already-done tasks
+    - handling updates: workflow versioning
+    - avoiding unbounded workflow state size: continue-as-new
+        - snapshot the current state and hand off to a new workflow run with an empty history
+        - no need to replay the entire history
+## Scaling Reads
+- indexing
+- vertical scaling
+- denormalisation (avoid overhead of joins, at the expense of duplicated data and complexity of keeping the DB in a consistent state)
+- materialised views computed via background jobs
+- read replicas
+    - can be sync or async, trading consistency for latency (PACELC)
+- sharding
+    - by domain (e.g. different tables in different database nodes)
+    - geographic
+- app level caching (e.g. cache-aside with Redis)
+- CDN caching
+
+- deep dives
+    - latency increasing with dataset size and CPU at 100%: use indexes to avoid full-table scans
+    - celebrity problem on cache: duplicate into multiple keys and client-side load balance; OR request coalescing within each backend host
+    - cache stampede (hot key expires, many requests trigger DB reads for that key): early refresh - either probabilistic on each request or scheduled as a background job
+    - immediate cache invalidation: cache versioning
+        - server caches a version key
+        - data is read using the requested key + the current version key
+        - writes increment that key
+        - _directly invalidating the cache is not feasible as the data could be cached on many levels (app, CDN, browser, etc.)_
+## Scaling Writes
+- vertical scaling
+- database choice (e.g. Cassandra)
+- horizontal sharding with appropriate shard key
+- vertical sharding
+- write queues (for burst handling)
+- load shedding (also for burst handling)
+    - drop writes in the backend service based on domain rules (e.g. Uber driver location updates that were already recently updated)
+- batching writes
+    - batching in the client
+    - intermediate "batcher" service between client and core backend service
+- hierarchical aggregation: process data in horizontally-partitioned stages, reducing volume at each step
+    - writes (client-side) load balanced between write processor servers that send the writes to the core backend service
+    - core service can load balance between broadcast nodes to send updates to consumers
+    - reduces the sheer volume of incoming and outgoing connections, and allows the writes to be batched, decreasing the load on the core backend service
+
+- deep dives
+    - resharding: dual writes to both old and new shard
+    - hot key: split them into multiple keys
+
+## Handling Large Blobs
+core issue: uploading/downloading files > 10MB
+
+- direct upload / download
+    - server returns a **presigned URL** to client
+    - presigned URL essentially is an endpoint to the object storage (blob storage like S3 or CDN like CloudFront) with an expiry time and a signature from the server
+    - client uploads/downloads directly from the object store with that URL
+- resumable uploads
+    - handled by cloud providers by using chunks and a a single resumable upload URL
+- state synchronisation (e.g. when is the file fully uploaded): use event notifications from the object store
+
+- deep dives
+    - validating uploads: upload to quarantine bucket, run validation pipeline before promoting to prod bucket
+    - metadata: server creates metadata row in DB, updates based on event notifications from the object store
+    - download performance: CDNs for geographical latency; Parallel chunk downloads for large files
+## Managing Long-Running Tasks
+- intuition
+    - client submits request to server
+    - server 
+        - creates job entry in DB
+        - publishes job id to job queue
+        - immediately returns ok to user
+    - workers
+        - consume from job queue
+        - perform task
+        - update DB
+- deep dives
+    - worker host failures: heartbeats
+    - job failures: retries with threshold + dead letter queue
+    - duplicate work: idempotency
+        - key can be something like (user_id, action, rounded_timestamp) so if we round to the nearest minute, 2 duplicate requests in the same minute will be deduplicated
+    - backpressure: queue depth limits
+    - mixed workloads: separate queues and/or workers
+        - job type or expected duration
+# Key Technologies
+---
 ## Redis
 - configurations: single node, High-Availability replica, cluster
     - for clusters: nodes gossip, client asks a node for key -> node mappings, client caches it so it can query only the node with the desired data
