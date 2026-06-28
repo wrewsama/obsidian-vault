@@ -514,8 +514,29 @@ core issue: uploading/downloading files > 10MB
     - the above is done for the actual data as well as any indexes on the target table
 
 ## Flink
-TODO
-
+- purpose: scalable, stateful stream processing (e.g. aggregation over 5 minute window => can't naively consume from a kafka topic and process individual messages)
+- basic concepts
+    - dataflow graph: DAG representing the flow of data through the system
+    - source: inputs e.g. Kafka, file systems, etc.
+    - sink: outputs e.g. Kafka (again), databases, etc.
+    - stream: sequence of events flowing between each node in the dataflow graph
+    - operators: nodes on the dataflow graph e.g. map, filter, reduce, aggregate
+    - state: internal values that need to persist across events (e.g. number of user clicks over a 5 min window)
+    - watermarks: marker that flows through the graph to indicate that all events before some timestamp have arrived
+        - triggers time window computations
+        - lets workers know if an event is late
+    - window: range of time, can have multiple settings (e.g. tumbling, sliding, etc.)
+- architecture
+    - job manager (orchestrator) receives job and constructs dataflow graph
+    - job manager allocates to task managers (workers)
+    - internal state is stored in the _state backend_ based on user config (memory, file, DB)
+    - state (job, task, source) is checkpointed with Chandy-Lamport, also stored in state backend
+    - on failure (detected via heartbeats)
+        - **all** tasks in the job are paused
+        - job manager retrieves the last checkpoint and redistributes the tasks
+        - the task managers restore state from the checkpoint
+        - sources rewind to the checkpoint position
+        - processing resumes
 ## ZooKeeper
 TODO
 
