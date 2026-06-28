@@ -538,7 +538,22 @@ core issue: uploading/downloading files > 10MB
         - sources rewind to the checkpoint position
         - processing resumes
 ## ZooKeeper
-TODO
+- capabilities for distributed systems
+    - config management
+    - service discovery
+    - leader election
+    - distributed locks
+- basic concepts
+    - ZNode: similar concept to files in a filesystem: data and metadata associated with a path
+        - can be persistent, ephemeral (deleted once the client connection that created them ends), or sequential (writes to it go to a ZNode with a similar path but with a monotonically increasing counter appended)
+    - ensemble: group of servers with a single leader, each server keeps data in memory
+        - leader handles writes and broadcasts to followers, only ack once a majority of followers ack
+        - followers handle reads
+        - group can function as long as > half are up
+    - watchers: callbacks for clients when the watched ZNode changes
+- how it works
+    - ZooKeeper Atomic Broadcast for leader election and replication from leader to followers
+    - transaction log on disk + snapshots for durability
 
 ## Time Series Databases
 - e.g. Prometheus, InfluxDB
