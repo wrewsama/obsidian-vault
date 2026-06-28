@@ -1,6 +1,6 @@
 Tags:
 - [[Software Engineering]]
-
+- [[Debugging]]
 ---
 1. Study the symptoms
     1. What is going on

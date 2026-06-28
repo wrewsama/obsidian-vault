@@ -1,5 +1,6 @@
 Tags:
 - [[Tags/Docker|Docker]]
+- [[Debugging]]
 ---
 - `docker logs [CONTAINER]`
 - `docker exec [OPTIONS] [CONTAINER] [COMMAND]`

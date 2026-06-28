@@ -10,5 +10,8 @@ Tags:
 - find a group of people that challenge your thinking
 - the more detail you provide, the better others can rate how good your decision was
 - the accuracy of a statement should be evaluated independent of its source
+- Ulysses Contract: anticipating a possible emotional decision from yourself in the future, then immediately taking precautions to restrict those bad decisions
+- backcasting: imagine a positive future, work backwards from it, and observe the decisions you needed to get there
+- premortem: imagine a negative future, then think of the reasons why it happened
 ---
 Source: https://www.goodreads.com/book/show/35957157-thinking-in-bets

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/System Design in a Hurry.md",
+                "file": "Main Notes/Debugging Process.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design in a Hurry"
+              "title": "Debugging Process"
+            }
+          },
+          {
+            "id": "0b81707596bda643",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main Notes/Why Programs Fail.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Why Programs Fail"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,13 +199,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "029f3c9d6b333451",
+  "active": "0b81707596bda643",
   "lastOpenFiles": [
+    "Main Notes/Debugging Methods in Docker.md",
+    "Tags/Debugging.md",
+    "Main Notes/Debugging Process.md",
+    "Main Notes/Why Programs Fail.md",
+    "Source Materials/Books/Thinking In Bets.md",
+    "Source Materials/Websites/System Design in a Hurry.md",
     "Source Materials/Books/System Design Interview Volume 2.md",
     "Source Materials/Books/System Design Interview Volume 1.md",
-    "Source Materials/Websites/System Design in a Hurry.md",
     "Source Materials/Websites/Low Level Design In a Hurry.md",
-    "Main Notes/Thinking In Bets.md",
     "Main Notes/SystemV Shared Memory.md",
     "Main Notes/What is Kubernetes.md",
     "Tags/Kubernetes.md",
@@ -198,10 +227,6 @@
     "Main Notes/Process Namespaces.md",
     "Main Notes/Process Groups & Sessions.md",
     "Main Notes/POSIX Shared Memory.md",
-    "Main Notes/Paging vs Segmentation in OS.md",
-    "Main Notes/OS Scheduling.md",
-    "Main Notes/OS Kernel.md",
-    "Main Notes/OS Contexts.md",
     "const/var",
     "const",
     "Projection",
