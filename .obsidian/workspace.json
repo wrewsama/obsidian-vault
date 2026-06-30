@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "029f3c9d6b333451",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Main Notes/Debugging Process.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Debugging Process"
-            }
-          },
-          {
             "id": "0b81707596bda643",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Why Programs Fail.md",
+                "file": "Main Notes/ss.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Why Programs Fail"
+              "title": "ss"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,12 +176,23 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
+    "Main Notes/Sockets.md",
+    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
+    "Main Notes/ss.md",
+    "Main Notes/strace.md",
+    "Main Notes/TCP Buffers.md",
+    "Source Materials/Books/TCP IP Illustrated.md",
+    "Main Notes/User Space vs Kernel Space.md",
+    "Main Notes/OS Kernel.md",
+    "Main Notes/Page Fault.md",
+    "Main Notes/UDP multicast.md",
+    "Tags/Computer Networking.md",
+    "Source Materials/Websites/System Design in a Hurry.md",
+    "Main Notes/Why Programs Fail.md",
     "Main Notes/Debugging Methods in Docker.md",
     "Tags/Debugging.md",
     "Main Notes/Debugging Process.md",
-    "Main Notes/Why Programs Fail.md",
     "Source Materials/Books/Thinking In Bets.md",
-    "Source Materials/Websites/System Design in a Hurry.md",
     "Source Materials/Books/System Design Interview Volume 2.md",
     "Source Materials/Books/System Design Interview Volume 1.md",
     "Source Materials/Websites/Low Level Design In a Hurry.md",
@@ -216,17 +202,6 @@
     "Main Notes/Pros and Cons of Kubernetes.md",
     "Main Notes/Kubernetes Architecture.md",
     "Tags/Operating Systems.md",
-    "Main Notes/Why Sequential IO is fast even on SSDs.md",
-    "Main Notes/sysroot.md",
-    "Main Notes/Stack Heap.md",
-    "Main Notes/Special Linux File Permissions.md",
-    "Main Notes/SIGINT vs SIGTERM vs SIGKILL.md",
-    "Main Notes/Purpose of the OS.md",
-    "Main Notes/PTY (pseudoterminals).md",
-    "Main Notes/Processes vs Threads.md",
-    "Main Notes/Process Namespaces.md",
-    "Main Notes/Process Groups & Sessions.md",
-    "Main Notes/POSIX Shared Memory.md",
     "const/var",
     "const",
     "Projection",

@@ -2,7 +2,7 @@ Tags:
 - [[Computer Networking]]
 ---
 - Sender sends to multicast group (identified by IP address and port)
-    - IPv4 range `224.0.0.0 - 239.255.255.255`
+    - IPv4 range `224.0.0.0 - 239.255.255.255` (class D 1110 prefix)
     - IPv6 range `ff00::/8`
 - They also have a MAC address, derived from a fixed prefix and the last `n` bits of the IP address (different for v4 and v6)
 - Receivers
