@@ -17,8 +17,14 @@ Tags:
     - Isolate infection chain
     - Correct defect
 ## Tracking Problems
-TODO
-
+- track the issue and resolution process
+- bug report contents
+    - 1 line summary
+    - steps to reproduce
+    - diagnostics (e.g. logs)
+    - description of the erroneous behaviour
+    - expected behaviour
+- **test cases make problem reports obsolete**: if problem appears during development, make a test case for it instead of a problem report. Leave problem reports for users' problems 
 ## Making Programs Fail
 TODO
 
