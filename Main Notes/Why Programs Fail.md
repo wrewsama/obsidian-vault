@@ -26,13 +26,19 @@ Tags:
     - expected behaviour
 - **test cases make problem reports obsolete**: if problem appears during development, make a test case for it instead of a problem report. Leave problem reports for users' problems 
 ## Making Programs Fail
-TODO
+- reproduce the error using a test
+- run the test while debugging
+- keep it in as an automated regression test for future releases
+- use dependency inversion to make unit testing easier (can stub dependencies)
 
 ## Reproducing Problems
-TODO
+- reproduce the environment (initial state)
+- reproduce the history (steps taken to reach failure)
+- can use a control layer (e.g. a wrapper that logs all inputs) to get the history
 
 ## Simplifying Problems
-TODO
+- remove irrelevant detail (things that, with or without them, the problem still occurs)
+- automated tests are key
 
 ## Scientific Debugging
 - systematic process to isolate the cause of a failure
