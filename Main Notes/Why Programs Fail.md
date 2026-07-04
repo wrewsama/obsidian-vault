@@ -65,13 +65,17 @@ Tags:
     - hooking into the interpreter using `sys.settrace(tracer_fn)` to register a tracer callback that fires every time a line is executed
 
 ## Tracking Origins
-TODO
+- dynamic slicing: for a given line in a given execution of a program, get all the lines that it depends on _in the current execution_
+- this can be done with an _omniscient debugger_ that lets you random-access the entire execution history of a program
 
 ## Asserting Expectation
-TODO
+- assert to catch infections early
+- assert preconditions, invariants, and postconditions
+- assert system-level properties (e.g. memory access) with external tools (e.g. `valgrind`)
 
 ## Detecting Anomalies
-TODO
+- detecting anomalies help us find defects
+- comparing coverage: find code that's run in failing cases, but not passing cases
 
 ## Causes and Effects
 - to verify if X causes Y (X <=> Y), check both cases (X true and X false)
