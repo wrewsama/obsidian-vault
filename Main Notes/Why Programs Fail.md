@@ -90,16 +90,30 @@ Tags:
     - code
 
 ## Isolating Failure Cases
-TODO
-
+- `dd`: delta debugging: find relevant diff between 2 configs
+- apply dd on a failing input and a passing input 
 ## Isolating Cause-Effect Chains
-TODO
+- apply `dd` on the program states to observe how failures propagate through program run
 
 ## Fixing the Defect
-TODO
+- look for the _root_ of the infection chain (i.e. fix the cause, not the symptom)
+- ensure
+    - the failure ceases
+    - we didn't create new failures
+    - there are no more similar issues to fix
 
 ## Learning from Mistakes
-TODO
+- track past defects in a database
+- specification errors
+    - improve QA for the specifications, catching inconsistency and incompleteness
+    - add automated validation
+- programming errors
+    - reduce complexity
+    - improve docs
+    - use assertions
+- QA errors
+    - improve test suite & test more often
+    - _mutation testing_: add artificial defects and checks if automated tests catch it
 
 ---
 Source: https://www.goodreads.com/book/show/6882295-why-programs-fail
