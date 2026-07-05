@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Why Programs Fail.md",
+                "file": "Main Notes/ldd.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Why Programs Fail"
+              "title": "ldd"
             }
           }
         ]
@@ -176,11 +176,15 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
+    "Main Notes/TCP RST.md",
+    "Main Notes/ldd.md",
+    "Main Notes/Byte Alignment.md",
+    "Source Materials/Books/The 7 Habits of Highly Effective People.md",
+    "Main Notes/Why Programs Fail.md",
     "Source Materials/Books/Site Reliability Engineering.md",
     "Tags/SRE.md",
     "Main Notes/Debugging Process.md",
     "Tags/Debugging.md",
-    "Main Notes/Why Programs Fail.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Main Notes/Gratuitous ARP.md",
     "Tags/Computer Networking.md",
@@ -198,10 +202,6 @@
     "Main Notes/OS Kernel.md",
     "Main Notes/Page Fault.md",
     "Main Notes/UDP multicast.md",
-    "Main Notes/Debugging Methods in Docker.md",
-    "Source Materials/Books/Thinking In Bets.md",
-    "Source Materials/Books/System Design Interview Volume 2.md",
-    "Source Materials/Websites/Low Level Design In a Hurry.md",
     "const/var",
     "const",
     "Projection",

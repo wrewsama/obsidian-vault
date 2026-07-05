@@ -18,7 +18,7 @@ Tags:
 ## 3| Put First Things First
 - Classify your tasks with the Eisenhower Matrix
 - Too much time on Urgent+Important => these crises will continue to consume more of your time
-- Spend time on Import+Not Urgent => shrinks your Urgent+Important
+- Spend time on Important+Not Urgent => shrinks your Urgent+Important
     - use the goals in Habit 2 to discover these
 - delegate
     - let's you focus on high-leverage activities
