@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/ldd.md",
+                "file": "Main Notes/The Hundred Page Machine Learning Book.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ldd"
+              "title": "The Hundred Page Machine Learning Book"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Main Notes/TCP RST.md",
     "Main Notes/ldd.md",
+    "Main Notes/The Hundred Page Machine Learning Book.md",
+    "Main Notes/TCP RST.md",
     "Main Notes/Byte Alignment.md",
     "Source Materials/Books/The 7 Habits of Highly Effective People.md",
     "Main Notes/Why Programs Fail.md",
@@ -201,7 +202,6 @@
     "Main Notes/User Space vs Kernel Space.md",
     "Main Notes/OS Kernel.md",
     "Main Notes/Page Fault.md",
-    "Main Notes/UDP multicast.md",
     "const/var",
     "const",
     "Projection",
