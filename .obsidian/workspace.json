@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/The Hundred Page Machine Learning Book.md",
+                "file": "Source Materials/Websites/Low Level Design In a Hurry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Hundred Page Machine Learning Book"
+              "title": "Low Level Design In a Hurry"
             }
           }
         ]
@@ -176,8 +176,11 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Main Notes/ldd.md",
+    "Tags/Behavioural.md",
+    "Main Notes/Async IO in Linux.md",
+    "Main Notes/level triggered vs edge triggered.md",
     "Main Notes/The Hundred Page Machine Learning Book.md",
+    "Main Notes/ldd.md",
     "Main Notes/TCP RST.md",
     "Main Notes/Byte Alignment.md",
     "Source Materials/Books/The 7 Habits of Highly Effective People.md",
@@ -199,9 +202,6 @@
     "Main Notes/strace.md",
     "Main Notes/TCP Buffers.md",
     "Source Materials/Books/TCP IP Illustrated.md",
-    "Main Notes/User Space vs Kernel Space.md",
-    "Main Notes/OS Kernel.md",
-    "Main Notes/Page Fault.md",
     "const/var",
     "const",
     "Projection",

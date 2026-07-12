@@ -1,6 +1,8 @@
 Tags:
 - [[Low Level Design]]
 ---
+# In a Hurry
+---
 ## Delivery Framework
 - **requirements**
     - primary capabilities
@@ -63,5 +65,52 @@ Tags:
     - The methods should take in an instance of C and update its internal CState according to the domain rules
     - implement a concrete CState class for each actual state, defining the changes and the state transitions for each action
 
+# Concurrency
+---
+## Correctness
+- core issue: **mutable state** that's **shared between threads**
+- Common bug: **check-then-act pattern** 
+    - check condition, make action based on that condition
+    - issue arises when another thread changes that condition in between the check and the action
+- solutions
+    - Coarse-Grained Locking
+        - optimisation for read-heavy workloads: read-write locks: shared lock for reads and exclusive lock for writes
+    - Fine-Grained Locking
+    - Atomics
+        - under low contention, faster than locking
+        - can be used for optimistic locking
+    - Thread Confinement
+        - partition the data / workload and let exactly 1 thread handle each (shared-nothing)
+        - best scalability, but very high coordination complexity if operations span multiple partitions
+
+## Coordination
+- core issues: with multiple consumer and producer threads doing and assigning work, how to handle:
+    - efficient waiting (not spin-waiting)
+    - backpressure (handle bursts)
+    - thread safety (no correctness bugs)
+- common problems in practice
+    - slow requests that need to be process asynchronously (as a background thread)
+    - bursty traffic and a limited number of background worker threads
+- solutions
+    - shared state
+        - condition variable (e.g. `threading.Condition`): acquire lock, release and wait on condition (with a while loop checking for the underlying condition to avoid spurious wakeups), reacquire lock and continue once notified
+        - blocking queue (e.g. `queue.Queue` ) set a `maxsize` based on burst tolerance and shutdown with the poison pill pattern
+    - message passing
+        - **Actor Model**: each thread is an actor with its own private state and they coordinate by sending messages
+
+## Scarcity
+- core issues
+    - enforce resource limits over all threads (e.g. no more than 5 DB connections)
+    - efficiently utilise resource capacity (e.g. keep workers busy)
+- limit solutions
+    - semaphores (e.g. `threading.Semaphore`) for enforcing limits
+        - remember to release, especially on exceptions (context manager helps)
+    - connection pooling
+        - a pool with a queue of _resources_ (not tasks!)
+        - acquire the resource by pulling from the queue, do work, then release the resource by pushing it back into the queue
+- efficiency solutions
+    - work stealing
+    - batching
+    - adaptive sizing (adjusting capacity of the pool based on the demand)
 ---
 Source: https://www.hellointerview.com/learn/low-level-design/in-a-hurry/introduction
