@@ -129,6 +129,9 @@ Tags:
     - JWT: give client token on successful login, verify token signature and read client info from it (user sessions in web/mobile apps)
 - Rate limiting
     - by user, by IP, by endpoint
+    - fixed window counter / sliding window log / sliding window counter / (lazy) token bucket
+        - default: "lazy" token bucket for properly handling bursts while keeping memory constant (only need to store token count and last refill time, refill tokens on request and calculate amount to refill from the last refill time)
+    - usually done with Redis. Use lua script to ensure atomicity between the check and the update
     - return `429 Too Many Requests`
 
 ## Data Modelling
