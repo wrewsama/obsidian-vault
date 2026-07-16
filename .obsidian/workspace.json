@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/User ID Handling in APIs.md",
+                "file": "Source Materials/Websites/System Design in a Hurry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "User ID Handling in APIs"
+              "title": "System Design in a Hurry"
             }
           }
         ]
@@ -176,12 +176,12 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Source Materials/Websites/System Design in a Hurry.md",
+    "Source Materials/Websites/Low Level Design In a Hurry.md",
     "Main Notes/User ID Handling in APIs.md",
+    "Source Materials/Websites/System Design in a Hurry.md",
     "Main Notes/Rate Limiter in Redis.md",
     "Main Notes/Kafka vs RabbitMQ.md",
     "Tags/Message Brokers.md",
-    "Source Materials/Websites/Low Level Design In a Hurry.md",
     "Tags/Behavioural.md",
     "Main Notes/Async IO in Linux.md",
     "Main Notes/level triggered vs edge triggered.md",

@@ -5,15 +5,15 @@ Tags:
 ---
 ## Delivery Framework
 - **requirements**
-    - primary capabilities
-    - state transitions
+    - primary capabilities and operations
     - error handling
-    - what's in scope
+    - additional features: what's in scope and possible extensions to discuss later
 - **entities & relationships**
     - entities: meaningful nouns in the domain
     - relationships: how they interact
 - **class design**
     - for each entity: define state and behaviour
+        - entities that enforce rules or change state should be classes
     - look at requirements to determine state each entity needs (attributes), then determine what does entities need to do (methods)
 - **implementation**
     - implement the major methods in pseudocode
