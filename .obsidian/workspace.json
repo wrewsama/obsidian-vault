@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/System Design in a Hurry.md",
+                "file": "Main Notes/sort and uniq.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design in a Hurry"
+              "title": "sort and uniq"
             }
           }
         ]
@@ -176,9 +176,11 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
+    "Tags/Linux.md",
+    "Main Notes/sort and uniq.md",
+    "Source Materials/Websites/System Design in a Hurry.md",
     "Source Materials/Websites/Low Level Design In a Hurry.md",
     "Main Notes/User ID Handling in APIs.md",
-    "Source Materials/Websites/System Design in a Hurry.md",
     "Main Notes/Rate Limiter in Redis.md",
     "Main Notes/Kafka vs RabbitMQ.md",
     "Tags/Message Brokers.md",
@@ -200,8 +202,6 @@
     "Tags/Computer Networking.md",
     "Source Materials/Books/System Design Interview Volume 1.md",
     "Source Materials/Books/Market Data Explained.md",
-    "Source Materials/Books/Inside the Machine.md",
-    "Source Materials/Books/How to Get Rich.md",
     "const/var",
     "const",
     "Projection",
