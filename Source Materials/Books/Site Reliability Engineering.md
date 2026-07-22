@@ -130,6 +130,8 @@ Tags:
 - Examine: check if each component is behaving as expected
     - logging
     - metrics
+    - state (e.g. configuration, data)
+    - test requests
 - Diagnose: come up with hypotheses about the root cause
     - connections between components
     - _what_ is happening, _why_ and _where_ is it happening

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/sort and uniq.md",
+                "file": "Main Notes/iptables.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sort and uniq"
+              "title": "iptables"
             }
           }
         ]
@@ -176,10 +176,14 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Tags/Linux.md",
-    "Main Notes/sort and uniq.md",
-    "Source Materials/Websites/System Design in a Hurry.md",
+    "Main Notes/Service Mesh.md",
+    "Main Notes/iptables.md",
+    "Source Materials/Books/Site Reliability Engineering.md",
+    "Source Materials/Books/Why Programs Fail.md",
     "Source Materials/Websites/Low Level Design In a Hurry.md",
+    "Main Notes/sort and uniq.md",
+    "Tags/Linux.md",
+    "Source Materials/Websites/System Design in a Hurry.md",
     "Main Notes/User ID Handling in APIs.md",
     "Main Notes/Rate Limiter in Redis.md",
     "Main Notes/Kafka vs RabbitMQ.md",
@@ -192,16 +196,12 @@
     "Main Notes/TCP RST.md",
     "Main Notes/Byte Alignment.md",
     "Source Materials/Books/The 7 Habits of Highly Effective People.md",
-    "Main Notes/Why Programs Fail.md",
-    "Source Materials/Books/Site Reliability Engineering.md",
     "Tags/SRE.md",
     "Main Notes/Debugging Process.md",
     "Tags/Debugging.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Main Notes/Gratuitous ARP.md",
     "Tags/Computer Networking.md",
-    "Source Materials/Books/System Design Interview Volume 1.md",
-    "Source Materials/Books/Market Data Explained.md",
     "const/var",
     "const",
     "Projection",

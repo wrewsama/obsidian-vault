@@ -13,7 +13,7 @@ Tags:
     - relationships: how they interact
 - **class design**
     - for each entity: define state and behaviour
-        - entities that enforce rules or change state should be classes
+        - entities that handle queries, connect other entities, or change _intrinsic_ state should be classes
     - look at requirements to determine state each entity needs (attributes), then determine what does entities need to do (methods)
 - **implementation**
     - implement the major methods in pseudocode
