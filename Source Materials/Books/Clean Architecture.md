@@ -72,5 +72,13 @@ Goals:
     - by modules in source code
     - by deployable units (e.g. packages, jar files, etc.)
     - by services
+
+## Boundaries
+- separate into components: some in the core business and others are 'plugins' (e.g. databases, UIs)
+- different components change
+    - at different rates
+    - for different reasons
+- draw lines between the core business and the plugin components using dependency inversion => lower level details (plugins) depend on high level logic (core), not the other way around
+
 ---
 Source: https://www.goodreads.com/book/show/18043011-clean-architecture

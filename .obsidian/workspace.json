@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/iptables.md",
+                "file": "Source Materials/Books/Clean Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "iptables"
+              "title": "Clean Architecture"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Main Notes/Service Mesh.md",
     "Main Notes/iptables.md",
+    "Main Notes/Service Mesh.md",
     "Source Materials/Books/Site Reliability Engineering.md",
     "Source Materials/Books/Why Programs Fail.md",
     "Source Materials/Websites/Low Level Design In a Hurry.md",
