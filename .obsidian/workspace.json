@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Clean Architecture.md",
+                "file": "Main Notes/The Hundred Page Machine Learning Book.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Clean Architecture"
+              "title": "The Hundred Page Machine Learning Book"
             }
           }
         ]
@@ -176,6 +176,7 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
+    "Source Materials/Books/Clean Architecture.md",
     "Main Notes/iptables.md",
     "Main Notes/Service Mesh.md",
     "Source Materials/Books/Site Reliability Engineering.md",
@@ -201,7 +202,6 @@
     "Tags/Debugging.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Main Notes/Gratuitous ARP.md",
-    "Tags/Computer Networking.md",
     "const/var",
     "const",
     "Projection",
