@@ -33,5 +33,22 @@ Tags:
     - optimization routine to fund solution to optimization criteria
 - gradient descent: every epoch, for each parameter, decrement by the learning rate $\alpha$ * the partial derivative of the loss function w.r.t that parameter
 
+## Basic Practice
+- feature engineering techniques
+    - one-hot encoding: turning categorical data into numerical
+    - binning: turning numerical data into categorical
+    - normalisation: transforming the values to fit within some standard range like `[-1, 1]` or `[0, 1]`
+    - standardisation: transforming the values so the distribution follows a standard normal distribution
+    - data imputation: replacing missing value
+- data sets
+    - training
+    - validation
+    - test
+- regularisation
+    - forcing learning algo to build a less complex model
+    - increases bias (underfitting) but significantly reduces variance (overfitting)
+- measuring model performance
+    - confusion matrix
+    - precision, recall, accuracy, AUC
 ---
 Source: https://www.goodreads.com/book/show/43190851-the-hundred-page-machine-learning-book
