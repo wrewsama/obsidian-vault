@@ -50,5 +50,27 @@ Tags:
 - measuring model performance
     - confusion matrix
     - precision, recall, accuracy, AUC
+
+## Neural Networks and Deep Learning
+- Neural Network: nested function where each function contains a linear function and an activation function
+- Deep Learning: training a NN with > 2 non-output layers
+- Convolutional Neural Networks
+- Recurrent Neural Networks
+
+## Problems and Solutions
+- Kernel regression: deal with non-linear relationships in the data
+- classification 
+    - multiclass: extend the usual binary models (e.g. logistic regression, decision trees) (e.g. using softmax)
+    - one-class: only use examples of 1 class to build a model to distinguish it from everything else, requires special learning algos e.g. one-class kNN, one-class SVM, etc
+- multi-label classification: assigning multiple labels to the same example: use binary cross-entropy as the cost function
+- ensemble learning: train multiple _weak learners_ and take the result of all of them
+- sequence labelling: `[input1, input2, ...] -> [label1, label2, ...]`
+- sequence to sequence learning: `seq -> encoder -> embedding -> decoder -> seq`
+- active learning: when labelling is expensive. Train the model, identify the most important examples (based on density and uncertainty), get those labelled, retrain and repeat
+- semi-supervised learning: small fraction of the dataset is labelled
+- one-shot learning: check if 2 images are the "same thing", uses siamese neural networks
+- zero-shot learning: train model to label objects, even when they weren't in the training data
+
+
 ---
 Source: https://www.goodreads.com/book/show/43190851-the-hundred-page-machine-learning-book
