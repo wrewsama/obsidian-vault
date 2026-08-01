@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/The Hundred Page Machine Learning Book.md",
+                "file": "Source Materials/Books/Clean Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,19 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Hundred Page Machine Learning Book"
+              "title": "Clean Architecture"
+            }
+          },
+          {
+            "id": "8b935e2012fa057e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.4"
             }
           }
         ]
@@ -51,7 +63,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -176,6 +190,7 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
+    "Main Notes/The Hundred Page Machine Learning Book.md",
     "Source Materials/Books/Clean Architecture.md",
     "Main Notes/iptables.md",
     "Main Notes/Service Mesh.md",
@@ -192,7 +207,6 @@
     "Tags/Behavioural.md",
     "Main Notes/Async IO in Linux.md",
     "Main Notes/level triggered vs edge triggered.md",
-    "Main Notes/The Hundred Page Machine Learning Book.md",
     "Main Notes/ldd.md",
     "Main Notes/TCP RST.md",
     "Main Notes/Byte Alignment.md",

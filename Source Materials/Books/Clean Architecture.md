@@ -80,5 +80,29 @@ Goals:
     - for different reasons
 - draw lines between the core business and the plugin components using dependency inversion => lower level details (plugins) depend on high level logic (core), not the other way around
 
+## Business Rules
+- Critical Business Rules: rules that let the business make money, would exist even if there was no software to automate them (e.g. the logic to calculate a loan)
+- Entities: encapsulate small set of related critical business rules and critical business data
+- Use Cases: The way the software system is used. Takes in some input, performs operations, and returns some output. Input and output should both be simple data structures without low level dependencies
+
+## Screaming Architecture
+- the architecture should "scream" out the use cases, not the framework
+- software architectures are structures that support the use cases of the system
+- all use cases should be unit-testable without any of the frameworks in place
+
+## Clean Architecture
+- **CORE RULE: source code dependencies must point only inward, toward higher-level policies**
+- layers
+    - entities
+    - use cases
+    - interface adapters
+    - frameworks and drivers
+- data is passed across boundaries in the the _inner_ circle's format
+
+## Humble Object Pattern
+- extract out hard-to-test functionality into its own, minimal module
+- put the main, testable behaviours in another module - this is the _humble object_
+
+
 ---
 Source: https://www.goodreads.com/book/show/18043011-clean-architecture

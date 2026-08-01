@@ -71,6 +71,22 @@ Tags:
 - one-shot learning: check if 2 images are the "same thing", uses siamese neural networks
 - zero-shot learning: train model to label objects, even when they weren't in the training data
 
+## Advanced Practice
+- oversampling / undersampling: to adjust imbalanced datasets
+- averaging / majority vote / stacking: to combine model results
+- handling multiple inputs: vectorise or split into 2 models and combine later
+- handling multiple outputs: a few layers to generate the embedding, then multiple subnetworks on top of that to get the outputs
+- transfer learning: "transfer" some of the layers from a trained model to an untrained one
 
+## Unsupervised Learning
+- density estimation (estimating probability density function)
+- clustering
+- dimensionality reduction
+- outlier detection
+
+## Other Forms of Learning
+- metric learning: let the model learn its own metrics too
+- learning to rank
+- learning to recommend
 ---
 Source: https://www.goodreads.com/book/show/43190851-the-hundred-page-machine-learning-book
