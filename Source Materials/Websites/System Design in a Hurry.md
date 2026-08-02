@@ -558,6 +558,40 @@ core issue: uploading/downloading files > 10MB
     - ZooKeeper Atomic Broadcast for leader election and replication from leader to followers
     - transaction log on disk + snapshots for durability
 
+# Advanced Topics
+---
+## Proximity Search
+- custom spatial trees: for shapes that rarely change (e.g. buildings on a map)
+    - quadtrees: recursively split map into quadrants until nodes have <= n points
+    - k-d trees: split by x and y axes in alternating fashion
+    - BKD trees: optimisation for disk, packs nodes into blocks around the size of a disk page, minimises random disk IO
+    - R trees: split map by drawing minimal rectangles around objects of interest
+- encoded keys: for moves that need to move and be updated frequently (e.g. driver positions)
+    - e.g. Geohash, S2, H3
+    - core idea: turn the location into a single key, keys that are similar => locations are close
+    - edge case: points at boundaries
+        - solution: 3x3 trick: check the 3x3 block surrounding the point instead of just that point
+
+## Data Structures for Big Data
+- bloom filter: check if element is either definitely not present or maybe present
+- count min sketch: estimate count of each key in a stream of data
+- hyper loglog: estimate number of unique items
+- approximate quantiles: estimate quantile values by bucket
+
+## Vector Databases
+- store data as vector embeddings, search based on similarity (e.g. K nearest neighbours)
+- exact kNN is expensive (O(N))
+- alternatives (indexes for Approximate Nearest Neighbour Search)
+    - Hierarchical Navigable Small World (HNSW): graph where nodes are vectors and edges connect very similar vectors. Graph has multiple, increasingly sparser layers on top of one another, similar to a skip list
+    - Inverted File (IVF): k-means cluster the vectors, find closest centroid, then search within the cluster
+    - Locality Sensitive Hashing (LSH): use hash function that hashes similar vectors to the same bucket
+    - ANNOY: recursively split vector space with random hyperplanes till each leaf node contains <= n vectors
+- inserts into vector indexes are expensive
+    - solution: writes update a simple, small "hot" index (can just be a simple list) and the cold index gets updated asynchronously
+- options
+    - vector extensions for existing DBs e.g. `pgvector`, `Redis Vector Search`
+    - purpose-build vector DBs (for more scale) e.g. `Weaviate`, `Chroma`
+
 ## Time Series Databases
 - e.g. Prometheus, InfluxDB
 - data model

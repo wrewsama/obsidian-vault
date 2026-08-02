@@ -103,6 +103,19 @@ Goals:
 - extract out hard-to-test functionality into its own, minimal module
 - put the main, testable behaviours in another module - this is the _humble object_
 
+## The Main Component
+- "plugin" that handles creating and injecting dependencies, then handing over control
+
+## Test Boundary
+- tests are also part of your system
+- can be thought of as the outermost ring (no dependents, depends on the whole system)
+- avoid coupling by providing a testing API to hide the implementation structure of the system from the tests
+
+## Clean Embedded Architecture
+- firmware and hardware regularly become obsolete and require changes
+- treat hardware and OS as a detail
+    - OS abstraction layer between the app and the OS
+    - hardware abstraction layer between the OS and the firmware / hardware
 
 ---
 Source: https://www.goodreads.com/book/show/18043011-clean-architecture
