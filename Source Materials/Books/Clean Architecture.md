@@ -117,5 +117,9 @@ Goals:
     - OS abstraction layer between the app and the OS
     - hardware abstraction layer between the OS and the firmware / hardware
 
+## Details
+- the database is a detail
+- the Web (and any specific GUI in general) is a detail
+
 ---
 Source: https://www.goodreads.com/book/show/18043011-clean-architecture

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/System Design in a Hurry.md",
+                "file": "Source Materials/Books/Clean Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design in a Hurry"
+              "title": "Clean Architecture"
             }
           },
           {
@@ -190,6 +190,7 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
+    "Source Materials/Websites/System Design in a Hurry.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Source Materials/Books/Clean Architecture.md",
     "Source Materials/Books/Fundamentals of Software Architecture.md",
@@ -201,7 +202,6 @@
     "Source Materials/Websites/Low Level Design In a Hurry.md",
     "Main Notes/sort and uniq.md",
     "Tags/Linux.md",
-    "Source Materials/Websites/System Design in a Hurry.md",
     "Main Notes/User ID Handling in APIs.md",
     "Main Notes/Rate Limiter in Redis.md",
     "Main Notes/Kafka vs RabbitMQ.md",
