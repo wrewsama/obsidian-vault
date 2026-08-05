@@ -120,6 +120,7 @@ Goals:
 ## Details
 - the database is a detail
 - the Web (and any specific GUI in general) is a detail
-
+- frameworks are a detail
+    - important: avoid letting your entities inherit from the framework's classes. Make proxy classes that inherit the required framework base classes, then inject those as plugins
 ---
 Source: https://www.goodreads.com/book/show/18043011-clean-architecture
