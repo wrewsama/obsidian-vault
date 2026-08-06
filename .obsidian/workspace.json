@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Clean Architecture.md",
+                "file": "Source Materials/Books/Unit Testing Principles Practices and Patterns.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Clean Architecture"
+              "title": "Unit Testing Principles Practices and Patterns"
             }
           },
           {
@@ -190,9 +190,10 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
+    "Source Materials/Books/Clean Architecture.md",
+    "Source Materials/Books/Unit Testing Principles Practices and Patterns.md",
     "Source Materials/Websites/System Design in a Hurry.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
-    "Source Materials/Books/Clean Architecture.md",
     "Source Materials/Books/Fundamentals of Software Architecture.md",
     "Main Notes/The Hundred Page Machine Learning Book.md",
     "Main Notes/iptables.md",
@@ -215,7 +216,6 @@
     "Source Materials/Books/The 7 Habits of Highly Effective People.md",
     "Tags/SRE.md",
     "Main Notes/Debugging Process.md",
-    "Tags/Debugging.md",
     "const/var",
     "const",
     "Projection",
