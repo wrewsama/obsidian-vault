@@ -9,5 +9,17 @@ Tags:
     - integrate into the dev cycle
     - target only important parts of the codebase
     - maximise value while minimising maintenance cost
+
+## what is a unit test
+- characteristics
+    - verifies small piece of code
+    - completes quickly
+    - isolated
+- AAA pattern: Arrange, Act, Assert
+- SUT dependency types
+    - shared: dependency that's shared between tests and can cause them to affect each other
+    - private: not shared
+    - out-of-process: dependency running outside the app (forms a Venn diagram with shared dependencies)
+- integration tests: check if your code can _integrate_ with dependencies correctly
 ---
 Source: https://www.goodreads.com/book/show/48927138-unit-testing
