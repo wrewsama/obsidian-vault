@@ -190,8 +190,9 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Source Materials/Books/Clean Architecture.md",
+    "Main Notes/The Missing README.md",
     "Source Materials/Books/Unit Testing Principles Practices and Patterns.md",
+    "Source Materials/Books/Clean Architecture.md",
     "Source Materials/Websites/System Design in a Hurry.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Source Materials/Books/Fundamentals of Software Architecture.md",
@@ -215,7 +216,6 @@
     "Main Notes/Byte Alignment.md",
     "Source Materials/Books/The 7 Habits of Highly Effective People.md",
     "Tags/SRE.md",
-    "Main Notes/Debugging Process.md",
     "const/var",
     "const",
     "Projection",

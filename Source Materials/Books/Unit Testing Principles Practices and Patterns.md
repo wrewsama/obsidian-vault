@@ -21,5 +21,7 @@ Tags:
     - private: not shared
     - out-of-process: dependency running outside the app (forms a Venn diagram with shared dependencies)
 - integration tests: check if your code can _integrate_ with dependencies correctly
+
+## anatomy of a unit test
 ---
 Source: https://www.goodreads.com/book/show/48927138-unit-testing
