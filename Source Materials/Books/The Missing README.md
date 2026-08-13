@@ -63,5 +63,21 @@ Tags:
     - pin versions
     - scope your dependencies (e.g. compile, runtime, test dependencies)
 
+## Testing
+- types of tests
+    - unit: single behaviour
+    - integration: multiple components
+    - system: whole system
+    - performance: can be load tests or stress tests
+    - acceptance: performed by customer
+- code quality checker tools: style, complexity, coverage
+- prioritise what to test with a risk matrix: impact x likelihood of a failure mode
+- how to achieve determinism in tests
+    - seed RNGs
+    - use dependency injection for non-deterministic dependencies (e.g. clocks, remote systems)
+    - bind to port 0 (OS picks any available port)
+    - clean up state
+    - generate unique file / db paths
+    - tests shouldn't depend on each other
 ---
 Source: https://www.goodreads.com/book/show/57271519-the-missing-readme

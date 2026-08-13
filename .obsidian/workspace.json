@@ -30,18 +30,6 @@
               "icon": "lucide-file",
               "title": "Unit Testing Principles Practices and Patterns"
             }
-          },
-          {
-            "id": "8b935e2012fa057e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.4"
-            }
           }
         ]
       }
@@ -190,8 +178,9 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Main Notes/The Missing README.md",
+    "Main Notes/Python MRO.md",
     "Source Materials/Books/Unit Testing Principles Practices and Patterns.md",
+    "Source Materials/Books/The Missing README.md",
     "Source Materials/Books/Clean Architecture.md",
     "Source Materials/Websites/System Design in a Hurry.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
@@ -215,7 +204,6 @@
     "Main Notes/TCP RST.md",
     "Main Notes/Byte Alignment.md",
     "Source Materials/Books/The 7 Habits of Highly Effective People.md",
-    "Tags/SRE.md",
     "const/var",
     "const",
     "Projection",
