@@ -48,5 +48,39 @@ Tags:
     - protection against regressions, resistance to refactoring, and fast feedback cannot all be maximised together, need trade-offs
     - resistance to refactoring should be maximised
     - need to strike a balance between protection against regressions and fast feedback
+
+## Mocks and Test Fragility
+- test doubles: to fake dependencies of the SUT
+    - mocks: to fake a command dependency
+    - stubs: to fake a query dependency
+- don't assert the _interaction_ with the stub, just set the fake result and move on
+- observable behaviour (opposite of implementation details): either expose an _operation_ or a _state_ that helps a client achieve their goals
+- hexagonal architecture: 2 layers, business logic inside, application services outside
+    - application services orchestrate communication between the business logic and external dependencies
+    - application services depend on business logic, not the other way around
+
+## Unit Testing Styles
+- Output based / State based / Communication based
+- prefer output based, use state based if needed
+- functional architecture: pure functional core with a mutable shell
+    - core makes decisions
+    - shell acts upon those decisions, causing the side effects
+    - drawbacks
+        - limited applicability to certain problems
+        - worse performance and more code (extra indirection)
+
+## Refactoring Towards Valuable Unit Tests
+- 2 metrics for types of code
+    - complexity & domain significance
+    - number of collaborators (mutable or out of process dependencies)
+- high complexity low collaborators: unit test heavily
+- low complexity high collaborators: briefly integration test
+- low complexity low collaborators: trivial, ignore
+- high complexity high collaborators: refactor
+    - split into high complexity part and high collaborator part, then treat those parts according to the above
+- use the **humble object pattern**: split the hard-to-test dependency away from the logic
+    - very simple when the business process is a single read-decide-write
+    - for more complex processes, aim to split them into granular steps first, then apply the humble object pattern
+
 ---
 Source: https://www.goodreads.com/book/show/48927138-unit-testing
