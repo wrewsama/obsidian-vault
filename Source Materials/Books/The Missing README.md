@@ -79,5 +79,71 @@ Tags:
     - clean up state
     - generate unique file / db paths
     - tests shouldn't depend on each other
+
+## Code Reviews
+- receiving
+    - fill out the request adequately
+    - don't get attached to it
+    - practice empathy, but don't tolerate rudeness
+- giving
+    - triage the requests (urgency, importance, complexity, size etc.)
+    - understand the change first, then give comprehensive feedback
+    - acknowledge the good points too
+    - distinguish between issues, suggestions, and nitpicks (e.g. with a `nit: ` prefix)
+
+## Software Delivery
+- 4 phases: Build, Release, Deploy, Rollout
+- build guidelines
+    - use semver
+    - package different resources separately
+- release guidelines
+    - keep them immutable (don't overwrite, release a new version instead)
+    - release frequently with a transparent release schedule
+    - use changelogs (for supporters) and release notes (for clients)
+- deployment guidelines
+    - automated
+    - atomic (all or nothing)
+    - independent (no dependencies on other deployments)
+- rollout guidelines
+    - monitor them
+    - consider feature flags, circuit breakers, dark launches, canary deployments, and blue-green deployments
+
+## Oncall
+- communication
+    - stay calm and polite
+    - be concise
+    - respond quickly
+    - update periodically
+- incident process
+    - triage
+    - coordinate (teams and customers)
+    - mitigate
+    - resolve
+    - follow-up
+- root cause analysis technique: the 5 whys: take the problem and ask why it happened, take the answer to that and ask why again, repeat until you have 5 whys
+- avoid "firefighter heroics"
+
+## Design Documents
+- Process
+    - Define the problem; Clarify with stakeholders
+    - Do research
+    - Conduct experiments and tech spikes
+    - Give time to mull about it
+- Template
+    - Introduction (problem and proposed solution)
+    - Current state / Context
+    - Motivation for Change (business need)
+    - Requirements
+    - Potential solutions and evaluation
+    - Proposed solution
+        - system diagram
+        - UI/UX changes with mockups
+        - Code changes (high level)
+        - API changes
+        - Persistence layer changes (new storage technologies, new schemas, etc.)
+    - Test plan
+    - rollout plan
+    - unresolved questions
+    
 ---
 Source: https://www.goodreads.com/book/show/57271519-the-missing-readme

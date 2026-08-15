@@ -82,5 +82,18 @@ Tags:
     - very simple when the business process is a single read-decide-write
     - for more complex processes, aim to split them into granular steps first, then apply the humble object pattern
 
+## Why Integration Testing
+- to verify the systems works correctly with out-of-process dependencies
+- managed dependencies
+    - out-of-process dependencies that you can control
+    - use the real deal in the integration tests
+- unmanaged dependencies
+    - out-of-process dependencies that you don't control
+    - forms part of the system's observable output
+    - use interfaces + mocks
+- best practices
+    - make domain model boundaries explicit (i.e. keep domain logic separate)
+    - reduce the number of layers of indirection in the system
+    - eliminate circular dependencies
 ---
 Source: https://www.goodreads.com/book/show/48927138-unit-testing

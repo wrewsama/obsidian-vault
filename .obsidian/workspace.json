@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Unit Testing Principles Practices and Patterns.md",
+                "file": "Source Materials/Books/The Missing README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Unit Testing Principles Practices and Patterns"
+              "title": "The Missing README"
             }
           }
         ]
@@ -178,8 +178,8 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Main Notes/Python MRO.md",
     "Source Materials/Books/Unit Testing Principles Practices and Patterns.md",
+    "Main Notes/Python MRO.md",
     "Source Materials/Books/The Missing README.md",
     "Source Materials/Books/Clean Architecture.md",
     "Source Materials/Websites/System Design in a Hurry.md",
