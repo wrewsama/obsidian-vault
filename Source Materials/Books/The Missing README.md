@@ -144,6 +144,45 @@ Tags:
     - Test plan
     - rollout plan
     - unresolved questions
-    
+
+## Creating Evolvable Architectures
+- fundamental principles
+    - Minimise complexity for software that needs to last. Achieve this through minimising dependency and obscurity
+    - KISS
+    - YAGNI
+    - Principle of Least Astonishment: i.e. make features behave the way most users would expect it to
+    - encapsulate each part of the domain
+- API guidelines
+    - keep them small
+    - keep them forward (new client old server) and backward (old client new server) compatible
+    - keep them versioned
+- data guidelines
+    - avoid shared DBs
+    - use schemas and schema migration tools
+    - keep them forward and backward compatible (same as APIs)
+
+## Working With Managers
+- 1:1s
+    - topics: big picture, feedback, career advice / goals, personal issues
+    - you set the agenda
+- PPPs
+    - essentially a status update
+    - Progress, Plans, Problems
+- feedback 
+    - seek out and give feedback
+    - use the SBI framework: Situation, Behaviour, Impact
+- responses to when things aren't working (in order)
+    - direct feedback to manager
+    - feedback to skip manager
+    - feedback to HR
+    - (if nothing improves after 3 months) leave
+
+## Career Advice
+- Be T-Shaped
+- Participate in Engineering Programs (interviewing, brown bags, conferences, reading groups, open source, etc.)
+- Steer your promotions: understand the evaluation criteria, get specific feedback
+- Change jobs when you have a solid reason to
+- Pace yourself for a decades-long marathon
+
 ---
 Source: https://www.goodreads.com/book/show/57271519-the-missing-readme

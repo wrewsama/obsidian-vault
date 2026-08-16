@@ -95,5 +95,11 @@ Tags:
     - make domain model boundaries explicit (i.e. keep domain logic separate)
     - reduce the number of layers of indirection in the system
     - eliminate circular dependencies
+
+## Mocking Best Practices
+- only mock in integration tests, not unit tests
+- apply the mocks to the lowest level interface that you own
+- verify the calls made to the mocks (no missing calls, no unexpected calls)
+
 ---
 Source: https://www.goodreads.com/book/show/48927138-unit-testing

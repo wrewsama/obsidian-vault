@@ -6,7 +6,7 @@ Tags:
 - don't follow your passion, follow what you're good at and your passion will follow
 - focus on getting really good at one thing at a time
 - work > network
-- money loves speed: make the decision promptly as long as you know you can any resulting failure quickly, don't get stuck on making the "perfect" decision
+- money loves speed: make the decision promptly as long as you know you can deal with any resulting failure quickly, don't get stuck on making the "perfect" decision
 - pay your ignorance debt: make the mistakes required to learn
 - know the price of inaction
 - get over yourself: Nobody cares what happened to you then, only what you can make happen now
