@@ -101,5 +101,26 @@ Tags:
 - apply the mocks to the lowest level interface that you own
 - verify the calls made to the mocks (no missing calls, no unexpected calls)
 
+## Testing the Database
+- prerequisites
+    - keep reference data (external data the application reads but never writes to) and the schema in source control
+    - use migrations to maintain the DB's state
+    - ensure each dev has their own separate instance
+- ensure each AAA section has their own transaction(s), don't let a transaction span across test sections
+- clean up test data at the start of each test
+- reuse patterns
+    - Arrange: Object Mother pattern
+    - Act: Decorators
+    - Assert: Fluent interface
+        - e.g. `deployment.exists().with_host("foo")`
+- test writes heavily
+- only test the most complex and/or domain-significant reads
+
+## Anti-Patterns
+- testing private methods directly (indicates missing abstraction)
+- accessing private state (should test through the public interface i.e. observable behaviour)
+- leaking domain knowledge (happens when the setup of the expected value does something based on the algorithm itself e.g. trying to test a shortest path algorithm and setting up the expected value by running Dijkstra's on the input graph. Should hardcode instead to not imply specific implementation)
+- code pollution (code that only handles tests should not appear in the production part of the codebase)
+- working with time (should use dependency injection)
 ---
 Source: https://www.goodreads.com/book/show/48927138-unit-testing

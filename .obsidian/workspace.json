@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/The Missing README.md",
+                "file": "Source Materials/Books/Unit Testing Principles Practices and Patterns.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Missing README"
+              "title": "Unit Testing Principles Practices and Patterns"
             }
           }
         ]
@@ -178,6 +178,9 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
+    "Source Materials/Books/Undeniable How to Reach the Top and Stay There.md",
+    "Source Materials/Books/The Missing README.md",
+    "Source Materials/Books/The Effective Engineer.md",
     "README.md",
     "Source Materials/Books/Unit Testing Principles Practices and Patterns.md",
     "Tags/Software Engineering.md",
@@ -188,7 +191,6 @@
     "Source Materials/Books/The 7 Habits of Highly Effective People.md",
     "Tags/Productivity.md",
     "Source Materials/Videos/The Anti-Routine.md",
-    "Source Materials/Books/The Missing README.md",
     "Main Notes/Python MRO.md",
     "Source Materials/Books/Clean Architecture.md",
     "Source Materials/Websites/System Design in a Hurry.md",
@@ -202,8 +204,6 @@
     "Source Materials/Websites/Low Level Design In a Hurry.md",
     "Main Notes/sort and uniq.md",
     "Tags/Linux.md",
-    "Main Notes/User ID Handling in APIs.md",
-    "Main Notes/Rate Limiter in Redis.md",
     "const/var",
     "const",
     "Projection",
