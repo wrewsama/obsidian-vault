@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/How Linux Works.md",
+                "file": "Source Materials/Books/OCaml Programming.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "How Linux Works"
+              "title": "OCaml Programming"
             }
           }
         ]
@@ -178,10 +178,17 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
+    "Source Materials/Books/How Linux Works.md",
     "Source Materials/Books/Site Reliability Workbook.md",
+    "Source Materials/Books/Deep Work.md",
+    "Tags/Productivity.md",
+    "Source Materials/Books/Dopamine Nation.md",
+    "Source Materials/Videos/The Anti-Routine.md",
+    "Source Materials/Websites/Nobody Cares How Hard You Work.md",
+    "Main Notes/Strategies To Get PRs Reviewed Faster.md",
+    "Main Notes/Terminal Setup.md",
     "Source Materials/Books/Site Reliability Engineering.md",
     "Tags/SRE.md",
-    "Source Materials/Books/How Linux Works.md",
     "Source Materials/Books/OCaml Programming.md",
     "Tags/OCaml.md",
     "Source Materials/Books/Modern Software Engineering.md",
@@ -196,14 +203,7 @@
     "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
     "Tags/Mindset.md",
     "Source Materials/Books/The 7 Habits of Highly Effective People.md",
-    "Tags/Productivity.md",
-    "Source Materials/Videos/The Anti-Routine.md",
     "Main Notes/Python MRO.md",
-    "Source Materials/Books/Clean Architecture.md",
-    "Source Materials/Websites/System Design in a Hurry.md",
-    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
-    "Source Materials/Books/Fundamentals of Software Architecture.md",
-    "Main Notes/The Hundred Page Machine Learning Book.md",
     "const/var",
     "const",
     "Projection",
