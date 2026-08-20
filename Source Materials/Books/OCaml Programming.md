@@ -32,8 +32,36 @@ Tags:
     - `let f x = x + 1`
     - need to explicitly declare recursive functions with `let rec f x = if n = 0 then 1 else n + f (n-1)`
     - use tail recursion to avoid stack overflows
+    - pipelining: `5 |> inc |> square` applies inc, then square to 5
 - printing
     - `print_endline`
     - `Printf.printf`
+
+## Data and Types
+- lists
+    - nil (empty list): `[]`
+    - cons operator (appends element on the left to list on the right) `x :: lst`
+    - syntactic sugar: `[x;y;z]`
+    - pattern matching
+    ```ocaml
+    match lst with
+    | [] -> 0
+    | h :: t -> h*2 :: t
+    ```
+- variants: similar to enums, `type oshi = Miko | Suisei | Bijou`
+    - can also `match` each key
+    - can carry data e.g. `type foo of int * string` carries a tuple with an int and a string
+        - the carried data can be parameterised and recursive too
+        - e.g. `type 'a tree = Leaf | Node of 'a * 'a tree * 'a tree`
+- `OUnit`: unit testing library
+- records: similar to structs `type foo = { bar: int; baz: int; }`
+    - access with dot notation `foo.bar` or with `match`
+- tuples: same as python
+- options: similar to the Maybe type with `None`and `Some x`. Can be handled with `match` just like variants
+- maps: `[("key1", "value1); ("key2", "value2")]` actually just a list of tuples (not the most efficient kind of map)
+- exceptions
+    - declaration format: `exception E of t` where `E` is the constructor name and `t` is the type of the data the exception carries. Providing `t` is not necessary
+    - raise with `raise`
+    - handle with `try e with pattern1 -> foo` (same as the `match` clause)
 ---
 Source: https://cs3110.github.io/textbook/chapters/preface/about.html

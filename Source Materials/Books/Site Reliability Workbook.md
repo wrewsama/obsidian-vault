@@ -21,5 +21,8 @@ Tags:
 - continuously improve SLO targets: plot error budget loss against actual outages (e.g. through support ticket count) and adjust SLOs to better measure the customer dissatisfaction 
 - SLOs and error budget loss can then be used to make decisions (e.g. prioritise reliability work)
 
+## SLO Case Studies
+- perfect is the enemy of good, start with "good" SLOs and iterate from there
+- VALET SLOs: Volume, Availability, Latency, Errors, Tickets
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook

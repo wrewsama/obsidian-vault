@@ -41,5 +41,21 @@ Tags:
         - /man: `man` manual pages
         - /share: files that should work on other unix machines with no functionality loss (no longer very relevant)
 
+## Devices
+- types of devices
+    - block: read/write data in fixed chunks (example of block device: disks)
+    - character: read/write character streams of data (e.g. `/dev/null`)
+    - pipes: similar to a character stream, but with another process at the opposite end instead of a kernel driver
+    - socket: Unix domain sockets for IPC
+- Small Computer System Interface (SCSI): protocol for communication with device peripherals (e.g. SATA disks, USB devices)
+- `/sys/devices` path: device management for programs
+- `/dev` path: device access for user processes
+- on new device connection
+    - kernel sends notification (called a `uevent`) to `udevd`, a user space process
+    - `udevd` load attributes from the `uevent` and takes actions based on its preconfigured rules
+        - e.g. creating device file, initialising device, etc.
+- `udevadm`: administration tool for `udevd`
+    - explore system devices
+    - monitor kernel `uevents`
 ---
 Source: https://www.goodreads.com/book/show/514432.How_Linux_Works?ref=nav_sb_ss_1_15
