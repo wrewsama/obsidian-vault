@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/OCaml Programming.md",
+                "file": "Source Materials/Books/How Linux Works.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OCaml Programming"
+              "title": "How Linux Works"
             }
           }
         ]
@@ -178,13 +178,14 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
+    "Main Notes/How Linux Executes Programs.md",
+    "Source Materials/Books/Site Reliability Workbook.md",
+    "Source Materials/Books/OCaml Programming.md",
     "Source Materials/Books/Same As Ever.md",
     "Source Materials/Books/How Linux Works.md",
-    "Source Materials/Books/Site Reliability Workbook.md",
     "Source Materials/Books/The Burnout Society.md",
     "Source Materials/Books/Dopamine Nation.md",
     "Source Materials/Books/Deep Work.md",
-    "Source Materials/Books/OCaml Programming.md",
     "Tags/Productivity.md",
     "Source Materials/Videos/The Anti-Routine.md",
     "Source Materials/Websites/Nobody Cares How Hard You Work.md",
@@ -203,7 +204,6 @@
     "Tags/Software Design.md",
     "Tags/Business.md",
     "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
-    "Tags/Mindset.md",
     "const/var",
     "const",
     "Projection",

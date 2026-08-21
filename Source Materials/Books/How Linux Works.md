@@ -57,5 +57,15 @@ Tags:
 - `udevadm`: administration tool for `udevd`
     - explore system devices
     - monitor kernel `uevents`
+## Disks and Filesystems
+- abstraction layers within the disk: OS system calls -> filesystem -> block device interface -> drivers -> hardware storage device
+- disk is subdivided into **partitions**
+    - the partitions are defined in the **partition table**
+    - view the partition table with `sudo parted -l`
+- filesystems: a "database" that turns the block device into the hierarchy of subdirectories and files that we're familiar with
+    - interact with filesystem mounts with `mount`
+    - view filesystems and mount points by reading `/etc/fstab`
+    - (**only run on unmounted filesystems !!**) repair a filesystem with `fsck`
+
 ---
 Source: https://www.goodreads.com/book/show/514432.How_Linux_Works?ref=nav_sb_ss_1_15

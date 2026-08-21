@@ -63,5 +63,18 @@ Tags:
     - declaration format: `exception E of t` where `E` is the constructor name and `t` is the type of the data the exception carries. Providing `t` is not necessary
     - raise with `raise`
     - handle with `try e with pattern1 -> foo` (same as the `match` clause)
+
+## Higher-Order Functions
+- map: `List.map (fun x -> x*2) lst`
+- filter: `List.map (fun x -> (x mod 2 = 0)) lst`
+- fold (reduce)
+    - fold right: `List.fold_right f lst acc`
+        - `f` needs to take in `element, acc`
+        - `f` gets applied right-to-left (e.g. folding `[1;2]` applies the function on 2 and init, then 1 with the result of that)
+    - fold left
+        - tail recursive version of fold right, applies `f` from left to right
+        - `f` takes in `acc, element` (opposite of `fold_right`)
+        - `List.fold_left f acc lst` (note the signature is difference from `fold_right`)
+
 ---
 Source: https://cs3110.github.io/textbook/chapters/preface/about.html
