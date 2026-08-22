@@ -67,5 +67,15 @@ Tags:
     - view filesystems and mount points by reading `/etc/fstab`
     - (**only run on unmounted filesystems !!**) repair a filesystem with `fsck`
 
+## How The Linux Kernel Boots
+- BIOS loads and runs boot loader
+- boot loader finds kernel image on disk, loads it into memory, and starts it
+    - boot loader passes in _kernel parameters_ when starting the kernel. You can view them in `/proc/cmdline`
+    - boot loader accesses disk via the BIOS, since the root filesystem hasn't been mounted yet
+- kernel initialises devices and their drivers
+- kernel mounts root filesystem
+- kernel starts `init` (this step is also known as the _user space start_)
+- `init` starts the rest of the system processes
+- `init` starts a process that lets the user log in
 ---
 Source: https://www.goodreads.com/book/show/514432.How_Linux_Works?ref=nav_sb_ss_1_15

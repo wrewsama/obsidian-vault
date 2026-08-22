@@ -44,6 +44,26 @@ Tags:
     - resource saturation (e.g. RAM, disk, CPU, etc.)
     - traffic status (e.g. HTTP 4XX, 2XX etc.)
     - in general, ensure every metric serves a purpose (i.e. they should make issue detection/diagnosis faster in some way)
-    
+## Alerting on SLOs
+- alerting rule considerations
+    - precision
+    - recall
+    - detection time: time taken between the issue occurring and the alert being sent
+    - reset time: how long the alerts continue to fire after the issue is solved
+- recommended alert rule: **Multi-Window, Multi-Burn-Rate Alerts**
+    - burn rate: how fast the service is consuming the error budget, i.e. `error_rate / error_budget`
+    - multi-burn-rate: different alerting rules for different burn rates (e.g. ticket on burn rate = 1, pager on burn rate = 6)
+    - multi-window: alert only when the burn rate exceeds the threshold for both a short window and a long window (set short window to be 1/12 of the long window)
+        - short window: fast reset but low precision (many false positive alerts)
+        - long window: slow reset but high precision
+        - together: fast reset and high precision
+- edge cases
+    - low traffic services: any alert would be a huge chunk of the error budget
+        - generate artificial traffic
+        - combine smaller services
+        - modify the product to minimise the significance of a single failure / incident (e.g. add retry to client)
+    - extreme high/low availability goals: require parameter tuning or system changes (e.g. canary rollouts)
+- scalability: group request types and reuse the alerting parameters for different requests in the same group
+
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook

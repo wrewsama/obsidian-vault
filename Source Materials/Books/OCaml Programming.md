@@ -76,5 +76,39 @@ Tags:
         - `f` takes in `acc, element` (opposite of `fold_right`)
         - `List.fold_left f acc lst` (note the signature is difference from `fold_right`)
 
+## Modular Programming
+- modules: collection of definitions
+- module types: "interfaces" for the modules
+```ocaml
+module type SERVICE = sig
+    val bar : int -> int
+    val baz : int
+end
+module Service : SERVICE = struct
+    let bar x = x + 1
+    let baz = 35
+end
+```
+- in `utop`, we can `#load` `.cmo` (compiled module object) files to access compiled modules
+- abstract types can be parameterised
+```ocaml
+module type Foo = sig
+    type 'a bar
+    val baz : 'a bar -> 'a bar 
+end
+module FooImpl : Foo = struct
+    type 'a bar = 'a int
+    let baz x = x + 1
+end
+```
+- compilation units
+    - pair including 1 `.ml` file and 1 `.mli file`
+    - `.ml` file is essentially a module
+    - `.mli` file is essentially a module type
+- module type constraints (setting things inside the module type): `MyType with type t = int`
+- use the `include` keyword to let a module or module type extend from another module / module type
+- functors
+    - syntax: `module Functor (InputModule : InputModuleType) = ... end`
+    - anonymous definition: `functor (InputModule : InputModuleType) -> ...`
 ---
 Source: https://cs3110.github.io/textbook/chapters/preface/about.html
