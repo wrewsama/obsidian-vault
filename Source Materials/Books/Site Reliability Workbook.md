@@ -65,5 +65,24 @@ Tags:
     - extreme high/low availability goals: require parameter tuning or system changes (e.g. canary rollouts)
 - scalability: group request types and reuse the alerting parameters for different requests in the same group
 
+## Eliminating Toil
+- common types
+    - business processes
+    - production interrupts
+    - release shepherding
+    - migrations
+    - capacity planning
+- management strategies
+    - identify and measure (e.g. man-hours spent)
+    - eliminate the root cause by modifying the system
+    - reject the toil altogether, you can use SLOs to drive this decision
+    - self-service methods for users
+    - automation
+        - start with partial automation: a well defined interface where some operations can still be performed by humans
+        - automate high priority operations first, incrementally increase automation
+        - iterate based on feedback
+     - assess the risk of automation, use defensive software wherever possible
+     - promote toil reduction to management and colleagues
+     - consider open source / 3rd party tools
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook

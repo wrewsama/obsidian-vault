@@ -110,5 +110,27 @@ end
 - functors
     - syntax: `module Functor (InputModule : InputModuleType) = ... end`
     - anonymous definition: `functor (InputModule : InputModuleType) -> ...`
+
+## Mutability
+- refs
+    - a _reference_ to a value in memory (basically a pointer)
+    - instantiation: `let x = ref 35` 
+    - dereference: `!x`
+    - assignment: `x := 67`
+    - structural equality checks the underlying value, not the location. i.e. `(ref 35) = (ref 35)` is `true`
+- semicolon recap
+    - `e1; e2; ... en` evaluates all the expressions from left to right, discarding all the values before `en`, then returns `en` 
+    - compiler will display a warning if any of the discarded values are not the unit value `()`
+- mutable fields in records
+    - `type person = { name : string; mutable age : int }`
+    - assignment: `unc.age <- 67`
+    - no need any special deference syntax, can read with `unc.age`
+- arrays
+    - definition: `let arr = [|e1;e2;...en|]`
+    - access and modification: `arr.(3) <- 5`
+- loops
+    - `while condition do e done`
+    - `for x=start_int to end_int do e done`
+    - `for x=start_int downto end_int do e done`
 ---
 Source: https://cs3110.github.io/textbook/chapters/preface/about.html

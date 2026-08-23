@@ -77,5 +77,34 @@ Tags:
 - kernel starts `init` (this step is also known as the _user space start_)
 - `init` starts the rest of the system processes
 - `init` starts a process that lets the user log in
+
+## How User Space Starts
+- startup order
+    - `init`
+    - essential low level services (e.g. `udevd`, `syslogd`)
+    - network config
+    - mid and high level services (e.g. cron, printing)
+    - login prompts, GUIs, and other high level apps
+- `systemd`: common implementation of `init`
+    - startup process
+        - loads config
+        - determines boot goal in `default.target`
+        - resolves dependency tree of default boot goal
+        - activates dependencies and boot goal
+        - after startup, can react to system events and activate additional components
+    - manages _units_ (services, mounts, targets)
+        - configured using _unit files_ in `/usr/lib/systemd/system`
+        - can view and manage with `systemctl`
+- shutdown process
+    - init asks process to shut down cleanly
+    - init sends SIGTERM
+    - init sends SIGKILL
+    - system files get locked
+    - non-root filesystems get unmounted
+    - root filesystem gets remounted as read-only
+    - buffered data gets flushed to filesystem
+    - kernel shuts down
+- initial RAM filesystem: allows drivers on disk to be loaded on startup when the filesystem isn't mounted yet
+
 ---
 Source: https://www.goodreads.com/book/show/514432.How_Linux_Works?ref=nav_sb_ss_1_15
