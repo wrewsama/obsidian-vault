@@ -106,5 +106,18 @@ Tags:
     - kernel shuts down
 - initial RAM filesystem: allows drivers on disk to be loaded on startup when the filesystem isn't mounted yet
 
+## System Config
+- most system config files are found in the `/etc` directory
+- `syslog`: inside `/etc/rsyslog.conf` or `/etc/rsyslog.d`
+    - maps _selector_(where to get logs from) to _action_ (where to send logs to)
+- user management
+    - `/etc/passwd`: username to user info (e.g. user id, group id, house directory, etc.)
+    - `/etc/shadow`: username to encrypted password
+- crontab: `/etc/cron`
+- `at` lets you schedule 1-time tasks without cron
+- user ids are switched using the `setuid` syscall
+- Pluggable Authentication Modules (PAM): user-space shared library that handles authentication for a given user
+    - config in `/etc/pam.d`
+    - config provides rules that are used to determine whether authentication is successful or not
 ---
 Source: https://www.goodreads.com/book/show/514432.How_Linux_Works?ref=nav_sb_ss_1_15

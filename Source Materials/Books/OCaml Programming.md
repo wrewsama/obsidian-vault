@@ -132,5 +132,28 @@ end
     - `while condition do e done`
     - `for x=start_int to end_int do e done`
     - `for x=start_int downto end_int do e done`
+## Concurrency
+- 2 responsibilities of promises: handle client reads (the _promise_), handle library writes (the _resolver_)
+- use the `Lwt_io` module from the `lwt.unix` package to get async I/O functions
+    - `#require "lwt.unix"`
+    - `Lwt_io.read_line`
+- callbacks
+    - use `lwt.bind` to bind a promise to a callback
+        - the callback should take in the content of the promise and return another promise
+        - i.e. the promise is a _monad_
+    - alternative syntax for `bind promise (fun x -> result)`
+        - `promise >>= (fun x -> result)`
+        - `let%lwt x = prommise in result`
+- monads
+    - interface
+        - `return x`: the "trivial effect", essentially puts `x` in the monad
+        - `bind m f` / `m >>= f`: applies the function `f` to the content of the monad, returning another monad
+            - `f`  takes in the monad content and returns a monad
+            - `bind` will return a monad of the same type as `f`'s return value, but not necessarily the same monad
+    - laws
+        - `return x >>= f` behaves the same as `f x`
+        - `m >>= return` behaves the same as `m`
+        - `(m >>= f) >>= g` behaves the same as `m >>= (fun x -> f x >>= g)` 
+            - conceptually, the 2nd expression is `m >>= (f >>= g)` but type checking breaks from it so an anonymous function is required
 ---
 Source: https://cs3110.github.io/textbook/chapters/preface/about.html

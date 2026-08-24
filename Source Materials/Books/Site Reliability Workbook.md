@@ -84,5 +84,17 @@ Tags:
      - assess the risk of automation, use defensive software wherever possible
      - promote toil reduction to management and colleagues
      - consider open source / 3rd party tools
+## Simplicity
+- **practical** measures of complexity
+    - time taken to explain something to a new joiner
+    - time taken to training a new joiner to go oncall
+    - administrative diversity: number of says to configure similar setttings
+    - number of unique configurations deployed
+    - age of the system
+- how to regain simplicity
+    - remove dependencies
+    - remove duplicated calls
+    - identify request amplification (i.e. several levels of retries)
+    - redesign to break cyclic dependencies
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook
