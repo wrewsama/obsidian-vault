@@ -96,5 +96,21 @@ Tags:
     - remove duplicated calls
     - identify request amplification (i.e. several levels of retries)
     - redesign to break cyclic dependencies
+
+## On-Call
+- new team onboarding
+    - documentation/code deep dives, codelabs, read handoffs and postmortems, disaster role-playing, playbooks, shadowing
+- pager load management
+    - target: maximum 2 incident alerts per 12-hour shift
+    - ensure sufficient testing before releases to minimise bugs (to in turn minimise pages) 
+    - ensure identification and mitigation can take place before the page triggers again
+    - alerts should ALL be immediately actionable
+    - test new alerts thoroughly
+        - deploy to production, but don't send the page
+        - keep it in that mode for long enough to experience periodic production conditions (e.g. weekends, rollouts, etc.)
+    - follow-up and identify the root cause of every page
+    - remain vigilant of the state of on-call
+- on-call schedule flexibility: automate scheduling, allow short-term swaps
+- on-call team dynamics: empower ops engineers with SRE principles, improve team relations
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook

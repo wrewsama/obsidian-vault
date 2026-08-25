@@ -119,5 +119,19 @@ Tags:
 - Pluggable Authentication Modules (PAM): user-space shared library that handles authentication for a given user
     - config in `/etc/pam.d`
     - config provides rules that are used to determine whether authentication is successful or not
+
+## Processes and Resource Utilisation
+- open files: `lsof`
+- system calls: `strace`
+- shared library calls: `ltrace`
+- threads: `ps m`
+- CPU: `top`, `/usr/bin/time`
+- adjust niceness: `renice`
+- Load averages (average number of processes _running or ready to run_): `uptime`
+- memory: `free`
+- page faults: `/usr/bin/time`, `ps` with `min_flt,maj_flt` included in the `-o` option
+- CPU and memory over time: `vmstat`
+- IO: `iostat`, `iotop`
+- per-process (cpu, disk, or memory) monitoring _over time_: `pidstat`
 ---
 Source: https://www.goodreads.com/book/show/514432.How_Linux_Works?ref=nav_sb_ss_1_15

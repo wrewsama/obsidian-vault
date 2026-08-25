@@ -155,5 +155,26 @@ end
         - `m >>= return` behaves the same as `m`
         - `(m >>= f) >>= g` behaves the same as `m >>= (fun x -> f x >>= g)` 
             - conceptually, the 2nd expression is `m >>= (f >>= g)` but type checking breaks from it so an anonymous function is required
+## Correctness
+- function specification documentation in the interface (similar to javadoc comments in the `.mli` file)
+- abstraction function: function that maps the concrete value of a type to the abstract value that the client sees
+- representation invariant: rules that always apply to the abstraction
+- Qcheck
+    - property testing with pseudorandom inputs
+    - the `Qcheck.int` is called an _arbitrary_, indicating the type of variable to use for the random inputs
+```ocaml
+let t = Qcheck.Test.make ~count:1000 Qcheck.int property_fun
+Qcheck_runner.run_tests [t];;
+```
+- correctness proofs
+    - basic patterns: equality, induction
+    - can prove correctness of an algorithm by using a simpler implementation and proving equality (e.g. by induction)
+    - termination proof: prove there's some binary relation to order the inputs into a sequence that ends up reaching the base case
+- equational specification of a data structure
+    - operation types
+        - generators: creates a canonical form of the data structure
+        - manipulators: returns a manipulated form the data structure
+        - queries: returns something else, not the data structure
+    - start by creating equations for each (generator, non-generator pair)
 ---
 Source: https://cs3110.github.io/textbook/chapters/preface/about.html
