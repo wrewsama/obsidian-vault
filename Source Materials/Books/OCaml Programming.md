@@ -176,5 +176,22 @@ Qcheck_runner.run_tests [t];;
         - manipulators: returns a manipulated form the data structure
         - queries: returns something else, not the data structure
     - start by creating equations for each (generator, non-generator pair)
+
+## Data Structures
+- hash tables: `Hashtbl`
+    - important note: default hash function only looks at a predetermined number of _meaningful nodes_ (i.e. ints, floats, strings, etc.)
+    - this means that 2 different lists with more than 10 elements will hash to the same thing as long as the first 10 elements are the same in both lists
+    - (technically still works but results in hash collisions)
+- rb trees
+    - local invariant: no 2 adjacent red nodes along any path
+    - global invariant: every root to leaf path has the same number of black nodes
+    - insertion: [Okasaki's algo](https://youtu.be/igUOhpGICgA?si=7J7Dr8KVoip6Gi5a)
+    - deletion: [Germane and Might](https://www.cambridge.org/core/journals/journal-of-functional-programming/article/deletion-the-curse-of-the-redblack-tree/471C92AF3D431403FEE6C66FE070C492)
+- **thunk**: function used to delay evaluation. Takes in `unit` and returns the thing to evaluate
+- `Lazy` module
+    - wrap some operation with `lazy` (e.g. `let lazy_res = lazy slow_op ()`), returns a `Lazy.t`
+    - get the value (either compute or read memoised value) with `Lazy.force lazy_res`
+- persistent arrays (arrays that don't mutate): Version Tree Arrays
+- 2-3 trees: another balanced tree, similar to B trees, but nodes can only have either 2 or 3 children
 ---
 Source: https://cs3110.github.io/textbook/chapters/preface/about.html

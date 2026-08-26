@@ -112,5 +112,16 @@ Tags:
     - remain vigilant of the state of on-call
 - on-call schedule flexibility: automate scheduling, allow short-term swaps
 - on-call team dynamics: empower ops engineers with SRE principles, improve team relations
+
+## Incident Management
+- Incident Command System
+    - goals: Coordinate, Communicate, Control
+    - roles: Incident Commander, Communications lead, Ops Lead
+- preparation
+    - decide on a communication channel
+    - prepare contacts beforehand so you can keep them in the loop when incidents occur
+    - establish the criteria for an incident
+- Drills e.g. Disaster Recovery Testing, Disaster Role playing
+
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook

@@ -133,5 +133,19 @@ Tags:
 - CPU and memory over time: `vmstat`
 - IO: `iostat`, `iotop`
 - per-process (cpu, disk, or memory) monitoring _over time_: `pidstat`
+
+## Understanding Your Network and Its Configuration
+- network interface management: `ifconfig`
+- routing management (ip address prefixes -> gateway ip address): `route`
+- ICMP: `ping`, `traceroute`
+- DNS hostname <-> ip address lookups: `host`
+- hostname overrides: `/etc/hosts`
+- DNS config: `resolv.conf`
+    - can be a loopback address in order to route to a local caching daemon
+    - hostname lookup precedence (e.g. hosts file before dns): `/etc/nsswitch.conf`
+- check transport layer connections: `netstat`
+- firewall management: `iptables`
+- ARP table management: `arp`
+
 ---
 Source: https://www.goodreads.com/book/show/514432.How_Linux_Works?ref=nav_sb_ss_1_15
