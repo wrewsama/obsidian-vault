@@ -123,5 +123,26 @@ Tags:
     - establish the criteria for an incident
 - Drills e.g. Disaster Recovery Testing, Disaster Role playing
 
+## Postmortem Culture
+- desirable characteristics of a postmortem
+    - clear, concise, and well-organised
+    - concrete action items
+    - blamelessness
+    - good depth and breadth of impact / flaws across multiple systems
+    - promptness
+- tooling
+    - creation (automatically push metadata along with postmortem creation)
+    - [checklist](https://drive.google.com/drive/folders/1t7fO8M3EZFeuu4GmzvStd0TGDI4bDCeb) ensure postmortem has all the required content
+    - storage, analysis, and follow-up on postmortem action items
+
+## Managing Load
+- ensure unhealthy machines don't count towards the autoscaler's utilisation average
+- consider _vertical autoscaling_ in stateful systems
+    - quite literally automatic vertical scaling, works with containers / VMs
+- keep sufficient buffer in the autoscaling policy to keep services far a way from system bottlenecks (e.g. cpu)
+- set constraints to prevent autoscaling from going out of control. Consider the downstream services too
+- add kill switches and manual overrides
+- autoscale before load shedding
+
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook

@@ -193,5 +193,27 @@ Qcheck_runner.run_tests [t];;
     - get the value (either compute or read memoised value) with `Lazy.force lazy_res`
 - persistent arrays (arrays that don't mutate): Version Tree Arrays
 - 2-3 trees: another balanced tree, similar to B trees, but nodes can only have either 2 or 3 children
+
+## Interpreters
+- Compilers: translate from source to target programs
+- Interpreters: executing programs
+    - lexing: characters to tokens (e.g. keywords, operators, constants, etc.)
+    - parsing: tokens to AST
+    - semantic analysis: check if the program is meaningful
+
+## Curry-Howard Correspondence
+- think of values with a certain type `t` as _evidence_ that `t` is not empty
+- functions `'a -> 'b` take in evidence for `'a` and produce evidence for `'b`
+    - this works exactly the same way as implication
+- similarly, we can get the following basic mappings
+    - `('a * 'b)` -> `'a /\ 'b`
+    - `Left of 'a | Right of 'b` -> `'a \/ 'b`
+    - `type empty = |` -> `false`
+    - `unit` -> `true`
+    - function `->` -> implication `->`
+    - `'a -> empty` -> `'a -> false` -> `~'a`
+- programs are logical proofs
+- evaluation is simplification of the boolean expression
+
 ---
 Source: https://cs3110.github.io/textbook/chapters/preface/about.html

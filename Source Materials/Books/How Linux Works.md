@@ -147,5 +147,64 @@ Tags:
 - firewall management: `iptables`
 - ARP table management: `arp`
 
+## Network Applications And Services
+- tools
+    - connect to server: `telnet` / `netcat`
+    - check users/listeners for a port: `lsof`
+    - check received tcp packets: `tcpdump`
+    - check available / used ports on a given host: `nmap`
+    - check RPC services: `rpcinfo`
+- `inetd`  / `xinetd`: superserver used to manage your services' network connections
+- unix domain sockets: for IPC over regular IP networking on localhost (also visible using `lsof`)
+
+## Intro to Shell Scripts
+- quoting
+    - no quotes: shell evaluates substitutions (globs, variables, commands, etc.)
+    - single quotes: content is treated as a string as-is
+    - double quotes: no globbing or word splitting, substitutions still evaluated
+- if/else
+```shell
+if check_command; then
+    command
+else
+    other_command
+fi
+```
+- notes
+    - the `if` branch is taken if the `check_command` exits with an exit code 0
+    - can use `&&` and `||` to combine results of check commands
+    - the `check_command` is often the `test` or `[` command, e.g. `[ "$1" = hi ]`
+    - `test` /`[` provides many operators for checking (e.g. `-gt` for numerical inequalities or `-d` for directories)
+- case
+```shell
+case $1 in
+    something)
+        command
+        ;;
+    something_else)
+        other_command
+        ;;
+    *)
+        catchall_command
+        ;;
+esac
+```
+- for loop (for-each over space delimited values)
+```shell
+for x in first second third fourth; do
+    command
+done
+```
+- while loop (same semantics as the if statement)
+```shell
+while check_command; do
+    command
+done
+```
+- command substitution: pass command's stdout into a command's argument. Use `$()`
+- make temporary file: `mktemp`
+- heredoc: manually input large amounts of text into a command's stdin: `<<EOF ... EOF`
+- quick way to strip directories and extensions: `basename`
+- turn stdin into arguments to a command: `xargs`
 ---
 Source: https://www.goodreads.com/book/show/514432.How_Linux_Works?ref=nav_sb_ss_1_15

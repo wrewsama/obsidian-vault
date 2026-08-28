@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/How Linux Works.md",
+                "file": "Source Materials/Books/OCaml Programming.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "How Linux Works"
+              "title": "OCaml Programming"
             }
           }
         ]
@@ -178,10 +178,13 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Main Notes/HTTP Request Process.md",
     "Source Materials/Books/How Linux Works.md",
     "Source Materials/Books/Site Reliability Workbook.md",
     "Source Materials/Books/OCaml Programming.md",
+    "Main Notes/Read Your Mind.md",
+    "Main Notes/How Linux Opens Files.md",
+    "Source Materials/Books/Site Reliability Engineering.md",
+    "Main Notes/HTTP Request Process.md",
     "Main Notes/Red Black Trees.md",
     "Source Materials/Books/The Missing README.md",
     "Source Materials/Books/Undeniable How to Reach the Top and Stay There.md",
@@ -195,15 +198,12 @@
     "Source Materials/Websites/Nobody Cares How Hard You Work.md",
     "Main Notes/Strategies To Get PRs Reviewed Faster.md",
     "Main Notes/Terminal Setup.md",
-    "Source Materials/Books/Site Reliability Engineering.md",
     "Tags/SRE.md",
     "Tags/OCaml.md",
     "Source Materials/Books/Modern Software Engineering.md",
     "Source Materials/Books/Unit Testing Principles Practices and Patterns.md",
     "Source Materials/Books/The Effective Engineer.md",
     "README.md",
-    "Tags/Software Engineering.md",
-    "Tags/Software Design.md",
     "const/var",
     "const",
     "Projection",
