@@ -206,5 +206,19 @@ done
 - heredoc: manually input large amounts of text into a command's stdin: `<<EOF ... EOF`
 - quick way to strip directories and extensions: `basename`
 - turn stdin into arguments to a command: `xargs`
+
+## Moving Files Across the Network
+- simple copies from 1 machine to another
+    - `scp`
+    - `sftp`
+    - `python -m http.server` in the directory you want to share, then access it from `http://HOSTNAME:8000`
+    - `rsync`
+        - trailing slash on source directory unpacks all its contents into the destination directory
+        - use `--exclude` to skip syncing given patterns
+- file sharing to/from Windows / Mac machines: Samba client / server
+- file sharing with Linux: NFS
+    - client: just `mount` the nfs directory at the mount point you want
+    - server: can run some server daemons to serve traffic from a normal Linux server, but a NAS (network area storage) device is usually used as the NFS server instead
+
 ---
 Source: https://www.goodreads.com/book/show/514432.How_Linux_Works?ref=nav_sb_ss_1_15

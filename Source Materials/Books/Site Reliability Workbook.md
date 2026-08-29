@@ -144,5 +144,14 @@ Tags:
 - add kill switches and manual overrides
 - autoscale before load shedding
 
+## Non-Abstract Large System Design (NALSD)
+- start with a basic design that works in principle
+    - is it possible to satisfy the requirements (ignoring capacity e.g. cpu, ram)
+    - can we do better (faster, smaller, more efficient)
+- scale up
+    - is it feasible (can it meet the required scale)
+    - is it resilient (can it fail gracefully and handle component / datacenter failures)
+    - can we do better (again)
+
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook

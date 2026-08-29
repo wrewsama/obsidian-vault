@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/OCaml Programming.md",
+                "file": "Source Materials/Books/How Linux Works.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OCaml Programming"
+              "title": "How Linux Works"
             }
           }
         ]
@@ -178,10 +178,11 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Source Materials/Books/How Linux Works.md",
     "Source Materials/Books/Site Reliability Workbook.md",
+    "Source Materials/Websites/System Design in a Hurry.md",
+    "Source Materials/Books/Read Your Mind.md",
     "Source Materials/Books/OCaml Programming.md",
-    "Main Notes/Read Your Mind.md",
+    "Source Materials/Books/How Linux Works.md",
     "Main Notes/How Linux Opens Files.md",
     "Source Materials/Books/Site Reliability Engineering.md",
     "Main Notes/HTTP Request Process.md",
@@ -203,7 +204,6 @@
     "Source Materials/Books/Modern Software Engineering.md",
     "Source Materials/Books/Unit Testing Principles Practices and Patterns.md",
     "Source Materials/Books/The Effective Engineer.md",
-    "README.md",
     "const/var",
     "const",
     "Projection",
