@@ -220,5 +220,17 @@ done
     - client: just `mount` the nfs directory at the mount point you want
     - server: can run some server daemons to serve traffic from a normal Linux server, but a NAS (network area storage) device is usually used as the NFS server instead
 
+## User Environments
+- common user settings
+    - `$PATH`
+    - `umask`
+    - aliases
+- login shells 
+    - the shell you use to log in through a terminal, SSH shells included
+    - runs `/etc/profile`, then runs the first of `.bash_profile`, `.bash_login`, or `.profile`, depending on what exists
+- nonlogin shells
+    - additional shell opened after logging in (e.g. when you open the terminal in the Fedora desktop)
+    - runs `/etc/bash.bashrc`, then `.bashrc`
+
 ---
 Source: https://www.goodreads.com/book/show/514432.How_Linux_Works?ref=nav_sb_ss_1_15

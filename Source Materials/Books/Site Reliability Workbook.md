@@ -153,5 +153,25 @@ Tags:
     - is it resilient (can it fail gracefully and handle component / datacenter failures)
     - can we do better (again)
 
+## Data Processing Pipelines
+- best practices
+    - define SLOs (e.g. freshness, correctness)
+    - account for dependency SLAs
+    - documentation
+        - system design
+        - BAU processes and playbooks
+    - development lifecycle
+        - prototyping -> dry-run testing (nonprod env with 1% of prod data) -> staging -> canary -> rolling deployment to prod
+    - identify hotspots (resources under high contention) and break them down into fine-grained pieces
+    - use autoscaling and resource planning
+    - security policies (e.g. TTLs for PII, access control)
+    - plan escalation paths
+- pipeline maturity matrix
+    - failure tolerance
+    - scalability
+    - monitoring and debugging
+    - transparency / ease of implementation
+    - unit and integration testing
+
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook
