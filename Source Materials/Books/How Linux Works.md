@@ -232,5 +232,14 @@ done
     - additional shell opened after logging in (e.g. when you open the terminal in the Fedora desktop)
     - runs `/etc/bash.bashrc`, then `.bashrc`
 
+## Brief Survey of the Linux Desktop
+- X server: communicates with X clients. Takes in requests to draw objects on the screen and sends inputs (e.g. keyboard, mouse)
+- X clients
+    - window managers: arranges windows on screen and allows users to manipulate them (move, minimise, etc.)
+    - widgets (buttons / menus)
+    - applications
+- Desktop applications communicate through events on the Desktop Bus (D-Bus)
+- printing system: CUPS daemon
+
 ---
 Source: https://www.goodreads.com/book/show/514432.How_Linux_Works?ref=nav_sb_ss_1_15

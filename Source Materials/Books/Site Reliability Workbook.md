@@ -173,5 +173,16 @@ Tags:
     - transparency / ease of implementation
     - unit and integration testing
 
+## Config Design and Best Practices
+- config philosophy
+    - KISS, minimise required configs
+    - config options should ask the user the questions required to help them achieve their business goals
+    - we can still support power users by providing optional configs, with defaults (can be static or dynamic) if they aren't specified
+- config implementation
+    - separate config and data (i.e. have a decoupled config interface that generates the config data ingested by the system)
+    - tooling: validation, linting, version control
+    - deployments
+        - should support: gradual rollout, rollbacks (manual and auto)
+
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook

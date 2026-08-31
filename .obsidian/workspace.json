@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/How Linux Works.md",
+                "file": "Source Materials/Books/Range Why Generalists Triumph in a Specialized World.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "How Linux Works"
+              "title": "Range Why Generalists Triumph in a Specialized World"
             }
           }
         ]
@@ -178,10 +178,12 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Main Notes/umask.md",
+    "Source Materials/Books/Inside the Black Box.md",
+    "Source Materials/Books/Range Why Generalists Triumph in a Specialized World.md",
     "Source Materials/Books/How Linux Works.md",
     "Source Materials/Books/Site Reliability Workbook.md",
     "Source Materials/Books/The Almanack of Naval Ravikant.md",
+    "Main Notes/umask.md",
     "Source Materials/Websites/System Design in a Hurry.md",
     "Source Materials/Books/Read Your Mind.md",
     "Source Materials/Books/OCaml Programming.md",
@@ -202,8 +204,6 @@
     "Main Notes/Strategies To Get PRs Reviewed Faster.md",
     "Main Notes/Terminal Setup.md",
     "Tags/SRE.md",
-    "Tags/OCaml.md",
-    "Source Materials/Books/Modern Software Engineering.md",
     "const/var",
     "const",
     "Projection",

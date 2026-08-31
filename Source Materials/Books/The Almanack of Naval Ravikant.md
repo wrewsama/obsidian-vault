@@ -3,8 +3,7 @@ Tags:
 - [[Philosophy]]
 - [[Life]]
 ---
-# Wealth
----
+## Wealth
 - wealth
     - see wealth, not money or status
     - wealth is the assets that earn while you sleep (businesses, assets, etc)
@@ -58,9 +57,20 @@ Diver parable: Imagine you're the best deep sea diver in the world. By pure luck
 > If you're evenly split on a difficult decision, take the path more painful in the short term
 
 (if the easy option was the correct one, there wouldn't be a dilemma in the first place)
-# Happiness
---- 
-todo
+## Happiness
+- happiness is an internal skill that can be learned and practiced
+- it requires presence and peace
+- get rid of the things you "should" do (for others' / society's expectations), do what you need / want to do
 
+> My number one priority in life, above my happiness, above my family, above my work, is my own health
+- we evolved for scarcity but live in abundance. That's why we struggle to say no when our genes always want to say yes
+- "I don't have time" is just "It's not a priority". Prioritise your health.
+- diet, exercise, meditation
+
+## Philosophy
+- Scientific statements must be falsifiable
+    - examples: math, microeconomics
+    - nonexamples: macroeconomics, religion
+- consider basing your philosophy on falsifiable statements only
 ---
 Source: https://www.goodreads.com/book/show/54898389-the-almanack-of-naval-ravikant
