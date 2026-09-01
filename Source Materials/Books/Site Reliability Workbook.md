@@ -184,5 +184,10 @@ Tags:
     - deployments
         - should support: gradual rollout, rollbacks (manual and auto)
 
+## Config Specifics
+- goal: reduce config-induced toil, usually from managing large numbers of highly duplicated config files
+- option 1: remove configs or replace them with dynamic defaults (best option, if possible)
+- option 2: set up a config system (see previous chapter for implementation guidelines)
+
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook

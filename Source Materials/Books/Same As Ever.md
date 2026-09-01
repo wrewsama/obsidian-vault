@@ -13,7 +13,7 @@ Tags:
 - trying to min-max everything to achieve perfection often leaves you even worse off than a "good" approach
 
 > "Every job comes with pieces you don't like. And we need to say: That's part of it." - Jeff Bezos
-- It's suppose to hurt, endure it and don't obsess over some quick hack or shortcut
+- It's supposed to hurt, endure it and don't obsess over some quick hack or shortcut
 - All competitive advantages disappear in time. Keep running.
 - You don't truly understand things until you've experienced them firsthand. Both the good and the bad.
 > "The sore truth is that complexity sells better"  - Edgar Djikstra

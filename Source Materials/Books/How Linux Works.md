@@ -241,5 +241,12 @@ done
 - Desktop applications communicate through events on the Desktop Bus (D-Bus)
 - printing system: CUPS daemon
 
+## Dev Tools
+- static libraries: copied directly into executable at compile time
+- shared libraries: linked at compile time, loaded at run time
+    - list dependencies of a compiled artifact with `ldd`
+    - dynamic linker path hierarchy: preconfigured `rpath` > `/lib` > `/usr/lib` > the entries in `/etc/ld.so.conf`
+    - can change runtime library path with the `LD_LIBRARY_PATH` environment variable (not recommended)
+
 ---
 Source: https://www.goodreads.com/book/show/514432.How_Linux_Works?ref=nav_sb_ss_1_15
