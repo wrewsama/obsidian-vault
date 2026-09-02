@@ -248,5 +248,13 @@ done
     - dynamic linker path hierarchy: preconfigured `rpath` > `/lib` > `/usr/lib` > the entries in `/etc/ld.so.conf`
     - can change runtime library path with the `LD_LIBRARY_PATH` environment variable (not recommended)
 
+## Compiling Software From C Source Code
+- unpack source code archive (from `.tar.gz`)
+- follow the rest of the readme instructions, will usually broadly be:
+    - configure
+    - `make` (build)
+    - `make install` (install to system)
+- apply patches with the `patch` command and the given patch file
+
 ---
 Source: https://www.goodreads.com/book/show/514432.How_Linux_Works?ref=nav_sb_ss_1_15

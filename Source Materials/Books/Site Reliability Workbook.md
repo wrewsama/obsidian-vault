@@ -189,5 +189,11 @@ Tags:
 - option 1: remove configs or replace them with dynamic defaults (best option, if possible)
 - option 2: set up a config system (see previous chapter for implementation guidelines)
 
+## Canarying Releases
+- adjust size, duration, and time of day to ensure the canary gets enough requests to flag issues
+- ensure the correct metrics are collected and monitored
+    - should be able to indicate problems
+    - should be attributable to the deployed changes, not external factors
+
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook

@@ -29,5 +29,21 @@ Tags:
     - conditioning variables: extra variables / rules that affect the forecast (e.g. stop-loss)
     - run frequency
 - alpha model forecasts can be weighted and combined to produce a better forecast
+
+## Risk Models
+- purpose: measure and thus limiting the exposure to risk
+- limiting
+    - by constraint: cannot cross the limit
+    - by penalty: can only cross the limit if expected returns exceed a threshold
+- measuring
+    - volatility (standard deviation of returns of an instrument over time)
+    - dispersion (standard deviation between different instruments)
+
+## Transaction Cost Models
+- purpose: measure the extra overhead costs when making trades to ensure that it doesn't outweigh the expected increase in gains (alpha model) or the expected decrease in loss (risk)
+- sources
+    - commissions / fees
+    - slippage (price changes between decision and execution)
+    - how the trade itself affects the price
 ---
 Source: https://www.goodreads.com/book/show/6800644-inside-the-black-box
