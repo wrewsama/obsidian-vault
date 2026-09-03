@@ -45,5 +45,15 @@ Tags:
     - commissions / fees
     - slippage (price changes between decision and execution)
     - how the trade itself affects the price
+## Portfolio Construction Models
+- purpose: process the inputs from the alpha, risk, and transaction cost models, then come up with the best possible portfolio (given some set constraints) 
+- rule based models
+    - equal position weighting: either own the position or don't, each position has the same size
+    - equal risk weighting: size is inversely proportional to the risk
+    - alpha driven weighting: size is proportional to the attractiveness of the position (based on the alpha model)
+- portfolio optimisers
+    - purpose: optimise some objective function
+    - inputs: expected return, volatility, correlation (between instruments)
+
 ---
 Source: https://www.goodreads.com/book/show/6800644-inside-the-black-box

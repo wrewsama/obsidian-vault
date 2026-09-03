@@ -256,5 +256,10 @@ done
     - `make install` (install to system)
 - apply patches with the `patch` command and the given patch file
 
+## Building on The Basics
+- uses
+    - applications e.g. databases and web servers
+    - infrastructure with virtualisation
+    - embedded systems (specialised Linux variants for specialised hardware)
 ---
 Source: https://www.goodreads.com/book/show/514432.How_Linux_Works?ref=nav_sb_ss_1_15

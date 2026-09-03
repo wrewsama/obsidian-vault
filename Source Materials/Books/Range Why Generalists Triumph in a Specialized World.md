@@ -15,5 +15,8 @@ Tags:
 
 - explore lateral thinking with withered technology: finding new uses for old things
 - learning sometimes requires putting aside your experiences / views
+- don't let others make you feel like you're behind
+- maintain the mindset of experimentation: most things won't be useful, but some will be life-changing
+- note that there's nothing inherently wrong with specialisation either
 ---
 Source: https://www.goodreads.com/book/show/41795733-range

@@ -195,5 +195,15 @@ Tags:
     - should be able to indicate problems
     - should be attributable to the deployed changes, not external factors
 
+## Identifying and Recovering from Overload
+- symptoms of overload
+    - unsustainable ticket backlog
+    - poor team morale and health
+- solutions
+    - drop some tickets
+    - drop support for noisy services (e.g. by returning it back to the dev team)
+    - implement automation to reduce operational load
+    - document common problems to allow self-service
+    - improve team morale and culture
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook
