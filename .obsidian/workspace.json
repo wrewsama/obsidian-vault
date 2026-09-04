@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Range Why Generalists Triumph in a Specialized World.md",
+                "file": "Source Materials/Books/Inside the Black Box.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Range Why Generalists Triumph in a Specialized World"
+              "title": "Inside the Black Box"
             }
           }
         ]
@@ -178,10 +178,11 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Source Materials/Books/Inside the Black Box.md",
     "Source Materials/Books/Site Reliability Workbook.md",
-    "Source Materials/Books/How Linux Works.md",
+    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Source Materials/Books/Range Why Generalists Triumph in a Specialized World.md",
+    "Source Materials/Books/Inside the Black Box.md",
+    "Source Materials/Books/How Linux Works.md",
     "Source Materials/Books/Dopamine Nation.md",
     "Source Materials/Books/Same As Ever.md",
     "Source Materials/Books/The Almanack of Naval Ravikant.md",
@@ -203,7 +204,6 @@
     "Source Materials/Websites/Nobody Cares How Hard You Work.md",
     "Main Notes/Strategies To Get PRs Reviewed Faster.md",
     "Main Notes/Terminal Setup.md",
-    "Tags/SRE.md",
     "const/var",
     "const",
     "Projection",

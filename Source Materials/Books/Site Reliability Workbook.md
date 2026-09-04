@@ -205,5 +205,23 @@ Tags:
     - implement automation to reduce operational load
     - document common problems to allow self-service
     - improve team morale and culture
+    
+## SRE Engagement Model
+- how SREs engage with a supported service
+- SRE responsibilities in development phases:
+    - architecture and design phase: enforce reliability best practices (e.g. no SPOF)
+    - active development phase: **productionisation** (e.g. capacity planning, load balancing, monitoring, alerting, performance tuning)
+    - limited availability phase: define SLOs, measure and evaluate metrics
+    - general availability phase: operations
+    - deprecation phase: support transition to new system, continue operations on old system
+    - unsupported: delete references to the service in prod configs and documentation
+- SRE <> Dev relationship requirements
+    - goals and priorities
+        - SRE short term goal: fulfill business needs in a reliable, available, scalable, and maintainable way
+        - SRE long term goal: fully automate ops so they can move on to work on the next engagement
+    - risks
+    - ground rules (e.g. error budget, limits on operational work)
+    - clear planning and execution (e.g. synced roadmaps)
+
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook

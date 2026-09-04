@@ -54,6 +54,26 @@ Tags:
 - portfolio optimisers
     - purpose: optimise some objective function
     - inputs: expected return, volatility, correlation (between instruments)
+## Execution Models
+- purpose: take in the required position changes from the portfolio construction model, then execute those changes as completely and as cheaply as possible
+- model chooses
+    - type of order (e.g. market, limit, fill-or-kill, etc)
+    - how to send the order (i.e. how much to send at once, aka _iceberging_)
+    - where to send the order (which liquidity pool)
 
+## Data
+- price data: info from exchanges, e.g.
+    - all order book information
+    - things that can be derived from indices
+- fundamental data: everything else, e.g.
+    - financial health / performance indicators
+    - sentiment
+- common data sources
+    - exchanges
+    - regulators
+    - governments
+    - corporations
+    - news agencies
+    - proprietary data vendors
 ---
 Source: https://www.goodreads.com/book/show/6800644-inside-the-black-box
