@@ -75,5 +75,21 @@ Tags:
     - corporations
     - news agencies
     - proprietary data vendors
+
+## Research
+- testing types
+    - training / in-sample testing
+    - out of sample testing
+- model evaluation
+    - graph of cumulative profits
+    - average rate of return
+    - variability of returns
+    - max drawdown
+    - predictive power (measured using $R^2$)
+    - % winning trades / time periods
+    - risk/return ratios
+    - relationship with other strategies (ensure it's still useful together with other models)
+    - time decay: how much does the strategy depend on getting information on time
+    - sensitivity to specific parameters: if small changes to some parameters result in massive changes in performance, the parameters should be reconsidered
 ---
 Source: https://www.goodreads.com/book/show/6800644-inside-the-black-box

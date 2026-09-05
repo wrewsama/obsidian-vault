@@ -223,5 +223,12 @@ Tags:
     - ground rules (e.g. error budget, limits on operational work)
     - clear planning and execution (e.g. synced roadmaps)
 
+## Reaching Beyond Your Walls
+- communicate with customers using SLIs and SLOs
+- build shared monitoring
+- renegotiate SLOs after collecting and analysing metrics
+- collaborate on design reviews
+- practice disaster recovery
+
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook
