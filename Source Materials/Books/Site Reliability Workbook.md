@@ -230,5 +230,13 @@ Tags:
 - collaborate on design reviews
 - practice disaster recovery
 
+## SRE Team Principles
+- SRE needs SLOs with consequences
+- SREs must have time to make tomorrow better than today
+- SRE teams have the ability to regulate their workload
+
+## Organisational Change Management in SRE
+- consider using an established organisational change framework (e.g. Kotter's 8 step process or the Prosci ADKAR model)
+
 ---
 Source: https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Inside the Black Box.md",
+                "file": "Source Materials/Books/Site Reliability Workbook.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Inside the Black Box"
+              "title": "Site Reliability Workbook"
             }
           }
         ]
@@ -178,9 +178,9 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
+    "Source Materials/Books/Inside the Black Box.md",
     "Source Materials/Books/Site Reliability Workbook.md",
     "Source Materials/Books/Up From Slavery.md",
-    "Source Materials/Books/Inside the Black Box.md",
     "Source Materials/Books/Operating Systems Three Easy Pieces.md",
     "Source Materials/Books/Range Why Generalists Triumph in a Specialized World.md",
     "Source Materials/Books/How Linux Works.md",
