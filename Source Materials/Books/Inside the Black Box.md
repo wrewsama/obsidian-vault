@@ -91,5 +91,16 @@ Tags:
     - relationship with other strategies (ensure it's still useful together with other models)
     - time decay: how much does the strategy depend on getting information on time
     - sensitivity to specific parameters: if small changes to some parameters result in massive changes in performance, the parameters should be reconsidered
+
+## Inherent Risks
+- types of risks
+    - model risk: intrinsic problems with the model itself (e.g. bad implementation, model doesn't fit the real world)
+    - exogenous shock: e.g. wars, terror attacks, etc.
+    - contagion risk: investors panic exit a portfolio to reduce exposure to a less liquid strategy that's losing money
+- risk monitoring
+    - exposure
+    - PnL
+    - execution
+    - systems performance
 ---
 Source: https://www.goodreads.com/book/show/6800644-inside-the-black-box
