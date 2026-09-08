@@ -102,5 +102,29 @@ Tags:
     - PnL
     - execution
     - systems performance
+
+## High Speed Trading
+- speed increases the profitability of
+    - placing passive orders: due to adverse selection, being slow means you only get filled when the market is in an unfavourable condition
+    - placing aggressive orders: faster => get a better fill
+    - cancelling passive orders: faster => can cancel if the market is moving unfavourably
+- latency sources
+    - transmission to/from/between market centres
+    - building/consolidating order books
+    - handling data bursts (important because trading activity is a positive feedback loop)
+    - signal construction (deciding what trades to make)
+    - risk checks
+
+## High Frequency Trading
+- what
+    - high speed trading infrastructure
+    - time horizons < 1 day
+    - generally, aim to have no positions @ EOD
+- types
+    - contractual market making: contracted by markets to fill orders
+    - noncontractual market making: voluntarily provide resting orders, profit off bid-ask spread
+    - arbitrage: _riskless profit_ off fleeting structural inefficiencies
+    - fast alpha: profit from price discrepancies between _statistically_ correlated instruments
+
 ---
 Source: https://www.goodreads.com/book/show/6800644-inside-the-black-box
