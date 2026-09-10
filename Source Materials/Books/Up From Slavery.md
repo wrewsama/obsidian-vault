@@ -25,5 +25,8 @@ Tags:
 - reminiscent of Nietzsche's slave morality
 - Washington also argues that the rich are constantly inundated with requests for money, and often do give away large sums silently
 
+> Cast down your bucket where you are
+- Focus on what you have around you and what you can do to improve it
+
 ---
 Source: https://www.goodreads.com/book/show/827685.Up_from_Slavery
