@@ -1,5 +1,6 @@
 Tags:
 - [[EQ]]
+- [[Career Skills]]
 ---
 ## Bosses
 - first, try to see how the situation could actually be in your best interest
