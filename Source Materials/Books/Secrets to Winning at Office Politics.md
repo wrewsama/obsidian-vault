@@ -31,5 +31,17 @@ Tags:
 - handling adversaries
     - convert: align your goals with theirs (and vice versa)
     - contain: increase your leverage over them so they can't deal major damage to you
+
+## Avoiding Political Pitfalls
+- toxic workplace characteristics (best solution is to find a new job)
+    - power games are commonplace
+    - toxic management
+        - fragile egos
+        - primarily focused on increasing power
+        - focus on losses instead of wins
+    - employees spend energy on covering their asses
+    - the response to problems involves searching for a scapegoat
+    - coworkers rarely help each other, disagreements get personal
+    - unreasonably long work hours
 ---
 Source: https://www.goodreads.com/book/show/260493.Secrets_to_Winning_at_Office_Politics
