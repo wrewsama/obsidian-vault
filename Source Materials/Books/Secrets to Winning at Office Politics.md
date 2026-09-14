@@ -7,6 +7,12 @@ Tags:
 - Never intentionally offend anyone at work
 - Positive relationships build political capital
 - All behaviour has a purpose
+- To achieve any goal, you must have sufficient power
+- Invisible contributions have no political value
+- Every positive working relationship increases your political power
+- To get other people to change their behaviour, you have to change your own
+- You always have choices about your behaviour
+- Facts can be wrong. Opinions are simply different
 ## Fundamentals
 - set goals, not wishes
     - align personal goals with business goals, hurting others for your goals is not worth it
@@ -39,9 +45,32 @@ Tags:
         - fragile egos
         - primarily focused on increasing power
         - focus on losses instead of wins
-    - employees spend energy on covering their asses
+    - employees spend energy on covering their asses (CYA files)
     - the response to problems involves searching for a scapegoat
     - coworkers rarely help each other, disagreements get personal
     - unreasonably long work hours
+- causes of career destruction
+    - uncontrolled emotion
+    - victim mentality
+    - selfish goals that hurt others
+    - foolish reactions to change
+- types of power
+    - positional: based on your job and the current context, must capitalise on it, but do so without overstepping
+    - personal: based on your own abilities, similar to leverage, need to build this
+- Power Elite: subset of people in the organisation that have high position and high influence. Observe what they do closely and adjust yours accordingly
+    - what they talk about
+    - how they work
+    - who they recognise
+
+## How to Become a Winner
+- 4 P's of gaining power
+    - Power Assessment: evaluate your current leverage and areas of improvement
+    - Performance: meet and exceed business goals
+    - Perception: improve your reputation (especially among the people who can help you achieve your goals), ensure your contributions are noticed
+    - Partnerships: gain allies
+- influencing others to help you achieve your goals
+    - understand their point of view
+    - utilise indirect or direct skills, depending on context. Ensure you're proficient at both forms
+    - (from indirect to most direct): observe & wait -> ask & listen -> persuade & convince -> order & act
 ---
 Source: https://www.goodreads.com/book/show/260493.Secrets_to_Winning_at_Office_Politics

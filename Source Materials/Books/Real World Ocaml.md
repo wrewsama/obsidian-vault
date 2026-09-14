@@ -22,5 +22,12 @@ Tags:
         - by _erase_, the argument isn't gone, it just becomes a normal positional argument
         - the exception is when everything is passed in at the same time (so you can pass in the optional argument at the end without it getting erased)
 
+## Lists and Patterns
+- pattern matching and the list type itself are the same as the OCaml standard library
+- the `List` module's functions have different signatures
+    - the list is passed in as the first argument, other arguments are labelled arguments (e.g. map/filter/fold functions are `~f`)
+    - there is only one `fold`, and it behaves like fold_left
+- polymorphic compares are unavailable by default in Base, but you can access them in the `Base.Poly` module
+
 ---
 Source: https://www.goodreads.com/book/show/16087552-real-world-ocaml?ac=1&from_search=true&qid=AywbZGaVor&rank=1

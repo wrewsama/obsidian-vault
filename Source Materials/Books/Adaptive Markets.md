@@ -14,5 +14,9 @@ Tags:
 ## chapter 3
 - the study of psychology  / neuroscience can help to explain the irrational behaviour of humans in the market 
 
+## chapter 4
+- emotion is an integral part of human decision-making, we would make terrible decisions without emotions like fear
+- humans aren't a rational animal, we're a _rationalising_ animal that interprets the world around us by forming a narrative, that we then use to predict the future and make present decisions
+- intelligence is just the ability to generate accurate cause-and-effect descriptions of reality (aka a creating good narrative)
 ---
 Source: https://www.goodreads.com/book/show/32889382-adaptive-markets
