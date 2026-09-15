@@ -13,6 +13,7 @@ Tags:
 - To get other people to change their behaviour, you have to change your own
 - You always have choices about your behaviour
 - Facts can be wrong. Opinions are simply different
+- A leader is someone that people _choose_ to follow
 ## Fundamentals
 - set goals, not wishes
     - align personal goals with business goals, hurting others for your goals is not worth it
@@ -72,5 +73,16 @@ Tags:
     - understand their point of view
     - utilise indirect or direct skills, depending on context. Ensure you're proficient at both forms
     - (from indirect to most direct): observe & wait -> ask & listen -> persuade & convince -> order & act
+- types of political relationships
+    - upward: help your bosses (and those above them) achieve their goals, but don't appear submissive
+    - lateral: be pleasant, help others where possible, handle disagreements in a mature way
+    - downward: focus on being respected, not liked. Enable your suboordinates, don't try and control them
+- political game plan
+    - if you may be becoming The Problem, take remedial action: work to reinvent your image for those in power
+    - decide on your goals
+    - prioritise your activities
+    - if faced with opposition, manage your adversaries: conversion or containment
+    - if insufficient to achieve your goals, increase political power (4Ps)
+    - execute! (stop, start, and continue relevant activities)
 ---
 Source: https://www.goodreads.com/book/show/260493.Secrets_to_Winning_at_Office_Politics
