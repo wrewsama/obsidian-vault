@@ -29,5 +29,31 @@ Tags:
     - there is only one `fold`, and it behaves like fold_left
 - polymorphic compares are unavailable by default in Base, but you can access them in the `Base.Poly` module
 
+## Files, Modules, Programs
+- same as standard ocaml
+- remember to add `base` to the `libraries` part of the `dune` config
+- module opening best practices
+    - avoid as much as possible
+    - if unavoidable, use local opens
+    - alternative option: module shortcuts e.g. `let module R = ReallyLongJavaEsqueModuleName in R.foo ()`
+
+## Records
+- punning: shorthand for automatically naming variables based on their labels/field names
+    - label punning: `let f ~foo ~bar` = `let f ~foo:foo ~bar:bar`
+    - field punning: `{ foo; bar }` = `{ foo=foo; bar=bar }`
+        - works for both declaration and pattern matching
+- functional update: shorthand to copy all key-values from a record to another, with some changed fields
+    - `let rec = {old_rec with foo="something else"`
+- `[@@deriving fields]`: annotation that creates getters and setters for the given type
+    - note: if you use it on multiple records within the same module, ensure we avoid field name collisions
+```ocaml
+module Logon = struct
+    type t = {
+        ...
+    }[@@deriving fields]
+end;;
+```
+
+
 ---
 Source: https://www.goodreads.com/book/show/16087552-real-world-ocaml?ac=1&from_search=true&qid=AywbZGaVor&rank=1
