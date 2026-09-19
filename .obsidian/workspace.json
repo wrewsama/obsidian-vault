@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Real World Ocaml.md",
+                "file": "Source Materials/Videos/Jordan Peterson - The Best Way To Learn Critical Thinking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Real World Ocaml"
+              "title": "Jordan Peterson - The Best Way To Learn Critical Thinking"
             }
           }
         ]
@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -179,8 +178,9 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Source Materials/Books/Adaptive Markets.md",
     "Source Materials/Books/Real World Ocaml.md",
+    "Source Materials/Videos/Jordan Peterson - The Best Way To Learn Critical Thinking.md",
+    "Source Materials/Books/Adaptive Markets.md",
     "Source Materials/Books/Secrets to Winning at Office Politics.md",
     "Source Materials/Books/HBR Guide to Office Politics.md",
     "Source Materials/Books/Read Your Mind.md",
@@ -204,7 +204,6 @@
     "Source Materials/Books/Undeniable How to Reach the Top and Stay There.md",
     "Main Notes/How Linux Executes Programs.md",
     "Source Materials/Books/The Burnout Society.md",
-    "Source Materials/Books/Deep Work.md",
     "const/var",
     "const",
     "Projection",
