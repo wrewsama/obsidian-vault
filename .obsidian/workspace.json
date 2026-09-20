@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Videos/Jordan Peterson - The Best Way To Learn Critical Thinking.md",
+                "file": "Main Notes/Spark The Revolutionary New Science of Exercise and the Brain.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Jordan Peterson - The Best Way To Learn Critical Thinking"
+              "title": "Spark The Revolutionary New Science of Exercise and the Brain"
             }
           }
         ]
@@ -178,8 +178,10 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Source Materials/Books/Real World Ocaml.md",
+    "Tags/Health & Fitness.md",
+    "Main Notes/Spark The Revolutionary New Science of Exercise and the Brain.md",
     "Source Materials/Videos/Jordan Peterson - The Best Way To Learn Critical Thinking.md",
+    "Source Materials/Books/Real World Ocaml.md",
     "Source Materials/Books/Adaptive Markets.md",
     "Source Materials/Books/Secrets to Winning at Office Politics.md",
     "Source Materials/Books/HBR Guide to Office Politics.md",
@@ -202,8 +204,6 @@
     "Main Notes/Red Black Trees.md",
     "Source Materials/Books/The Missing README.md",
     "Source Materials/Books/Undeniable How to Reach the Top and Stay There.md",
-    "Main Notes/How Linux Executes Programs.md",
-    "Source Materials/Books/The Burnout Society.md",
     "const/var",
     "const",
     "Projection",
