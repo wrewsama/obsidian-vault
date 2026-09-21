@@ -31,7 +31,7 @@ Tags:
 
 ## chapter 7
 - hedging: long one instrument, short another => limits losses when the market as a whole goes down
-- hedge funds also follow the same phenomenon as evolution
+- hedge funds also follow the same phenomenon as evolution: multiplying, mutating, and going extinct
 
 ---
 Source: https://www.goodreads.com/book/show/32889382-adaptive-markets

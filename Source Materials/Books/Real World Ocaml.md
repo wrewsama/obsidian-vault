@@ -54,6 +54,21 @@ module Logon = struct
 end;;
 ```
 
+## Variants
+- same as standard ocaml
+- notes on polymorphic variants
+    - just variants without needing to declare a new `type`
+    - can increase complexity, weaken type safety, and worsen efficiency
 
+## Error Handling
+- Error-Aware return types
+    - option (`None` and `Some a`)
+    - result (`Ok a` and `Error b`)
+- Exceptions
+    - fundamentally the same as standard ocaml
+    - can use the `[@@deriving sexp]` annotation to improve the printing of exceptions with record types
+    - can use `Exn.protect` to set up a `finally` clause to clean up
+    - can use `raise_notrace` instead of `raise` to remove backtraces (better performance but less debugging information)
+- `Or_error.try_with`: takes in a thunk, executes it, and returns an error-aware return type based on whether the thunk raised an exception
 ---
 Source: https://www.goodreads.com/book/show/16087552-real-world-ocaml?ac=1&from_search=true&qid=AywbZGaVor&rank=1
