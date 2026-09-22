@@ -33,5 +33,12 @@ Tags:
 - hedging: long one instrument, short another => limits losses when the market as a whole goes down
 - hedge funds also follow the same phenomenon as evolution: multiplying, mutating, and going extinct
 
+## chapter 8
+- new investment paradigm
+    - positive correlation between risk and reward during normal market conditions. But during extreme financial threats, risk is punished
+    - Capital Asset Pricing Model (CAPM) is a useful heuristic in most environments, but relies on economic and statistical assumptions that may not hold in specific market environments
+    - Similarly, portfolio optimisation tools are only useful of certain assumptions (stationarity & rationality) hold
+    - risk management via asset allocation is no longer as effective as the boundaries between asset classes are blurring
+    - equities have good returns over the long run, but few investors can affort to wait it out
 ---
 Source: https://www.goodreads.com/book/show/32889382-adaptive-markets

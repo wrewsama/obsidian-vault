@@ -70,5 +70,21 @@ end;;
     - can use `Exn.protect` to set up a `finally` clause to clean up
     - can use `raise_notrace` instead of `raise` to remove backtraces (better performance but less debugging information)
 - `Or_error.try_with`: takes in a thunk, executes it, and returns an error-aware return type based on whether the thunk raised an exception
+
+## Imperative Programming
+- refs, arrays, loops, and lazy all work the same way as standard ocaml
+- IO (stdin, stdout, stderr, files) is handled by modules in `Core`
+    - `In_channel`
+    - `Out_channel`
+
+## GADTs
+- Generalised Algebraic Data Types: extension of variants
+```ocaml
+type _ gadt =
+    | Int : int -> int gadt
+    | Bool : bool -> bool gadt
+```
+- uses `_` instead of a polymorphic type variable like `'a`
+- flexibly allows different constructor inputs to return different variant types
 ---
 Source: https://www.goodreads.com/book/show/16087552-real-world-ocaml?ac=1&from_search=true&qid=AywbZGaVor&rank=1
