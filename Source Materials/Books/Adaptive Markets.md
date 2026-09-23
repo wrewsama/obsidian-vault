@@ -40,5 +40,22 @@ Tags:
     - Similarly, portfolio optimisation tools are only useful of certain assumptions (stationarity & rationality) hold
     - risk management via asset allocation is no longer as effective as the boundaries between asset classes are blurring
     - equities have good returns over the long run, but few investors can affort to wait it out
+
+## chapter 9
+- Illiquidity, combined with high leverage, is precisely the explosive agent underlying most catastrophic blowups (e.g. LTCM, Bear Stearns, Lehman Brothers)
+- complexity + tight coupling = disaster
+
+## chapter 10
+- financial Moore's Law: volume of exchange traded derivatives doubles every 5 years
+
+## chapter 11
+- risk management process
+    - select most significant risk factors
+    - identify objective to optimise
+    - measure portfolio-return dynamics
+    - optimise the objective
+    - notice changes and iterate
+- risk appetite: function of reward, potential loss, career risk, competitive pressure, peer pressure, self-image, and regulatory environment
+
 ---
 Source: https://www.goodreads.com/book/show/32889382-adaptive-markets

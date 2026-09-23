@@ -86,5 +86,27 @@ type _ gadt =
 ```
 - uses `_` instead of a polymorphic type variable like `'a`
 - flexibly allows different constructor inputs to return different variant types
+
+## Functors
+- purpose
+    - dependency injection
+    - extension of modules
+    - allow for separate instances of stateful modules (so they don't all share the same state)
+- sharing constraints: expose information about a concrete type within the module type
+    - `<Module_type> with type <type> = <type'>`
+    - can be done in the module type definition, or the return type hint of the functor
+- destructive substitution
+    - `<Module_type> with type <type> := <type'>` (note the walrus operator instead of equal)
+    - replace references to `<type>` in the signature with `<type'>`
+
+## First Class Modules
+- allows you to use modules like ordinary values (e.g. to be passed into functions)
+- creation: `let first_class_module = (module Module : Module_type)`
+- unpacking: `module Unpacked_module = (val first_class_module : Module_type)`
+- pattern matching: `let f (module Module : Module_type) = stuff with Module...`
+- side topic: locally abstract types
+    - syntax: `let f (type a) (x : a): a`
+    - introduces an abstract type variable (`a` in this case) to the local scope of the function (`f` here)
+
 ---
 Source: https://www.goodreads.com/book/show/16087552-real-world-ocaml?ac=1&from_search=true&qid=AywbZGaVor&rank=1
