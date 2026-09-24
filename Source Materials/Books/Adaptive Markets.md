@@ -57,5 +57,9 @@ Tags:
     - notice changes and iterate
 - risk appetite: function of reward, potential loss, career risk, competitive pressure, peer pressure, self-image, and regulatory environment
 
+## chapter 12
+- humanity's goals should drive finance, not the other way around
+    - e.g. poverty, climate change, healthcare
+- the Adaptive Markets Hypothesis posits that we can improve a financial system as it adapts to our needs and the challenges of the environment
 ---
 Source: https://www.goodreads.com/book/show/32889382-adaptive-markets

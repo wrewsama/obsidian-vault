@@ -1,6 +1,8 @@
 Tags:
 - [[Ocaml]]
 ---
+# Language Concepts
+---
 ## Guided Tour
  - `Base` vs `Core`
      - Base: lightweight, portable standard library
@@ -107,6 +109,35 @@ type _ gadt =
 - side topic: locally abstract types
     - syntax: `let f (type a) (x : a): a`
     - introduces an abstract type variable (`a` in this case) to the local scope of the function (`f` here)
+
+## Objects
+- basic usage of objects
+```ocaml
+let my_obj = object
+    val my_val = 35
+    method my_method x = my_val + x
+end
+my_obj#my_method 111
+```
+- basic usage of object types
+```ocaml
+type my_obj_type = < my_method : int -> int >
+let widened = (some_obj_with_my_method : my_obj_type)
+```
+- NOTE: type narrowing is not permitted in ocaml
+
+## Classes
+- class definition (just an object with the class keyword): `class my_class arg1 arg2 ... = object ... end;;`
+- instantiation: `let my_obj = new my_class`
+- inheritance: `class my_subclass = object inherit my_superclass as localname ... end`
+- self: `class my_class ... = object(self) ... end`
+    - can access other methods using `self#method_name`
+- private methods: `method private my_method = ...`
+- virtual classes/methods: `class virtual my_class ...`, `method virtual my_method ...`
+- initialisers (like the `__init__` method in python): `class my_class = object ... initialiser some_init_fn () end`
+
+# Tools and Techniques
+--- 
 
 ---
 Source: https://www.goodreads.com/book/show/16087552-real-world-ocaml?ac=1&from_search=true&qid=AywbZGaVor&rank=1
