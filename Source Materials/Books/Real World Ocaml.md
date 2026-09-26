@@ -138,6 +138,57 @@ let widened = (some_obj_with_my_method : my_obj_type)
 
 # Tools and Techniques
 --- 
+## Maps and Hash Tables
+- maps: declarative, immutable, logarithmic time
+- hashtables: imperative, mutable, (amortised) constant time
+- maps in `Base` require a `Comparator.S` in order to identify the comparator in the map's type signature (as the `comparator_witness`)
+```ocaml
+module My_module = struct
+    module T = struct
+       (* define compare and sexp_of_t functions *)
+       (* can also define them manually *)
+       type t = {...} [@@deriving compare, sexp_of]
+    end
+    include T
+    
+    (* create the comparator instance and witness type *)
+    include Comparator.Make(T)
+end
+```
+
+## CLI Parsing
+- Use `Core.Command`
+- define commands with `Command.basic`
+```ocaml
+let command = Command.basic
+    ~summary:"la la la"
+    (let%map_open.Command arg1 = anon ("arg1" %: string)
+     and arg2 = anon ("arg2" %: int) in
+     and opt1 = flag "-o" (optional string)
+     and opt2 = flag "-O" no_arg
+     fun () -> fn arg1 arg2 opt1 opt2
+    )
+```
+- run with `Command.run command`
+- compose commands together as subcommands of a parent command using `Command.group`
+
+## Concurrent Programming
+- Use `Async`
+- `Deferred` is similar to `lwt`'s promises
+    - also uses `bind` or `>>=` with a callback
+    - uses `return` to wrap a value
+    - or `let%bind` (with `ppx_let` enabled)
+- use `Cohttp_async`  for HTTP client queries
+- `try/with` blocks don't work, need to use the `Async.try_with` function
+
+## Testing
+- inline testing
+    - enable `ppx_inline_test` and `ppx_assert`
+    - use `let%test_unit`
+- expect testing
+    - use `let%expect_test`, `dune runtest` will automatically suggest the `[%expect ]` block
+- property testing
+    - use `Quickcheck` (part of `Core`)
 
 ---
 Source: https://www.goodreads.com/book/show/16087552-real-world-ocaml?ac=1&from_search=true&qid=AywbZGaVor&rank=1
