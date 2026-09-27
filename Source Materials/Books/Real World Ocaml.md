@@ -190,5 +190,17 @@ let command = Command.basic
 - property testing
     - use `Quickcheck` (part of `Core`)
 
+## Handling JSON Data
+- `Yojson` library
+    - read in a `Yojson.Basic.t` from a string, file, or channel
+    - use pipeline operators to extract and parse fields e.g. `let foo_str = json |> member "foo" |> to_string`
+    - build json objects with the `Yojson.Basic.t` type by using the polymorphic variants (e.g. `` `Assoc ``)
+- ATD / `atdgen`
+    - specify json schema, then run code gen to create the parsing code
+    - parses straight into a custom record type (based on the provided json schema)
+
+## Parsing / Lexing
+- lex with `ocamllex`
+- parse with `Menhir`
 ---
 Source: https://www.goodreads.com/book/show/16087552-real-world-ocaml?ac=1&from_search=true&qid=AywbZGaVor&rank=1
