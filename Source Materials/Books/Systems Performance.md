@@ -42,5 +42,28 @@ Tags:
 - capacity planning
     - resource analysis: determine resource limits by measuring usage of different resources at given loads, then extrapolate to find which will be saturated first
     - factor analysis: measure performance drop when minimising each factor individually, then find the most important factors
+    
+## Operating Systems
+- optimisations to limit overhead of user -> kernel mode context switches
+    - user mode syscalls
+    - memory mapping
+    - kernel bypass
+    - kernel mode applications
+- key syscalls
+    - basic IO: read, write, open, close
+    - processes: fork, clone, exec
+    - sockets: connect, accept
+    - files: stat, mmap
+    - others
+        - ioctl: miscellaneous actions (e.g. enabling instrumentation)
+        - brk: extend heap pointer (for mallocing)
+        - futex: fast userspace mutex
+- systemd: service manager for Linux
+    - can use `systemd-analyze` to check boot time. Useful when optimising the startup time
+- Kernel Page Table Isolation (KPTI)
+    - reduces performance due to extra CPU cycles and TLB flushing
+- Extended Berkeley Packet Filter (BPF)
+    - VM that runs in kernel mode, allowing user mode BPF tools for tracing, networking, or security
+
 ---
 Source: https://www.goodreads.com/book/show/18058001-systems-performance

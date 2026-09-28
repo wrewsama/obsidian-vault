@@ -202,5 +202,25 @@ let command = Command.basic
 ## Parsing / Lexing
 - lex with `ocamllex`
 - parse with `Menhir`
+
+## S-Expressions
+- A `Sexp` is either an atomic `string` or a list of nested `Sexp`s
+- marshalling and unmarshalling functions are in `Core`, not `Base`
+    - for Atoms, use `sexp_of_t` for the given type (e.g. `Int.sexp_of_t 35`)
+    - for lists, `List.sexp_of_t conv_fn l` where `conv_fn` is the atom conversion function for the list's type (e.g. `Float.sexp_of_t` for a `float list`)
+    - for custom types
+        - `[@@deriving sexp]` annotation (requires `ppx_jane`)
+        - for anonymous types, `[%sexp_of: your_type]` e.g. `[%sexp_of: int * string]`
+- consider using `load_sexp_conv_exn` instead of `load_sexp` for better exception messages
+- for `[@@deriving sexp]`, can use directives to modify the way the field is treated by the generated conversion functions (e.g. `[@sexp_opaque]` ignores the marked field)
+
+## The OCaml Platform
+- package management using opam, no changes from standard ocaml
+- project structure
+    - lib: source code
+    - main: thin executable wrapper around lib code
+    - test: tests for the code in lib
+- `dune-release` lets you release code into the global opam repository
+
 ---
 Source: https://www.goodreads.com/book/show/16087552-real-world-ocaml?ac=1&from_search=true&qid=AywbZGaVor&rank=1
