@@ -222,5 +222,25 @@ let command = Command.basic
     - test: tests for the code in lib
 - `dune-release` lets you release code into the global opam repository
 
+# The Compiler and Runtime System
+--- 
+## Foreign Function Interface
+- link to and call libraries written in other languages
+- use Ctypes to call C libraries
+    - use the `CTypes` module functions in ocaml to define the interface of the C library
+    - define the `.mli` signature (can use the `ocaml-print-inf`tool for this)
+    - call the functions in the `.mli` interface like normal
+
+## Memory Representation of Values
+- OCaml blocks: basic unit of allocation
+    - header (32 or 64 bit, depending on the CPU architecture)
+        - size of block
+        - colour (for GC) (2 bit)
+        - tag byte (8 bit)
+    - array of values
+- values are either
+    - unboxed: stored directly as a value
+    - boxed: stored as a pointer to a block
+
 ---
 Source: https://www.goodreads.com/book/show/16087552-real-world-ocaml?ac=1&from_search=true&qid=AywbZGaVor&rank=1

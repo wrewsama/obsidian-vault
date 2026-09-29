@@ -65,5 +65,18 @@ Tags:
 - Extended Berkeley Packet Filter (BPF)
     - VM that runs in kernel mode, allowing user mode BPF tools for tracing, networking, or security
 
+## Observability Tools
+- fixed counters: counters maintained by the kernel
+    - system-wide tools: vmstat, mpstat, iostat, nstat, sar
+    - per-process tools: ps, top, pmap
+- profiling: collection of a set of samples of behaviour
+    - system-wide tools: perf, profile
+    - per-process tools: gprof, cachegrind, language-specific profilers e.g. JFR for Java
+- tracing: instrumenting occurrences of events
+    - system-wide tools: tcpdump, biosnoop, execsnoop, perf, ftrace, bcc, bpftrace
+    - per-process tools: strace, gdb
+- monitoring
+    - sar, Simple Network Management Protocol (SNMP), agents e.g. Prometheus, collectd
+
 ---
 Source: https://www.goodreads.com/book/show/18058001-systems-performance
