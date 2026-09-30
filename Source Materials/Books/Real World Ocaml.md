@@ -242,5 +242,28 @@ let command = Command.basic
     - unboxed: stored directly as a value
     - boxed: stored as a pointer to a block
 
+## Understanding the Garbage Collector
+- minor heap: small region (2-8 MB) for short lived values, stops the world, copies live blocks to major heap, then "clears" itself by resetting the `ptr` that indicates where the next block can go
+- major heap: larger region (GB++) for longer lived values
+    - stop-the-world mark and sweep done in slices of the heap
+    - mark: scan block graph and marks live blocks using the colour tag
+        - mark "root values" black, push them to a _mark stack_, then dfs till stack is empty
+    - sweep: scan heap chunks and identifies the unmarked, dead blocks
+    - heap is compacted after a configured number of GC cycles completed, stops the world to compact the entire heap
+- intergenerational (major to minor) pointers are saved to speed up minor heap GC cycles
+    - write barrier for mutable values updates the pointers when something in the major heap gets updated with a new reference to something in the minor heap
+
+## Compiler Frontend
+- code is lexed and parsed into an AST, raising syntax errors if they occur
+- AST is modified by preprocessors (ppx)
+    - `[@ ...]`: postfix on expressions
+    - `[@@ ...]`: bind to block of code
+    - `[@@@ ...]`: standalone entry
+    - `[%id expr]`: placeholder in the AST for code generation; `let%id expr` is the same thing as `[%id let expr]`
+- static type checking is performed
+    - auto type inference
+    - combining modules with knowledge of type signatures
+    - explicit subtyping for objects and polymorphic variants
+- AST and type checks are combined to form the **typed abstract syntax tree**
 ---
 Source: https://www.goodreads.com/book/show/16087552-real-world-ocaml?ac=1&from_search=true&qid=AywbZGaVor&rank=1

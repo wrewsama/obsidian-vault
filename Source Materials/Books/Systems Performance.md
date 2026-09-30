@@ -78,5 +78,19 @@ Tags:
 - monitoring
     - sar, Simple Network Management Protocol (SNMP), agents e.g. Prometheus, collectd
 
+## Applications
+> Performance is best tuned closest to where the work is performed: in the applications 
+- key ideas
+    - optimise the common case (paths that frequently use CPU for CPU bound apps, similar for IO bound apps)
+    - ensure applications have good observability
+- techniques
+    - tune IO size
+    - caching reads
+    - buffering writes
+    - polling: `epoll` instead of `poll`
+    - use concurrency and/or parallelism
+    - nonblocking IO
+    - processor binding (especially with NUMA environments)
+
 ---
 Source: https://www.goodreads.com/book/show/18058001-systems-performance
