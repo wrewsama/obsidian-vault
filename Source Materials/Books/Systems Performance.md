@@ -92,5 +92,24 @@ Tags:
     - nonblocking IO
     - processor binding (especially with NUMA environments)
 
+## CPUs
+- first target for systems performance analysis
+- newer CPUs + newer compilers that take advantage of the new instruction sets can result in significant application performance boosts
+- methodology: performance monitoring -> USE method -> profiling -> micor-benchmarking -> static perf tuning
+- experimentation tools
+    - `mpstat` + infinite loop in bash `while :; do :; done &`
+    - `sysbench`
+- tuning
+    - compiler optimisation options
+    - priority (niceness)
+    - scheduler options
+    - governors (control CPU clock frequencies)
+    - power states (sleep states trade latency for power efficiency)
+    - CPU binding with `taskset` / `numactl`
+    - exclusive CPU sets (similar to binding but also automatically prevents other process from getting scheduled on those CPUs)
+    - resource controls (e.g. cgroups)
+    - security boot options (disabling some can improve performance, but this is NOT RECOMMENDED)
+    - BIOS tuning (e.g. disabling turbo boost during benchmarking to ensure consistent clock frequency)
+
 ---
 Source: https://www.goodreads.com/book/show/18058001-systems-performance

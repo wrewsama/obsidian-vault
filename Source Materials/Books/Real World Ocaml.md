@@ -265,5 +265,23 @@ let command = Command.basic
     - combining modules with knowledge of type signatures
     - explicit subtyping for objects and polymorphic variants
 - AST and type checks are combined to form the **typed abstract syntax tree**
+
+## Compiler Backend
+- the typed AST is then converted into a lambda form
+    - lower level constructs like records and function pointers
+    - no type information, converted to the memory model blocks
+- lambda form is compiled either to bytecode or to native machine code, depending on the user command
+- bytecode compilation
+    - interpreter is a stack-based VM
+    - `.ml` ocaml files produce `.cmo` bytecode files with `.cmi` interfaces, which are then linked so the interpreter can execute them
+- native code compilation
+    - `.o` native object code
+    - `.cmx` extra linking info
+    - `.cmi` interface
+- native code tools
+    - see assembly output with `ocamlopt -S my_module.ml`
+    - interactively debug with `gdb` (on the native binary)
+    - profile with `gprof` and `perf` (on the native binary)
+
 ---
 Source: https://www.goodreads.com/book/show/16087552-real-world-ocaml?ac=1&from_search=true&qid=AywbZGaVor&rank=1
