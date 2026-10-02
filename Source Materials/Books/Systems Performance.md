@@ -95,7 +95,7 @@ Tags:
 ## CPUs
 - first target for systems performance analysis
 - newer CPUs + newer compilers that take advantage of the new instruction sets can result in significant application performance boosts
-- methodology: performance monitoring -> USE method -> profiling -> micor-benchmarking -> static perf tuning
+- methodology: performance monitoring -> USE method -> profiling -> micro-benchmarking -> static perf tuning
 - experimentation tools
     - `mpstat` + infinite loop in bash `while :; do :; done &`
     - `sysbench`
@@ -111,5 +111,22 @@ Tags:
     - security boot options (disabling some can improve performance, but this is NOT RECOMMENDED)
     - BIOS tuning (e.g. disabling turbo boost during benchmarking to ensure consistent clock frequency)
 
+## Memory
+- demand paging
+    - `malloc` causes unallocated virtual memory to be allocated (but not mapped to physical memory yet)
+    - when storing something in that virtual memory space, lookup is done on the MMU
+    - if page has a physical mapping, access that (may be in memory or may have been swapped out due to memory pressure)
+    - if no mapping, page fault
+        - if data is on a physical memory page, create mapping to it (minor page fault)
+        - else, load from disk (major page fault)
+- memory <> cpu architecture
+    - UMA: all CPUs --system bus-> all DRAM
+    - NUMA: each CPU --memory bus-> 1 unit of DRAM, CPUs are connected via CPU interconnect
+- methodology: performance monitoring -> USE method -> characterising usage
+- tuning
+    - page sizes (e.g. hugepages)
+    - memory allocators
+    - NUMA bindings
+    - resource controls (e.g. `ulimit`)
 ---
 Source: https://www.goodreads.com/book/show/18058001-systems-performance
