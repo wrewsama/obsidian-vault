@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Clean Architecture.md",
+                "file": "Source Materials/Books/Systems Performance.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Clean Architecture"
+              "title": "Systems Performance"
             }
           }
         ]
@@ -178,6 +178,7 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
+    "Source Materials/Books/Clean Architecture.md",
     "Source Materials/Books/Code Complete.md",
     "Source Materials/Books/A Philosophy of Software Design.md",
     "Source Materials/Books/Refactoring.md",
@@ -203,7 +204,6 @@
     "Source Materials/Books/Same As Ever.md",
     "Source Materials/Books/The Almanack of Naval Ravikant.md",
     "Main Notes/umask.md",
-    "Source Materials/Websites/System Design in a Hurry.md",
     "const/var",
     "const",
     "Projection",

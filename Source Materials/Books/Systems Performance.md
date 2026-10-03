@@ -128,5 +128,19 @@ Tags:
     - memory allocators
     - NUMA bindings
     - resource controls (e.g. `ulimit`)
+
+## File Systems
+- NOTE: file system performance != disk performance
+- file systems include the syscall interface and the file system cache
+- Virtual File System (VFS): facade for different file systems and their interfaces
+- methodology: latency analysis -> performance monitoring -> workload characterisation -> micro-benchmarking -> static performance tuning
+- experimentation
+    - remember to flush file system caches beforehand
+    - ad hoc `dd`
+    - micro-benchmarking tools e.g. `fio` or `sysbench`
+- tuning
+    - improve application calls (e.g. `fsync`ing batched writes)
+    - filesystem-specific options (e.g. disabling the access time on `ext4` mounts)
+
 ---
-Source: https://www.goodreads.com/book/show/18058001-systems-performance
+Source: https://www.goodreads.com/book/show/18058001-systems-performance (2nd edition)
