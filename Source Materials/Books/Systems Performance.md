@@ -142,5 +142,23 @@ Tags:
     - improve application calls (e.g. `fsync`ing batched writes)
     - filesystem-specific options (e.g. disabling the access time on `ext4` mounts)
 
+## Disks
+- architecture: 
+    - CPUs <-IO Bus-> Disk Controller <-Storage Bus-> Disk Devices
+    - each disk device has a on-disk cache and an I/O queue (requests hit cache first, misses get queued)
+- Linux optimisations
+    - LInux merges / coalesces IO requests before queuing them up
+    - IO schedulers reorder IO requests in the queue for optimised delivery
+- methodology: USE method -> performance monitoring -> workload characterisation -> latency analysis -> micro-benchmarking -> static analysis -> event tracing
+- experimentation
+    - ad hoc `dd`
+    - custom load generators (just open device path and do work)
+    - micro-benchmark tools: `hdparm`, `ioping`, `fio` with non-buffered IO
+- tuning
+    - OS tunables e.g. `ionice`, cgroups, `/sys/block` parameters (e.g. IO scheduler policy)
+    - device tunables (e.g. power management)
+    - disk controller tunables
+    - 
+
 ---
 Source: https://www.goodreads.com/book/show/18058001-systems-performance (2nd edition)
