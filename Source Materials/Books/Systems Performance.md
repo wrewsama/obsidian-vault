@@ -158,7 +158,33 @@ Tags:
     - OS tunables e.g. `ionice`, cgroups, `/sys/block` parameters (e.g. IO scheduler policy)
     - device tunables (e.g. power management)
     - disk controller tunables
-    - 
 
+## Network
+- Linux kernel network stack architecture
+    - syscall interface
+    - socket buffers (send / recv)
+    - transport layer
+    - network layer
+    - queuing discipline (`qdist`)
+    - NIC device drivers (e.g. `ena`, `ixgbe`) 
+- linux optimisations
+    - connection queues for burst handling
+    - send/receive buffering
+    - segmentation offload (letting NIC do the segmentation)
+    - queuing discipline to control the scheduling of packets
+    - CPU scaling (multiprocessing packets)
+- methodology: performance monitoring -> USE method -> static performance tuning -> workload characterisation
+- experimentation
+    - benchmarking: `ping`, `traceroute`, `pathchar`, `iperf`, `netperf`
+    - traffic control (through manipulating `qdisc`): `tc`
+- tuning
+    - buffers: socket, tcp
+    - backlogs: TCP, device
+    - congestion control
+    - misc TCP options e.g. SACK and FACK
+    - IP Explicit Congestion Notification (ECN)
+    - resource control with cgroups
+    - queuing disciplines
+    - socket options
 ---
 Source: https://www.goodreads.com/book/show/18058001-systems-performance (2nd edition)
