@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Building Secure and Reliable Systems.md",
+                "file": "Source Materials/Books/The Life-Changing Magic Of Tidying Up.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Building Secure and Reliable Systems"
+              "title": "The Life-Changing Magic Of Tidying Up"
             }
           }
         ]
@@ -178,10 +178,12 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
+    "Tags/Life.md",
+    "Source Materials/Books/The Life-Changing Magic Of Tidying Up.md",
+    "Source Materials/Books/Building Secure and Reliable Systems.md",
     "Source Materials/Books/Systems Performance.md",
     "Source Materials/Books/All You Have to Do Is Ask.md",
     "Source Materials/Books/Influence.md",
-    "Source Materials/Books/Building Secure and Reliable Systems.md",
     "Source Materials/Books/Dopamine Nation.md",
     "Source Materials/Books/Clean Architecture.md",
     "Source Materials/Books/Code Complete.md",
@@ -202,8 +204,6 @@
     "Source Materials/Books/Up From Slavery.md",
     "Source Materials/Books/Inside the Black Box.md",
     "Source Materials/Books/Site Reliability Workbook.md",
-    "Source Materials/Books/Operating Systems Three Easy Pieces.md",
-    "Source Materials/Books/How Linux Works.md",
     "const/var",
     "const",
     "Projection",
