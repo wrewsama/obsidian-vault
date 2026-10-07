@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/The Life-Changing Magic Of Tidying Up.md",
+                "file": "Source Materials/Books/Ego Is The Enemy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Life-Changing Magic Of Tidying Up"
+              "title": "Ego Is The Enemy"
             }
           }
         ]
@@ -178,8 +178,9 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Tags/Life.md",
     "Source Materials/Books/The Life-Changing Magic Of Tidying Up.md",
+    "Source Materials/Books/Ego Is The Enemy.md",
+    "Tags/Life.md",
     "Source Materials/Books/Building Secure and Reliable Systems.md",
     "Source Materials/Books/Systems Performance.md",
     "Source Materials/Books/All You Have to Do Is Ask.md",
@@ -203,7 +204,6 @@
     "Source Materials/Books/Range Why Generalists Triumph in a Specialized World.md",
     "Source Materials/Books/Up From Slavery.md",
     "Source Materials/Books/Inside the Black Box.md",
-    "Source Materials/Books/Site Reliability Workbook.md",
     "const/var",
     "const",
     "Projection",
