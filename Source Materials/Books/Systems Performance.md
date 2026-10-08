@@ -186,5 +186,31 @@ Tags:
     - resource control with cgroups
     - queuing disciplines
     - socket options
+
+## Cloud Computing
+- hardware virtualisation: VMs with their own kernels, on top of a hypervisor
+    - overhead
+        - translation between guest and hypervisor to execute CPU instructions
+        - memory mapping translation (though the TLB can cache it)
+            - virtual to guest-physical
+            - guest-physical to host-physical
+        - IO translation (can be avoided with PCI pass-through)
+    - observability: since you have a guest kernel, just use the usual kernel-based observability tools
+- OS virtualisation: partition OS into containers
+    - implemented using namespaces and cgroups
+    - overhead
+        - possible CPU contention with other tenants on the host, no other overhead as the container threads run directly on the real CPUs
+        - similarly, no overhead for memory mapping
+        - IO (file system and network) overhead to ensure isolation
+    - observability
+        - normal observability tools (no per-container view)
+        - cgroup statistics (if you can figure out which cgroup your container is in)
+        - namespace mapping (similar to the above)
+        - container tools (e.g. `kubectl top`)
+- lightweight virtualisation: best of both worlds; VMs with their own kernels on top of a _lightweight hypervisor_ (much fewer supported devices e.g. video, audio, PCI bus)
+    - e.g. Amazon Firecracker
+    - overhead is similar to hardware virtualisation, but with much lower memory footprint (since the hypervisor is much smaller)
+    - observability same as hardware virtualisation
+
 ---
 Source: https://www.goodreads.com/book/show/18058001-systems-performance (2nd edition)

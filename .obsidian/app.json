@@ -3,7 +3,7 @@
   "attachmentFolderPath": "Images",
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
-  "spellcheck": true,
+  "spellcheck": false,
   "useTab": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "Main Notes"

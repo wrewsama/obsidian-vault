@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Ego Is The Enemy.md",
+                "file": "Source Materials/Books/Domain Driven Design.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ego Is The Enemy"
+              "title": "Domain Driven Design"
             }
           }
         ]
@@ -178,11 +178,12 @@
   },
   "active": "0b81707596bda643",
   "lastOpenFiles": [
-    "Source Materials/Books/The Life-Changing Magic Of Tidying Up.md",
     "Source Materials/Books/Ego Is The Enemy.md",
-    "Tags/Life.md",
-    "Source Materials/Books/Building Secure and Reliable Systems.md",
+    "Main Notes/OODA Loop.md",
     "Source Materials/Books/Systems Performance.md",
+    "Source Materials/Books/Building Secure and Reliable Systems.md",
+    "Source Materials/Books/The Life-Changing Magic Of Tidying Up.md",
+    "Tags/Life.md",
     "Source Materials/Books/All You Have to Do Is Ask.md",
     "Source Materials/Books/Influence.md",
     "Source Materials/Books/Dopamine Nation.md",
@@ -203,7 +204,6 @@
     "Source Materials/Books/Read Your Mind.md",
     "Source Materials/Books/Range Why Generalists Triumph in a Specialized World.md",
     "Source Materials/Books/Up From Slavery.md",
-    "Source Materials/Books/Inside the Black Box.md",
     "const/var",
     "const",
     "Projection",
