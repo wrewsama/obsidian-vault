@@ -20,7 +20,10 @@ Tags:
     - recoverability
 # Designing Systems
 ---
-todo
+## Safe Proxies
+- simple way to improve security and reliability of existing products/tools
+- clients access the tool through a proxy
+- the proxy provides features like logging, authorisation (including multi-party auth), validation (to prevent human errors), etc.
 
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems

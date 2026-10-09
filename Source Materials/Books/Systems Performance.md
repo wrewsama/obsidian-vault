@@ -212,5 +212,19 @@ Tags:
     - overhead is similar to hardware virtualisation, but with much lower memory footprint (since the hypervisor is much smaller)
     - observability same as hardware virtualisation
 
+## Benchmarking
+- characteristics of a good benchmark
+    - repeatable
+    - observable
+    - portable
+    - easily presented
+    - realistic
+    - runnable
+- benchmarking types
+    - micro-benchmarking: artificial workload for single operation type
+    - simulation (aka macro-benchmarking): artificial workload to mimic production
+    - replay: rerun events captured in production trace logs
+    - industry-standard benchmarks
+
 ---
 Source: https://www.goodreads.com/book/show/18058001-systems-performance (2nd edition)
