@@ -226,5 +226,18 @@ Tags:
     - replay: rerun events captured in production trace logs
     - industry-standard benchmarks
 
+## perf
+- `perf stat`: counts events
+    - `-e` option is used to search for events, supports globs
+    - `-I` option groups counts into intervals
+    - `-A` groups counts by CPU
+- `perf record`: records events to a `perf.data` file
+    - `-e` option same
+- `perf report`: summarises content of `perf.data` file
+    - TUI (default)
+    - stdio (use `--stdio` flag)
+- `perf script`: prints samples from `perf.data`
+    - useful for constructing flame graphs
+- `perf trace`: trace system calls and print output to stdout
 ---
 Source: https://www.goodreads.com/book/show/18058001-systems-performance (2nd edition)

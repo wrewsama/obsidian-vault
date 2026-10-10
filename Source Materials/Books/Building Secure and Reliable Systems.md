@@ -25,5 +25,10 @@ Tags:
 - clients access the tool through a proxy
 - the proxy provides features like logging, authorisation (including multi-party auth), validation (to prevent human errors), etc.
 
+## Design Tradeoffs
+- feature development vs security/reliability 
+- initial velocity vs sustained velocity
+- invest in good planning and careful design to satisfy security, reliability, and functional requirements
+
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems
