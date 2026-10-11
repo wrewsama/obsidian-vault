@@ -30,5 +30,23 @@ Tags:
 - initial velocity vs sustained velocity
 - invest in good planning and careful design to satisfy security, reliability, and functional requirements
 
+## Design for Least Privilege
+> Principle of Least Privilege: Users should have the minimum amount of access needed to accomplish their tasks.
+- best practices
+    - small, functional APIs (so you have give fine-grained access)
+    - breakglass mechanisms (emergency access)
+    - auditing
+- when denying a user
+    - if user has no privileges, avoid exposes too much info, just return 403
+    - if user has some privileges, but not the requested one, consider providing a token that can be used to request access
+- breakglass mechanisms
+    - highly restricted (e.g. only SREs allowed, can only access from certain physical locations)
+    - closely monitored and audited
+    - regularly tested
+- advanced controls: beyond yes/no restrictions
+    - multi-party authorisation
+    - 3 factor authorisation
+    - temporary access
+    - require business justification
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems

@@ -239,5 +239,15 @@ Tags:
 - `perf script`: prints samples from `perf.data`
     - useful for constructing flame graphs
 - `perf trace`: trace system calls and print output to stdout
+
+## ftrace
+- trace **Linux kernel functions** (implementation details behind the syscall interface)
+- contains
+    - profilers: provide statistical summaries
+    - tracers: provide per-event details
+- frontends
+    - `trace-cmd`
+    - `perf ftrace`
+    - `perf-tools`
 ---
 Source: https://www.goodreads.com/book/show/18058001-systems-performance (2nd edition)
