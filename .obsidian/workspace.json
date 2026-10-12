@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Systems Performance.md",
+                "file": "Source Materials/Books/Trust Me I'm Lying.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Systems Performance"
+              "title": "Trust Me I'm Lying"
             }
           }
         ]
@@ -178,7 +178,12 @@
   },
   "active": "d119ed40aee155e9",
   "lastOpenFiles": [
+    "Tags/Communication.md",
+    "Tags/Writing.md",
+    "Source Materials/Books/Trust Me I'm Lying.md",
+    "Source Materials/Books/Systems Performance.md",
     "Source Materials/Books/Building Secure and Reliable Systems.md",
+    "Source Materials/Books/All You Have to Do Is Ask.md",
     "Source Materials/Books/Thinking In Bets.md",
     "Source Materials/Books/The Almanack of Naval Ravikant.md",
     "Main Notes/Untitled.base",
@@ -201,11 +206,6 @@
     "Source Materials/Videos/How to Read Hard Books (and actually understand them).md",
     "Source Materials/Videos/How to Master Software Engineering (From Junior to Architect).md",
     "Source Materials/Videos/Give me 8 minutes, and I'll improve your communication skills by 88%.md",
-    "Source Materials/Videos/From Vibe Coding to Agentic Engineering.md",
-    "Source Materials/Videos/Claude Code Tutorial.md",
-    "Source Materials/Videos/90-Day Onboarding Plan.md",
-    "Source Materials/Videos/3 High-Leverage Career Skills.md",
-    "Source Materials/Books/Up From Slavery.md",
     "const/var",
     "const",
     "Projection",

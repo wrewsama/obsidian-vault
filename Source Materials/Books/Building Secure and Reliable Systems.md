@@ -48,5 +48,22 @@ Tags:
     - 3 factor authorisation
     - temporary access
     - require business justification
+
+## Design for Understandability
+- relevance to security and reliability
+    - easier to make bug-free changes => decreases likelihood of failures
+    - more effective incident response
+    - increased confidence in security assertions
+- enemy of understandability is unmanaged complexity
+    - architecture should break complexity down
+    - security and reliability requirements should be centralised (e.g. auth and retries in the RPM service framework instead of each app)
+- good practices
+    - prefer narrow, obvious interfaces
+    - interfaces should have a common object model
+    - idempotence
+    - identifiers should be human-readable and non-reusable
+- Trusted Computing Base (TCB): minimal group of components that dictate the security of the system. Should be able to uphold the security policy regardless of the state of the outside world
+- Security boundary: interface between TCB and the outside world
+- need to separate system into components separated by security boundaries
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems

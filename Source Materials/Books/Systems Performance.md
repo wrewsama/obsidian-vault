@@ -249,5 +249,13 @@ Tags:
     - `trace-cmd`
     - `perf ftrace`
     - `perf-tools`
+
+## BPF
+- kernel execution environment providing programmatic capabilities to tracers
+- efficiently runs programs in kernel space
+- frontends
+    - `BCC`(BPF Compiler Collection): for complex tools
+    - `bpftrace`: for ad hoc custom programs
+
 ---
 Source: https://www.goodreads.com/book/show/18058001-systems-performance (2nd edition)

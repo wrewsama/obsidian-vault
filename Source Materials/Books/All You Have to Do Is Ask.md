@@ -33,5 +33,13 @@ Tags:
     - where: consider the audience's preferences (e.g. in-person vs email)
     - when: find a convenient time where the audience can consider their response
     - how: use SMART, be direct and authentic, don't apologise for no reason
+## Tools for Teams
+- select the right members (i.e. giver-requesters)
+- create a psychological safe space to ask for help
+- tools
+    - impromptu huddles
+    - standups
+    - reciprocity ring (group activity where each person makes a request to the group)
+    - one-problem-a-week whiteboard
 ---
 Source: https://www.goodreads.com/book/show/50752149-all-you-have-to-do-is-ask
