@@ -65,5 +65,17 @@ Tags:
 - Trusted Computing Base (TCB): minimal group of components that dictate the security of the system. Should be able to uphold the security policy regardless of the state of the outside world
 - Security boundary: interface between TCB and the outside world
 - need to separate system into components separated by security boundaries
+
+## Design for a Changing Landscape
+- need infrastructure / processes to support different types of reliability / security changes 
+    - short term changes (e.g. fix for zero-day vulnerability)
+    - medium term change (e.g. improvement to security posture)
+    - long term change (e.g. large change (like migration to HTTPS) for regulatory reason)
+- guidelines
+    - keep dependencies up to date (e.g. by rebuilding frequently)
+    - release frequently with automated testing
+    - use containers to bundle dependencies with their apps (instead of the host OS)
+    - use microservices
+
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems
