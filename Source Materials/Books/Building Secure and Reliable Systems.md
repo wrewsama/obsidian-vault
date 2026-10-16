@@ -77,5 +77,19 @@ Tags:
     - use containers to bundle dependencies with their apps (instead of the host OS)
     - use microservices
 
+## Design for Resilience
+- resilience: system's ability to delay and/or withstand breakage (not _recovery_)
+- principles
+    - each layer in the system should be independently resilient
+    - figure out which features are prioritised (i.e. which have the highest cost of failures) beforehand so you know which can be throttled when issues arise
+    - compartmentalise
+    - add redundancy within the compartments
+    - automate resilience measures
+    - validate resilence regularly
+- possible solutions (in order of consideration)
+    1.  separate into failure domains (decrease blast radii)
+    2. use high-availability services
+    3. load-shedding (return error instead of serving request) or throttling (delay responses to postpone future requests)
+    4. use low-dependency solutions (usually as a backup for emergency response)
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems
