@@ -91,5 +91,21 @@ Tags:
     2. use high-availability services
     3. load-shedding (return error instead of serving request) or throttling (delay responses to postpone future requests)
     4. use low-dependency solutions (usually as a backup for emergency response)
+## Design for Recovery
+- recovery: returning the system to a stable and secure state after a failure
+- design to rollout as quickly as possible, while still guarded by policy
+    - emergency push system as part of the normal push system
+    - granular deployments
+- minimise dependency on external time values
+- use Minimum Acceptable Security Version Numbers to avoid rolling back to an insecure version
+- use explicit recovation mechanisms to recover from lost/stolen credentials
+- keep track of the system state so you know exactly what to recover to
+    - host configuration
+    - high-level infrastructure configuration
+    - persistent data
+- have emergency access options available for when normal access methods are completely broken
+    - access controls
+    - communcation
+
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems
