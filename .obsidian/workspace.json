@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Peopleware.md",
+                "file": "Source Materials/Books/Building Secure and Reliable Systems.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Peopleware"
+              "title": "Building Secure and Reliable Systems"
             }
           }
         ]
@@ -178,8 +178,9 @@
   },
   "active": "d119ed40aee155e9",
   "lastOpenFiles": [
-    "Source Materials/Books/Building Secure and Reliable Systems.md",
     "Source Materials/Books/Peopleware.md",
+    "Source Materials/Books/The Almanack of Naval Ravikant.md",
+    "Source Materials/Books/Building Secure and Reliable Systems.md",
     "Source Materials/Books/The Effective Engineer.md",
     "Source Materials/Books/The Missing README.md",
     "Source Materials/Books/Trust Me I'm Lying.md",
@@ -188,7 +189,6 @@
     "Source Materials/Books/Systems Performance.md",
     "Source Materials/Books/All You Have to Do Is Ask.md",
     "Source Materials/Books/Thinking In Bets.md",
-    "Source Materials/Books/The Almanack of Naval Ravikant.md",
     "Main Notes/Untitled.base",
     "Source Materials/Books/NoSQL Distilled.md",
     "Main Notes/Untitled 1.base",

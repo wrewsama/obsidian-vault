@@ -12,5 +12,8 @@ Tags:
     - ensure people don't just _do_ the task, they should also have time to think, explore, read, etc.
 - people under time pressure don't work better; they just work faster
 - a policy like "quality --If time permits" will assure that no quality at all sneaks into the product
+- set sensibly generous deadlines - or none at all, don't worry about Parkinson's Law
+    - in practice, only **organisational busywork** expands to fill the working day
+    - longer deadlines doesn't mean slower work
 ---
 Source: https://www.goodreads.com/book/show/67825.Peopleware

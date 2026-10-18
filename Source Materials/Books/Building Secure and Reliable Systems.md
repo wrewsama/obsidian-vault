@@ -107,5 +107,16 @@ Tags:
     - access controls
     - communcation
 
+## Mitigating DoS Attacks
+- defendable architecture: layered defenses that elimininate traffic as early as possible (e.g. ACLs at network edge) 
+- defendable services
+    - allow serving requests from caching proxies
+    - batch smaller requests into one (e.g. spriting)
+    - rate limit expensive responses
+- active defenses
+    - monitoring and alerting: request rates, types of requests
+    - graceful degradation (e.g. going to read-only mode instead of going unresponsive)
+    - DoS mitigation system (e.g. sending CAPTCHA challenge)
+
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems
