@@ -15,5 +15,10 @@ Tags:
 - set sensibly generous deadlines - or none at all, don't worry about Parkinson's Law
     - in practice, only **organisational busywork** expands to fill the working day
     - longer deadlines doesn't mean slower work
+
+# The Office Environment
+---
+TODO
+
 ---
 Source: https://www.goodreads.com/book/show/67825.Peopleware

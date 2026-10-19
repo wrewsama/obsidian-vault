@@ -118,5 +118,19 @@ Tags:
     - graceful degradation (e.g. going to read-only mode instead of going unresponsive)
     - DoS mitigation system (e.g. sending CAPTCHA challenge)
 
+# Implementing Systems
+--- 
+## Writing Code
+- write code to enforce security and reliability in
+    - frameworks
+    - libraries
+- enforce simplicity in all code
+- choose more secure languages
+    - memory safe
+    - strongly typed
+    - static typing
+- use strong typing (not just the language, define even more constrained types e.g. `Path` instead of `str` for filepaths)
+- use sanitisers (e.g. `valgrind`, `tsan`)
+
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems
