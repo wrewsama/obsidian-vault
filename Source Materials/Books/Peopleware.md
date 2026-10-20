@@ -18,7 +18,8 @@ Tags:
 
 # The Office Environment
 ---
-TODO
+- only being able to get work done outside 9-5 is a red flag for the office environment
+- key characteristics: quiet and private
 
 ---
 Source: https://www.goodreads.com/book/show/67825.Peopleware

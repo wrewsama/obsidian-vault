@@ -132,5 +132,21 @@ Tags:
 - use strong typing (not just the language, define even more constrained types e.g. `Path` instead of `str` for filepaths)
 - use sanitisers (e.g. `valgrind`, `tsan`)
 
+## Testing Code
+- written tests: unit, integration
+- dynamic analysis: fuzzing + sanitisers
+- static analysis: program analysis tools, abstract interpretation tools
+- formal methods
+
+## Deploying Code
+- ensuring only your trusted binaries are deployed to production (not some attacker's binaries)
+    - config as code + mandatory code reviews
+    - rely on automation for build, test, and deployment
+    - verify the artifacts (Binary Authorisation, Binary Provenance)
+    - set deployment choke points (points through which all deployments must flow)
+- post-deployment
+    - verification based on the configured security policies
+    - logging (e.g. for uses of breakglass mechanisms)
+    
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems
