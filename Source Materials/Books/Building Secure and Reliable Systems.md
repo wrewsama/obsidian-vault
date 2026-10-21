@@ -147,6 +147,38 @@ Tags:
 - post-deployment
     - verification based on the configured security policies
     - logging (e.g. for uses of breakglass mechanisms)
-    
+
+## Investigating Systems
+- debugging techniques
+    - record observations and expectations
+    - know what's normal for the system
+    - reproduce bug
+    - isolate the problem (smallest subset of code that contains the bug)
+    - test hypotheses with actual data
+    - reread docs
+- if you get stuck
+    - improve observability
+    - take breaks
+    - clean up code / delete legacy code
+    - reduce authorisation for affected systems (less things can affect it) 
+- security investigations are inherently more complex and urgent than reliability investigations
+- logging
+    - immutable
+    - adheres to privacy policies
+    - useful log types (e.g. OS, host agents, application, cloud, network)
+    - ensure logging systems are also reliable and secure
+
+# Maintaining Systems
+---
+## Disaster Planning
+- conduct disaster risk analysis
+    - critical systems
+    - resources required for incident response
+    - possible disaster scenarios
+- identify an incident response team
+- establish severity and priority models
+- prepare response plans and detailed playboks
+    - ensure these are accessible and updated
+
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems

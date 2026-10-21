@@ -2,8 +2,7 @@ Tags:
 - [[Career Skills]]
 - [[EQ]]
 ---
-# Managing the Human Resource
----
+## Managing the Human Resource
 - even in tech, our major problems are **sociological**, not **technological**
 - effectively managing thinking workers
     - error quotas
@@ -16,10 +15,10 @@ Tags:
     - in practice, only **organisational busywork** expands to fill the working day
     - longer deadlines doesn't mean slower work
 
-# The Office Environment
----
+## The Office Environment
 - only being able to get work done outside 9-5 is a red flag for the office environment
 - key characteristics: quiet and private
+- carve out periods of total freedom from interruptions (messages, calls, etc)
 
 ---
 Source: https://www.goodreads.com/book/show/67825.Peopleware
