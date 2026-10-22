@@ -180,5 +180,17 @@ Tags:
 - prepare response plans and detailed playboks
     - ensure these are accessible and updated
 
+## Crisis Management
+- triage
+- declaring incident
+- set up opsec-compliant communications
+- beginning the incident: take command, appoint security engineer as ops lead to conduct digital forensics / investigation
+- (if >12h) handover/takeover: current status, tasks to be done
+- communications
+    - be explicit, overcommunicate, don't "hedge" (e.g. avoid saying "pretty sure")
+    - appoint communications lead to explain what happened and the customer impact to the relevant people (e.g. leadership, legal, etc)
+- remediation: appoint remediation lead to rectify the issue
+- closure: postmortem and debrief to discuss how the incident went
+
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems

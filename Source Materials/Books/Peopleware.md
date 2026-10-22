@@ -19,6 +19,6 @@ Tags:
 - only being able to get work done outside 9-5 is a red flag for the office environment
 - key characteristics: quiet and private
 - carve out periods of total freedom from interruptions (messages, calls, etc)
-
+- music can be used to block out noise and it's okay for left brain work, but you sacrifice the creative breakthroughs from the right brain
 ---
 Source: https://www.goodreads.com/book/show/67825.Peopleware
