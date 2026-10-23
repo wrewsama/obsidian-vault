@@ -192,5 +192,22 @@ Tags:
 - remediation: appoint remediation lead to rectify the issue
 - closure: postmortem and debrief to discuss how the incident went
 
+## Recovery and Aftermath
+- goals
+    - mitigate attack
+    - return systems to normal routine state
+    - apply necessary improvements along the way
+- planning and scoping the recovery: find everything that's affected and plan who to recover them, prepare recovery checklist
+- execute recovery checklist in parallel
+    - isolate assets
+    - software rebuilds / upgrades
+    - data sanitisation / recovery
+    - secret rotation
+- post-recovery: postmortem
+
+# Organisation and Culture
+---
+TODO
+
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Building Secure and Reliable Systems.md",
+                "file": "Source Materials/Books/Peopleware.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Building Secure and Reliable Systems"
+              "title": "Peopleware"
             }
           }
         ]
@@ -178,8 +178,8 @@
   },
   "active": "d119ed40aee155e9",
   "lastOpenFiles": [
-    "Source Materials/Books/Peopleware.md",
     "Source Materials/Books/Building Secure and Reliable Systems.md",
+    "Source Materials/Books/Peopleware.md",
     "Source Materials/Books/The Almanack of Naval Ravikant.md",
     "Source Materials/Books/The Effective Engineer.md",
     "Source Materials/Books/The Missing README.md",

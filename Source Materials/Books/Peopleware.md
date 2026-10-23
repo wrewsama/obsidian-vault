@@ -20,5 +20,10 @@ Tags:
 - key characteristics: quiet and private
 - carve out periods of total freedom from interruptions (messages, calls, etc)
 - music can be used to block out noise and it's okay for left brain work, but you sacrifice the creative breakthroughs from the right brain
+
+## The Right People
+- when hiring, beware the subconscious tendency to gravitate towards the "norm"
+- arbitrary standardisation is caused by management insecurity, anything deviating from the norm is deemed "unprofessional"
+
 ---
 Source: https://www.goodreads.com/book/show/67825.Peopleware
