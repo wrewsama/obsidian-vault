@@ -207,7 +207,10 @@ Tags:
 
 # Organisation and Culture
 ---
-TODO
+## Understanding Roles and Responsibilities
+- key idea: security specialists are important, but _everyone_ is responsible for security
+ - reliability engineers: develop centralised infrastructure and org-wide automation
+ - security engineers: implement complex security infrastructure, cryptography, etc.
 
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems
