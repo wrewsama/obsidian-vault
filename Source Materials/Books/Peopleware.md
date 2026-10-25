@@ -24,6 +24,8 @@ Tags:
 ## The Right People
 - when hiring, beware the subconscious tendency to gravitate towards the "norm"
 - arbitrary standardisation is caused by management insecurity, anything deviating from the norm is deemed "unprofessional"
+- turnover is extremely expensive
+- In the best organisations, the short term is not the only thing that matters. What matters more is being best. And that's a long-term concept
 
 ---
 Source: https://www.goodreads.com/book/show/67825.Peopleware

@@ -212,5 +212,20 @@ Tags:
  - reliability engineers: develop centralised infrastructure and org-wide automation
  - security engineers: implement complex security infrastructure, cryptography, etc.
 
+## Building a Culture of Security and Reliability
+- ideal cultural characteristics
+    - systems should be secure and reliable _by default_ 
+        - integrated throughout the project lifecycle, from development to deployment
+    - strong review culture
+    - education about security and reliability
+    - culture of yes: take deliberate, measured risks instead of avoiding it altogether
+    - inevitability: embrace that failure is inevitable, and be prepared to respond
+    - sustainability: ensure continuous, consistent investment into improving security and reliability
+- good practices
+    - align project and individual goals
+    - reduce risk: e.g. canaries, testing 
+    - increase usability of tools 
+    - overcommunicate: document decisions & updates, feedback channels, dashboards
+
 ---
 Source: https://www.goodreads.com/book/show/52362720-building-secure-and-reliable-systems
