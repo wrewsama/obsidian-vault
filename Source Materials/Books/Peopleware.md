@@ -26,6 +26,10 @@ Tags:
 - arbitrary standardisation is caused by management insecurity, anything deviating from the norm is deemed "unprofessional"
 - turnover is extremely expensive
 - In the best organisations, the short term is not the only thing that matters. What matters more is being best. And that's a long-term concept
+- don't force people into a rigid methodology
+
+## Growing Productive Teams
+- TODO
 
 ---
 Source: https://www.goodreads.com/book/show/67825.Peopleware
