@@ -29,7 +29,9 @@ Tags:
 - don't force people into a rigid methodology
 
 ## Growing Productive Teams
-- TODO
+- the purpose of a team is not goal attainment but goal alignment
+- a team's identity can persist even as people are replaced
+- 
 
 ---
 Source: https://www.goodreads.com/book/show/67825.Peopleware
