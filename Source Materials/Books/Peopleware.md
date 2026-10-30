@@ -31,7 +31,10 @@ Tags:
 ## Growing Productive Teams
 - the purpose of a team is not goal attainment but goal alignment
 - a team's identity can persist even as people are replaced
-- 
+- great managers create many small opportunities for the team to succeed together
+    - the best managers make it look so easy that no one can believe they are managing at all
+- the best organisations work by natural authority (e.g. master <> apprentice)
+- Open Kimono: give people in positions of trust your full trust and autonomy
 
 ---
 Source: https://www.goodreads.com/book/show/67825.Peopleware
