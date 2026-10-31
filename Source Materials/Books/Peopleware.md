@@ -35,6 +35,11 @@ Tags:
     - the best managers make it look so easy that no one can believe they are managing at all
 - the best organisations work by natural authority (e.g. master <> apprentice)
 - Open Kimono: give people in positions of trust your full trust and autonomy
+- build a culture of eliteness and uniqueness
+
+## It's Supposed to be Fun to Work Here
+- teams should be given some chaos
+- individual freedom should be preserved. No parental guidance
 
 ---
 Source: https://www.goodreads.com/book/show/67825.Peopleware
