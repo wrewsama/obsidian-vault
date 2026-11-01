@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -178,9 +179,10 @@
   },
   "active": "d119ed40aee155e9",
   "lastOpenFiles": [
+    "Source Materials/Websites/What managing emergencies at Burning Man teaches me about incident management in tech.md",
+    "Source Materials/Books/Peopleware.md",
     "Source Materials/Books/Building Secure and Reliable Systems.md",
     "Source Materials/Books/Site Reliability Workbook.md",
-    "Source Materials/Books/Peopleware.md",
     "Source Materials/Books/The Almanack of Naval Ravikant.md",
     "Source Materials/Books/The Effective Engineer.md",
     "Source Materials/Books/The Missing README.md",
@@ -205,7 +207,6 @@
     "Source Materials/Videos/The 7 Skills You Need to Build AI Agents.md",
     "Source Materials/Videos/Shipping Faster Without Working Harder.md",
     "Source Materials/Videos/Jordan Peterson - The Best Way To Learn Critical Thinking.md",
-    "Source Materials/Videos/If you're ambitious and in your 20s or 30s, please watch this.md",
     "const/var",
     "const",
     "Projection",
