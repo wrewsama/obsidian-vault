@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Peopleware.md",
+                "file": "Source Materials/Websites/The titanic didn't sink for just one reason.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Peopleware"
+              "title": "The titanic didn't sink for just one reason"
             }
           }
         ]
@@ -179,8 +179,10 @@
   },
   "active": "d119ed40aee155e9",
   "lastOpenFiles": [
-    "Source Materials/Websites/What managing emergencies at Burning Man teaches me about incident management in tech.md",
+    "Source Materials/Websites/How to Survive Database Failover – Debezium and PostgreSQL in Production.md",
+    "Source Materials/Websites/The titanic didn't sink for just one reason.md",
     "Source Materials/Books/Peopleware.md",
+    "Source Materials/Websites/What managing emergencies at Burning Man teaches me about incident management in tech.md",
     "Source Materials/Books/Building Secure and Reliable Systems.md",
     "Source Materials/Books/Site Reliability Workbook.md",
     "Source Materials/Books/The Almanack of Naval Ravikant.md",
@@ -205,8 +207,6 @@
     "Source Materials/Videos/The Anti-Routine.md",
     "Source Materials/Videos/The Anatomy of Virtual Environments.md",
     "Source Materials/Videos/The 7 Skills You Need to Build AI Agents.md",
-    "Source Materials/Videos/Shipping Faster Without Working Harder.md",
-    "Source Materials/Videos/Jordan Peterson - The Best Way To Learn Critical Thinking.md",
     "const/var",
     "const",
     "Projection",
