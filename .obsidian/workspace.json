@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/The titanic didn't sink for just one reason.md",
+                "file": "Source Materials/Websites/What a room of engineers asked me about realtime resilience.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The titanic didn't sink for just one reason"
+              "title": "What a room of engineers asked me about realtime resilience"
             }
           }
         ]
@@ -179,8 +179,9 @@
   },
   "active": "d119ed40aee155e9",
   "lastOpenFiles": [
-    "Source Materials/Websites/How to Survive Database Failover – Debezium and PostgreSQL in Production.md",
     "Source Materials/Websites/The titanic didn't sink for just one reason.md",
+    "Source Materials/Websites/What a room of engineers asked me about realtime resilience.md",
+    "Source Materials/Websites/How to Survive Database Failover – Debezium and PostgreSQL in Production.md",
     "Source Materials/Books/Peopleware.md",
     "Source Materials/Websites/What managing emergencies at Burning Man teaches me about incident management in tech.md",
     "Source Materials/Books/Building Secure and Reliable Systems.md",
@@ -206,7 +207,6 @@
     "Source Materials/Videos/The Last Lecture.md",
     "Source Materials/Videos/The Anti-Routine.md",
     "Source Materials/Videos/The Anatomy of Virtual Environments.md",
-    "Source Materials/Videos/The 7 Skills You Need to Build AI Agents.md",
     "const/var",
     "const",
     "Projection",

@@ -1,0 +1,22 @@
+Tags:
+- [[SRE]]
+- [[System Design]]
+---
+- basic principles
+    - build for failure at every layer
+    - verify (through disaster recovery drills) instead of assuming
+    - resilience is relational, it requires strong relationships with the owners of your dependencies (e.g. AWS)
+- CDN/DNS failures
+    - failovers with different dependencies (e.g. direct to datacenter instead of CDN, different DNS provider)
+- regional failover
+    - spare capacity on each region
+    - fallbacks at both the client and server level
+- message ordering
+    - put ordering identifiers at the platform level instead of the app level
+    - realtime order (within a region)
+    - canonical global order (across all regions)
+- measure availability
+    - measure the way customers feel it: use a QoS service as a synthetic client
+    - alert on percentiles, not averages
+---
+Source: https://ably.com/blog/aws-engineers-realtime-resilience
