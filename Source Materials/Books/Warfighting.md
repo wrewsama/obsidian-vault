@@ -15,6 +15,17 @@ Tags:
     - physical, moral, and mental forces: do not neglect moral and mental factors
     - evolution: understand which aspects of war are likely to change and which are not
     - the science, art, and dynamic of war: respectively, hard knowledge (e.g. ballistics and mechanics), creative skills (e.g. strategy), and social skills (e.g. fortitude, esprit)
-    
+
+## The Theory of War
+- War serves one's political goals
+- levels of war (top to bottom): strategic / operational / tactical
+- all actions in war are based on either initiative or response. Prefer initiative.
+- 2 styles of war: attrition (destruction via superior firepower) and manuever (circumventing problems and attacking it from advantageous positions)
+- keys to combat power: exploiting opportunity through
+    - speed + focus
+    - surprise + boldness
+- enemy's centre of gravity: the factors that are essential for the enemy's success
+- enemy's critical vulnerabilities: areas of significance that the enemy does not expect to be attacked
+
 ---
-Source:
+Source: https://www.goodreads.com/book/show/240526.Warfighting
