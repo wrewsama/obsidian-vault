@@ -27,5 +27,31 @@ Tags:
 - enemy's centre of gravity: the factors that are essential for the enemy's success
 - enemy's critical vulnerabilities: areas of significance that the enemy does not expect to be attacked
 
+## Preparing for War
+- during times of peace, the most important task of any military is to prepare for war
+- force planning: identify required capabilities and implementing programs to develop those capabilities
+- organisation
+- doctrine: fundamental, common beliefs
+- professionalism: expertise, both in action and intellect
+- training: both drills (standardised, repeatable techniques) and exercises (free-form and uncertain)
+- professional military education: for creative, thinking leaders
+- personnel management: stability and advancement
+- equipment: 
+    - should be easy to operate and maintain, reliable, and interoperable with other equipment
+    - increase in combat effectiveness must outweight the cost of supporting that equipment
+
+## The Conduct of War
+- key traits to achieve maneuver warfare
+    - endurance
+    - courage
+    - flexibility of mind
+    - self-discipline
+- orient on the enemy: understand their system
+- shaping the action: conceive how we want to win
+    - project thoughts through time and space
+    - the further away, the less precision we should attempt to impose
+- 2 parts to every mission: the _task_ to be performed and the _intent_ behind it
+- use combined arms to create dilemmas for the enemy (e.g. SAW + M203)
+
 ---
 Source: https://www.goodreads.com/book/show/240526.Warfighting
