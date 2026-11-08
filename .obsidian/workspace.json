@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Warfighting.md",
+                "file": "Main Notes/Indistractible.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Warfighting"
+              "title": "Indistractible"
             }
           }
         ]
@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -178,8 +179,9 @@
   },
   "active": "d119ed40aee155e9",
   "lastOpenFiles": [
-    "Source Materials/Websites/Who Owns This? Why SREs Want a Service Catalog.md",
     "Source Materials/Books/Warfighting.md",
+    "Main Notes/Indistractible.md",
+    "Source Materials/Websites/Who Owns This? Why SREs Want a Service Catalog.md",
     "Tags/War.md",
     "Tags/Agentic Engineering.md",
     "Source Materials/Websites/What a room of engineers asked me about realtime resilience.md",
@@ -205,7 +207,6 @@
     "Source Materials/Books/The 7 Habits of Highly Effective People.md",
     "Source Materials/Videos/Why Your FastAPI App Isn’t Ready for Production.md",
     "Source Materials/Videos/This Is How You Become More Articulate.md",
-    "Source Materials/Videos/The Most Underrated Social Skill and How I used It.md",
     "const/var",
     "const",
     "Projection",
