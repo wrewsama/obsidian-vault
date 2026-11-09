@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Indistractible.md",
+                "file": "Source Materials/Books/Real World Ocaml.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Indistractible"
+              "title": "Real World Ocaml"
             }
           }
         ]
@@ -179,8 +179,10 @@
   },
   "active": "d119ed40aee155e9",
   "lastOpenFiles": [
-    "Source Materials/Books/Designing Distributed Systems.md",
+    "Source Materials/Books/OCaml Programming.md",
+    "Source Materials/Books/Real World Ocaml.md",
     "Source Materials/Books/Indistractible.md",
+    "Source Materials/Books/Designing Distributed Systems.md",
     "Source Materials/Books/Warfighting.md",
     "Source Materials/Websites/Who Owns This? Why SREs Want a Service Catalog.md",
     "Tags/War.md",
@@ -205,8 +207,6 @@
     "Source Materials/Books/NoSQL Distilled.md",
     "Main Notes/Untitled 1.base",
     "Source Materials/Books/Outliers.md",
-    "Source Materials/Books/The 7 Habits of Highly Effective People.md",
-    "Source Materials/Videos/Why Your FastAPI App Isn’t Ready for Production.md",
     "const/var",
     "const",
     "Projection",

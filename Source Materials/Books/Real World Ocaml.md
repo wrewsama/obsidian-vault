@@ -160,12 +160,14 @@ end
 - Use `Core.Command`
 - define commands with `Command.basic`
 ```ocaml
+let fn arg1 arg2 opt1 opt2 = print_endline "xdd"
+
 let command = Command.basic
     ~summary:"la la la"
     (let%map_open.Command arg1 = anon ("arg1" %: string)
-     and arg2 = anon ("arg2" %: int) in
+     and arg2 = anon ("arg2" %: int)
      and opt1 = flag "-o" (optional string)
-     and opt2 = flag "-O" no_arg
+     and opt2 = flag "-O" no_arg in
      fun () -> fn arg1 arg2 opt1 opt2
     )
 ```
