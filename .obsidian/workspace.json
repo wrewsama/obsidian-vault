@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Indistractible.md",
+                "file": "Source Materials/Books/Indistractible.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -179,8 +179,9 @@
   },
   "active": "d119ed40aee155e9",
   "lastOpenFiles": [
+    "Source Materials/Books/Designing Distributed Systems.md",
+    "Source Materials/Books/Indistractible.md",
     "Source Materials/Books/Warfighting.md",
-    "Main Notes/Indistractible.md",
     "Source Materials/Websites/Who Owns This? Why SREs Want a Service Catalog.md",
     "Tags/War.md",
     "Tags/Agentic Engineering.md",
@@ -206,7 +207,6 @@
     "Source Materials/Books/Outliers.md",
     "Source Materials/Books/The 7 Habits of Highly Effective People.md",
     "Source Materials/Videos/Why Your FastAPI App Isn’t Ready for Production.md",
-    "Source Materials/Videos/This Is How You Become More Articulate.md",
     "const/var",
     "const",
     "Projection",
