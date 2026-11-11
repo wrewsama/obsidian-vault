@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Books/Indistractible.md",
+                "file": "Main Notes/Teaching in the Age of AI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Indistractible"
+              "title": "Teaching in the Age of AI"
             }
           }
         ]
@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "442bbbef1771067f",
@@ -179,9 +178,12 @@
   },
   "active": "d119ed40aee155e9",
   "lastOpenFiles": [
+    "Source Materials/Books/Writing to Learn.md",
+    "Main Notes/Teaching in the Age of AI.md",
+    "Source Materials/Podcasts",
+    "Source Materials/Books/Indistractible.md",
     "Source Materials/Books/Real World Ocaml.md",
     "Source Materials/Books/OCaml Programming.md",
-    "Source Materials/Books/Indistractible.md",
     "Source Materials/Books/Designing Distributed Systems.md",
     "Source Materials/Books/Warfighting.md",
     "Source Materials/Websites/Who Owns This? Why SREs Want a Service Catalog.md",
@@ -204,9 +206,7 @@
     "Source Materials/Books/All You Have to Do Is Ask.md",
     "Source Materials/Books/Thinking In Bets.md",
     "Main Notes/Untitled.base",
-    "Source Materials/Books/NoSQL Distilled.md",
     "Main Notes/Untitled 1.base",
-    "Source Materials/Books/Outliers.md",
     "const/var",
     "const",
     "Projection",
@@ -214,7 +214,6 @@
     "Source Materials/Websites",
     "Source Materials/Videos",
     "Templates",
-    "Tags",
     "Images/Pasted image 20241214191719.png",
     "Images/Pasted image 20241214191217.png",
     "Images/Pasted image 20241201163641.png",
