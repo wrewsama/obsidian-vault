@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/Teaching in the Age of AI.md",
+                "file": "Source Materials/Websites/To minimize incident impact, focus first on mitigation, not resolution.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Teaching in the Age of AI"
+              "title": "To minimize incident impact, focus first on mitigation, not resolution"
+            }
+          },
+          {
+            "id": "a090e09498cefe7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Source Materials/Websites/Generic Mitigations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Generic Mitigations"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,10 +201,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d119ed40aee155e9",
+  "active": "a090e09498cefe7e",
   "lastOpenFiles": [
+    "Source Materials/Websites/To minimize incident impact, focus first on mitigation, not resolution.md",
+    "Source Materials/Websites/Generic Mitigations.md",
+    "Source Materials/Websites/Why incident resolution time isn’t something you should target.md",
+    "Source Materials/Websites/What does it cost to declare an incident.md",
+    "Source Materials/Videos/6 Signs You Sound Junior.md",
+    "Source Materials/Podcasts/How AI is Changing Programming.md",
+    "Source Materials/Podcasts/Teaching in the Age of AI.md",
     "Source Materials/Books/Writing to Learn.md",
-    "Main Notes/Teaching in the Age of AI.md",
     "Source Materials/Podcasts",
     "Source Materials/Books/Indistractible.md",
     "Source Materials/Books/Real World Ocaml.md",
@@ -199,12 +230,6 @@
     "Source Materials/Books/The Almanack of Naval Ravikant.md",
     "Source Materials/Books/The Effective Engineer.md",
     "Source Materials/Books/The Missing README.md",
-    "Source Materials/Books/Trust Me I'm Lying.md",
-    "Tags/Communication.md",
-    "Tags/Writing.md",
-    "Source Materials/Books/Systems Performance.md",
-    "Source Materials/Books/All You Have to Do Is Ask.md",
-    "Source Materials/Books/Thinking In Bets.md",
     "Main Notes/Untitled.base",
     "Main Notes/Untitled 1.base",
     "const/var",

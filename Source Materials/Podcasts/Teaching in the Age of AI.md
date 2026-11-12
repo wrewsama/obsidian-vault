@@ -1,4 +1,5 @@
 Tags:
+- [[Agentic Engineering]]
 - [[Software Engineering]]
 ---
 - The _act_ of note taking is beneficial for retention, prefer writing over typing
