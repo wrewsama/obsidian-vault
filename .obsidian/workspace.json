@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/Websites/Generic Mitigations.md",
+                "file": "Source Materials/Books/Indistractible.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Generic Mitigations"
+              "title": "Indistractible"
             }
           }
         ],
@@ -203,8 +203,9 @@
   },
   "active": "a090e09498cefe7e",
   "lastOpenFiles": [
-    "Source Materials/Websites/To minimize incident impact, focus first on mitigation, not resolution.md",
+    "Source Materials/Books/Functional Programming for Dummies.md",
     "Source Materials/Websites/Generic Mitigations.md",
+    "Source Materials/Websites/To minimize incident impact, focus first on mitigation, not resolution.md",
     "Source Materials/Websites/Why incident resolution time isn’t something you should target.md",
     "Source Materials/Websites/What does it cost to declare an incident.md",
     "Source Materials/Videos/6 Signs You Sound Junior.md",
@@ -229,7 +230,6 @@
     "Source Materials/Books/Site Reliability Workbook.md",
     "Source Materials/Books/The Almanack of Naval Ravikant.md",
     "Source Materials/Books/The Effective Engineer.md",
-    "Source Materials/Books/The Missing README.md",
     "Main Notes/Untitled.base",
     "Main Notes/Untitled 1.base",
     "const/var",
